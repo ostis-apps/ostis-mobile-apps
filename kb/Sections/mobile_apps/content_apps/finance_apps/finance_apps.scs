@@ -1,0 +1,15 @@
+section_subject_domain_of_finance_apps
+    =>nrel_main_idtf:[Раздел. Предметная область финансовых приложений] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Section. Subject domain of finance apps] (* <-lang_en;;*);
+
+<-not_atomic_section;
+
+=>nrel_section_decomposition:{
+    subject_domain_of_apps_for_telecommunication_service_providers;
+	subject_domain_of_bankings;
+	subject_domain_of_exchange_apps
+};;
+
+section_subject_domain_of_finance_apps
+
+->rrel_key_sc_element: subject_domain_of_finance_apps;;

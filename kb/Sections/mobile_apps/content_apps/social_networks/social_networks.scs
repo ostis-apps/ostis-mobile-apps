@@ -1,0 +1,16 @@
+section_subject_domain_of_social_networks
+    =>nrel_main_idtf:[Раздел. Предметная область социальных сетей] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Section. Subject domain of social networks] (* <-lang_en;;*);
+
+<-not_atomic_section;
+
+=>nrel_section_decomposition:{
+    subject_domain_of_networks_for_cpllective_discussing;
+	subject_domain_of_networks_for_communication;
+	subject_domain_of_networks_for_media_content_exchange;
+    subject_domain_of_networks_for_reviews
+};;
+
+section_subject_domain_of_social_networks
+
+->rrel_key_sc_element: subject_domain_of_social_networks;;

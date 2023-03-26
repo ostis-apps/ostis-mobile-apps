@@ -1,0 +1,9 @@
+section_subject_domain_of_program_recovery_apps
+    =>nrel_main_idtf:[Раздел. Предметная область приложений для восстановления программ] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Section. Subject domain of program recovery apps] (* <-lang_en;;*);
+
+<-atomic_section;;
+
+section_subject_domain_of_program_recovery_apps
+
+->rrel_key_sc_element: subject_domain_of_program_recovery_apps;;

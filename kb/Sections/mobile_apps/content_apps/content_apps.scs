@@ -1,9 +1,20 @@
-section_subject_domain_of_african_cuisine
-    =>nrel_main_idtf:[Раздел. Предметная область азиатской кухни] (* <-lang_ru;;*);
-    =>nrel_main_idtf:[Section. Subject domain of asian cuisine] (* <-lang_en;;*);
+section_subject_domain_of_content_apps
+    =>nrel_main_idtf:[Раздел. Предметная область контентных приложений] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Section. Subject domain of content apps] (* <-lang_en;;*);
 
-<-atomic_section;;
+<-not_atomic_section;
 
-section_subject_domain_of_asian_cuisine
+=>nrel_section_decomposition:{
+    subject_domain_of_apps_for_health;
+	subject_domain_of_books_and_references;
+	subject_domain_of_editors;
+    subject_domain_of_finance_apps;
+    subject_domain_of_information_apps;
+    subject_domain_of_music_players;
+    subject_domain_of_social_networks;
+    subject_domain_of_utilities
+};;
 
-->rrel_key_sc_element: subject_domain_of_asian_cuisine;;
+section_subject_domain_of_content_apps
+
+->rrel_key_sc_element: subject_domain_of_content_apps;;

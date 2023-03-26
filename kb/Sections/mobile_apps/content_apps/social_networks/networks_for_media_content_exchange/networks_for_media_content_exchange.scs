@@ -1,0 +1,9 @@
+section_subject_domain_of_networks_for_media_content_exchange
+    =>nrel_main_idtf:[Раздел. Предметная область сетей для обмена медиаконтентом] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Section. Subject domain of networks for media content exchange] (* <-lang_en;;*);
+
+<-atomic_section;;
+
+section_subject_domain_of_networks_for_media_content_exchange
+
+->rrel_key_sc_element: subject_domain_of_networks_for_media_content_exchange;;
