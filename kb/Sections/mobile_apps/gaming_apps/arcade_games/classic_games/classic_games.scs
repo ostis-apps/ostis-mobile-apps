@@ -1,0 +1,9 @@
+section_subject_domain_of_classic_games
+    =>nrel_main_idtf:[Раздел. Предметная область классик] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Section. Subject domain of classic games] (* <-lang_en;;*);
+
+<-atomic_section;;
+
+section_subject_domain_of_classic_games
+
+->rrel_key_sc_element: subject_domain_of_classic_games;;
