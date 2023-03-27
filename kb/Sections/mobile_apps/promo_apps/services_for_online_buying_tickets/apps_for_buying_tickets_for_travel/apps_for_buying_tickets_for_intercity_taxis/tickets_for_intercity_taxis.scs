@@ -1,0 +1,9 @@
+section_subject_domain_of_apps_for_buying_tickets_for_intercity_taxis
+    =>nrel_main_idtf:[Раздел. Предметная область приложения для покупки билетов на международное такси] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Section. Subject domain of apps for buying tickets for intercity taxis] (* <-lang_en;;*);
+
+<-atomic_section;;
+
+section_subject_domain_of_apps_for_buying_tickets_for_intercity_taxis
+
+->rrel_key_sc_element: subject_domain_of_apps_for_buying_tickets_for_intercity_taxis;;

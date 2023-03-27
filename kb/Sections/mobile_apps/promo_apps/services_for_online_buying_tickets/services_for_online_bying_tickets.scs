@@ -1,0 +1,15 @@
+section_subject_domain_of_services_for_online_buying_tickets 
+    =>nrel_main_idtf:[Раздел. Предметная область сервисы для онлайн покупки билетов] (* <-lang_ru;;*); 
+    =>nrel_main_idtf:[Section. Subject domain of services for online bying tickets] (* <-lang_en;;*); 
+ 
+<-not_atomic_section; 
+ 
+=>nrel_section_decomposition:{ 
+    subject_domain_of_apps_for_buying_tickets_for_events; 
+ subject_domain_of_apps_for_buying_tickets_for_travel; 
+ subject_domain_of_apps_for_hotel_reservation 
+};; 
+ 
+section_subject_domain_of_services_for_online_buying_tickets 
+ 
+->rrel_key_sc_element: subject_domain_of_services_for_online_buying_tickets;;
