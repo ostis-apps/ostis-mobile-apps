@@ -1,0 +1,42 @@
+BYN
+=> nrel_main_idtf:
+    [Белорусский рубль (BYN)]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Belorussian ruble (BYN)]
+    (* <- lang_en;; *);;
+
+
+RUB
+=> nrel_main_idtf:
+    [Русский рубль (RUB)]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Russian ruble (RUB)]
+    (* <- lang_en;; *);;
+
+
+USD
+=> nrel_main_idtf:
+    [Доллар США (USD)]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [United States Dollar (USD)]
+    (* <- lang_en;; *);;
+
+
+UAH
+=> nrel_main_idtf:
+    [Украинская гривна (UAH)]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Ukrainian hryvnia (UAH)]
+    (* <- lang_en;; *);;
+
+PLN
+=> nrel_main_idtf:
+    [Польская злота (PLN)]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Polish zlota (PLN)]
+    (* <- lang_en;; *);;

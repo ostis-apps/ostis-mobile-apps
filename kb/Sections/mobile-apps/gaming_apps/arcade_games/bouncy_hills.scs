@@ -1,0 +1,44 @@
+bouncy_hills
+
+	=> nrel_main_idtf:
+	    [Аркадная игра-платформер Bouncy Hills]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Arcade platformer game Bouncy Hills]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//bouncy_hills.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Bouncy Hills)] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [Bouncy Hills - динамичная аркадная игра с элементами ранера с тем лишь 
+		    отличием что весь геймплей разделен на уровни на каждом из которых вам предстоит помочь 
+		    забавному цыпленку пройти замысловатый уровень с огромным количеством платформ, 
+		    трамплинов, ловушек и прочих препятствий. По мере прохождения вы будете зарабатывать 
+		    очки опыта и золото на которое сможете открыть новых персонажей и получить доступ к дополнительным возможностям.] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    =>nrel_view: side_view;
+	    =>rrel_type_of_game: singleplayer;
+	    =>nrel_have_donate: have;
+	    =>nrel_graphic: cartoon;
+	    =>nrel_graphic_style: 3D;
+	    =>rrel_genre: platformer;
+	    =>nrel_internet_connection: dont_require;
+	    -> rrel_developer: Ketchapp;
+	    -> rrel_supported_platform: Android;
+	    -> rrel_supported_platform: IOS;
+	    -> nrel_supported_language: all_language;
+	    -> nrel_use_of_personal_data: use;;

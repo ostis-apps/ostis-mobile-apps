@@ -1,0 +1,37 @@
+subject_domain_of_app_for_electro_scooter_rental
+
+=>nrel_main_idtf:[Предметная область. Приложения для аренды электросамокатов]
+    (*
+         <-lang_ru;;
+    *);
+=>nrel_main_idtf:[Subject domain. Apps for electro scooter rental]
+    (*
+         <-lang_en;;
+    *);
+<-subject_domain;
+
+->rrel_maximum_studied_object_class:
+    concept_app_for_electro_scooter_rental_examples;
+
+-> rrel_explored_relation:	
+    nrel_electro_park;
+    nrel_area_of_action;
+    nrel_tariffs_scooter;;
+
+nrel_electro_park
+=> nrel_main_idtf:
+    [Парк электросамокатов]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Electro scooter park]
+    (* <- lang_en;; *);
+<-sc_node_norole_relation;;
+
+nrel_tariffs_scooter
+=> nrel_main_idtf:
+    [Тарифы для приложений с арендой электросамокатов]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Tariffs for apps with electro scooter rental]
+    (* <- lang_en;; *);
+<-sc_node_norole_relation;;

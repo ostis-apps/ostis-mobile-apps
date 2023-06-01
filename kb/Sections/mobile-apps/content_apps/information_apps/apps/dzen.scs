@@ -1,0 +1,23 @@
+dzen
+=> nrel_main_idtf:
+    [Яндекс Дзен]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Yandex Zen]
+    (* <- lang_en;; *);
+
+    -> rrel_developer: ZenPlatformLLC;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_platform: Android;
+    => nrel_supported_language: all_language;
+    =>nrel_use_of_personal_data: use;
+    =>nrel_type_of_information_app: forum;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://..//Photo//dzen.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;

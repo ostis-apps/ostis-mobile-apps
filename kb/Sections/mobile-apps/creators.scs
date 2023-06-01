@@ -1,0 +1,103 @@
+Google_LLC
+=>nrel_main_idtf:[Google LLC]
+    (*
+         <-lang_ru;;
+    *);
+=>nrel_main_idtf:[Google LLC]
+    (*
+         <-lang_en;;
+    *);
+
+<- rrel_key_sc_element: ... (* 
+        <- definition;; 
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);; 
+        => nrel_idtf: [Definition] (* <-lang_en;; *);; 
+        <= nrel_sc_text_translation: ... (* 
+            -> rrel_example: [Google — американская транснациональная корпорация в составе холдинга Alphabet, инвестирующая в интернет-поиск, облачные вычисления и рекламные технологии.] 
+            (* <-lang_ru;; *);; 
+        *);; 
+    *);;
+
+Spotify_Company
+=>nrel_main_idtf:[Spotify (Компания)]
+    (*
+         <-lang_ru;;
+    *);
+=>nrel_main_idtf:[Spotify (Company)]
+    (*
+         <-lang_en;;
+    *);
+
+<- rrel_key_sc_element: ... (* 
+        <- definition;; 
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);; 
+        => nrel_idtf: [Definition] (* <-lang_en;; *);; 
+        <= nrel_sc_text_translation: ... (* 
+            -> rrel_example: [Spotify — стриминговый сервис, позволяющий легально прослушивать музыкальные композиции, аудиокниги и подкасты, не скачивая их на устройство. Доступен в виде веб-сайта, приложений для всех операционных систем, смартфонов, смарт-устройств и медиасистем автомобилей.] 
+            (* <-lang_ru;; *);; 
+        *);; 
+    *);;
+
+
+SoundCloud
+=>nrel_main_idtf:[SoundCloud (Компания)]
+    (*
+         <-lang_ru;;
+    *);
+=>nrel_main_idtf:[SoundCloud (Company)]
+    (*
+         <-lang_en;;
+    *);
+
+<- rrel_key_sc_element: ... (* 
+        <- definition;; 
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);; 
+        => nrel_idtf: [Definition] (* <-lang_en;; *);; 
+        <= nrel_sc_text_translation: ... (* 
+            -> rrel_example: [SoundCloud — онлайн-платформа и сайт для распространения оцифрованной звуковой информации (например, музыкальных произведений) обладающая функциями социальной сети, а также одноимённая компания] 
+            (* <-lang_ru;; *);; 
+        *);; 
+    *);;
+
+
+VK_com
+=>nrel_main_idtf:[VK (Компания)]
+    (*
+         <-lang_ru;;
+    *);
+=>nrel_main_idtf:[VK (Company)]
+    (*
+         <-lang_en;;
+    *);
+
+<- rrel_key_sc_element: ... (* 
+        <- definition;; 
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);; 
+        => nrel_idtf: [Definition] (* <-lang_en;; *);; 
+        <= nrel_sc_text_translation: ... (* 
+            -> rrel_example: [VK — российская инвестиционная технологическая корпорация, основанная в 1998 году.
+
+Среди активов VK — социальные сети: «ВКонтакте», «Одноклассники» и «Мой мир@Mail.ru», почтовый сервис Почта Mail.ru, мессенджеры: «VK Мессенджер», «ICQ», «Агент Mail.ru» и «ТамТам», сервис объявлений «Юла», поисковая система «Поиск Mail.ru», платформа по созданию интерактивного видео «Movika» и другие. VK также принадлежит ряд образовательных онлайн-платформ: Skillbox, Geekbrains, SkillFactory, а также сервис «Учи.ру». VK занимается разработкой голосового помощника «Маруся», а также умных колонок — «Капсула». В апреле 2022 года купила Дзен и Дзен.Новости, которые раньше принадлежали Яндексу.] 
+            (* <-lang_ru;; *);; 
+        *);; 
+    *);;
+
+Apple
+=>nrel_main_idtf:[Apple (Компания)]
+    (*
+         <-lang_ru;;
+    *);
+=>nrel_main_idtf:[Apple (Company)]
+    (*
+         <-lang_en;;
+    *);
+
+<- rrel_key_sc_element: ... (* 
+        <- definition;; 
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);; 
+        => nrel_idtf: [Definition] (* <-lang_en;; *);; 
+        <= nrel_sc_text_translation: ... (* 
+            -> rrel_example: [Apple — американская корпорация, разработчик персональных и планшетных компьютеров, аудиоплееров, смартфонов, программного обеспечения и цифрового контента. Штаб-квартира расположена в Купертино, штат Калифорния. Практически вся продукция Apple выпускается контрактными производителями на заводах в Азии, крупнейшим подрядчиком является тайваньская компания Foxconn, крупнейший завод — в Чжэнчжоу.] 
+            (* <-lang_ru;; *);; 
+        *);; 
+    *);;

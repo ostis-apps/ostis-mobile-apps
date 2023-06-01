@@ -1,0 +1,43 @@
+xenowerk
+=> nrel_main_idtf:
+    [Шутер Xenowerk]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Shooter Xenowerk]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <- description;;
+        => nrel_idtf: [Описание] (* <-lang_ru;; *);;
+        => nrel_idtf: [Description] (* <-lang_en;;*);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Xenowerk продолжает традиции старого доброго Alien Shooter — зачищаем шипастых и клыкастых пришельцев по сумрачным базам. 
+            Только пришельцы здесь не прут ордами, а нападают более размеренно. Зато их множество видов, и каждый опасен по-своему: 
+            одни быстрые, другие плюются на расстоянии, третьи отравляют. На выбор, конечно же, доступно множество смертельных пушек для утилизации инопланетных форм жизни. 
+            В Xenowerk можно играть оффлайн, так что любителям изометрической картинки настоятельно рекомендуем ее попробовать. ] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Xenowerk continues the traditions of the good old Alien Shooter — we clean up the spiked and fanged aliens on the gloomy bases. 
+            Only the aliens here do not stick in hordes, but attack more steadily. But there are many types of them, and each is dangerous in its own way:
+            some are fast, others spit at a distance, others send. To choose from, of course, there are many deadly guns available for the disposal of alien life forms. 
+            Xenowerk can be played offline, so fans of isometric images are strongly recommended to try it.]
+            (* <-lang_en;; *);;
+        *);;
+    *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//Photo//xenowerk.jpg"
+            (*
+                =>nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+
+    ->rrel_developer: Pixelbite ;
+    =>nrel_view: third_face;
+    =>nrel_type_of_game: singleplayer;
+    =>nrel_have_donate: have;
+    =>nrel_graphic: advanced;
+    =>nrel_graphic_style: 3D;
+    =>nrel_genre: shooter;;

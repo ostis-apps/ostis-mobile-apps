@@ -1,0 +1,51 @@
+spiderfightertwo
+=> nrel_main_idtf:
+    [Файтинг Spider Fighter 2]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Fighting Spider Fighter 2]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <- description;;
+        => nrel_idtf: [Описание] (* <-lang_ru;; *);;
+        => nrel_idtf: [Description] (* <-lang_en;;*);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Spider Fighter 2 — это довольно успешное условное продолжение динамичного файтинга для Android и iOS, 
+            в котором мы будем наводить порядки на улицах криминального города. Это самая что ни на есть копия предшественницы, 
+            но с одним внушительным отличием. А заключается последнее в том, что игра стала по-настоящему трехмерной. Не той, конечно, 
+            в которую играть нужно в специальных 3D-очках, но здесь уже и не псевдо-2D.
+            Игровой процесс разбит на короткие задания, где нам приходится разбираться с представителями криминального мира в обличье Человека-Паука, 
+            Железного человека, Халка или какого-нибудь другого супергероя. В каждой вылазке нас ждет кучка отбросов общества, 
+            кидающихся на главного героя с голыми кулаками, битами, автоматами и гранатометами. 
+            В верхней части игрового поля имеется необычный индикатор, говорящий о том, чья сейчас очередь отхватывать у протагониста.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Spider Fighter 2 is a fairly successful conditional continuation of a dynamic fighting game for Android and iOS,
+            in which we will restore order on the streets of a criminal city. This is the best copy of its predecessor,
+            but with one impressive difference. And the latter lies in the fact that the game has become truly three-dimensional. Not the one, of course,
+            that you need to play in special 3D glasses, but here it is no longer pseudo-2D.
+            The gameplay is divided into short tasks where we have to deal with representatives of the criminal world in the guise of Spider-Man,
+            Iron Man, Hulk or some other superhero. In each sortie, we are waiting for a bunch of scum of society,
+            rushing at the main character with bare fists, bats, machine guns and grenade launchers. 
+            At the top of the playing field there is an unusual indicator that tells you whose turn it is to grab the protagonist.]
+            (* <-lang_en;; *);;
+        *);;
+    *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//Photo//spiderfighter2.jpg"
+            (*
+                =>nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+
+    ->rrel_developer: SuperheroAcademy;
+    =>nrel_view: third_face;
+    =>nrel_type_of_game: singleplayer;
+    =>nrel_have_donate: have;
+    =>nrel_graphic: advanced;
+    =>nrel_graphic_style: 3D;
+    =>nrel_genre: fighting;;

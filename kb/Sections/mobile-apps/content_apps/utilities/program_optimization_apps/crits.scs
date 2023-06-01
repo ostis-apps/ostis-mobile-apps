@@ -1,0 +1,39 @@
+nrel_included_functions
+    =>nrel_main_idtf:[Включенные функции]
+    (*
+         <-lang_ru;;
+    *);
+    =>nrel_main_idtf:[Supported functions]
+    (*
+         <-lang_en;;
+    *);;
+
+clean_memory
+        =>nrel_main_idtf:[Очистка памяти]
+    (*
+         <-lang_ru;;
+    *);
+    =>nrel_main_idtf:[Memory clean]
+    (*
+         <-lang_en;;
+    *);;
+
+speed_boost
+        =>nrel_main_idtf:[Ускорение]
+    (*
+         <-lang_ru;;
+    *);
+    =>nrel_main_idtf:[Speed up]
+    (*
+         <-lang_en;;
+    *);;
+
+antivirus
+    =>nrel_main_idtf:[Антивирус]
+    (*
+         <-lang_ru;;
+    *);
+    =>nrel_main_idtf:[Antivirus]
+    (*
+         <-lang_en;;
+    *);;

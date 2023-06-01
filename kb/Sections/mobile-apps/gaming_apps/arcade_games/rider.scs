@@ -1,0 +1,43 @@
+concept_rider
+	=> nrel_main_idtf:
+	    [Классическая аркадная игра Rider]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Classic Arcade game Rider]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<- illustration;;
+		<= nrel_sc_text_translation: ... (*
+		    -> rrel_example: "file://photo//rider.png"
+		    (*
+		        => nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<- definiton;;
+		=> nrel_idtf: [Опр. (Райдер)] (* <-lang_ru;; *);;
+		<= nrel_sc_text_translation: ... (*
+		    -> rrel_example: [Райдер - это двухмерная гоночная игра, в которой вы должны 
+		    проехать как можно дальше, прыгая по невозможным платформам на вашем автомобиле. 
+		    За каждый прыжок, который вы делаете между платформами, вы выигрываете одно очко. 
+		    И если вам удастся сделать сальто в воздухе, вы можете получить больше очков.] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    =>nrel_view: side_view;
+	    =>rrel_type_of_game: singleplayer;
+	    =>nrel_have_donate: have;
+	    =>nrel_graphic: advanced;
+	    =>nrel_graphic_style: 2D;
+	    =>nrel_genre: classic;
+	    =>rrel_genre: race;
+	    =>nrel_internet_connection: dont_require;
+	    -> rrel_developer: Ketchapp;
+	    -> rrel_supported_platform: Android;
+	    -> rrel_supported_platform: IOS;
+	    -> nrel_supported_language: en_language;
+	    -> nrel_use_of_personal_data: use;;

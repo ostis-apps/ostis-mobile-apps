@@ -1,0 +1,43 @@
+huntdown
+=> nrel_main_idtf:
+    [Платформер Huntdown: Cyberpunk Adventure]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Platformer Huntdown: Cyberpunk Adventure]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <- description;;
+        => nrel_idtf: [Описание] (* <-lang_ru;; *);;
+        => nrel_idtf: [Description] (* <-lang_en;;*);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Huntdown: Cyberpunk Adventure - отличный пиксельный экшен для мобильных устройств. 
+            В этой игре пользователи будут играть за одного из так называемых "охотников за головами". 
+            Ваша задача - постараться очистить мир от засилья криминальных организаций, 
+            взяв в руки оружие и встав на путь непримиримой войны.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Hunt down: Cyberpunk Adventure is a great pixel action game for mobile devices. 
+            In this game, users will play as one of the so-called "bounty hunters". 
+            Your task is to try to clear the world of the dominance of criminal organizations
+            by taking up arms and embarking on the path of irreconcilable war.]
+            (* <-lang_en;; *);;
+        *);;
+    *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//Photo//huntdown.jpg"
+            (*
+                =>nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+
+    ->rrel_developer: CoffeeStainPublishing;
+    =>nrel_view: third_face;
+    =>nrel_type_of_game: singleplayer;
+    =>nrel_have_donate: have;
+    =>nrel_graphic: retro;
+    =>nrel_graphic_style: 2D;
+    =>nrel_genre: platformer;;

@@ -1,0 +1,43 @@
+movavi_clips
+
+=> nrel_main_idtf:
+    [Видеоредактор Movavi Clips]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Video editor Movavi Clips]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://photo//movavi_clips.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definiton;;
+        => nrel_idtf: [Опр. (Movavi Clips)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Создание видео профессионального качества теперь не проблема, 
+            ведь с бесплатным мобильным приложением Movavi Clips так легко делать видеомонтаж: 
+            склеивать или обрезать видео, добавлять переходы, музыку, текст, 
+            стикеры на фото и видео и многое другое! Даже дополнительные эффекты не нужны, 
+            чтобы получить хороший результат. ] (* <-lang_ru;; *);;
+            *);;
+        *);
+    
+
+    => nrel_have_donate: have;
+    => nrel_set_of_tools_and_effects: conventional;
+    => nrel_exactingness: not_exacting;
+    => nrel_have_a_watermark: yes;
+    => nrel_possibility_to_share: yes;
+    => nrel_size: 111_mb;
+    -> rrel_developer: Movavi;
+    -> rrel_supported_platform: Android;
+    -> rrel_supported_platform: IOS;
+    -> rrel_supported_language: all_language;
+    -> nrel_use_of_personal_data: use;;

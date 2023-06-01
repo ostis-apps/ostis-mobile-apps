@@ -1,0 +1,10 @@
+section_yandex_music_tarifs
+=> nrel_main_idtf:
+        [Тарифы сервиса Yandex Music]
+        (* <- lang_ru;; *);
+
+    ->tariff_Subscription_ym;;
+
+tariff_Subscription_ym
+    =>nrel_main_idtf:[Подписка Яндекс Музыка] (*<-lang_en;;*);
+    ->rrel_byn_per_month:11.99;;

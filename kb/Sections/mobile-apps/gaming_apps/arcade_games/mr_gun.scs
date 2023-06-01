@@ -1,0 +1,45 @@
+mr_gun
+
+	=> nrel_main_idtf:
+	    [Классическая аркадная игра Mr Gun]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Classic arcade game Mr Gun]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//mr_gun.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Мистер Ган)] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [Мистер Ган – забавная игра аркада с бесконечными перестрелками, 
+		    где многое будет зависеть от вашей скорости реакции. 
+		    У мистера Гана много врагов, и ему требуется ваша помощь в их уничтожении. 
+		    Из-за потерянной сноровки рук Мистер Ган хорошо целится, но точный и 
+		    вовремя сделанный выстрел у него не получается.] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    =>nrel_view: side_view;
+	    =>rrel_type_of_game: singleplayer;
+	    =>nrel_have_donate: have;
+	    =>nrel_graphic: cartoon;
+	    =>nrel_graphic: primitive;
+	    =>nrel_graphic_style: 2D;
+	    =>rrel_genre: classic;
+	    =>nrel_internet_connection: dont_require;
+	    -> rrel_developer: Ketchapp;
+	    -> rrel_supported_platform: Android;
+	    -> rrel_supported_platform: IOS;
+	    -> nrel_supported_language: en_language;
+	    -> nrel_use_of_personal_data: use;;

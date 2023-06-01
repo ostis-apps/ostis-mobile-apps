@@ -1,0 +1,37 @@
+depop
+
+=> nrel_main_idtf:
+    [Интернет-магазин Depop]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Internet shop Depop]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//images/depop.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Опр. (Depop)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Depop -   это компания социальной электронной коммерции, базирующаяся в Лондоне,
+            с дополнительными офисами в Манчестере, Милане и Нью-Йорке. Компания имеет расширяющееся 
+            глобальное присутствие и популяризируется в таких странах, как США, Великобритания, 
+            Австралия, Новая Зеландия и Италия.] (* <-lang_ru;; *);;
+        *);;
+    *);
+    
+
+    -> rrel_country: UK;
+    => nrel_the_year_of_creation: 2011;
+    => nrel_author: Simon_Beckerman;
+    => nrel_supported_platform: Android;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_language: all_language;;

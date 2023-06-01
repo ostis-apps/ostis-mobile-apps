@@ -1,0 +1,42 @@
+pixlr
+	=> nrel_main_idtf:
+    	[Фоторедактор Pixlr]
+    	(* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Photo editor Pixlr]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//pixlr.jpg"
+		    (*
+		        =>nrel_format: format_jpg;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Pixlr)] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [Pixlr — облачный набор инструментов для редактирования изображений, 
+		    включающий несколько фоторедакторов и сервис обмена фотографиями. Набор предназначен для рядового пользователя, 
+		    однако приложения варьируются от простого до продвинутого редактирования фотографий.] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+	    => nrel_possibility_to_export: dont_have;
+	    => nrel_internet_connection: dont_require;	
+	    => nrel_have_donate: have;
+	    => nrel_size: 107_mb;
+	    => nrel_features: deleting_object_from_photo;
+	    => nrel_features: creating_stickers;
+	    => nrel_features: chosen_editing;
+	    => nrel_features: creating_stickers;
+	    => nrel_level_of_application: middle;
+	    -> rrel_developer: Inmagine_Lab_Pixlr;
+	    -> rrel_supported_platform: Android;
+	    -> rrel_supported_platform: IOS;
+	    -> nrel_supported_language: all_language;
+	    -> nrel_use_of_personal_data: use;;

@@ -1,0 +1,49 @@
+grimvalor
+=> nrel_main_idtf:
+    [Платформер Grimvalor]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Platformer Grimvalor]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <- description;;
+        => nrel_idtf: [Описание] (* <-lang_ru;; *);;
+        => nrel_idtf: [Description] (* <-lang_en;;*);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Grimvalor можно охарактеризовать тремя словами: мрачно, больно, увлекательно. 
+            Разработчики явно вдохновлялись серией Dark Souls, как визуально, так и геймплейно. 
+            Поэтому готовьтесь умирать много и часто. По сюжету герой отправится в павшее королевство, 
+            из-за границ которого валят толпы чудовищ, чтобы разобраться с источником проблем.
+            Придется исследовать локации в стиле метроидваний, собирать оружие, магические предметы и, конечно, 
+            пытаться не умереть. Эпичные, хитро сделанные боссы прилагаются, а ваше выживание будет зависеть только от личного скилла. 
+            Хороший вариант для тех, кто ищет новинки экшн игр на Андроид в стиле соулслайк. ] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Grimvalor can be described in three words: gloomy, painful, fascinating. 
+            The developers were clearly inspired by the Dark Souls series, both visually and gameplay. 
+            Therefore, prepare to die a lot and often. According to the plot, the hero will go to the fallen kingdom,
+            because of the borders of which crowds of monsters are coming down to deal with the source of problems.
+            You will have to explore locations in the style of metroidvaniy, collect weapons, magic items and, of course, 
+            trying not to die. Epic, cleverly made bosses are attached, and your survival will depend only on your personal skill. 
+            A good option for those who are looking for new action games for Android in the style of soul slide.]
+            (* <-lang_en;; *);;
+        *);;
+    *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//Photo//grimvalor.jpg"
+            (*
+                =>nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+
+    ->rrel_developer: Direlight;
+    =>nrel_view: third_face;
+    =>nrel_type_of_game: singleplayer;
+    =>nrel_have_donate: have;
+    =>nrel_graphic: advanced;
+    =>nrel_graphic_style: 2D;
+    =>nrel_genre: platformer;;

@@ -1,0 +1,15 @@
+concept_app_books_and_references
+=> nrel_main_idtf: 
+    [Мобильные приложения книги и справочники] 
+    (* <- lang_ru;; *); 
+=> nrel_main_idtf: 
+    [Mobile apps books and references] 
+    (* <- lang_en;; *); 
+     
+-> Blossom; 
+-> drugs;
+-> Patephone;
+-> eReader;
+-> ReadEra;
+-> Spravochnik_vracha; 
+-> Litnet;;

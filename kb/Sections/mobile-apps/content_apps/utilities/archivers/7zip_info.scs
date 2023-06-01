@@ -1,0 +1,14 @@
+section_7zip_formats
+=> nrel_main_idtf:
+        [Поддерживаемые форматы 7Zip]
+        (* <- lang_ru;; *);
+    ->7ZIP;
+    ->RAR;
+    ->ZIP;
+    ->TAR;
+    ->GZ;
+    ->BZ2;
+    ->XZ;
+    ->7z;
+    ->ISO;
+    ->ARJ;;

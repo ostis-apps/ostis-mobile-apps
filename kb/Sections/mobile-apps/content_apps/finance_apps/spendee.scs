@@ -1,0 +1,45 @@
+spendee
+
+	=> nrel_main_idtf:
+	    [Приложение для учёта финансов Spendee]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Financial accounting app Spendee]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//spendee.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Spendee] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [Spendee привлекает симпатичным и удобным интерфейсом. 
+		    Приложение собирает все ваши доходы и расходы в формате красивой инфографики. 
+		    С помощью этой программы можно легко и быстро разобраться, что происходит с вашими деньгами.] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    => rrel_section: services_for_financial_planning;
+	    => nrel_have_donate: have;
+	    => nrel_size: 30_mb;
+ 	    => nrel_internet_connection: dont_require;
+ 	    => nrel_level_of_financial_literacy: middle;
+ 	    => nrel_synchronization_with_gadget: have;
+ 	    => nrel_services: income_and_expense_accounting;
+ 	    => nrel_services: financial_structuring;
+ 	    => nrel_services: checks_scanning;
+ 	    => nrel_services: accounting_in_several_currencies;
+	    -> rrel_developer: Spendee;
+	    -> nrel_supported_platform: Android;
+	    -> nrel_supported_platform: IOS;
+	    -> nrel_supported_language: all_language;
+	    -> nrel_use_of_personal_data: use;;	

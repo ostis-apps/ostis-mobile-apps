@@ -1,0 +1,23 @@
+concept_simulator_games_examples
+=> nrel_main_idtf:
+    [Мобильные симуляторы]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Mobile simulators]
+    (* <- lang_en;; *);
+
+->eurotrainsimulator;
+->eurotrainsimulator2;
+->stardewvalley;
+->fs20;
+->pccreator;
+->rfs;
+->smartphonetycoon2;
+->taxisim2020;
+->theotown;
+->topeleven2020;
+->solarsmash;
+->terragenesis;
+->trainsimulator;
+->WOT_blitz;
+->rcp2;;

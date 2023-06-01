@@ -1,0 +1,51 @@
+call_of_duty_mobile
+=> nrel_main_idtf:
+    [Шутер Call of Duty: Mobile]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Shooter Call of Duty: Mobile]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <- description;;
+        => nrel_idtf: [Описание] (* <-lang_ru;; *);;
+        => nrel_idtf: [Description] (* <-lang_en;;*);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Call of Duty: Mobile — условно-бесплатная мобильная многопользовательская онлайн-игра в жанре шутера от первого лица, 
+            разработанная компанией TiMi Studios и выпущенная Activision для устройств под управлением Android и iOS. 
+            Изначально игра была выпущена в качестве бета-версии в отдельных странах в июле 2019 года, 
+            и официально выпущена 1 октября 2019 года. Call of Duty: Mobile практически полностью повторяет геймплей частей основной 
+            серии Call of Duty и включает в себя многие элементы оригинальной игры, будь то карты, оружие или персонажи.
+            Игра получила положительные отзывы от критиков и игроков. Наиболее высоко были оценены классические режимы Call of Duty, 
+            королевская битва и мультиплеер, однако критике подверглись микротранзакции. Тем не менее, игра за первый месяц была 
+            загружена около 148 миллионов раз, что стало вторым крупнейшим запуском в истории мобильных игр.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Call of Duty: Mobile is a shareware mobile multiplayer online first—person shooter game
+            developed by Time Studios and released by Activision for Android and iOS devices. 
+            The game was originally released as a beta version in selected countries in July 2019,
+            and officially released on October 1, 2019. Call of Duty: Mobile almost completely repeats the gameplay of the main parts 
+            The Call of Duty series also includes many elements of the original game, be it maps, weapons or characters.
+            The game received positive reviews from critics and players. The classic Call of Duty,
+            Battle royale and multiplayer modes were rated the most highly, but microtransactions were criticized. However, the game for the first month was 
+            downloaded about 148 million times, which was the second largest launch in the history of mobile games.]
+            (* <-lang_en;; *);;
+        *);;
+    *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//Photo//callofdutymobile.jpg"
+            (*
+                =>nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+
+    ->rrel_developer: ActivisionPublishingInc;
+    =>nrel_view: first_face;
+    =>nrel_type_of_game: multiplayer;
+    =>nrel_have_donate: have;
+    =>nrel_graphic: realistic;
+    =>nrel_graphic_style: 3D;
+    =>nrel_genre: shooter;;

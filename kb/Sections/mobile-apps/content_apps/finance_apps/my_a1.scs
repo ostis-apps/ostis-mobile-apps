@@ -1,0 +1,48 @@
+my_a1
+
+	=> nrel_main_idtf:
+	    [Приложение провайдера мобильной связи Мой А1]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Mobile connection providers' app My A1]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//my_a1.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Мой А1)] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [С приложением «Мой А1» легко и просто следить за балансом
+		     и оптимизировать расходы, контролировать остаток трафика, минут и SMS, 
+		     просматривать начисления, подключать и отключать услуги] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    => rrel_section: mobile_provider;
+	    => nrel_have_donate: dont_have;
+	    => nrel_size: 219_mb;
+	    => nrel_internet_connection: require;
+	    => nrel_live_technical_support: chat_messenger;
+	    => nrel_maximum_amount_of_payments: 1999_BYN;
+	    => nrel_maximum_amount_of_accounts: 10;
+	    => nrel_services: balance_view;
+	    => nrel_services: tariff_change;
+	    => nrel_services: special_offers_and_discounts_view;
+	    => nrel_services: history_of_payments_check;
+	    => nrel_services: connection_and_disconnection_of_services;
+	    -> rrel_developer: A1_Belarus;
+	    => nrel_supported_platform: Android;
+	    => nrel_supported_platform: IOS;
+	    => nrel_supported_language: ru_language;
+	    => nrel_supported_language: en_language;
+	    => nrel_use_of_personal_data: use;;

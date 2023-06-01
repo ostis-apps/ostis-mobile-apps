@@ -1,0 +1,45 @@
+adobe_lightroom
+	=> nrel_main_idtf:
+    	[Профессиональный фоторедактор Adobe Lightroom]
+    	(* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Professional photo editor Adobe Lightroom]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//adobe_lightroom.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Adobe Lightroom)] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [Понятные инструменты позволяют обрезать 
+		    фото до нужных пропорций, а также выполнять операции по обработке: 
+		    создавать и применять фильтры и эффекты, работать с кривыми, свойствами, 
+		    цветом и делать выборочную коррекцию. Кроме того, Adobe Lightroom CC 
+		    работает с файлами RAW – высококачественным форматом изображений, 
+		    популярным среди фотографов.] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+	    => nrel_possibility_to_export: have;
+	    => nrel_internet_connection: dont_require;	
+	    => nrel_have_donate: have;
+	    => nrel_size: 201_mb;
+	    => nrel_features: chosen_editing;
+	    => nrel_features: use_of_ai;
+	    => nrel_features: creating_stickers;
+	    => nrel_amount_of_inbuilt_presets: 39;
+	    => nrel_level_of_application: middle;
+	    -> rrel_developer: Adobe;
+	    -> rrel_supported_platform: Android;
+	    -> rrel_supported_platform: IOS;
+	    -> nrel_supported_language: all_language;
+	    -> nrel_use_of_personal_data: use;;

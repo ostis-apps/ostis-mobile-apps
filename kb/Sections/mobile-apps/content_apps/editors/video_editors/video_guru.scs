@@ -1,0 +1,40 @@
+video_guru
+
+=> nrel_main_idtf:
+    [Видео-редактор Video.Guru]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Video editor Video.Guru]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://photo//video_guru.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definiton;;
+        => nrel_idtf: [Опр. (Video.Guru)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Video.Guru - это простой в использовании видеоредактор и мощный редактор видео , 
+            который помогает вам легко записывать и показывать свою жизнь. Все, что нужно для обработки видео, 
+            есть в этом видеоредакторе.] (* <-lang_ru;; *);;
+            *);;
+        *);
+    
+
+    => nrel_have_donate: have;
+    => nrel_set_of_tools_and_effects: conventional;
+    => nrel_exactingness: not_exacting;
+    => nrel_have_a_watermark: no;
+    => nrel_possibility_to_share: yes;
+    => nrel_size: 181_mb;
+    -> rrel_developer: Inshot_Video_Editor;
+    => nrel_supported_platform: Android;
+    -> rrel_supported_language: all_language;
+    -> nrel_use_of_personal_data: use;;

@@ -1,0 +1,41 @@
+WOT_blitz
+    => nrel_main_idtf:
+        [Симулятор танковых баталлий World Of Tanks blitz]
+        (* <- lang_ru;; *);
+    => nrel_main_idtf:
+        [Tank battle simulator World Of Tanks blitz]
+        (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <- description;;
+        => nrel_idtf: [Описание] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [World of Tanks Blitz — мобильный free-to-play MMO-экшен, 
+            посвященный танковым сражениям середины ХХ века и предлагающий абсолютно новый формат командных онлайн-баталий.
+            Игра унаследовала все лучшее, что сделало оригинальную версию World of Tanks любимой игрой миллионов.
+            Игроков ждет впечатляющий арсенал легендарных стальных машин, разделенных на несколько классов: средние танки,
+            тяжелые танки и противотанковые самоходные установки. 
+            Каждый класс обладает уникальными игровыми характеристиками и отличается своим индивидуальным стилем ведения боя.
+            Легкое и удобное управление дает возможность полностью сосредоточиться на самом сражении, 
+            а продуманная механика предлагает комфортный темп игры, позволяющий принимать взвешенные тактические решения.] 
+            (* <-lang_ru;; *);;
+        *);;
+    *);
+
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://..//Photo//WOT_blitz.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+
+    ->rrel_developer: WargamingGroup;
+    =>nrel_view: third_face;
+    =>nrel_type_of_game: multiplayer;
+    =>nrel_have_donate: have;
+    =>nrel_graphic: realistic;
+    =>nrel_graphic_style: 3D;
+    =>nrel_genre: military_simulator;;

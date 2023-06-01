@@ -1,0 +1,11 @@
+concept_app_for_bike_rental_examples
+=> nrel_main_idtf:
+    [Мобильные приложения для аренды велосипедов]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Mobile apps for bike rental]
+    (* <- lang_en;; *);
+
+->kolobike;
+->nextbike;
+->velobike;;

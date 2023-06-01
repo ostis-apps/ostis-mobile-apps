@@ -1,0 +1,49 @@
+acasa
+
+	=> nrel_main_idtf:
+	    [Приложение для учёта финансов Acasa]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Financial accounting app Acasa]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//acasa.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Acasa)] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [Приложение создано специально для тех, 
+		    кто вместе снимает квартиру или делит затраты на содержание 
+		    дома с другими членами семьи. С помощью Acasa можно понять, 
+		    кто больше платит за коммунальные услуги, сколько денег каждый 
+		    потратил на закупку продуктов и другие общие нужды. Программа наведёт 
+		    порядок в ваших совместных расходах, что поможет избежать ненужных споров и обид.] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    => rrel_section: services_for_financial_planning;
+	    => nrel_have_donate: have;
+	    => nrel_size: 37_mb;
+ 	    => nrel_internet_connection: dont_require;
+ 	    => nrel_level_of_financial_literacy: middle;
+ 	    => nrel_synchronization_with_gadget: have;
+ 	    => nrel_services: income_and_expense_accounting;
+ 	    => nrel_services: financial_structuring;
+ 	    => nrel_services: checks_scanning;
+ 	    => nrel_services: family_budget;
+ 	    => nrel_services: accounting_in_several_currencies;
+	    -> rrel_developer: Goodlord;
+	    -> nrel_supported_platform: Android;
+	    -> nrel_supported_platform: IOS;
+	    -> nrel_supported_language: en_language;
+	    -> nrel_use_of_personal_data: use;;

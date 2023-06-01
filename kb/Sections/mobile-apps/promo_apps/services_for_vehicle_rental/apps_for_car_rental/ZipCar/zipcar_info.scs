@@ -1,0 +1,121 @@
+section_zipcar_car_park
+=> nrel_main_idtf:
+        [Автомобили]
+    (* <- lang_ru;; *);
+    ->Vauxhall_Corsa;
+    ->Ford_Puma;
+    ->MG_ZS;
+    ->Volkswagen_Golf;
+    ->Volkswagen_Transporter;;
+
+section_tariffs_zipcar
+   => nrel_main_idtf:
+        [Тарифы сервиса Zipcar]
+        (* <- lang_ru;; *);
+    ->tariff_1_hour;
+    ->tariff_days;;
+
+Vauxhall_Corsa
+    =>nrel_main_idtf:[Vauxhall Corsa] (*<-lang_ru;;*);
+    =>nrel_min_age: 21_years;
+    =>nrel_1_hour: 7_gbp;
+    =>nrel_day: 68_gbp;
+    =>nrel_bodywork:hatchback;
+    =>nrel_kpp: mkpp;
+    =>nrel_power: 110_ls;
+    =>nrel_actuator: front;
+    =>nrel_V_fuel: 45_l;
+    =>nrel_V_back: 160_l;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//Corsa.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);;
+
+Ford_Puma
+    =>nrel_main_idtf:[Ford Puma] (*<-lang_ru;;*);
+    =>nrel_min_age: 21_years;
+    =>nrel_1_hour: 8_gbp;
+    =>nrel_day: 75_gpb;
+    =>nrel_bodywork:offroad;
+    =>nrel_kpp: mkpp;
+    =>nrel_power: 110_ls;
+    =>nrel_actuator: front;
+    =>nrel_V_fuel: 45_l;
+    =>nrel_V_back: 310_l;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//Puma.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);;
+
+MG_ZS
+    =>nrel_main_idtf:[MG_ZS] (*<-lang_ru;;*);
+    =>nrel_min_age: 21_years;
+    =>nrel_1_hour: 8_gbp;
+    =>nrel_day: 75_gpb;
+    =>nrel_bodywork:offroad;
+    =>nrel_kpp: akpp;
+    =>nrel_power: 110_ls;
+    =>nrel_actuator: front;
+    =>nrel_V_fuel: 45_l;
+    =>nrel_V_back: 310_l;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//MG.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);;
+
+Volkswagen_Golf
+    =>nrel_main_idtf:[Volkswagen Golf] (*<-lang_ru;;*);
+    =>nrel_min_age: 21_years;
+    =>nrel_1_hour: 8_gbp;
+    =>nrel_day: 75_gpb;
+    =>nrel_bodywork:hatchback;
+    =>nrel_kpp: akpp;
+    =>nrel_power: 150_ls;
+    =>nrel_actuator: front;
+    =>nrel_V_fuel: 50_l;
+    =>nrel_V_back: 380_l;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//Golf.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;
+
+Volkswagen_Transporter
+    =>nrel_main_idtf:[Volkswagen Transporter] (*<-lang_ru;;*);
+    =>nrel_min_age: 21_years;
+    =>nrel_1_hour: 11_gbp;
+    =>nrel_day: 105_gbp;
+    =>nrel_bodywork:minivan;
+    =>nrel_kpp: mkpp;
+    =>nrel_power: 110_ls;
+    =>nrel_actuator: front;
+    =>nrel_V_fuel: 70_l;
+    =>nrel_V_back: 9300_l;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//Transporter.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;

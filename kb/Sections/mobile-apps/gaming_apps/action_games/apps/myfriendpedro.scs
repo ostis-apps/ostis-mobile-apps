@@ -1,0 +1,45 @@
+my_friend_pedro
+=> nrel_main_idtf:
+    [Платформер My Friend Pedro]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Platformer My Friend Pedro]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <- description;;
+        => nrel_idtf: [Описание] (* <-lang_ru;; *);;
+        => nrel_idtf: [Description] (* <-lang_en;;*);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Самое главное в экшене — это, конечно же, динамика, и My Friend Pedro в этой части даст любому конкуренту сто очков форы. 
+            Если вкратце, то эта игра — платформер со стрельбой, в котором вы несетесь по уровням, устраняя врагов. И круче всего то, 
+            как именно это можно делать. В игре продвинутая физика, и через взаимодействие с окружением можно проворачивать невероятные акробатические трюки, 
+            одновременно паля из всех стволов. А сам геймплей похож на красивый, залипательный и смертельный танец. Разнообразные уровни, 
+            новое оружие, в корне меняющее игру, высокая сложность. ] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [The most important thing in action is, of course, dynamics, and My Friend Pedro in this part will give any competitor a hundred points head start. 
+            In short, this game is a platformer with shooting, in which you rush through the levels, eliminating enemies. 
+            And the coolest thing is how exactly this can be done. The game has advanced physics, and through interaction with the environment, 
+            you can perform incredible acrobatic tricks, simultaneously firing from all barrels. And the gameplay itself is like a beautiful, 
+            sticky and deadly dance. A variety of levels, new weapons that radically change the game, high difficulty.]
+            (* <-lang_en;; *);;
+        *);;
+    *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//Photo//myfriendpedro.jpg"
+            (*
+                =>nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+
+    ->rrel_developer: DevolverDigital;
+    =>nrel_view: third_face;
+    =>nrel_type_of_game: singleplayer;
+    =>nrel_have_donate: have;
+    =>nrel_graphic: advanced;
+    =>nrel_graphic_style: 2D;
+    =>nrel_genre: platformer;;

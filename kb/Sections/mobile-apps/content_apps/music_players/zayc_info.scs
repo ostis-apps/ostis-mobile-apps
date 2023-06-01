@@ -1,0 +1,5 @@
+section_tariffs_zayc
+=> nrel_main_idtf:
+        [Тарифы сервиса SoundCloud]
+        (* <- lang_ru;; *);
+    ->free_to_use;;

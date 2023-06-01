@@ -1,0 +1,27 @@
+section_deezer_tarifs
+=> nrel_main_idtf:
+        [Тарифы сервиса Deezer]
+        (* <- lang_ru;; *);
+    ->tariff_Deezer_HIFI;
+    ->tariff_Deezer_Premium;
+    ->tariff_Deezer_Family;
+    ->tariff_Deezer_Student;;
+
+tariff_Deezer_HIFI
+    =>nrel_main_idtf:[Deezer HIFI] (*<-lang_ru;;*);
+    ->rrel_usd_per_month:9.99;;
+
+
+tariff_Deezer_Premium
+    =>nrel_main_idtf:[Deezer Premium] (*<-lang_ru;;*);
+    ->rrel_usd_per_month:12.99;;
+
+
+tariff_Deezer_Family
+    =>nrel_main_idtf:[Deezer Family] (*<-lang_ru;;*);
+    ->rrel_usd_per_month:15.99;;
+
+
+tariff_Deezer_Student
+    =>nrel_main_idtf:[Deezer Student] (*<-lang_ru;;*);
+    ->rrel_usd_per_month:84.5;;

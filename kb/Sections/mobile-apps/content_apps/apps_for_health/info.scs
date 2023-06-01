@@ -1,0 +1,691 @@
+is
+=>nrel_main_idtf:[Присутсвует]
+    (*
+         <-lang_ru;;
+    *);;
+
+men
+=>nrel_main_idtf:[Мужчина]
+    (*
+         <-lang_ru;;
+    *);;
+
+women
+=>nrel_main_idtf:[Женщина]
+    (*
+         <-lang_ru;;
+    *);;
+
+beginner
+=>nrel_main_idtf:[Новичок]
+    (*
+         <-lang_ru;;
+    *);;
+continue
+=>nrel_main_idtf:[Продолжающий]
+    (*
+     <-lang_ru;;
+    *);;
+progressive
+=>nrel_main_idtf:[Продвинутый]
+    (*
+         <-lang_ru;;
+*);;
+
+alpinist
+=>nrel_main_idtf:[Альпинист]
+    (*
+         <-lang_ru;;
+    *);
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Exercises//alpinist1.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Exercises//alpinist2.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Определение (Альпинист)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Примите упор лежа. Подтяните правое колено к груди, выпрыгните и поменяйте в воздухе ноги - левую веперед, правую назад.] (* <-lang_ru;; *);;
+        *);;
+    *);;
+
+squats
+=>nrel_main_idtf:[Приседания]
+    (*
+         <-lang_ru;;
+    *);
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Exercises//squats1.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Exercises//squats2.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Определение (Приседания)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Ноги на ширине плеч, руки вытянуты перед собой. Опускайтесь до тех пор, пока бедра не будут параллельны полу. При выполнении упражнения колени должны быть направлены туда же, куда направлены носки ног. Вернитесь в исходное положение] (* <-lang_ru;; *);;
+        *);;
+    *);;
+
+run
+=>nrel_main_idtf:[Бег. Колени вверх]
+    (*
+         <-lang_ru;;
+    *);
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Exercises//run1.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Exercises//run2.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Определение (Бег. Колени вверх)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Бег на месте, поднимайье колени максимально высоко - угол не менее 90 градусов] (* <-lang_ru;; *);;
+        *);;
+    *);;
+
+push_ups
+=>nrel_main_idtf:[Отжимания]
+    (*
+         <-lang_ru;;
+    *);
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Exercises//push1.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Exercises//push2.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Определение (Отжимания)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Поднятие и опускание тела с помощью рук, держите тело прямо] (* <-lang_ru;; *);;
+        *);;
+    *);;
+
+twists
+=>nrel_main_idtf:[Скручивания]
+    (*
+         <-lang_ru;;
+    *);
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Exercises//twists1.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Exercises//twists2.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Определение (Скручивания)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Ложитесь на спину, колени подняты под углом в 90 градусов, руки за головой. Поднимите корпус и подтяните колени к груди, затем вернитесь в исходное положение] (* <-lang_ru;; *);;
+        *);;
+    *);;
+
+plank
+=>nrel_main_idtf:[Планка]
+    (*
+         <-lang_ru;;
+    *);
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Exercises//plank.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Определение (Планка)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Удерживайте положение "упор лежа" на локтях и пальцах ног. Пытайтесь сохрвнить это положение с прямой спиной.] (* <-lang_ru;; *);;
+        *);;
+    *);;
+
+cobra
+=>nrel_main_idtf:[Растяжка "Кобра"]
+    (*
+         <-lang_ru;;
+    *);
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Exercises//cobra.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Определение (Растяжка "Кобра")] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Ложитесь на живот. Руки согнуты в локтях, ладони на полу под плечами. Поднимите грудь как можно выше над полом. Оставайтесь в этом положении несколько секунд.] (* <-lang_ru;; *);;
+        *);;
+    *);;
+
+push_ups_chair
+=>nrel_main_idtf:[Обратные отжимания от стула]
+    (*
+         <-lang_ru;;
+    *);
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Exercises//chair1.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Exercises//chair2.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Определение (Обратные отжимания от стула)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [В положении спиной к стулу обопритесь руками о переднюю часть стула, при этом отодвинув бедра и ноги. Держа спину близко к стулу, согните локти до угла 90 градусов.] (* <-lang_ru;; *);;
+        *);;
+    *);;
+
+jump
+=>nrel_main_idtf:[Прыжки]
+    (*
+         <-lang_ru;;
+    *);
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Exercises//jump1.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Exercises//jump2.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Определение (Прыжки)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Ноги вместе, руки вдоль корпуса. Прыжком разведите ноги, одновременно поднимая руки в стороны, до положения над головой. Прыжком верните в исходное положение.] (* <-lang_ru;; *);;
+        *);;
+    *);;
+
+bike
+=>nrel_main_idtf:[Велосипед]
+    (*
+         <-lang_ru;;
+    *);
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Exercises//bike1.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Exercises//bike2.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Определение (Велосипед)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Лягте на спину, положите руки под голову, поднимите колени и крутите "педпли велосипеда". Затем начните делать наклоны вперед, касаясь локтями противоположного колена.] (* <-lang_ru;; *);;
+        *);;
+    *);;
+
+lunges
+=>nrel_main_idtf:[Выпады]
+    (*
+         <-lang_ru;;
+    *);
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Exercises//lunges1.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Exercises//lunges2.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Определение (Выпады)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Сделайте широкий шаг вперед так, чтобы колено образовало прямой угол, а колено ноги, оставшейся сзади, было примерно в сантиметре от пола] (* <-lang_ru;; *);;
+        *);;
+    *);;
+
+swing
+=>nrel_main_idtf:[Махи ногами лежа на спине]
+    (*
+         <-lang_ru;;
+    *);
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Exercises//swing1.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Exercises//swing2.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Определение (Махи ногами лежа на спине)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Ложитесь на спину, руки вдоль тела. Поднимите ноги и держите их как можно прямее. Опустите левую ногу, затем одновременно поднимайте левую и опускайте правую ногу.] (* <-lang_ru;; *);;
+        *);;
+    *);;
+
+slopes
+=>nrel_main_idtf:[Боковые наклоны к стопам]
+    (*
+         <-lang_ru;;
+    *);
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Exercises//slopes1.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Exercises//slopes2.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Определение (Боковые наклоны к стопам)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Ложитесь на спину, ноги согните в коленях, руки лежат вдоль корпуса. Приподнимите корпус от пола и поочередно касайтесь каждой пяькт пальцами той же руки.] (* <-lang_ru;; *);;
+        *);;
+    *);;
+
+lifting
+=>nrel_main_idtf:[Поднятие ног лежа на спине]
+    (*
+         <-lang_ru;;
+    *);
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Exercises//lifting1.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Exercises//lifting2.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Определение (Поднятие ног лежа на спине)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Ложитесь на спину и положите руки под бедра для поддержки. Поднимите прямые ноги вверх до образования прямого угла с полом. Медленно опустите ноги вниз.] (* <-lang_ru;; *);;
+        *);;
+    *);;
+
+V_lifting
+=>nrel_main_idtf:[Попеременный V-подъем]
+    (*
+         <-lang_ru;;
+    *);
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Exercises//Vlifting1.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Exercises//Vlifting2.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Определение (Попеременный V-подъем)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Ложитесь на спину, ноги вытянуты, руки по бокам. Одновременно поднимите левую ногу и верхнюю часть корпуса, коснитесь пальцев левой ноги правой рукой.] (* <-lang_ru;; *);;
+        *);;
+    *);;
+
+butterfly
+=>nrel_main_idtf:[Растяжка бабочка]
+    (*
+         <-lang_ru;;
+    *);
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Exercises//butterfly.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Определение (Растяжка бабочка)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Садитесь на пол, ноги вместе. Возьмитесь руками за носки ног. Разведите колени в стороны и опустите колени как можно ниже] (* <-lang_ru;; *);;
+        *);;
+    *);;
+
+bend
+=>nrel_main_idtf:[Наклоны стоя с руками за головой]
+    (*
+         <-lang_ru;;
+    *);
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Exercises//bend1.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Exercises//bend2.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Определение (Наклоны стоя с руками за головой)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Встаньте ровно, ноги на ширине плеч. Положите руки за голову, раскройте локти в стороны. Слегка согните ноги. Слегка отведите бедра назад и наклоните верхнюю часть корпуса вперед, пока спина не будет почти параллельно полу.
+] (* <-lang_ru;; *);;
+        *);;
+    *);;
+
+streching
+=>nrel_main_idtf:[Растяжка спины вперед]
+    (*
+         <-lang_ru;;
+    *);
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Exercises//straching1.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Exercises//straching2.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Определение (Растяжка спины вперед)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Садитесь на пол, ступни на ширине бедер. Поднимите руки на высоту плеч, немного опустите подбородок к груди. На выходе втяните живот и постарайтесь достать руками до пальцев ног. На вдохе вернитесь в исходное положение
+] (* <-lang_ru;; *);;
+        *);;
+    *);;
+
+streching_lunge
+=>nrel_main_idtf:[Растяжка выпадом в бок]
+    (*
+         <-lang_ru;;
+    *);
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Exercises//straching_1.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Exercises//straching_2.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Exercises//straching_3.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Определение (Растяжка выпадом вбок)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Встаньте ровно, ноги широко, руки вместе перед грудью. Опустите тело и перенесите вес на правую ногу, не сгибая при этом левую. Повторить упражнение в другую сторону
+
+] (* <-lang_ru;; *);;
+        *);;
+    *);;
+
+slopes_twine
+=>nrel_main_idtf:[Наклоны в поперечном шпагате]
+    (*
+         <-lang_ru;;
+    *);
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Exercises//slopestw1.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Exercises//slopestw2.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Exercises//slopestw3.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Exercises//slopestw4.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Определение (Наклоны в поперечном шпагате)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Сядьте и вытяните ноги в стороны. Поднимите левую руку над головой и наклоните тело к правой ноге. Коснитесь левой рукой правой ступни. Вернитесь в исходное положение и повторите в обратную сторону.
+] (* <-lang_ru;; *);;
+        *);;
+    *);;
+
+halfbow
+=>nrel_main_idtf:[Полунаклон вперед стоя]
+    (*
+         <-lang_ru;;
+    *);
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Exercises//halfbow1.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Exercises//halfbow2.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Определение (Полунаклон вперед стоя)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Встаньте ровно, ноги шире бедер. Положите ладони на бедра. Сведите лопатки, прогните спину и потянитесь животом как можно ближе к полу. Затем напрягите ягодицы и медленно поднимите корпус.
+
+] (* <-lang_ru;; *);;
+        *);;
+    *);;

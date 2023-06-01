@@ -1,0 +1,26 @@
+section_eleven_park
+ => nrel_main_idtf:
+        [Электросамокаты]
+    (* <- lang_ru;; *);
+    ->scooter_eleven;;
+
+section_tariffs_eleven
+   => nrel_main_idtf:
+        [Тарифы сервиса Eleven]
+        (* <- lang_ru;; *);
+    ->tariff_minuts_scooter;;
+
+scooter_eleven
+    =>nrel_main_idtf:[Самокат Eleven] (*<-lang_ru;;*);
+    =>nrel_min_age: 14_years;
+    =>nrel_minut_scooter: 2_byn;
+    =>nrel_minut_scooter_for_minut:29_cop;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//1.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;

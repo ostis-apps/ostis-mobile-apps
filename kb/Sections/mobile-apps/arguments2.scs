@@ -1,0 +1,154 @@
+YandexLLC
+=> nrel_main_idtf:
+    [Yandex LLC]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Yandex LLC]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [ Транснациональная компания в отрасли информационных технологий, чьё головное юридическое лицо зарегистрировано в Нидерландах, владеющая одноимённой системой поиска в интернете, интернет-порталом и веб-службами в нескольких странах. Наиболее заметное положение занимает на рынках России, Белоруссии и Казахстана ] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Russian multinational technology company providing Internet-related products and services, including an Internet search engine, information services, e-commerce, transportation, maps and navigation, mobile applications, and online advertising. It primarily serves audiences in Russia and the Commonwealth of Independent States of the former Soviet Union, and has more than 30 offices worldwide.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+ZVEZDA_STOLITSY
+=> nrel_main_idtf:
+    [Звезда Столицы]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [ZVEZDA STOLITSY]
+    (* <- lang_en;; *);
+<-rrel_place_of_registration: Minsk;
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [ Молодая компания, которая лишь набирает обороты в отрасли информационных технологий, чьё головное юридическое лицо зарегистрировано в городе Минске, разработавшая только одно приложение - Hello  ] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [A young company that is just gaining momentum in the information technology industry, whose parent legal entity is registered in the city of Minsk, which has developed only one application - Hello]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+Multimotors
+=> nrel_main_idtf:
+    [Multimotors]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Multimotors]
+    (* <- lang_en;; *);
+<-rrel_place_of_registration: Minsk;
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [ Компания, специализирующаяся на аренде и лизинге легковых автомобилей и грузовых автомобилей малой грузоподъемности. Компания хорошо себя зарекомендовала и пользуется спросом. Головное юридическое лицо находится в городе Минске и зарегистрировано в 2022 году. Выпустила свое предложение для каршеринга под таким же названием, что и сама компания] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [A company specializing in the rental and leasing of passenger cars and light-duty trucks. The company has proven itself well and is in demand. The head legal entity is located in the city of Minsk and was registered in 2022. Has released its offer for carsharing under the same name as the company itself]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+Minsk
+=> nrel_main_idtf:
+    [Минск]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Minsk]
+    (* <- lang_en;; *);;
+
+unknown
+=> nrel_main_idtf:
+    [Неизвестен]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Unknown]
+    (* <- lang_en;; *);;
+
+IOS
+=> nrel_main_idtf:
+    [IOS]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [IOS]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [ Мобильная операционная система для смартфонов, электронных планшетов, носимых проигрывателей, разрабатываемая и выпускаемая американской компанией Apple. Выпущена в 2007 году; первоначально — для iPhone и iPod touch, позже — для таких устройств, как iPad. В 2014 году появилась поддержка автомобильных мультимедийных систем Apple CarPlay. В отличие от Android, выпускается только для устройств, производимых фирмой Apple.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Mobile operating system for smartphones, electronic tablets, wearable players, developed and produced by the American company Apple. Released in 2007; initially — for iPhone and iPod touch, later — for devices such as iPad. In 2014, support for Apple CarPlay car multimedia systems appeared. Unlike Android, it is available only for devices manufactured by Apple.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+Android
+=> nrel_main_idtf:
+    [Android]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Android]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [ Операционная система для смартфонов, планшетов, электронных книг, цифровых проигрывателей, наручных часов, фитнес-браслетов, игровых приставок, ноутбуков, нетбуков, смартбуков, очков Google Glass, телевизоров, проекторов и других устройств. Изначально разрабатывалась компанией Android, Inc., которую затем приобрела Google. Основана на ядре Linux и собственной реализации виртуальной машины Java компании Google. Впоследствии Google инициировала создание альянса Open Handset Alliance , который занимается поддержкой и дальнейшим развитием платформы.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [An operating system for smartphones, tablets, e-books, digital players, wristwatches, fitness bracelets, game consoles, laptops, netbooks, smartbooks, Google Glass glasses, televisions, projectors and other devices. It was originally developed by Android, Inc., which was then acquired by Google. It is based on the Linux kernel and Google's own implementation of the Java Virtual Machine. Subsequently, Google initiated the creation of the Open Handset Alliance, which is engaged in the support and further development of the platform.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+
+all_language
+=> nrel_main_idtf:
+    [Все языки]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [All language]
+    (* <- lang_en;; *);;
+
+ru_language
+=> nrel_main_idtf:
+    [Русский язык]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Russian language]
+    (* <- lang_en;; *);;
+    
+en_language
+=> nrel_main_idtf:
+    [Английский язык]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [English language]
+    (* <- lang_en;; *);;
+
+use
+=> nrel_main_idtf:
+    [Использует]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Use]
+    (* <- lang_en;; *);;
+    
+not_use
+=> nrel_main_idtf:
+	[Не использует]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Not use]
+	(* <- lang_en;; *);;
+	

@@ -1,0 +1,44 @@
+call_of_duty_mobile
+
+=> nrel_main_idtf:
+    [Игра в жанре королевская битва CALL OF DUTY: MOBILE]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Battle Royale game CALL OF DUTY: MOBILE]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//images/codm.jpg"
+            (*
+                =>nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Опр. (CALL OF DUTY: MOBILE)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [CALL OF DUTY: MOBILE — В популярном шутере Activision «Королевская битва» 
+            представлена отдельным игровым режимом. Бойцы смогут выбрать для себя подходящий класс и камеру, 
+            после чего останется десантироваться с вертолета в наиболее выгодную область, вооружиться там как 
+            следует и приступить к ликвидации неугодных. Нужно сказать, что COD: Mobile с ее достойной картинкой 
+            недурно оптимизирована, а для слабых устройств предусмотрена упрощенная графика. Так что никакие фризы и 
+            вылеты, при условии, конечно, что игровой девайс все таки отвечает минимальным требованиям проекта, 
+            не помешают вам стать королем арены.] (* <-lang_ru;; *);;
+        *);;
+    *);
+    
+
+    =>nrel_view: first_and_third_face;
+    =>nrel_type_of_game: multiplayer;
+    =>nrel_have_donate: have;
+    =>nrel_graphic: realistic;
+    =>nrel_graphic_style: 3D;
+    =>rrel_genre: battle_royale;
+    -> rrel_developer: Activision;
+    => nrel_supported_platform: Android;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_language: all_language;;

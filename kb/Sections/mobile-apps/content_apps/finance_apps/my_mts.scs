@@ -1,0 +1,49 @@
+my_mts
+
+	=> nrel_main_idtf:
+	    [Приложение провайдера мобильной связи Мой МТС]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Mobile connection providers' app My MTS]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//my_mts.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Мой МТС] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [«Мой МТС» — приложение для абонентов МТС Беларусь. 
+		    Установите приложение на свой смартфон или планшет, и все данные вашего 
+		    персонального счёта всегда будут у вас под рукой. Мой МТС» позволяет 
+		    подключать любое количество номеров и управлять ими, следить за балансом счёта, 
+		    контролировать остатки трафика, «Открытого интернета», минут и SMS, 
+		    просматривать историю платежей;] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    => rrel_section: mobile_provider;
+	    => nrel_have_donate: dont_have;
+	    => nrel_size: 88_mb;
+	    => nrel_internet_connection: require;
+	    => nrel_live_technical_support: chat_messenger;
+	    => nrel_services: balance_view;
+	    => nrel_services: tariff_change;
+	    => nrel_services: special_offers_and_discounts_view;
+	    => nrel_services: history_of_payments_check;
+	    => nrel_services: connection_and_disconnection_of_services;
+	    -> rrel_developer: Mobile_Telesystems_JLLC;
+	    -> nrel_supported_platform: Android;
+	    -> nrel_supported_platform: IOS;
+	    -> rrel_supported_language: ru_language;
+	    -> nrel_supported_language: en_language;
+	    -> nrel_use_of_personal_data: use;;

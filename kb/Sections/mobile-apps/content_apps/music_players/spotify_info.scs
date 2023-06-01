@@ -1,0 +1,27 @@
+section_spotify_tarifs
+=> nrel_main_idtf:
+        [Тарифы сервиса Spotify]
+        (* <- lang_ru;; *);
+    ->tariff_Individual_sp;
+    ->tariff_Duo_sp;
+    ->tariff_Family_sp;
+    ->tariff_Student_sp;;
+
+tariff_Individual_sp
+    =>nrel_main_idtf:[Individual] (*<-lang_ru;;*);
+    ->rrel_usd_per_month:9.99;;
+
+
+tariff_Duo_sp
+    =>nrel_main_idtf:[Duo] (*<-lang_ru;;*);
+    ->rrel_usd_per_month:12.99;;
+
+
+tariff_Family_sp
+    =>nrel_main_idtf:[Family] (*<-lang_ru;;*);
+    ->rrel_usd_per_month:15.99;;
+
+
+tariff_Student_sp
+    =>nrel_main_idtf:[Student] (*<-lang_ru;;*);
+    ->rrel_usd_per_month:4.99;;

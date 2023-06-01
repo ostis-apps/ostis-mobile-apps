@@ -1,0 +1,45 @@
+ffvii_the_first_soldier
+
+=> nrel_main_idtf:
+    [Игра в жанре королевская битва FFVII THE FIRST SOLDIER]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Battle Royale game FFVII THE FIRST SOLDIER]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//images/ffvii.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Опр. (FFVII THE FIRST SOLDIER)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [FFVII THE FIRST SOLDIER - это «королевская битва», действие которой происходит за тридцать 
+            лет до событий Final Fantasy VII в городе Мидгард. Игроки должны сражаться между собой за привилегию стать 
+            первым рекрутом организации, к которой принадлежит Клауд.
+            Принцип работы Final Fantasy VII The First Soldier заключается в объединении основных игровых возможностей, 
+            которые вы видели почти во всех наиболее популярных играх жанра, таких как PUBG Mobile, Fortnite, Free Fire 
+            и Creative Destruction, с другими более традиционными элементами жанра MOBA, такими как враги, возрождающиеся 
+            на карте, магия, специальные способности и даже возможность призывать союзников. В результате у Square Enix получился 
+            поистине уникальный мобильный проект, да еще и по такой знаковой вселенной.] (* <-lang_ru;; *);;
+        *);;
+    *);
+    
+
+    =>nrel_view: third_face;
+    =>nrel_type_of_game: multiplayer;
+    =>nrel_have_donate: have;
+    =>nrel_graphic: anime;
+    =>nrel_graphic_style: 3D;
+    =>rrel_genre: battle_royale;
+    -> rrel_developer: Square_Enix;
+    => nrel_supported_platform: Android;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_language: all_language;;

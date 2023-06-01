@@ -1,0 +1,32 @@
+spotify
+
+=>nrel_main_idtf:[Музыкальный плеер Spotify]
+    (*
+         <-lang_ru;;
+    *);
+=>nrel_main_idtf:[Music Player Spotify]
+    (*
+         <-lang_en;;
+    *);
+
+
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//logo_spotify.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    -> rrel_developer: Spotify_Company;
+    -> rrel_supported_platform: IOS;
+    -> rrel_supported_platform: Android;
+    ->rrel_supported_language: all_language;
+    ->nrel_use_of_personal_data: use;
+    ->nrel_tariffs: section_spotify_tarifs;
+    => nrel_supported_countries: Belarus;
+    => nrel_supported_countries: USA;
+    => nrel_supported_countries: Iceland;
+    => nrel_supported_countries: Canada;
+    => nrel_supported_countries: Kazakhstan;;

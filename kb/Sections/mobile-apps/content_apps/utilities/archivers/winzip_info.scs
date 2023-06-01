@@ -1,0 +1,14 @@
+section_winzip_formats
+=> nrel_main_idtf:
+        [Поддерживаемые форматы WinZip]
+        (* <- lang_ru;; *);
+    ->ZIPX;
+    ->RAR;
+    ->ZIP;
+    ->TAR;
+    ->GZ;
+    ->BZ2;
+    ->XZ;
+    ->7z;
+    ->ISO;
+    ->ARJ;;

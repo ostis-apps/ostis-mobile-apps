@@ -1,0 +1,52 @@
+subject_domain_of_app_for_car_rental
+
+=>nrel_main_idtf:[Предметная область. Приложения для аренды автомобилей]
+    (*
+         <-lang_ru;;
+    *);
+=>nrel_main_idtf:[Subject domain. Apps for car rental]
+    (*
+         <-lang_en;;
+    *);
+<-subject_domain;
+
+->rrel_maximum_studied_object_class:
+    concept_app_for_car_rental_examples;
+
+-> rrel_explored_relation:	
+    nrel_car_park;
+    nrel_tariffs_car;
+    nrel_area_of_action;;
+
+nrel_area_of_action
+=>nrel_main_idtf:[ Места аренды]
+    (*
+         <-lang_ru;;
+    *);
+=>nrel_main_idtf:[Place_of_rental]
+    (*
+         <-lang_en;;
+    *);
+<-sc_node_norole_relation;;
+
+nrel_car_park
+=>nrel_main_idtf:[Автопарк]
+    (*
+         <-lang_ru;;
+    *);
+=>nrel_main_idtf:[Car park]
+    (*
+         <-lang_en;;
+    *);
+<-sc_node_norole_relation;;
+
+nrel_tariffs_car
+=>nrel_main_idtf:[Тарифы для приложений с арендой автомобилей]
+    (*
+         <-lang_ru;;
+    *);
+=>nrel_main_idtf:[Tariffs for apps with car rental]
+    (*
+         <-lang_en;;
+    *);
+<-sc_node_norole_relation;;

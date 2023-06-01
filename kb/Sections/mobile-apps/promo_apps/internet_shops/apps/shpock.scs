@@ -1,0 +1,37 @@
+shpock
+
+=> nrel_main_idtf:
+    [Интернет-магазин Shpock]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Internet shop Shpock]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//images/shpock.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Опр. (Shpock)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Shpock -  это онлайн-рынок, который позволяет пользователям 
+            размещать товары для местной продажи. Shpock разработан и управляется австрийским 
+            стартапом Finderly GmbH, в нем работает 102 человека. Finderly GmbH принадлежит 
+            Russmedia Equity Partners.] (* <-lang_ru;; *);;
+        *);;
+    *);
+    
+
+    -> rrel_country: Austria;
+    => nrel_the_year_of_creation: 2012;
+    => nrel_author: Finderly_GmbH;
+    => nrel_supported_platform: Android;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_language: all_language;;

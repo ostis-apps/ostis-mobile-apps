@@ -1,0 +1,1163 @@
+section_yandex_go_tariff
+    => nrel_main_idtf:
+        [Тарифы сервиса YandexGo]
+        (* <- lang_ru;; *);
+    =>nrel_main_idtf: [YandexGO tariffs] (* <-lang_en;; *);
+    ->tariff_econom;
+    ->tariff_comfort;
+    ->tariff_electro;
+    ->tariff_comfort_plus;
+    ->tariff_child;
+    ->tariff_buisness;
+    ->tariff_express;
+    ->tariff_standart;
+    ->tariff_gruzovoi;;
+
+section_maxim_tariff
+    => nrel_main_idtf:
+        [Тарифы сервиса Maxim]
+        (* <- lang_ru;; *);
+    =>nrel_main_idtf: [Maxim tariffs] (* <-lang_en;; *);
+    ->tariff_econom_m;
+    ->tariff_comfort_m;
+    ->tariff_hour_pay;
+    ->tariff_own_driver;;
+
+section_g10_tariff
+    => nrel_main_idtf:
+        [Тарифы сервиса G10]
+        (* <- lang_ru;; *);
+    =>nrel_main_idtf: [G10 tariffs] (* <-lang_en;; *);    
+    ->tariff_g10;;
+
+section_comandir_tariff
+    => nrel_main_idtf:
+        [Тарифы сервиса Такси Командир]
+        (* <- lang_ru;; *);
+    =>nrel_main_idtf: [Comandir tariffs] (* <-lang_en;; *);
+    ->tariff_in_town_comandir;
+    ->tariff_out_of_town_comandir;;
+
+section_relations
+    => nrel_main_idtf:
+        [Использумые отношения]
+        (* <- lang_ru;; *);
+    =>nrel_main_idtf: [Used relations] (* <-lang_en;; *);
+    ->nrel_type_of_climate_control;
+    ->nrel_V_bagage;
+    ->nrel_have_bluetooth;
+    ->nrel_tariffs;
+    ->nrel_have_autopark;
+    ->nrel_min_pay;
+    ->nrel_free_time;
+    ->nrel_pay_time;
+    ->nrel_price_min;
+    ->nrel_price_km;
+    ->nrel_pay_for_phone;
+    ->nrel_price_km_after_8km;
+    ->rrel_vehicle_park;
+    ->rrel_BYN_per_km;
+    ->rrel_BYN_per_min;
+    ->rrel_minute;
+    ->rrel_BYN;
+    ->rrel_percent;
+    ->rrel_litr;
+    ->nrel_value;;
+
+section_yandex_go_autopark
+    => nrel_main_idtf:
+        [Автомобили]
+        (* <- lang_ru;; *);
+    =>nrel_main_idtf: [Cars] (* <-lang_en;; *);    
+    ->Audi_Q7;
+    ->Skoda_Rapid;
+    ->Hyundai_Solaris;
+    ->Nissan_Almera;
+    ->Volkswagen_Polo;
+    ->Toyota_Camry;
+    ->Volkswagen_Passat;
+    ->Renault_Megane;
+    ->Skoda_Octavia;
+    ->Tesla_Model_S;
+    ->Chevrolet_Bolt;
+    ->Nissan_Leaf;
+    ->Kia_Optima;
+    ->Hyundai_Sonata;
+    ->KIA_Rio;
+    ->Mercedes_Benz_E_class;
+    ->BMW_5;
+    ->Audi_A6;;
+
+section_parametrs
+    => nrel_main_idtf:
+        [Параметры]
+        (* <- lang_ru;; *);
+    =>nrel_main_idtf: [Parametrs] (* <-lang_en;; *);
+    ->0.13_BYN_per_min;
+    ->0.25_BYN_per_min;
+    ->0.3_BYN_per_min;
+    ->0.16_BYN_per_min;
+    ->0.25_BYN_per_min;
+    ->0.5_BYN_per_min;
+    ->0.2_BYN_per_min;
+    ->0.1_BYN_per_min;
+    ->1_BYN_per_min;
+    ->3_minute;
+    ->10_minute;
+    ->2.5_BYN;
+    ->3.1_BYN;
+    ->3.2_BYN;
+    ->4_BYN;
+    ->5_BYN;
+    ->4.5_BYN;
+    ->3.5_BYN;
+    ->2.6_BYN;
+    ->5.7_BYN;
+    ->10_BYN;
+    ->13_BYN;
+    ->6_percent;
+    ->0.5_BYN_per_km;
+    ->0.45_BYN_per_km; 
+    ->0.9_BYN_per_km;
+    ->0.7_BYN_per_km;
+    ->0.6_BYN_per_km;
+    ->0.42_BYN_per_km;
+    ->0.4_BYN_per_km;;
+
+
+
+tariff_in_town_comandir
+    => nrel_main_idtf:
+        [Тариф "В черте города"]
+        (* <- lang_ru;; *);
+    =>nrel_main_idtf: [Tariff "In the city"] (* <-lang_en;; *);
+    =>nrel_min_pay: 5_BYN;
+    =>nrel_price_km: 0.5_BYN_per_km;
+    =>nrel_pay_time: 0.2_BYN_per_min;;
+
+tariff_out_of_town_comandir
+    => nrel_main_idtf:
+        [Тариф "За чертой города"]
+        (* <- lang_ru;; *);
+    =>nrel_main_idtf: [Tariff "Outside the city"] (* <-lang_en;; *);    
+    =>nrel_min_pay: 4_BYN;
+    =>nrel_price_km: 0.85_BYN_per_km;
+    =>nrel_pay_time: 0.2_BYN_per_min;;
+
+tariff_g10
+    => nrel_main_idtf:
+        [Тариф "10 BYN" входит 20 км]
+        (* <- lang_ru;; *);
+    =>nrel_main_idtf: [Tariff "10 BYN" include 20 km] (* <-lang_en;; *);
+    =>nrel_min_pay: 10_BYN;
+    =>nrel_price_km: 0.9_BYN_per_km;;
+
+tariff_econom_m
+    =>nrel_main_idtf: [Тариф "Эконом"] (* <-lang_ru;; *);
+    =>nrel_main_idtf: [Tariff "Econom"] (* <-lang_en;; *);
+    =>nrel_min_pay: 4.4_BYN;
+    =>nrel_free_time: 3_minute;
+    =>nrel_pay_time: 0.15_BYN_per_min;
+    =>nrel_price_km: 0.75_BYN_per_km;;
+
+tariff_comfort_m
+    =>nrel_main_idtf: [Тариф "Комфорт"] (* <-lang_ru;; *);
+    =>nrel_main_idtf: [Tariff "Comfort"] (* <-lang_en;; *);
+    =>nrel_min_pay: 5.3_BYN;
+    =>nrel_free_time: 3_minute;
+    =>nrel_pay_time: 0.15_BYN_per_min;
+    =>nrel_price_km: 0.85_BYN_per_km;;
+
+tariff_hour_pay
+    =>nrel_main_idtf: [Тариф "Почасовая оплата"] (* <-lang_ru;; *);
+    =>nrel_main_idtf: [Tariff "Hourly payment"] (* <-lang_en;; *);
+    =>nrel_min_pay: 5.5_BYN;
+    =>nrel_free_time: 3_minute;
+    =>nrel_price_min: 0.18_BYN_per_min;
+    =>nrel_price_km: 0.75_BYN_per_km;;
+
+tariff_own_driver
+    =>nrel_main_idtf: [Тариф "Личный водитель"] (* <-lang_ru;; *);
+    =>nrel_main_idtf: [Tariff "Personal driver"] (* <-lang_en;; *);
+    =>nrel_min_pay: 9_BYN;
+    =>nrel_free_time: 3_minute;
+    =>nrel_pay_time: 0.15_BYN_per_min;
+    =>nrel_price_km: 1.2_BYN_per_km;;
+
+
+tariff_econom
+    =>nrel_main_idtf: [Тариф "Эконом"] (* <-lang_ru;; *);
+    =>nrel_main_idtf: [Tariff "Econom"] (* <-lang_en;; *);
+    =>nrel_min_pay: 2.5_BYN;
+    =>nrel_free_time: 3_minute;
+    =>nrel_pay_time: 0.25_BYN_per_min;
+    =>nrel_price_min: 0.13_BYN_per_min;
+    =>nrel_price_km: 0.4_BYN_per_km;
+    =>nrel_vehicle_park:
+        Skoda_Rapid;
+        Hyundai_Solaris;
+        Nissan_Almera;
+        Volkswagen_Polo;;
+
+tariff_comfort
+    =>nrel_main_idtf: [Тариф "Комфорт"] (* <-lang_ru;; *);
+    =>nrel_main_idtf: [Tariff "Comfort"] (* <-lang_en;; *);
+    =>nrel_min_pay: 3.1_BYN;
+    =>nrel_free_time: 3_minute;
+    =>nrel_pay_time: 0.3_BYN_per_min;
+    =>nrel_price_min: 0.16_BYN_per_min;
+    =>nrel_price_km: 0.5_BYN_per_km;
+    =>nrel_vehicle_park:
+        Toyota_Camry;
+        Volkswagen_Passat;
+        Renault_Megane;
+        Skoda_Octavia;;
+
+tariff_electro
+    =>nrel_main_idtf: [Тариф "Электро"] (* <-lang_ru;; *);
+    =>nrel_main_idtf: [Tariff "Electo"] (* <-lang_en;; *);
+    =>nrel_min_pay: 4.5_BYN;
+    =>nrel_free_time: 3_minute;
+    =>nrel_pay_time: 0.25_BYN_per_min;
+    =>nrel_price_min: 0.1_BYN_per_min;
+    =>nrel_price_km: 0.45_BYN_per_km;
+    =>nrel_pay_for_phone: 6_percent;
+    =>nrel_vehicle_park:
+        Tesla_Model_S;
+        Chevrolet_Bolt;
+        Nissan_Leaf;;
+
+tariff_comfort_plus
+    =>nrel_main_idtf: [Тариф "Комфорт+"] (* <-lang_ru;; *);
+    =>nrel_main_idtf: [Tariff "Comfort+"] (* <-lang_en;; *);
+    =>nrel_min_pay: 3.5_BYN;
+    =>nrel_free_time: 3_minute;
+    =>nrel_pay_time: 0.5_BYN_per_min;
+    =>nrel_price_min: 0.2_BYN_per_min;
+    =>nrel_price_km: 0.6_BYN_per_km;
+    =>nrel_vehicle_park:
+        Toyota_Camry;
+        Kia_Optima;
+        Hyundai_Sonata;;
+
+tariff_child
+    =>nrel_main_idtf: [Тариф "Детский"] (* <-lang_ru;; *);
+    =>nrel_main_idtf: [Tariff "Child"] (* <-lang_en;; *);
+    =>nrel_min_pay: 2.6_BYN;
+    =>nrel_free_time: 3_minute;
+    =>nrel_pay_time: 0.3_BYN_per_min;
+    =>nrel_price_min: 0.1_BYN_per_min;
+    =>nrel_price_km: 0.42_BYN_per_km;
+    =>nrel_vehicle_park:
+        Skoda_Octavia;
+        Hyundai_Solaris;
+        KIA_Rio;;
+
+tariff_buisness
+    =>nrel_main_idtf: [Тариф "Бизнес"] (* <-lang_ru;; *);
+    =>nrel_main_idtf: [Tariff "Buisness"] (* <-lang_en;; *);
+    =>nrel_min_pay: 5.7_BYN;
+    =>nrel_free_time: 3_minute;
+    =>nrel_pay_time: 1_BYN_per_min;
+    =>nrel_price_min: 0.3_BYN_per_min;
+    =>nrel_price_km: 0.9_BYN_per_km;
+    =>nrel_pay_for_phone: 6_percent;
+    =>nrel_vehicle_park:
+        Mercedes_Benz_E_class;
+        BMW_5;
+        Audi_A6;;
+
+tariff_express
+    =>nrel_main_idtf: [Тариф "Экспресс"] (* <-lang_ru;; *);
+    =>nrel_main_idtf: [Tariff "Express"] (* <-lang_en;; *);
+    =>nrel_min_pay: 3.2_BYN;
+    =>nrel_free_time: 10_minute;
+    =>nrel_pay_time: 0.25_BYN_per_min;
+    =>nrel_price_min: 0.1_BYN_per_min;
+    =>nrel_price_km: 0.5_BYN_per_km;
+    =>nrel_pay_for_phone: 6_percent;;
+
+tariff_standart
+    =>nrel_main_idtf: [Тариф "Стандарт"] (* <-lang_ru;; *);
+    =>nrel_main_idtf: [Tariff "Standart"] (* <-lang_en;; *);
+    =>nrel_min_pay: 3.1_BYN;
+    =>nrel_free_time: 10_minute;
+    =>nrel_pay_time: 0.25_BYN_per_min;
+    =>nrel_price_km: 0.7_BYN_per_km;
+    =>nrel_price_km_after_8km: 0.9_BYN_per_km;
+    =>nrel_pay_for_phone: 6_percent;;
+
+tariff_gruzovoi
+    =>nrel_main_idtf: [Тариф "Грузовой"] (* <-lang_ru;; *);
+    =>nrel_main_idtf: [Tariff "Cargo"] (* <-lang_en;; *);
+    =>nrel_min_pay: 13_BYN;
+    =>nrel_free_time: 10_minute;
+    =>nrel_pay_time: 0.16_BYN_per_min;
+    =>nrel_price_min: 0.16_BYN_per_min;
+    =>nrel_price_km: 0.5_BYN_per_km;
+    =>nrel_pay_for_phone: 6_percent;;
+
+nrel_type_of_climate_control => nrel_main_idtf: [Тип климат контроля] (* <- lang_ru;; *);
+    => nrel_main_idtf: [Type of climat control] (* <- lang_en;; *);
+    <-sc_node_norole_relation;;
+
+nrel_min_pay =>nrel_main_idtf: [Минимальная стоимость] (* <-lang_ru;; *);
+    => nrel_main_idtf: [Minimal price] (* <- lang_en;; *);
+    <- sc_node_norole_relation;;
+
+nrel_free_time =>nrel_main_idtf: [Бесплатное ожидание] (* <-lang_ru;; *);
+    => nrel_main_idtf: [Free waiting] (* <- lang_en;; *);
+    <- sc_node_norole_relation;;
+
+nrel_pay_time =>nrel_main_idtf: [Платное ожидание] (* <-lang_ru;; *);
+    => nrel_main_idtf: [Paid waiting] (* <- lang_en;; *);
+    <- sc_node_norole_relation;;
+
+nrel_price_min =>nrel_main_idtf: [Дальнейшая стоимость поездки за минуту] (* <-lang_ru;; *);
+    => nrel_main_idtf: [The further cost of the trip per minute] (* <- lang_en;; *);
+    <- sc_node_norole_relation;;
+
+nrel_price_km =>nrel_main_idtf: [Дальнейшая стоимость поездки за киллометр] (* <-lang_ru;; *);
+    => nrel_main_idtf: [The further cost of the trip per kilometer] (* <- lang_en;; *);
+    <- sc_node_norole_relation;;
+
+nrel_pay_for_phone =>nrel_main_idtf: [Надбавка за заказ с помощью телефона] (* <-lang_ru;; *);
+    => nrel_main_idtf: [Extra charge for ordering by phone] (* <- lang_en;; *);
+    <- sc_node_norole_relation;;
+
+nrel_price_km_after_8km =>nrel_main_idtf: [Цена за киллометр после 8 км поездки] (* <-lang_ru;; *);
+    => nrel_main_idtf: [Price per kilometer after an 8 km trip] (* <- lang_en;; *);
+    <- sc_node_norole_relation;;
+
+nrel_vehicle_park => nrel_main_idtf: [Автопарк] (* <- lang_ru;; *);
+    => nrel_main_idtf: [Auto park] (* <- lang_en;; *);
+    <- sc_node_norole_relation;;
+
+nrel_tariff => nrel_main_idtf: [Тарифы сервиса] (* <-lang_ru;;*);
+    => nrel_main_idtf: [Service rates] (* <- lang_en;; *);
+    <- sc_node_norole_relation;;
+
+nrel_have_autopark => nrel_main_idtf: [Наличие собственного автопарка] (* <-lang_ru;;*);
+    => nrel_main_idtf: [Having own fleet of vehicles] (* <- lang_en;; *);
+    <- sc_node_norole_relation;;
+
+nrel_V_bagage
+    => nrel_main_idtf:
+        [Объём багажника]
+        (* <- lang_ru;; *);
+    => nrel_main_idtf:
+        [Trunk volume]
+        (* <- lang_en;; *);
+    <-sc_node_norole_relation;;
+
+nrel_have_bluetooth
+    => nrel_main_idtf:
+        [Bluetooth]
+        (* <- lang_ru;; *);
+    => nrel_main_idtf:
+        [Bluetooth]
+        (* <- lang_en;; *);
+    <-sc_node_norole_relation;;
+
+
+
+rrel_litr
+=> nrel_main_idtf:
+    [Литр]
+    (* <- lang_ru;; *);
+ => nrel_main_idtf:
+    [Liter]
+    (* <- lang_en;; *);   
+    <- sc_node_role_relation;;
+
+rrel_BYN_per_km
+=> nrel_main_idtf:
+    [BYN/км]
+    (* <- lang_ru;; *);
+ => nrel_main_idtf:
+    [BYN/km]
+    (* <- lang_en;; *);   
+    <- sc_node_role_relation;;
+
+rrel_BYN_per_min
+=> nrel_main_idtf:
+    [BYN/минута]
+    (* <- lang_ru;; *);
+ => nrel_main_idtf:
+    [BYN/minute]
+    (* <- lang_en;; *);  
+    <- sc_node_role_relation;;
+
+rrel_minute
+=> nrel_main_idtf:
+    [Минута]
+    (* <- lang_ru;; *);
+ => nrel_main_idtf:
+    [Minute]
+    (* <- lang_en;; *);  
+    <- sc_node_role_relation;;
+
+rrel_BYN
+=> nrel_main_idtf:
+    [Byn]
+    (* <- lang_ru;; *);
+ => nrel_main_idtf:
+    [Byn]
+    (* <- lang_en;; *);  
+    <- sc_node_role_relation;;
+
+nrel_value
+=> nrel_main_idtf:
+    [Значение]
+    (* <- lang_ru;; *);
+ => nrel_main_idtf:
+    [Value]
+    (* <- lang_en;; *);  
+    <- sc_node_norole_relation;;
+
+rrel_percent
+=> nrel_main_idtf:
+    [Процент]
+    (* <- lang_ru;; *);
+ => nrel_main_idtf:
+    [Percent]
+    (* <- lang_en;; *);  
+    <- sc_node_role_relation;;
+
+
+
+
+
+Volkswagen_Polo => nrel_main_idtf:
+    [Volkswagen Polo]
+    (* <- lang_ru;; *);
+    => nrel_main_idtf:
+    [Volkswagen Polo]
+    (* <- lang_en;; *);
+
+    =>nrel_have_bluetooth: have;
+    =>nrel_V_bagage: 460l;
+
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//Auto//polo.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;
+
+Hyundai_Solaris => nrel_main_idtf:
+    [Hyundai Solaris]
+    (* <- lang_ru;; *);
+    => nrel_main_idtf:
+    [Hyundai Solaris]
+    (* <- lang_en;; *);
+
+    =>nrel_type_of_climate_control: two_zone;
+    =>nrel_have_bluetooth: have;
+    =>nrel_V_bagage: 370l;
+
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//Auto//hyundai_solaris.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;
+
+Nissan_Almera => nrel_main_idtf:
+    [Nissan Almera]
+    (* <- lang_ru;; *);
+    => nrel_main_idtf:
+    [Nissan Almera]
+    (* <- lang_en;; *);
+
+    =>nrel_have_bluetooth: have;
+    =>nrel_V_bagage: 300l;
+
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//Auto//nissan_almera.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;
+
+Skoda_Rapid => nrel_main_idtf:
+    [Skoda Rapid]
+    (* <- lang_ru;; *);
+    => nrel_main_idtf:
+    [Skoda Rapid]
+    (* <- lang_en;; *);
+
+    =>nrel_type_of_climate_control: two_zone;
+    =>nrel_have_bluetooth: have;
+    =>nrel_V_bagage: 530l;
+
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//Auto//skoda_rapid.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;
+
+Toyota_Camry => nrel_main_idtf:
+    [Toyota Camry]
+    (* <- lang_ru;; *);
+    => nrel_main_idtf:
+    [Toyota Camry]
+    (* <- lang_en;; *);
+
+    =>nrel_type_of_climate_control: three_zone;
+    =>nrel_have_bluetooth: have;
+    =>nrel_V_bagage: 524l;
+
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//Auto//toyota_camry.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;
+
+Volkswagen_Passat => nrel_main_idtf:
+    [Volkswagen Passat]
+    (* <- lang_ru;; *);
+    => nrel_main_idtf:
+    [Volkswagen Passat]
+    (* <- lang_en;; *);
+
+    =>nrel_type_of_climate_control: one_zone;
+    =>nrel_have_bluetooth: have;
+    =>nrel_V_bagage: 639l;
+
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//Auto//volkswagen_passat.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;
+
+Renault_Megane => nrel_main_idtf:
+    [Renault Megane]
+    (* <- lang_ru;; *);
+    => nrel_main_idtf:
+    [Renault Megane]
+    (* <- lang_en;; *);
+
+    =>nrel_have_bluetooth: have;
+    =>nrel_V_bagage: 300l;
+
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//Auto//renault_megane.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;
+
+Skoda_Octavia => nrel_main_idtf:
+    [Skoda Octavia]
+    (* <- lang_ru;; *);
+    => nrel_main_idtf:
+    [Skoda Octavia]
+    (* <- lang_en;; *);
+
+    =>nrel_type_of_climate_control: two_zone;
+    =>nrel_have_bluetooth: have;
+    =>nrel_V_bagage: 368l;
+
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//Auto//skoda_octavia.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;
+
+Tesla_Model_S => nrel_main_idtf:
+    [Tesla Model S]
+    (* <- lang_ru;; *);
+    => nrel_main_idtf:
+    [Tesla Model S]
+    (* <- lang_en;; *);
+
+    =>nrel_type_of_climate_control: two_zone;
+    =>nrel_have_bluetooth: have;
+    =>nrel_V_bagage: 610l;
+
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//Auto//tesla_model_s.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;
+
+Chevrolet_Bolt => nrel_main_idtf:
+    [Chevrolet Bolt]
+    (* <- lang_ru;; *);
+     => nrel_main_idtf:
+    [Chevrolet Bolt]
+    (* <- lang_en;; *);
+
+    =>nrel_type_of_climate_control: one_zone;
+    =>nrel_have_bluetooth: have;
+    =>nrel_V_bagage: 745l;
+
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//Auto//chevrolet_bolt.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;
+
+Nissan_Leaf => nrel_main_idtf:
+    [Nissan Leaf]
+    (* <- lang_ru;; *);
+    => nrel_main_idtf:
+    [Nissan Leaf]
+    (* <- lang_en;; *);
+
+    =>nrel_type_of_climate_control: one_zone;
+    =>nrel_have_bluetooth: have;
+    =>nrel_V_bagage: 462l;
+
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//Auto//nissan_leaf.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;
+
+Kia_Optima => nrel_main_idtf:
+    [Kia Optima]
+    (* <- lang_ru;; *);
+    => nrel_main_idtf:
+    [Kia Optima]
+    (* <- lang_en;; *);
+
+    =>nrel_type_of_climate_control: two_zone;
+    =>nrel_have_bluetooth: have;
+    =>nrel_V_bagage: 305l;
+    
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//Auto//kia_optima.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;
+
+Hyundai_Sonata => nrel_main_idtf:
+    [Hyundai Sonata]
+    (* <- lang_ru;; *);
+    => nrel_main_idtf:
+    [Hyundai Sonata]
+    (* <- lang_en;; *);
+
+    =>nrel_type_of_climate_control: one_zone;
+    =>nrel_have_bluetooth: have;
+    =>nrel_V_bagage: 280l;
+
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//Auto//hyundai_sonata.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;
+
+KIA_Rio => nrel_main_idtf:
+    [Kia Rio]
+    (* <- lang_ru;; *);
+    => nrel_main_idtf:
+    [Kia Rio]
+    (* <- lang_en;; *);
+
+    =>nrel_type_of_climate_control: two_zone;
+    =>nrel_have_bluetooth: have;
+    =>nrel_V_bagage: 270l;
+
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//Auto//kia_rio.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;
+
+Mercedes_Benz_E_class => nrel_main_idtf:
+    [Mercedes Benz E class]
+    (* <- lang_ru;; *);
+     => nrel_main_idtf:
+    [Mercedes Benz E class]
+    (* <- lang_en;; *);
+
+    =>nrel_type_of_climate_control: three_zone;
+    =>nrel_have_bluetooth: have;
+    =>nrel_V_bagage: 280l;
+
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//Auto//mercedes_benz_e_class.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;
+
+BMW_5 => nrel_main_idtf:
+    [BMW 5]
+    (* <- lang_ru;; *);
+    => nrel_main_idtf:
+    [BMW 5]
+    (* <- lang_en;; *);
+
+    =>nrel_type_of_climate_control: three_zone;
+    =>nrel_have_bluetooth: have;
+    =>nrel_V_bagage: 410l;
+
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//Auto//bmw_5.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;
+
+Audi_A6 => nrel_main_idtf:
+    [Audi A6]
+    (* <- lang_ru;; *);
+    => nrel_main_idtf:
+    [Audi A6]
+    (* <- lang_en;; *);
+
+    =>nrel_type_of_climate_control: three_zone;
+    =>nrel_have_bluetooth: have;
+    =>nrel_V_bagage: 390l;
+
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//Auto//audi_a6.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;
+
+Audi_Q7 => nrel_main_idtf:
+    [Audi Q7]
+    (* <- lang_ru;; *);
+    => nrel_main_idtf:
+    [Audi Q7]
+    (* <- lang_en;; *);
+
+    =>nrel_type_of_climate_control: two_zone;
+    =>nrel_have_bluetooth: have;
+    =>nrel_V_bagage: 890l;
+
+     <- rrel_key_sc_element: ... (*
+        <- description;;
+        => nrel_idtf: [Описание] (* <-lang_ru;; *);;
+        => nrel_idtf: [Description] (* <-lang_en;;*);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Нагнетатель: Турбина
+
+                            Объем: 3.0 л
+
+                            Мощность: 245 л.с.
+
+                            Расход: 7,4 л
+
+                            Тип топлива: Дизельное топливо
+
+                            Трансмиссия: АКПП
+
+                            Привод Полный: (4WD)
+
+                            Кол-во мест: 5 мест
+
+                            Кол-во дверей: 5 дверей
+
+                            Клиренс: 180 мм
+                            
+                            По собственному опыту могу заявить, что это один из лучших паркетник из всех.
+                            Хоть и заявлено 5 мест для сидения, но практическим путём было установленно, что могут достаточно удобно поместиться 10 людей.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Dead Cells is an action platformer in which you have to plunge into exciting 
+            2D battles with a huge selection of weapons and skills against ruthless bosses and their minions. Experience 
+            play yourself as a test subject of a failed alchemical experiment and explore the ever-changing and 
+            a sprawling castle in search of clues to all the secrets of the sinister island.]
+            (* <-lang_en;; *);;
+        *);;
+    *);
+
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//Auto//q7.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;
+
+
+890l
+    => nrel_main_idtf: [890 л] (* <-lang_ru;; *);
+    => nrel_main_idtf: [890 l] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_litr: 890;; *);;
+
+460l
+    => nrel_main_idtf: [460 л] (* <-lang_ru;; *);
+    => nrel_main_idtf: [460 l] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_litr: 460;; *);;
+
+370l
+    => nrel_main_idtf: [370 л] (* <-lang_ru;; *);
+    => nrel_main_idtf: [370 l] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_litr: 370;; *);;
+
+300l
+    => nrel_main_idtf: [300 л] (* <-lang_ru;; *);
+    => nrel_main_idtf: [300 l] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_litr: 300;; *);;
+
+530l
+    => nrel_main_idtf: [530 л] (* <-lang_ru;; *);
+    => nrel_main_idtf: [530 l] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_litr: 530;; *);;
+
+524l
+    => nrel_main_idtf: [524 л] (* <-lang_ru;; *);
+    => nrel_main_idtf: [524 l] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_litr: 524;; *);;
+
+639l
+    => nrel_main_idtf: [639 л] (* <-lang_ru;; *);
+    => nrel_main_idtf: [639 l] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_litr: 639;; *);;
+
+368l
+    => nrel_main_idtf: [368 л] (* <-lang_ru;; *);
+    => nrel_main_idtf: [368 l] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_litr: 368;; *);;
+
+610l
+    => nrel_main_idtf: [610 л] (* <-lang_ru;; *);
+    => nrel_main_idtf: [610 l] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_litr: 610;; *);;
+
+745l
+    => nrel_main_idtf: [745 л] (* <-lang_ru;; *);
+    => nrel_main_idtf: [745 l] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_litr: 745;; *);;
+
+462l
+    => nrel_main_idtf: [462 л] (* <-lang_ru;; *);
+    => nrel_main_idtf: [462 l] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_litr: 462;; *);;
+
+305l
+    => nrel_main_idtf: [305 л] (* <-lang_ru;; *);
+    => nrel_main_idtf: [305 l] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_litr: 305;; *);;
+
+280l
+    => nrel_main_idtf: [280 л] (* <-lang_ru;; *);
+    => nrel_main_idtf: [280 l] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_litr: 280;; *);;
+
+270l
+    => nrel_main_idtf: [270 л] (* <-lang_ru;; *);
+    => nrel_main_idtf: [270 l] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_litr: 270;; *);;
+
+410l
+    => nrel_main_idtf: [410 л] (* <-lang_ru;; *);
+    => nrel_main_idtf: [410 l] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_litr: 410;; *);;
+
+390l
+    => nrel_main_idtf: [390 л] (* <-lang_ru;; *);
+    => nrel_main_idtf: [390 l] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_litr: 390;; *);;
+
+0.4_BYN_per_km
+    => nrel_main_idtf: [0.4 BYN/км] (* <-lang_ru;; *);
+    => nrel_main_idtf: [0.4 BYN/km] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_BYN_per_km: 0.4;; *);;
+
+0.9_BYN_per_km
+    => nrel_main_idtf: [0.9 BYN/км] (* <-lang_ru;; *);
+    => nrel_main_idtf: [0.9 BYN/km] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_BYN_per_km: 0.9;; *);;
+
+0.7_BYN_per_km
+    => nrel_main_idtf: [0.7 BYN/км] (* <-lang_ru;; *);
+    => nrel_main_idtf: [0.7 BYN/km] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_BYN_per_km: 0.7;; *);;
+
+0.42_BYN_per_km
+    => nrel_main_idtf: [0.42 BYN/км] (* <-lang_ru;; *);
+    => nrel_main_idtf: [0.42 BYN/km] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_BYN_per_km: 0.42;; *);;
+
+0.6_BYN_per_km
+    => nrel_main_idtf: [0.6 BYN/км] (* <-lang_ru;; *);
+    => nrel_main_idtf: [0.6 BYN/km] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_BYN_per_km: 0.6;; *);;
+
+0.45_BYN_per_km
+    => nrel_main_idtf: [0.45 BYN/км] (* <-lang_ru;; *);
+    => nrel_main_idtf: [0.45 BYN/km] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_BYN_per_km: 0.45;; *);;
+    
+0.5_BYN_per_km
+    => nrel_main_idtf: [0.5 BYN/км] (* <-lang_ru;; *);
+    => nrel_main_idtf: [0.5 BYN/km] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_BYN_per_km: 0.5;; *);;
+
+0.75_BYN_per_km
+    => nrel_main_idtf: [0.75 BYN/км] (* <-lang_ru;; *);
+    => nrel_main_idtf: [0.75 BYN/km] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_BYN_per_km: 0.75;; *);;
+
+0.85_BYN_per_km
+    => nrel_main_idtf: [0.85 BYN/км] (* <-lang_ru;; *);
+    => nrel_main_idtf: [0.85 BYN/km] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_BYN_per_km: 0.85;; *);;
+
+1.2_BYN_per_km
+    => nrel_main_idtf: [1.2 BYN/км] (* <-lang_ru;; *);
+    => nrel_main_idtf: [1.2 BYN/km] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_BYN_per_km: 1.2;; *);;
+
+0.13_BYN_per_min
+    => nrel_main_idtf: [0.13 BYN/мин] (* <-lang_ru;; *);
+    => nrel_main_idtf: [0.13 BYN/min] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_BYN_per_min: 0.13;; *);;
+
+0.25_BYN_per_min
+    => nrel_main_idtf: [0.25 BYN/мин] (* <-lang_ru;; *);
+    => nrel_main_idtf: [0.25 BYN/min] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_BYN_per_min: 0.25;; *);;
+
+0.3_BYN_per_min
+    => nrel_main_idtf: [0.3 BYN/мин] (* <-lang_ru;; *);
+    => nrel_main_idtf: [0.3 BYN/min] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_BYN_per_min: 0.3;; *);;
+
+1_BYN_per_min
+    => nrel_main_idtf: [1 BYN/мин] (* <-lang_ru;; *);
+    => nrel_main_idtf: [1 BYN/min] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_BYN_per_min: 1;; *);;
+
+0.16_BYN_per_min
+    => nrel_main_idtf: [0.16 BYN/мин] (* <-lang_ru;; *);
+    => nrel_main_idtf: [0.16 BYN/min] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_BYN_per_min: 0.16;; *);;
+
+0.25_BYN_per_min
+    => nrel_main_idtf: [0.25 BYN/мин] (* <-lang_ru;; *);
+    => nrel_main_idtf: [0.25 BYN/min] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_BYN_per_min: 0.25;; *);;
+
+0.5_BYN_per_min
+    => nrel_main_idtf: [0.5 BYN/мин] (* <-lang_ru;; *);
+    => nrel_main_idtf: [0.5 BYN/min] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_BYN_per_min: 0.5;; *);;
+
+0.2_BYN_per_min
+    => nrel_main_idtf: [0.2 BYN/мин] (* <-lang_ru;; *);
+    => nrel_main_idtf: [0.2 BYN/min] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_BYN_per_min: 0.2;; *);;
+
+0.1_BYN_per_min
+    => nrel_main_idtf: [0.1 BYN/мин] (* <-lang_ru;; *);
+    => nrel_main_idtf: [0.1 BYN/min] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_BYN_per_min: 0.1;; *);;
+
+0.15_BYN_per_min
+    => nrel_main_idtf: [0.15 BYN/мин] (* <-lang_ru;; *);
+    => nrel_main_idtf: [0.15 BYN/min] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_BYN_per_min: 0.15;; *);;
+
+0.18_BYN_per_min
+    => nrel_main_idtf: [0.18 BYN/мин] (* <-lang_ru;; *);
+    => nrel_main_idtf: [0.18 BYN/min] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_BYN_per_min: 0.18;; *);;
+
+3_minute
+    => nrel_main_idtf: [3 минуты] (* <-lang_ru;; *);
+    => nrel_main_idtf: [3 minute] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_minute: 3;; *);;
+
+10_minute
+    => nrel_main_idtf: [10 минуты] (* <-lang_ru;; *);
+    => nrel_main_idtf: [10 minute] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_minute: 10;; *);;
+
+2.5_BYN
+    => nrel_main_idtf: [2.5 BYN] (* <-lang_ru;; *);
+    => nrel_main_idtf: [2.5 BYN] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_BYN: 2.5;; *);;
+
+4_BYN
+    => nrel_main_idtf: [4 BYN] (* <-lang_ru;; *);
+    => nrel_main_idtf: [4 BYN] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_BYN: 4;; *);;
+
+5_BYN
+    => nrel_main_idtf: [5 BYN] (* <-lang_ru;; *);
+    => nrel_main_idtf: [5 BYN] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_BYN: 5;; *);;
+
+3.1_BYN
+    => nrel_main_idtf: [3.1 BYN] (* <-lang_ru;; *);
+    => nrel_main_idtf: [3.1 BYN] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_BYN: 3.1;; *);;
+
+13_BYN
+    => nrel_main_idtf: [13 BYN] (* <-lang_ru;; *);
+    => nrel_main_idtf: [13 BYN] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_BYN: 13;; *);;
+
+3.2_BYN
+    => nrel_main_idtf: [3.2 BYN] (* <-lang_ru;; *);
+    => nrel_main_idtf: [3.2 BYN] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_BYN: 3.2;; *);;
+
+4.5_BYN
+    => nrel_main_idtf: [4.5 BYN] (* <-lang_ru;; *);
+    => nrel_main_idtf: [4.5 BYN] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_BYN: 4.5;; *);;
+
+3.5_BYN
+    => nrel_main_idtf: [3.5 BYN] (* <-lang_ru;; *);
+    => nrel_main_idtf: [3.5 BYN] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_BYN: 3.5;; *);;
+
+2.6_BYN
+    => nrel_main_idtf: [2.6 BYN] (* <-lang_ru;; *);
+    => nrel_main_idtf: [2.6 BYN] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_BYN: 2.6;; *);;
+
+5.7_BYN
+    => nrel_main_idtf: [5.7 BYN] (* <-lang_ru;; *);
+    => nrel_main_idtf: [5.7 BYN] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_BYN: 5.7;; *);;
+
+4.4_BYN
+    => nrel_main_idtf: [4.4 BYN] (* <-lang_ru;; *);
+    => nrel_main_idtf: [4.4 BYN] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_BYN: 4.4;; *);;
+
+5.3_BYN
+    => nrel_main_idtf: [5.3 BYN] (* <-lang_ru;; *);
+    => nrel_main_idtf: [5.3 BYN] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_BYN: 5.3;; *);;
+
+5.5_BYN
+    => nrel_main_idtf: [5.5 BYN] (* <-lang_ru;; *);
+    => nrel_main_idtf: [5.5 BYN] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_BYN: 5.5;; *);;
+
+9_BYN
+    => nrel_main_idtf: [9 BYN] (* <-lang_ru;; *);
+    => nrel_main_idtf: [9 BYN] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_BYN: 9;; *);;
+
+10_BYN
+    => nrel_main_idtf: [10 BYN] (* <-lang_ru;; *);
+    => nrel_main_idtf: [10 BYN] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_BYN: 10;; *);;
+
+6_percent
+    => nrel_main_idtf: [6%] (* <- lang_ru;; *);
+    => nrel_main_idtf: [6%] (* <-lang_en;; *);
+    => nrel_value:...(* -> rrel_percent: 6;;*);;
+
+have
+=> nrel_main_idtf:
+    [Присутсвует]
+    (* <- lang_ru;; *);
+    => nrel_main_idtf:
+    [Is present]
+    (* <- lang_en;; *);;
+
+not_have => nrel_main_idtf:
+    [Отсутсвует]
+    (* <- lang_ru;; *);
+    => nrel_main_idtf:
+    [Missing]
+    (* <- lang_en;; *);;
+
+one_zone
+=> nrel_main_idtf:
+    [Однозонный]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Single-zone]
+    (* <- lang_en;; *);;
+
+two_zone
+=> nrel_main_idtf:
+    [Двухзонный]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Dual-zone]
+    (* <- lang_en;; *);;
+
+three_zone
+=> nrel_main_idtf:
+    [Трёхзонный]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Three-zone]
+    (* <- lang_en;; *);;
+    
+four_zone
+=> nrel_main_idtf:
+    [Четырёхзонный]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Four-zone]
+    (* <- lang_en;; *);;

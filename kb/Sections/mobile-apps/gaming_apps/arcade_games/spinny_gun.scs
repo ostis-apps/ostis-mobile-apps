@@ -1,0 +1,42 @@
+spinny_gun
+
+	=> nrel_main_idtf:
+	    [Классическая аркадная игра Spinny Gun]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Classic arcade game Spinny Gun]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//spinny_gun.jpg"
+		    (*
+		        =>nrel_format: format_jpg;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Spinny Gun)] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [Spinny Gun – это игра, где вы стреляете из крутящегося пистолета, 
+		    находящегося в центре экрана, и вам нужно поразить все мишени. 
+		    Мишени тоже движутся, поэтому попасть в них будет нелегко.] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    =>nrel_view: side_view;
+	    =>rrel_type_of_game: singleplayer;
+	    =>nrel_have_donate: have;
+	    =>nrel_graphic: cartoon;
+	    =>nrel_graphic_style: 2D;
+	    =>rrel_genre: classic;
+	    =>nrel_internet_connection: dont_require;
+	    -> rrel_developer: Ketchapp;
+	    -> rrel_supported_platform: Android;
+	    -> rrel_supported_platform: IOS;
+	    -> nrel_supported_language: en_language;
+	    -> nrel_use_of_personal_data: use;;

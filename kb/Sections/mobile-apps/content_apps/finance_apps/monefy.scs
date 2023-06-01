@@ -1,0 +1,49 @@
+monefy
+
+	=> nrel_main_idtf:
+	    [Приложение для учёта финансов Monefy]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Financial accounting app Monefy]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//monefy.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Monefy)] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [С приложением Monefy вести финансы станет просто как никогда! 
+		    Вы сможете вести учет доходов и расходов в пару кликов. 
+		    Просто записывайте в приложении все, что покупаете: чашку эспрессо, 
+		    счет за свет, кредит за авто или покупки из супермаркета. Забудьте про утомительное 
+		    заполнение форм, вам нужно только зафиксировать сумму. Ваш кошелек от этого 
+		    только выиграет, ведь экономить куда проще, если можно наглядно посмотреть, на что вы тратите деньги. ] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    => rrel_section: services_for_financial_planning;
+	    => nrel_have_donate: have;
+	    => nrel_size: 9.5_mb;
+ 	    => nrel_internet_connection: dont_require;
+ 	    => nrel_level_of_financial_literacy: low;
+ 	    => nrel_synchronization_with_gadget: have;
+ 	    => nrel_services: income_and_expense_accounting;
+ 	    => nrel_services: financial_structuring;
+ 	    => nrel_services: checks_scanning;
+ 	    => nrel_services: long_time_planning;
+ 	    => nrel_services: family_budget;
+	    -> rrel_developer: Reflectly;
+	    -> nrel_supported_platform: Android;
+	    -> nrel_supported_platform: IOS;
+	    -> nrel_supported_language: all_language;
+	    -> nrel_use_of_personal_data: use;;

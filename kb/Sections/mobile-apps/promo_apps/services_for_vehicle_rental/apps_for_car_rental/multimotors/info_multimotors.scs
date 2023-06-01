@@ -1,0 +1,82 @@
+section_multimotors_car_park
+ => nrel_main_idtf:
+        [Автомобили]
+    (* <- lang_ru;; *);
+    ->KIA_Rio_X_Line;
+    ->Chevrolet_Cobalt;;
+
+section_tariffs_multimotors
+   => nrel_main_idtf:
+        [Тарифы сервиса Multimotors]
+        (* <- lang_ru;; *);
+    ->tariff_minuts_and_kilometers;
+    ->tariff_drive_10;
+    ->tariff_drive_20;
+    ->tariff_30_minut;
+    ->tariff_1_hour;
+    ->tariff_2_hours;
+    ->tariff_minuts;;
+
+Chevrolet_Cobalt
+    =>nrel_main_idtf:[Chevrolet Cobalt] (*<-lang_ru;;*);
+    =>nrel_min_age: 18_years;
+    =>nrel_minut: 34_cop;
+    =>nrel_minuts_and_kilometers: 17;
+    =>nrel_minuts_and_kilometers_for_1_km: 34_cop_per_km;
+    =>nrel_drive_10: 350_cop_per_5_km;
+    =>nrel_drive_10_for_1_km: 40_cop_per_km;
+    =>nrel_drive_20: 7_byn_per_10_km;
+    =>nrel_drive_20_for_1_km:40_cop_per_km;
+    =>nrel_30_minut: 170_cop_per_30_min;
+    =>nrel_30_minut_for_1_km: 68_cop_per_km;
+    =>nrel_1_hour: 340_cop_per_1_hour;
+    =>nrel_1_hour_for_1_km: 68_cop_per_km;
+    =>nrel_2_hours: 670_cop_per_2_hours;
+    =>nrel_2_hours_for_1_km: 68_cop_per_km;
+    =>nrel_bodywork:sedan;
+    =>nrel_kpp: akpp;
+    =>nrel_power: 100_ls;
+    =>nrel_actuator: front;
+    =>nrel_V_fuel: 50_l;
+    =>nrel_V_back: 550_l;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//Cobalt.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;
+
+KIA_Rio_X_Line
+    =>nrel_main_idtf:[KIA Rio X Line] (*<-lang_ru;;*);
+    =>nrel_min_age: 18_years;
+    =>nrel_minut: 34_cop;
+    =>nrel_minuts_and_kilometers: 17_cop;
+    =>nrel_minuts_and_kilometers_for_1_km: 34_cop;
+    =>nrel_drive_10: 350_cop_per_5_km;
+    =>nrel_drive_10_for_1_km: 40_cop_per_km;
+    =>nrel_drive_20: 7_byn_per_10_km;
+    =>nrel_drive_20_for_1_km:40_cop_per_km;
+    =>nrel_30_minut: 170_cop_per_30_min;
+    =>nrel_30_minut_for_1_km: 68_cop_per_km;
+    =>nrel_1_hour: 340_cop_per_1_hour;
+    =>nrel_1_hour_for_1_km: 68_cop_per_km;
+    =>nrel_2_hours: 670_cop_per_2_hours;
+    =>nrel_2_hours_for_1_km: 68_cop_per_km;
+    =>nrel_bodywork:wagon;
+    =>nrel_kpp: akpp;
+    =>nrel_power: 100_ls;
+    =>nrel_actuator: front;
+    =>nrel_V_fuel: 50_l;
+    =>nrel_V_back: 390_l;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//XLine.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);;

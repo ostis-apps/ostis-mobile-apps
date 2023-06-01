@@ -1,0 +1,35 @@
+whoosh
+=>nrel_main_idtf:[Приложениe для аренды электросамоката Whoosh]
+    (*
+         <-lang_ru;;
+    *);
+=>nrel_main_idtf:[App for electro scooter rental Whoosh]
+    (*
+         <-lang_en;;
+    *);
+
+
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//logo.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    -> rrel_developer: WSH_Mobility;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_platform: Android;
+    => nrel_supported_language: ru_language;
+    => nrel_use_of_personal_data: use;
+    => nrel_electro_park: section_whoosh_park;
+    => nrel_tariffs_scooter: section_tariffs_whoosh;
+    =>nrel_area_of_action: Minsk;
+    =>nrel_area_of_action: Batumi;
+    =>nrel_area_of_action: Astana;
+    =>nrel_area_of_action: Karaganda;
+    =>nrel_area_of_action: Almaty;
+    =>nrel_area_of_action: Tashkent;
+    =>nrel_area_of_action: Belgrad;
+    =>nrel_area_of_action: Tbilisi;;

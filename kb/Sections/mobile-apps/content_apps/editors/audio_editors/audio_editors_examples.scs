@@ -1,0 +1,16 @@
+concept_audio_editors_examples
+=> nrel_main_idtf:
+    [Аудиоредакторы]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Audio editors]
+    (* <- lang_en;; *);
+    
+-> fl_studio_mobile;
+-> audiolab_audio_editor;
+-> bandlab;
+-> voloco;
+-> n_track_studio;
+-> rap_fame;
+-> voice_changer;
+-> wave_editor;;

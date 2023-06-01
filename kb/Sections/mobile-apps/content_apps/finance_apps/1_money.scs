@@ -1,0 +1,47 @@
+1_money
+
+	=> nrel_main_idtf:
+	    [Приложение для учёта финансов 1Money]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Financial accounting app 1Money]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//1_money.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (1Money] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [Приложение 1Money покажет вам, на что, на самом деле, 
+		    Вы тратите деньги. Зачастую, учет финансов занятие не из приятных и 
+		    требует конкретных навыков и умений, вот почему мы разработали это финансовое приложение. 
+		    Оно позволит вам легко вести учет расходов и доходов, составлять семейный бюджет, 
+		    поможет быстрее рассчитаться с долгами, делать сбережения денег и 
+		    достигать ваши финансовые цели. Ведите учет затрат по-новому! ] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    => rrel_section: services_for_financial_planning;
+	    => nrel_have_donate: have;
+	    => nrel_size: 11_mb;
+ 	    => nrel_internet_connection: dont_require;
+ 	    => nrel_level_of_financial_literacy: low;
+ 	    => nrel_synchronization_with_gadget: have;
+ 	    => nrel_services: income_and_expense_accounting;
+ 	    => nrel_services: financial_structuring;
+ 	    => nrel_services: family_budget;
+ 	    => nrel_services: integration_with_electronic_wallets;
+	    -> rrel_developer: PixelRush;
+	    -> nrel_supported_platform: Android;
+	    -> nrel_supported_language: all_language;
+	    -> nrel_use_of_personal_data: use;;

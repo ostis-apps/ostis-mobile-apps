@@ -1,0 +1,43 @@
+drive_ahead
+
+	=> nrel_main_idtf:
+	    [Аркадная игра на машинах с элементами файтинга Drive Ahead]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Arcade game on cars with elements of fighting Drive Ahead]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//drive_ahead.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Drive Ahead)] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [Drive Ahead — это гладиаторская бои на тачках. 
+		    Разнеси своих друзей в пух и прах, разбивая их шлемы целым набором тачек, 
+		    от грузовиков-монстров до инопланетных НЛО! Ты потеряешь чувство времени, 
+		    разбивая шлемы противников на сотнях драндулетов на сотнях уровней, наполненных кошмарными авариями!] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    =>nrel_view: third_face;
+	    =>rrel_type_of_game: single_and_multiplayer;
+	    =>nrel_have_donate: have;
+	    =>nrel_graphic: primitive;
+	    =>nrel_graphic_style: 2D;
+	    =>rrel_genre: fighting;
+	    =>nrel_internet_connection: require;
+	    -> rrel_developer: Dodreams_Ltd.;
+	    -> rrel_supported_platform: Android;
+	    -> rrel_supported_platform: IOS;
+	    -> nrel_supported_language: all_language;
+	    -> nrel_use_of_personal_data: use;;

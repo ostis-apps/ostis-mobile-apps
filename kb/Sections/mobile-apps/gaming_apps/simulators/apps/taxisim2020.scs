@@ -1,0 +1,41 @@
+taxisim2020
+    => nrel_main_idtf:
+        [Симулятор водителя такси Taxi Sim 2020]
+        (* <- lang_ru;; *);
+    => nrel_main_idtf:
+        [Taxi driver simulator Taxi Sim 2020]
+        (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <- description;;
+        => nrel_idtf: [Описание] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Taxi Sim 2020 заставит вас почувствовать себя водителем такси,
+            выполняющим различные задания на просторах мегаполиса. Вам будут доступны более трех десятков различных автомобилей,
+            причем новые машины в игру добавляются регулярно. На авто вы будете разъезжать по Нью-Йорку, Майами, 
+            Риму и другим крупным мировым столицам. Свой стиль вождения придется постоянно адаптировать, 
+            ведь клиенты бывают разные. Кто-то заботится о своей безопасности и начинает возмущаться, когда водитель едет на красный, 
+            а кому-то нужно просто как можно быстрее добраться до места назначения.] 
+            (* <-lang_ru;; *);;
+        *);;
+    *);
+
+
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://..//Photo//taxisim2020.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+
+    ->rrel_developer: OvidiuPop;
+    =>nrel_view: third_face;
+    =>nrel_type_of_game: singleplayer;
+    =>nrel_have_donate: have;
+    =>nrel_graphic: advanced;
+    =>nrel_graphic_style: 3D;
+    =>nrel_genre: drive_simulator;
+    =>nrel_genre: life_simulator;;

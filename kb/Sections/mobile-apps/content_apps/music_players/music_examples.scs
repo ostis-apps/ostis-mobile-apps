@@ -1,0 +1,19 @@
+concept_app_music_players
+=> nrel_main_idtf: 
+    [Мобильные приложения Музыкальные плееры] 
+    (* <- lang_ru;; *); 
+=> nrel_main_idtf: 
+    [Mobile apps Music players] 
+    (* <- lang_en;; *); 
+     
+-> spotify;
+->soundcloud;
+->sberzvuk;
+->vk_music;
+->yandex_music;
+->zaycev_net;
+->youtube_music;
+->apple_music;
+->Deezer;
+->bandcamp;
+->google_play_music;;

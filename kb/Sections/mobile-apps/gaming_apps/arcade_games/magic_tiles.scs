@@ -1,0 +1,43 @@
+magic_tiles
+
+	=> nrel_main_idtf:
+	    [Музыкальный скроллер Magic Tiles]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Music scroller Magic Tiles]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//magic_tiles.jpg"
+		    (*
+		        =>nrel_format: format_jpg;;
+		    *);;
+		*);;
+	    *);
+	     <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Magic Tiles)] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [Magic Tiles - это музыкальная аркадная фортепианная игра. 
+		    Все, что вам нужно сделать, это почувствовать музыку и нажать на черные плитки. 
+		    Эта игра с разнообразной музыкой и расслабляющим визуальным оформлением станет 
+		    хорошим выбором для непринужденного времяпрепровождения!] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	   
+	    =>nrel_view: side_view;
+	    =>rrel_type_of_game: singleplayer;
+	    =>nrel_have_donate: have;
+	    =>nrel_graphic: advanced;
+	    =>nrel_graphic_style: 2D;
+	    =>rrel_genre: scroller;
+	    =>nrel_internet_connection: dont_require;
+	    ->rrel_developer: Mofun_Games;
+	    ->rrel_supported_platform: Android;
+	    ->rrel_supported_platform: IOS;
+	    ->rrel_supported_language: all_language;
+	    ->nrel_use_of_personal_data: use;;
+

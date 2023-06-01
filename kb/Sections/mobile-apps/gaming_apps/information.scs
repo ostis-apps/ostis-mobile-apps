@@ -1,0 +1,130 @@
+nrel_genre => nrel_main_idtf:
+    [Жанр]
+    (* <- lang_ru;; *);
+    <- sc_node_norole_relation;;
+
+nrel_graphic => nrel_main_idtf:
+    [Уровень графики]
+    (* <- lang_ru;; *);
+    <- sc_node_norole_relation;;
+
+nrel_have_donate => nrel_main_idtf:
+    [Платный контент]
+    (* <- lang_ru;; *);
+    <- sc_node_norole_relation;;
+
+nrel_type_of_game => nrel_main_idtf:
+    [Тип игры]
+    (* <- lang_ru;; *);
+    <- sc_node_norole_relation;;
+
+nrel_view => nrel_main_idtf:
+    [Вид камеры]
+    (* <- lang_ru;; *);
+    <- sc_node_norole_relation;;
+
+nrel_graphic_style => nrel_main_idtf:
+    [Графический стиль]
+    (* <- lang_ru;; *);
+    <- sc_node_norole_relation;;
+
+nrel_internet_connection => nrel_main_idtf:
+	[Подключение к интернету]
+	(* <- lang_ru;; *);
+	<- sc_node_norole_relation;;
+
+
+
+retro => nrel_main_idtf:
+    [ретро]
+    (* <- lang_ru;; *);;
+
+cartoon => nrel_main_idtf:
+    [мультяшная]
+    (* <- lang_ru;; *);;
+
+anime => nrel_main_idtf:
+    [аниме]
+    (* <- lang_ru;; *);;
+
+advanced => nrel_main_idtf:
+    [продвинутая]
+    (* <- lang_ru;; *);;
+
+primitive => nrel_main_idtf:
+    [примитивная]
+    (* <- lang_ru;; *);;
+
+realistic => nrel_main_idtf:
+    [реалистичная]
+    (* <- lang_ru;; *);;
+
+have => nrel_main_idtf:
+    [имеется]
+    (* <- lang_ru;; *);;
+
+dont_have => nrel_main_idtf:
+    [отсутствует]
+    (* <- lang_ru;; *);;
+
+singleplayer => nrel_main_idtf:
+    [однопользовательская]
+    (* <- lang_ru;; *);;
+
+multiplayer => nrel_main_idtf:
+    [многопользовательская ] 
+    (* <- lang_ru;; *);;
+
+single_and_multiplayer => nrel_main_idtf:
+    [однопользовательская и многопользовательская]
+    (* <- lang_ru;; *);;
+
+first_face => nrel_main_idtf:
+    [от первого лица]
+    (* <- lang_ru;; *);;
+
+third_face => nrel_main_idtf:
+    [от третьего лица]
+    (* <- lang_ru;; *);;
+
+first_and_third_face => nrel_main_idtf:
+    [от первого и третьего лиц]
+    (* <- lang_ru;; *);;
+
+2D => nrel_main_idtf:
+    [2D]
+    (* <- lang_ru;; *);
+    <- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [ 2D (двумерный или двухмерный) – 
+            это любой виртуальный объект, который не имеет глубины 
+            (только высоту и ширину). Например,  изображения на 
+            компьютере это 2D, их можно рассматривать только под 
+            одним углом. ] 
+            (* <-lang_ru;; *);;
+        *);;
+    *);;
+
+3D => nrel_main_idtf:
+    [3D]
+    (* <- lang_ru;; *);
+    <- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [ 3D графика или трёхмерная графика –
+            это один из разделов компьютерной графики, комплекс 
+            приемов и инструментов, которые позволяют создать 
+            объемные объекты при помощи форма и цвета.
+            От двухмерных изображений она отличается тем, что 
+            подразумевает построение геометрической проекции 
+            трехмерной модели сцены (виртуального пространства) на 
+            плоскость, делается это при помощи специализированных программ.
+            Полученная модель может соответствовать объектам реального мира 
+            (например, здание, человек, автомобиль, астероид) или быть 
+            целиком абстрактной (проекция четырехмерного фрактала). ] 
+            (* <-lang_ru;; *);;
+        *);;
+    *);;

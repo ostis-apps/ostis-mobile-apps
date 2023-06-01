@@ -1,0 +1,45 @@
+evoland2
+=> nrel_main_idtf:
+    [Ролевая экшн игра Evoland 2]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Roleplay action game Evoland 2]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <- description;;
+        => nrel_idtf: [Описание] (* <-lang_ru;; *);;
+        => nrel_idtf: [Description] (* <-lang_en;;*);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Evoland 2 — это оригинальная RPG, суть которой в том, что по мере прохождения улучшается не только персонаж, 
+            но и сама игра, превращаясь из пиксельной изометрической RPG в полноценное 3D приключение. Сюжет также завязан на этих путешествиях 
+            по времени и изменении самой игры. На этой странице собрана вся доступная нам информация о Evoland 2. Выход игры IOS, 
+            Android состоялся 28 февраля 2018. Игру можно отнести к таким жанрам как: rpg. Также на этой странице вы найдете описание Evoland 2, 
+            даты выхода на все платформы, её трейлеры, отзывы пользователей, последние новости, статьи и обзоры, оценки посетителей и редакции.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Evoland 2 is an original RPG, the essence of which is that as you progress, not only the character improves,
+            but also the game itself, turning from a pixel isometric RPG into a full-fledged 3D adventure. The plot is also tied to these journeys 
+            by time and change of the game itself. This page contains all the information available to us about Evoland 2. The release of the IOS,
+            Android game took place on February 28, 2018. The game can be attributed to such genres as: rpg. Also on this page you will find a description of Evoland 2, 
+            release dates for all platforms, its trailers, user reviews, latest news, articles and reviews, visitor ratings and editorial staff.]
+            (* <-lang_en;; *);;
+        *);;
+    *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//Photo//evoland2.jpg"
+            (*
+                =>nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+
+    ->rrel_developer: Playdigious;
+    =>nrel_view: third_face;
+    =>nrel_type_of_game: singleplayer;
+    =>nrel_have_donate: have;
+    =>nrel_graphic: primitive;
+    =>nrel_graphic_style: 2D;
+    =>nrel_genre: roleplay;;

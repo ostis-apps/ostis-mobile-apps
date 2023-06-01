@@ -1,0 +1,37 @@
+TUTUZD
+
+=>nrel_main_idtf:[Сервис для покупки билетов ЖД Туту]
+    (*
+         <-lang_ru;;
+    *);
+=>nrel_main_idtf:[Service for buying tickets RW Tutu]
+    (*
+         <-lang_en;;
+    *);
+
+
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//logo_tutu.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+<- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Определение (Tutu)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Больше не нужно открывать десятки сайтов и приложений — в приложении Туту есть всё необходимое для путешествия. Здесь вы можете купить билеты на поезд, самолёт и автобус, а также недорого забронировать отель, хостел или квартиру в аренду. Без регистрации, за пару минут.
+
+Укажите направление и сравнивайте цены на разные виды транспорта, чтобы выбрать самый выгодный вариант. Теперь в вашем телефоне.] (* <-lang_ru;; *);;
+        *);;
+    *);
+    -> rrel_developer: Tutu;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_platform: Android;
+    => nrel_supported_language: all_language;
+    => nrel_use_of_personal_data: use;
+    => nrel_supported_cur: RUB;
+    => nrel_supported_country: Russia;;

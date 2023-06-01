@@ -1,0 +1,38 @@
+ebay
+
+=> nrel_main_idtf:
+    [Интернет-магазин Ebay]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Internet shop Ebay]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//images/ebay.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Опр. (Ebay)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Ebay - американская компания, предоставляющая услуги в 
+            областях интернет-аукционов (основное поле деятельности) и интернет-магазинов. 
+            Веб-сайтом eBay.com и его местными версиями в нескольких странах владела компания 
+            eBay Enterprise, но продала это подразделение в 2015 году частным инвестиционным 
+            компаниям Sterling Partners и Premiera Funds.] (* <-lang_ru;; *);;
+        *);;
+    *);
+    
+
+    -> rrel_country: USA;
+    => nrel_the_year_of_creation: 1995;
+    => nrel_author: Pierre_Omidyar;
+    => nrel_supported_platform: Android;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_language: all_language;;

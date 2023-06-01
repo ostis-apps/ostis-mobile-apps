@@ -1,0 +1,119 @@
+section_parametrs
+    => nrel_main_idtf:
+        [Параметры]
+        (* <- lang_ru;; *);
+        ->free_to_use;
+        ->9.99_per_month;
+        ->12.99_per_month;
+        ->15.99_per_month;
+        ->4.99_per_month;
+        ->7.08_per_month;
+        ->3.49_per_month;
+        ->5.99_per_month;
+        ->8.99_per_month;
+        ->11.99_per_month;
+        ->85_per_year;
+        ->11.99;
+        ->3.49;
+        ->5.99;
+        ->8.99;
+        ->7.19;
+        ->9.99;
+        ->85;
+        ->89;
+        ->159;
+        ->199;
+        ->89;
+        ->12.99;
+        ->15.99;
+        ->4.99;
+        ->7.08;;
+
+9.99_per_month
+    => nrel_main_idtf: [9.99 в месяц] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_usd_per_month: 9.99;; *);;
+
+12.99_per_month
+    => nrel_main_idtf: [12.99 в месяц] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_usd_per_month: 12.99;; *);;
+
+15.99_per_month
+    => nrel_main_idtf: [15.99 в месяц] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_usd_per_month: 15.99;; *);;
+
+4.99_per_month
+    => nrel_main_idtf: [4.99 в месяц] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_usd_per_month: 4.99;; *);;
+
+7.08_per_month
+    => nrel_main_idtf: [7.08 в месяц] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_eur_per_month: 7.08;; *);;
+
+
+3.49_per_month
+    => nrel_main_idtf: [3.49 в месяц] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_usd_per_month: 3.49;; *);;
+
+5.99_per_month
+    => nrel_main_idtf: [5.99 в месяц] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_usd_per_month: 5.99;; *);;
+
+
+8.99_per_month
+    => nrel_main_idtf: [9.99 в месяц] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_usd_per_month: 8.99;; *);;
+
+11.99_per_month
+    => nrel_main_idtf: [11.99 в месяц] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_byn_per_month: 11.99;; *);;
+
+85_per_year
+    => nrel_main_idtf: [85 в год] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_eur_per_year: 85;; *);;
+
+
+89_per_month
+    => nrel_main_idtf: [89 в месяц] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_rub_per_year: 89;; *);;
+
+159_per_month
+    => nrel_main_idtf: [159 в месяц] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_rub_per_year: 159;; *);;
+
+169_per_month
+    => nrel_main_idtf: [169 в месяц] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_rub_per_year: 169;; *);;
+    
+199_per_month
+    => nrel_main_idtf: [199 в месяц] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_rub_per_year: 199;; *);;
+
+free_to_use
+        => nrel_main_idtf: [Бесплатно] (* <-lang_ru;; *);;
+
+not_fixed
+        => nrel_main_idtf: [Нет фиксированной цены] (* <-lang_ru;; *);;
+
+7.19_per_month
+    => nrel_main_idtf: [7.19 в месяц] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_usd_per_month: 7.08;; *);;
+
+rrel_byn_per_month
+        => nrel_main_idtf: [Белорусских рублей в месяц] (* <-lang_ru;; *);;
+
+rrel_usd_per_month
+        => nrel_main_idtf: [Долларов в месяц] (* <-lang_ru;; *);;
+
+
+rrel_rub_per_month
+        => nrel_main_idtf: [Рублей в месяц] (* <-lang_ru;; *);;
+
+rrel_eur_per_month
+        => nrel_main_idtf: [Евро в месяц] (* <-lang_ru;; *);;
+
+free_to_use
+        => nrel_main_idtf: [Бесплатно] (* <-lang_ru;; *);;
+
+not_fixed
+        => nrel_main_idtf: [Нет фиксированной цены] (* <-lang_ru;; *);;
+

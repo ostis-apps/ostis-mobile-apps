@@ -1,0 +1,23 @@
+yandexmaps
+=> nrel_main_idtf:
+    [Yandex карты]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Yandex maps]
+    (* <- lang_en;; *);
+
+    -> rrel_developer: IntertechServicesAG;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_platform: Android;
+    => nrel_supported_language: all_language;
+    =>nrel_use_of_personal_data: use;
+    =>nrel_type_of_information_app: map;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://..//Photo//yandexmaps.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;

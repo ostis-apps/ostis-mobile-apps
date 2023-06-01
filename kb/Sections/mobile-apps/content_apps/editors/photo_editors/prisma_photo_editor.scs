@@ -1,0 +1,47 @@
+prisma_photo_editor
+
+			=> nrel_main_idtf:
+    	[Фоторедактор Prisma Photo Editor]
+    	(* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Photo editor Prisma Photo Editor]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//prisma.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Prisma Photo Editor)] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [Уникальное сочетание нейронных сетей и искусственного интеллекта 
+		    поможет превращать ваши фото в настоящие шедевры. Мы согласны с тем, что большинство фильтров, 
+		    которые превращают фотографии в «рисунки» или «картины», просто ужасны. Но Prisma - исключение.
+		    Prisma Photo Editor бесплатное приложение для редактирования фотографий использует нейронные сети, 
+		    которые позволяют пользователям создавать фотографии так, как будто они были написаны Пикассо, 
+		    Мунком или даже Сальвадором Дали. Попробуйте и вы удивитесь насколько вам понравится. 
+		    В общей сложности вы можете выбрать более 500 творческих фильтров.] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+	    => nrel_possibility_to_export: have;
+	    => nrel_internet_connection: require;	
+	    => nrel_have_donate: have;
+	    => nrel_size: 221_mb;
+	    => nrel_features: use_of_ai;
+	    => nrel_features: deleting_object_from_photo;
+	    => nrel_features: creating_stickers;
+	    => nrel_amount_of_inbuilt_presets: 510;
+	    => nrel_level_of_application: middle;
+	    -> rrel_developer: Prisma_Labs_Inc;
+	    -> rrel_supported_platform: Android;
+	    -> rrel_supported_platform: IOS;
+	    -> nrel_supported_language: all_language;
+	    -> nrel_use_of_personal_data: use;;

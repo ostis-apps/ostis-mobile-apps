@@ -1,0 +1,46 @@
+vsco 
+
+	=> nrel_main_idtf:
+    	[Профессиональный фоторедактор VSCO]
+    	(* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Professional photo editor VSCO]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//vsco.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (VSCO)] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [Как и Instagram, VSCO сочетает в себе фотокамеру, инструменты редактирования и 
+		    общение между пользователями (фактически это тоже соцсеть). 
+		    Важным инструментом в VSCO являются фильтры. Платные фильтры можно бесплатно 
+		    протестировать в течении 7 дней. Если данное приложение вам не зашло, 
+		    отключите тестовую подписку, чтобы не списались деньги за платную версию.] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+	    => nrel_possibility_to_export: have;
+	    => nrel_internet_connection: require;	
+	    => nrel_have_donate: have;
+	    => nrel_size: 154_mb;
+	    => nrel_features: history_of_editing;
+	    => nrel_features: use_of_ai;
+	    => nrel_features: deleting_object_from_photo;
+	    => nrel_features: creating_stickers;
+	    => nrel_amount_of_inbuilt_presets: 210;
+	    => nrel_level_of_application: professional;
+	    -> rrel_developer: VSCO;
+	    -> rrel_supported_platform: Android;
+	    -> rrel_supported_platform: IOS;
+	    -> nrel_supported_language: all_language;
+	    -> nrel_use_of_personal_data: use;;

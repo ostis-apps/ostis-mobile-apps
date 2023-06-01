@@ -1,0 +1,48 @@
+kraken 
+
+	=> nrel_main_idtf:
+	    [Приложение для торговли криптовалютой Kraken]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Crypto trading app Kraken]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//kraken.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Kraken] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [Kraken – это простой, безопасный и надежный способ 
+		    купить криптовалюту, такую ​​как биткойны, эфириум, догикойны и другие. 
+		    Теперь он доступен в простом мобильном приложении для инвестирования и управления вашей учетной записью.
+			Kraken находится в авангарде биткойн-революции с 2011 года и является одной из крупнейших и 
+			старейших биткойн-бирж в мире. Миллионы клиентов по всему миру доверяют Kraken продавать, обменивать и покупать криптовалюту. ] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    => rrel_section: services_for_work_with_cryptocurrencies;
+	    => nrel_have_donate: dont_have;
+	    => nrel_size: 49_mb;
+ 	    => nrel_internet_connection: require;
+ 	    => nrel_real_time_tracking: have;
+ 	    => nrel_amount_of_trading_instruments: 576;
+ 	    => nrel_type_of_commission: trading_commission;
+ 	    => nrel_specific_possibility: indicators;
+ 	    => nrel_specific_possibility: draw_functions;
+ 	    => nrel_specific_possibility: desktop_platforms;
+ 	    => nrel_specific_possibility: web_platforms;
+	    -> rrel_developer: Payward_Inc;
+	    -> nrel_supported_platform: Android;
+	    -> nrel_supported_platform: IOS;
+	    -> nrel_supported_language: en_language;
+	    -> nrel_use_of_personal_data: use;;	

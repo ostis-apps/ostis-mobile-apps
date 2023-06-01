@@ -1,0 +1,41 @@
+concept_of_finance_apps
+=> nrel_main_idtf:
+    [Финансовые приложения]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Finance apps]
+    (* <- lang_en;; *);
+    
+-> prior_online;
+-> belinvestbank;
+-> imbanking;
+-> technomobile;
+-> m_belarusbank;
+-> belagroprombank;
+-> tinkoff_online_bank;
+-> bank_millennium;
+-> sberbank_online;
+-> my_a1;
+-> my_mts;
+-> my_life;
+-> my_tele2;
+-> megafon;
+-> moneon;
+-> coinkeeper;
+-> monefy;
+-> easyfinance;
+-> goodbudget;
+-> acasa;
+-> buddy;
+-> dzen_money;
+-> 1_money;
+-> drebedengi;
+-> spendee;
+-> bybit;
+-> binance;
+-> xt_com;
+-> kraken;
+-> bitfinex;
+-> crypto_com;
+-> bitmex;
+-> currency_com;;

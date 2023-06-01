@@ -1,0 +1,37 @@
+eurotrainsimulator
+    => nrel_main_idtf:
+        [Симулятор управления поездом Euro Train Simulator]
+        (* <- lang_ru;; *);
+    => nrel_main_idtf:
+        [Driving simulator Euro Train Simulator]
+        (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <- description;;
+        => nrel_idtf: [Описание] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Euro Train Simulator - это высококачественная многофункциональная игра-симулятор железной дороги, 
+            охватывающая основные направления в Европе. В дополнение к детализированному окружению игра предлагает пользователям 
+            интуитивно понятный, простой в использовании, совместимый с мобильными устройствами интерфейс, который позволяет управлять 
+            некоторыми из самых известных поездов в мире.] 
+            (* <-lang_ru;; *);;
+        *);;
+    *);
+
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://..//Photo//eurotrainsimulator.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+
+    ->rrel_developer: HighbrowInteractive;
+    =>nrel_view: first_and_third_face;
+    =>nrel_type_of_game: singleplayer;
+    =>nrel_have_donate: have;
+    =>nrel_graphic: advanced;
+    =>nrel_graphic_style: 3D;
+    =>nrel_genre: drive_simulator;;

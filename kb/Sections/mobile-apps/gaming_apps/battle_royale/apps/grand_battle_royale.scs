@@ -1,0 +1,41 @@
+grand_battle_royale
+
+=> nrel_main_idtf:
+    [Игра в жанре королевская битва GRAND BATTLE ROYALE: PIXEL FPS]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Battle Royale game GRAND BATTLE ROYALE: PIXEL FPS]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//images/pixelnoe_yebishche.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Опр. (GRAND BATTLE ROYALE: PIXEL FPS)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [GRAND BATTLE ROYALE: PIXEL FPS - пиксельный клон PUBG, 
+            но с интересной начинкой. В проекте собраны сразу три игровых режима: классический battle royale 
+            в постапокалиптическом городке; режим «прятки», в котором одни игроки пытаются свинтить из здания, 
+            маскируясь под предметы окружения, а другие их отстреливают; и «заражение», где один игрок-зомби 
+            бродит по округе и кусает остальных до победного. Весело, увлекательно и хорошо оптимизировано.] (* <-lang_ru;; *);;
+        *);;
+    *);
+    
+
+    =>nrel_view: third_face;
+    =>nrel_type_of_game: multiplayer;
+    =>nrel_have_donate: have;
+    =>nrel_graphic: primitive;
+    =>nrel_graphic_style: 3D;
+    =>rrel_genre: battle_royale;
+    -> rrel_developer: GameSpire_Ltd;
+    => nrel_supported_platform: Android;
+    => nrel_supported_language: all_language;;

@@ -1,0 +1,15 @@
+concept_of_text_editors
+=> nrel_main_idtf:
+    [Текстовые редакторы]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Text editors]
+    (* <- lang_en;; *);
+    
+-> microsoft_word;
+-> google_drive;
+-> simplenote;
+-> evernote;
+-> quickedit_text_editor;
+-> colornote;
+-> android_web_developer;;

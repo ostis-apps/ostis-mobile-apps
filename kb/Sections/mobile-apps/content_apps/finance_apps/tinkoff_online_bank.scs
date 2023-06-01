@@ -1,0 +1,48 @@
+tinkoff_online_bank
+
+	=> nrel_main_idtf:
+	    [Банковское приложение Tinkoff Online Bank]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Banking app Tinkoff Online Bank]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//tinkoff_online_bank.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Tinkoff Online Bank] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [Мобильное приложение Тинькофф – это полноценный банк, 
+		    который всегда у вас под рукой. Банковские карты, быстрые переводы денег 
+		    с карты на карту без комиссии, оплата картой через телефон, учет расходов и финансов, 
+		    система быстрых платежей, оплата штрафов, квартплаты и других счетов онлайн – все это в одном приложении. ] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    => rrel_section: banking;
+	    => nrel_have_donate: dont_have;
+	    => nrel_size: 121_mb;
+	    => nrel_internet_connection: require;
+	    => nrel_cashback: have;
+	    => nrel_live_technical_support: call_to_bank;
+	    => nrel_inbuilt_exchange_rates: have;
+	    => nrel_services: money_transfers;
+	    => nrel_services: loan_payment;
+	    => nrel_services: deposit_replenishment;
+	    => nrel_services: sms_notification;
+	    => nrel_services: automatic_payment;
+	    => nrel_services: insurance;
+	    -> rrel_developer: Tinkoff_Bank;
+	    -> nrel_supported_platform: Android;
+	    -> nrel_supported_language: ru_language;
+	    -> nrel_use_of_personal_data: use;;

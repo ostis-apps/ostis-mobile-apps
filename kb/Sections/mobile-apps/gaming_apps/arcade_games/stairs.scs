@@ -1,0 +1,43 @@
+stairs
+
+	=> nrel_main_idtf:
+	    [Классическая аркадная игра Stairs]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Classic arcade game Stairs]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//stairs.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Stairs)] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [Игра Stairs  - это динамичный аркадный тайм-киллер для Андроид, 
+		    в рамках которого вам предстоит прыгать по ступенькам, что может и не звучит круто, 
+		    но вы же знаете, эти разработчики могут сделать «круто» практически из любой идеи, 
+		    потому что самое главное — реализация, с которой у них проблем нет никаких.] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    =>nrel_view: first_face;
+	    =>rrel_type_of_game: singleplayer;
+	    =>nrel_have_donate: not_have;
+	    =>nrel_graphic: cartoon;
+	    =>nrel_graphic_style: 3D;
+	    =>rrel_genre: classic;
+	    =>nrel_internet_connection: dont_require;
+	    -> rrel_developer: Ketchapp;
+	    -> rrel_supported_platform: Android;
+	    -> rrel_supported_platform: IOS;
+	    -> nrel_supported_language: all_language;
+	    -> nrel_use_of_personal_data: use;;

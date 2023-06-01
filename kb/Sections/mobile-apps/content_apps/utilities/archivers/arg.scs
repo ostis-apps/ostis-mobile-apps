@@ -1,0 +1,28 @@
+RAR
+    => nrel_main_idtf: [Формат RAR] (* <-lang_ru;; *);;
+ZIP
+    => nrel_main_idtf: [Формат ZIP] (* <-lang_ru;; *);;
+TAR
+    => nrel_main_idtf: [Формат TAR] (* <-lang_ru;; *);;
+GZ
+    => nrel_main_idtf: [Формат GZ] (* <-lang_ru;; *);;
+BZ2
+    => nrel_main_idtf: [Формат BZ2] (* <-lang_ru;; *);;
+XZ
+    => nrel_main_idtf: [Формат XZ] (* <-lang_ru;; *);;
+7z
+    => nrel_main_idtf: [Формат 7z] (* <-lang_ru;; *);;
+ISO
+    => nrel_main_idtf: [Формат ISO] (* <-lang_ru;; *);;
+ARJ
+    => nrel_main_idtf: [Формат ARJ] (* <-lang_ru;; *);;
+B1
+    => nrel_main_idtf: [Формат B1] (* <-lang_ru;; *);;
+ZIPX
+    => nrel_main_idtf: [Формат ZIPX] (* <-lang_ru;; *);;
+7ZIP
+    => nrel_main_idtf: [Формат 7ZIP] (* <-lang_ru;; *);;
+
+
+nrel_supported_formats
+    => nrel_main_idtf: [Поддерживаемые форматы] (* <-lang_ru;; *);;

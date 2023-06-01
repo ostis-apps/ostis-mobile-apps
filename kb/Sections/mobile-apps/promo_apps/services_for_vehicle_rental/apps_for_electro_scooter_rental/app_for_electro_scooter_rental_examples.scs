@@ -1,0 +1,11 @@
+concept_app_for_electro_scooter_rental_examples
+=> nrel_main_idtf:
+    [Мобильные приложения для аренды электросамокатов]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Mobile apps for electro scooter rental]
+    (* <- lang_en;; *);
+    
+->eleven;
+->jet;
+->whoosh;;

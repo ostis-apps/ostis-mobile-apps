@@ -1,0 +1,13 @@
+subject_domain_of_books_and_references
+    =>nrel_main_idtf:[Предметная область книг и справочников] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Subject domain of books and references] (* <-lang_en;;*);
+
+<-subject_domain;
+
+->rrel_maximum_studied_object_class:
+    concept_app_books_and_references;
+
+-> rrel_explored_relation:	
+nrel_is_audio_included;
+
+<-sc_node_norole_relation;;

@@ -1,0 +1,38 @@
+voice_changer
+
+=> nrel_main_idtf:
+    [Аудио-микшер Voice Changer]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Audio mixer Voice Changer]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://photo//voice_changer.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definiton;;
+        => nrel_idtf: [Def. (Voice Changer)] (* <-lang_en;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [This is the best app for changing your voice by applying effects on the audios.
+            It is very simple to use and can generate fantastic and funny effects.] (* <-lang_en;; *);;
+            *);;
+        *);
+    
+
+    => nrel_support_for_various_formats: no;
+    => nrel_have_donate: have;
+    => nrel_set_of_tools_and_effects: small;
+    => nrel_exactingness: not_exacting;
+    => nrel_support_for_multiple_tracks: not_support;
+    -> rrel_developer: AndroidRock;
+    -> rrel_supported_platform: Android;
+    -> rrel_supported_language: en_language;
+    -> nrel_use_of_personal_data: use;;

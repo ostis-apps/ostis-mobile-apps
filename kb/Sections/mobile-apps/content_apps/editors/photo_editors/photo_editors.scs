@@ -1,0 +1,26 @@
+subject_domain_of_photo_editors
+
+=>nrel_main_idtf:[Предметная область. Фоторедакторы]
+    (*
+         <-lang_ru;;
+    *);
+=>nrel_main_idtf:[Subject domain. Photo editors]
+    (*
+         <-lang_en;;
+    *);
+<-subject_domain;
+
+->rrel_maximum_studied_object_class:
+    concept_photo_editors_examples;
+
+-> rrel_explored_relation:
+	nrel_possibility_to_export;
+	nrel_internet_connection;
+	nrel_have_a_donate;
+	nrel_size;
+	nrel_features;
+	nrel_amount_of_inbuilt_presets;
+	nrel_level_of_application;;
+		
+	
+

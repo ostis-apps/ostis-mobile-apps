@@ -1,0 +1,45 @@
+shadowfight4
+=> nrel_main_idtf:
+    [Файтинг Shadow Fight 4: Arena]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Fighting Shadow Fight 4: Arena]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <- description;;
+        => nrel_idtf: [Описание] (* <-lang_ru;; *);;
+        => nrel_idtf: [Description] (* <-lang_en;;*);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [В Shadow Fight 4: Arena вы создаете команду мечты из 3 бойцов, чтобы победить команду противника. 
+            Все герои обладают уникальными улучшаемыми способностями, которые взаимодействуют друг с другом и могут быть повышены. 
+            Выберите правильного бойца, чтобы противостоять тактике противника и выиграть битву! 
+            Управляйте своей героиней Алисой в классических боях и получите боевой опыт консольного уровня на своем мобильном устройстве. 
+            Откройте для себя знаменитую серию игр Shadow Fight, которые были скачаны более 500 миллионов раз.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [In Shadow Fight 4: Arena, you create a dream team of 3 fighters to defeat the opponent's team. 
+            All heroes have unique upgradable abilities that interact with each other and can be leveled up. 
+            Choose the right fighter to counteract the enemys tactic and win the battle! Control your hero like in classical 
+            fighting and get a console-level battle experience on your mobile device. Discover the famous Shadow Fight series 
+            of games that have been downloaded more than 500 million times.]
+            (* <-lang_en;; *);;
+        *);;
+    *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//Photo//shadowfight4.jpg"
+            (*
+                =>nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+
+    ->rrel_developer: NEKKI;
+    =>nrel_view: third_face;
+    =>nrel_type_of_game: single_and_multiplayer;
+    =>nrel_have_donate: have;
+    =>nrel_graphic: realistic;
+    =>nrel_graphic_style: 3D;
+    =>nrel_genre: fighting;;

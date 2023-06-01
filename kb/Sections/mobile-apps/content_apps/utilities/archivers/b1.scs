@@ -1,0 +1,32 @@
+B1
+
+=>nrel_main_idtf:[Архиватор B1]
+    (*
+         <-lang_ru;;
+    *);
+=>nrel_main_idtf:[B1 Archiver zip rar unzip]
+    (*
+         <-lang_en;;
+    *);
+
+
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//logo_b1.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    -> rrel_developer: B1_Group_Software;
+    -> rrel_supported_platform: IOS;
+    -> rrel_supported_platform: Android;
+    ->rrel_supported_language: all_language;
+    ->nrel_use_of_personal_data: use;
+    =>nrel_supported_formats: section_b1_formats;
+    => nrel_supported_countries: Belarus;
+    => nrel_supported_countries: USA;
+    => nrel_supported_countries: Iceland;
+    => nrel_supported_countries: Canada;
+    => nrel_supported_countries: Kazakhstan;;

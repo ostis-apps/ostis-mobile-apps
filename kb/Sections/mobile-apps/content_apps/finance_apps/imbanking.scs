@@ -1,0 +1,51 @@
+imbanking
+
+	=> nrel_main_idtf:
+	    [Банковское приложение i'mbanking]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Banking app i'mbanking]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//imbanking.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (i'mbanking)] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [i'mbanking - это мобильное приложение БНБ-Банка — цифровой банк в вашем смартфоне. 
+		    Лучшее банковское мобильное приложение Беларуси по итогам конкурса «Банк Года - 2021». Здесь легко 
+		    выпускать карточки и открывать вклады, менять валюту и даже брать кредит: 
+		    всё то же, что и в обычном банке, только онлайн и без очередей.] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    => rrel_section: banking;
+	    => nrel_have_donate: dont_have;
+	    => nrel_size: 73_mb;
+	    => nrel_internet_connection: require;
+	    => nrel_cashback: have;
+	    => nrel_live_technical_support: call_to_bank;
+	    => nrel_live_technical_support: chat_messenger;
+	    => nrel_inbuilt_exchange_rates: have;
+	    => nrel_services: money_transfers;
+	    => nrel_services: loan_payment;
+	    => nrel_services: deposit_replenishment;
+	    => nrel_services: linking_another_bank_card;
+	    => nrel_services: sms_notification;
+	    => nrel_services: automatic_payment;
+	    -> rrel_developer: BNB_Bank_OAO;
+	    -> nrel_supported_platform: Android;
+	    -> nrel_supported_platform: IOS;
+	    -> nrel_supported_language: ru_language;
+	    -> nrel_supported_language: en_language;
+	    -> nrel_use_of_personal_data: use;;

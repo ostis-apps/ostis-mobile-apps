@@ -1,0 +1,236 @@
+Ketchapp
+	=>nrel_main_idtf:[Ketchapp]
+	(*
+		<-lang_ru;;
+	*);
+	=>nrel_main_idtf:[Ketchapp]
+	(*
+		<-lang_en;;
+	*);
+	 <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://gaming_apps//arcade_games//photo//ketchapp.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+
+	<- rrel_key_sc_element: ... (*
+		<- definition;;
+		=> nrel_idtf: [Определение] (* <-lang_ru;; *);;
+		=> nrel_idtf: [Definition] (* <-lang_en;; *);;
+		<= nrel_sc_text_translation: ... (*
+			-> rrel_example: [Ketchapp - французский издатель видеоигр, базирующийся в Париже и специализирующийся на рынке мобильных игр. ]
+			(* <-lang_ru;; *);;
+			*);;
+		*);;
+		
+Rovio_Enternainment_Corporation
+	=>nrel_main_idtf:[Rovio Entertainment Corporation]
+	(*
+		<-lang_ru;;
+	*);
+	=>nrel_main_idtf:[Rovio Entertainment Corporation]
+	(*
+		<-lang_en;;
+	*);
+	 <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://gaming_apps//arcade_games//photo//rovio.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+
+	<- rrel_key_sc_element: ... (*
+		<- definition;;
+		=> nrel_idtf: [Определение] (* <-lang_ru;; *);;
+		=> nrel_idtf: [Definition] (* <-lang_en;; *);;
+		<= nrel_sc_text_translation: ... (*
+			-> rrel_example: [Rovio Entertainment или Rovio — финский разработчик компьютерных игр с 
+			офисом в городе Эспоо. Компания была основана в 2003 году как студия разработки мобильных 
+			игр Relude, а в 2005 году была переименована в Rovio.  ]
+			(* <-lang_ru;; *);;
+			*);;
+		*);;
+
+Gameloft_SE
+	=>nrel_main_idtf:[Gameloft SE]
+	(*
+		<-lang_ru;;
+	*);
+	=>nrel_main_idtf:[Gameloft SE]
+	(*
+		<-lang_en;;
+	*);
+	 <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://gaming_apps//arcade_games//photo//gameloft.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+
+	<- rrel_key_sc_element: ... (*
+		<- definition;;
+		=> nrel_idtf: [Определение] (* <-lang_ru;; *);;
+		=> nrel_idtf: [Definition] (* <-lang_en;; *);;
+		<= nrel_sc_text_translation: ... (*
+			-> rrel_example: [Gameloft — издатель и разработчик видеоигр со штаб-квартирой 
+			в Париже и отделениями по всему миру. Компания основана братьями 
+			Гийемо, основателями и владельцами Ubisoft.  ]
+			(* <-lang_ru;; *);;
+			*);;
+		*);;
+		
+Hipster_Whale
+	=>nrel_main_idtf:[Hipster Whale]
+	(*
+		<-lang_ru;;
+	*);
+	=>nrel_main_idtf:[Hipster Whale]
+	(*
+		<-lang_en;;
+	*);
+	 <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://gaming_apps//arcade_games//photo//hipster_whale.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+
+	<- rrel_key_sc_element: ... (*
+		<- definition;;
+		=> nrel_idtf: [Определение] (* <-lang_ru;; *);;
+		=> nrel_idtf: [Definition] (* <-lang_en;; *);;
+		<= nrel_sc_text_translation: ... (*
+			-> rrel_example: [ Hipster Whale - это австралийский независимый разработчик 
+			и издатель видеоигр. Компания была основана 20 ноября 2014 года Энди Сумом и Мэттом Холлом незадолго до создания игры Crossy Road]
+			(* <-lang_ru;; *);;
+			*);;
+		*);;
+		
+Lima_Sky_LLC
+	=>nrel_main_idtf:[Lima Sky LLC]
+	(*	
+		<-lang_ru;;
+	*);
+	=>nrel_main_idtf:[Lima Sky LLC]
+	(*
+		<-lang_en;;
+	*);
+	 <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://gaming_apps//arcade_games//photo//lima_sky.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+
+	<- rrel_key_sc_element: ... (*
+		<- definition;;
+		=> nrel_idtf: [Определение] (* <-lang_ru;; *);;
+		=> nrel_idtf: [Definition] (* <-lang_en;; *);;
+		<= nrel_sc_text_translation: ... (*
+			-> rrel_example: [ Lima Sky — американская компания-разработчик 
+			игр для мобильных платформ. О ней мало что известно. 
+			Lima Sky — создатели пользующегося спросом приложения Doodle Jump.]
+			(* <-lang_ru;; *);;
+			*);;
+		*);;
+		
+RobTop_Games
+	=>nrel_main_idtf:[RobTop Games]
+	(*	
+		<-lang_ru;;
+	*);
+	=>nrel_main_idtf:[RobTop Games]
+	(*
+		<-lang_en;;
+	*);
+	 <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://gaming_apps//arcade_games//photo//robtop.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+
+	<- rrel_key_sc_element: ... (*
+		<- definition;;
+		=> nrel_idtf: [Определение] (* <-lang_ru;; *);;
+		=> nrel_idtf: [Definition] (* <-lang_en;; *);;
+		<= nrel_sc_text_translation: ... (*
+			-> rrel_example: [ Роберт Николас Кристиан Топала, 
+			более известный как RobTop, — независимый шведский 
+			разработчик видеоигр, аниматор и музыкант, 
+			прославившийся платформером Geometry Dash.]
+			(* <-lang_ru;; *);;
+			*);;
+		*);;
+		
+SYBO_Games
+	=>nrel_main_idtf:[SYBO Games]
+	(*	
+		<-lang_ru;;
+	*);
+	=>nrel_main_idtf:[SYBO Games]
+	(*
+		<-lang_en;;
+	*);
+	 <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://gaming_apps//arcade_games//photo//sybo_games.jpg"
+		    (*
+		        =>nrel_format: format_jpg;;
+		    *);;
+		*);;
+	    *);
+
+	<- rrel_key_sc_element: ... (*
+		<- definition;;
+		=> nrel_idtf: [Определение] (* <-lang_ru;; *);;
+		=> nrel_idtf: [Definition] (* <-lang_en;; *);;
+		<= nrel_sc_text_translation: ... (*
+			-> rrel_example: [ SYBO Games - это компания по производству видеоигр, 
+			расположенная в Копенгагене, Дания, основанная 
+			Сильвестром Ришой Йенсеном и Боди Ян-Муллинер.]
+			(* <-lang_ru;; *);;
+			*);;
+		*);;
+		
+Mobigame_S.A.R.L.
+	=>nrel_main_idtf:[Mobigame S.A.R.L.]
+	(*	
+		<-lang_ru;;
+	*);
+	=>nrel_main_idtf:[Mobigame S.A.R.L.]
+	(*
+		<-lang_en;;
+	*);
+	
+
+	<- rrel_key_sc_element: ... (*
+		<- definition;;
+		=> nrel_idtf: [Определение] (* <-lang_ru;; *);;
+		=> nrel_idtf: [Definition] (* <-lang_en;; *);;
+		<= nrel_sc_text_translation: ... (*
+			-> rrel_example: [ Mobigame S.A.R.L. - это разработчик компьютерных игр. 
+			Студия работает с 2008 года. Лучший проект, над которыми работали Mobigame S.A.R.L. это игра Edge.]
+			(* <-lang_ru;; *);;
+			*);;
+		*);;

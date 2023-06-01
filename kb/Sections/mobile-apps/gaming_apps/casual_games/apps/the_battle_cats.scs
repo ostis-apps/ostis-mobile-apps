@@ -1,0 +1,46 @@
+the_battle_cats
+
+=> nrel_main_idtf:
+    [Казуальная игра The Battle Cats]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Casual game The Battle Cats]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//images/koti.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Опр. (The Battle Cats)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [The Battle Cats - бесплатная видеоигра в жанре Tower Defense , 
+            разработанная и изданная корпорацией PONOS для iOS и Android , которая первоначально 
+            была выпущена в Японии под названиемにゃんこ大戦争(Nyanko Great War). Battle Cats 
+            дебютировали в японском магазине приложений для iOS в ноябре 2012 года под названием 
+            Battle Nyankos , ав декабре того же года последовала поддержка Android . Он получил огромную 
+            популярность в Японии и Корее. Позже он был удален как измагазинов Google Play, так и из 
+            App Store в США., с улучшенной версией игры, выпущенной 17 сентября 2014 г.Выпуск порта 
+            Microsoft Windows был выпущен в августе 2017 г. и был доступен для загрузки до конца 2018 г., 
+            когда корпорация PONOS прекратила его поддержку. Он был перенесен на Nintendo 3DS в 2016 году и
+            Nintendo Switch в Японии в 2018 году и в Юго-Восточной Азии в 2021 году.] (* <-lang_ru;; *);;
+        *);;
+    *);
+    
+
+    =>rrel_type_of_game: singleplayer;
+    =>nrel_graphic: primitive;
+    =>nrel_graphic_style: 2D;
+    =>rrel_genre: casual;
+    =>nrel_cost: free;
+    -> rrel_developer: PONOS;
+    => nrel_supported_platform: Android;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_language: all_language;;

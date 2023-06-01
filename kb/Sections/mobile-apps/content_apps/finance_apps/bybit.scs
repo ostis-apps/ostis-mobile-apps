@@ -1,0 +1,48 @@
+bybit
+
+	=> nrel_main_idtf:
+	    [Приложение для торговли криптовалютой ByBIT]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Crypto trading app ByBIT]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//bybit.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (ByBIT] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [Криптовалютная биржа Bybit появилась в 2018 году. 
+		    Она представляет собой самостоятельную платформу для торговли 
+		    деривативами — инверсными и бессрочными фьючерсными контрактами 
+		    с маржинальным плечом до 1:200. В Bybit доступны квартальные фьючерсы 
+		    USD в комбинации с криптовалютами ВТС, ETH, XRP, EOS, LTC и несколькими токенами. ] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    => rrel_section: services_for_work_with_cryptocurrencies;
+	    => nrel_have_donate: dont_have;
+	    => nrel_size: 126_mb;
+ 	    => nrel_internet_connection: require;
+ 	    => nrel_real_time_tracking: have;
+ 	    => nrel_amount_of_trading_instruments: 895;
+ 	    => nrel_type_of_commission: replenishment_commission;
+ 	    => nrel_type_of_commission: withdraw_commission;
+ 	    => nrel_specific_possibility: indicators;
+ 	    => nrel_specific_possibility: desktop_platforms;
+ 	    => nrel_specific_possibility: web_platforms;
+	    -> rrel_developer: Bybit;
+	    -> nrel_supported_platform: Android;
+	    -> nrel_supported_platform: IOS;
+	    -> nrel_supported_language: all_language;
+	    -> nrel_use_of_personal_data: use;;	

@@ -1,0 +1,42 @@
+guns_royale
+
+=> nrel_main_idtf:
+    [Игра в жанре королевская битва GUNS ROYALE]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Battle Royale game GUNS ROYALE]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//images/guns_royale.jpg"
+            (*
+                =>nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Опр. (GUNS ROYALE)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [GUNS ROYALE – это проект с весьма посредственной графикой и шатким управлением, 
+            но просто головокружительными геймплейными элементами.
+            Guns Royale даже поставляется с собственной уникальной функцией альтернативной реальности, 
+            которая позволяет вам сражаться… в собственной гостиной. Конечно, продукт всё ещё очень далек 
+            от того, что мы в своё время видели на интернет-прилавках, но тем не менее, в плане геймплея здесь 
+            всё очень даже прикольно. Советуем сыграть только тем, кто хочет «всё и сразу».] (* <-lang_ru;; *);;
+        *);;
+    *);
+    
+
+    =>nrel_view: isometric;
+    =>nrel_type_of_game: single_and_multiplayer;
+    =>nrel_have_donate: dont_have;
+    =>nrel_graphic: primitive;
+    =>nrel_graphic_style: 3D;
+    =>rrel_genre: battle_royale;
+    -> rrel_developer: Wizard_Games;
+    => nrel_supported_platform: Android;
+    => nrel_supported_language: all_language;;

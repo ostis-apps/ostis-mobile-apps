@@ -1,0 +1,40 @@
+section_parametrs_scooter
+    => nrel_main_idtf:
+        [Параметры]
+        (* <- lang_ru;; *);
+        ->23_cop;
+        ->26_cop;
+        ->29_cop;
+        ->120_cop;
+        ->1_byn;
+        ->2_byn;
+        ->24_byn;;
+
+23_cop
+    =>nrel_main_idtf: [23 копейки] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_cop: 23;;*);;
+
+26_cop
+    =>nrel_main_idtf: [26 копеек] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_cop:26 ;;*);;
+
+29_cop
+    =>nrel_main_idtf: [29 копеек] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_cop:29 ;;*);;
+
+120_cop
+    =>nrel_main_idtf: [120 копеек] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_cop:120 ;;*);;
+
+1_byn
+    =>nrel_main_idtf: [1 BYN] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_byn:1 ;;*);;
+
+2_byn
+    =>nrel_main_idtf: [2 BYN] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_byn: 2 ;;*);;
+
+24_byn
+    =>nrel_main_idtf: [24 BYN] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_byn: 24 ;;*);;
+

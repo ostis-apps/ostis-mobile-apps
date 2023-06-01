@@ -1,0 +1,48 @@
+section_jet_park
+ => nrel_main_idtf:
+        [Электросамокаты]
+    (* <- lang_ru;; *);
+    ->Ninebot_Max_Pro;
+    ->Ninebot_Max_Plus;;
+
+section_tariffs_jet
+   => nrel_main_idtf:
+        [Тарифы сервиса Jet]
+        (* <- lang_ru;; *);
+    ->tariff_minuts_scooter;
+    ->tariff_energy;
+    ->tariff_1_hour_scooter;;
+
+Ninebot_Max_Plus
+    =>nrel_main_idtf:[Ninebot Max Plus] (*<-lang_ru;;*);
+    =>nrel_min_age: 14_years;
+    =>nrel_minut_scooter: 1_byn;
+    =>nrel_minut_scooter_for_minut:23_cop;
+    =>nrel_energy: 13_BYN;
+    =>nrel_1_hour_scooter: 13_BYN;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//plus.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;
+
+Ninebot_Max_Pro
+    =>nrel_main_idtf:[Ninebot Max Pro] (*<-lang_ru;;*);
+    =>nrel_min_age: 14_years;
+    =>nrel_minut_scooter: 1_byn;
+    =>nrel_minut_scooter_for_minut:23_cop;
+    =>nrel_energy: 13_BYN;
+    =>nrel_1_hour_scooter: 13_BYN;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//pro.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;

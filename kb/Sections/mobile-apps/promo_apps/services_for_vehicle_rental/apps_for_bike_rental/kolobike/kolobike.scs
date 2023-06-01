@@ -1,0 +1,32 @@
+kolobike
+
+=>nrel_main_idtf:[Приложениe для аренды велосипедов Kolobike]
+    (*
+         <-lang_ru;;
+    *);
+=>nrel_main_idtf:[App for bike rental Kolobike]
+    (*
+         <-lang_en;;
+    *);
+
+
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//kolobike_logo.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    -> rrel_developer: Kolobike_LLC;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_platform: Android;
+    => nrel_supported_language: ru_language;
+    => nrel_use_of_personal_data: use;
+    => nrel_bike_park: section_kolobike_bike_park;
+    => nrel_tariffs_bike: section_tariffs_kolobike;
+    =>nrel_area_of_action: Minsk;
+    =>nrel_area_of_action: Gomel;
+    =>nrel_area_of_action: Lida;
+    =>nrel_area_of_action: Grodno;;

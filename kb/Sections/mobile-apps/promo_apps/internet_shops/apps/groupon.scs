@@ -1,0 +1,36 @@
+groupon
+
+=> nrel_main_idtf:
+    [Интернет-магазин Groupon]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Internet shop Groupon]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//images/groupon.jpg"
+            (*
+                =>nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Опр. (Groupon)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Groupon - американская компания, получившая известность 
+            благодаря одноименному сервису коллективных скидок. Компания специализируется 
+            на посредничестве между локальным бизнесом и покупателями.] (* <-lang_ru;; *);;
+        *);;
+    *);
+    
+
+    -> rrel_country: USA;
+    => nrel_the_year_of_creation: 2008;
+    => nrel_author: Andrew_Mason;
+    => nrel_supported_platform: Android;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_language: all_language;;

@@ -1,0 +1,37 @@
+Afisha
+
+=>nrel_main_idtf:[Сервис для покупки билетов Афиша]
+    (*
+         <-lang_ru;;
+    *);
+=>nrel_main_idtf:[Service for buying tickets Afisha]
+    (*
+         <-lang_en;;
+    *);
+
+
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//logo_afisha.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Определение (Afisha)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [«Афиша» — идеальный справочник по тому, как провести свой досуг в Москве, Санкт-Петербурге и других городах России. Ежедневно мы освещаем актуальные события в вашем городе: фильмы, концерты, спектакли, выставки, отдых с детьми. Больше у вас не возникнет вопроса, куда сходить. С «Афишей» вы можете не только выбрать развлечение, но и купить на него билеты онлайн, оплатив их как обычной банковской картой, так и с Android Pay.
+
+В приложении можно искать как развлечения, так и места: читайте рецензии и отзывы других пользователей на концерты.] (* <-lang_ru;; *);;
+        *);;
+    *);
+    -> rrel_developer: Rambler_Co;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_platform: Android;
+    => nrel_supported_language: all_language;
+    => nrel_use_of_personal_data: use;
+    => nrel_supported_cur: RUB;
+    => nrel_supported_country: Russia;;

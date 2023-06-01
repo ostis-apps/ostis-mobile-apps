@@ -1,0 +1,14 @@
+rrel_country => nrel_main_idtf:
+    [Страна выпуска]
+    (* <- lang_ru;; *);
+    <- sc_node_role_relation;;
+
+nrel_author => nrel_main_idtf:
+    [Автор]
+    (* <- lang_ru;; *);
+    <- sc_node_norole_relation;;
+
+nrel_the_year_of_creation => nrel_main_idtf:
+    [Год создания]
+    (* <- lang_ru;; *);
+    <- sc_node_norole_relation;;

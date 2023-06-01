@@ -1,0 +1,62 @@
+subject_domain_of_services_for_ordering_food
+
+=>nrel_main_idtf:[Предметная область. Сервисы для заказа еды]
+    (*
+         <-lang_ru;;
+    *);
+=>nrel_main_idtf:[Subject domain. Services for ordering food]
+    (*
+         <-lang_en;;
+    *);
+<-subject_domain;
+
+->rrel_maximum_studied_object_class:
+    concept_services_for_ordering_food_examples;
+
+-> rrel_explored_relation:
+    nrel_zakaz;
+    nrel_kind_of_dostavka;;    
+
+nrel_zakaz
+=>nrel_main_idtf:[Вид заказа]
+    (*
+         <-lang_ru;;
+    *);
+<-sc_node_norole_relation;;
+
+nrel_kind_of_dostavka
+=>nrel_main_idtf:[Вид доставки]
+    (*
+         <-lang_ru;;
+    *);
+<-sc_node_norole_relation;;
+
+dostavka 
+=>nrel_main_idtf:[Доставки]
+    (*
+         <-lang_ru;;
+    *);;
+
+samovivoz
+=>nrel_main_idtf:[Самовывоз]
+    (*
+         <-lang_ru;;
+    *);;
+
+car_delivery
+=>nrel_main_idtf:[Доставка на машине]
+    (*
+         <-lang_ru;;
+    *);;
+
+bike_delivery
+=>nrel_main_idtf:[Доставка на велосипеде]
+    (*
+         <-lang_ru;;
+    *);;
+
+foot_delivery
+=>nrel_main_idtf:[Пешая доставка]
+    (*
+         <-lang_ru;;
+    *);;

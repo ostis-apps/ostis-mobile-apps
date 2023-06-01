@@ -1,0 +1,43 @@
+ride_out_heroes
+
+=> nrel_main_idtf:
+    [Игра в жанре королевская битва Ride Out Heroes]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Battle Royale game Ride Out Heroes]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//images/roh.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Опр. (Ride Out Heroes)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Ride Out Heroes - это игра в жанре «королевская битва», в которой до 100 игроков 
+            охотятся друг за другом в фантастическом мире с десятками видов оружия, доспехов, зелья и 
+            других полезных предметов.
+            Одной из самых ярких особенностей Ride Out Heroes является то, что происходит, 
+            когда вы проигрываете. Вместо того чтобы умереть, ваш персонаж превращается в крошечного дракона. 
+            Если вы выживете в течение 15 секунд как безобидный маленький дракончик, ваш ранее умерший персонаж 
+            автоматически воскреснет, и вы вернетесь в игру. Однако, если вас подстрелят до возрождения — игра уже будет окончена.] (* <-lang_ru;; *);;
+        *);;
+    *);
+    
+
+    =>nrel_view: third_face;
+    =>nrel_type_of_game: multiplayer;
+    =>nrel_have_donate: have;
+    =>nrel_graphic: cartoon;
+    =>nrel_graphic_style: 3D;
+    =>rrel_genre: battle_royale;
+    -> rrel_developer: NetEase_Games;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_language: all_language;;

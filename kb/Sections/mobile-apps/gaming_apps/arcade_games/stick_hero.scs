@@ -1,0 +1,41 @@
+stick_hero
+
+	=> nrel_main_idtf:
+	    [Классическая аркадная игра Stick Hero]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Classic arcade game Stick Hero]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//stick_hero.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Stick Hero)] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [Stick Hero - это простая аркада, играть в которую можно одним пальцем. 
+		    Вы управляете маленьким человечком, которому нужно пересечь обрывы или пропасти при помощи шеста.] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    =>nrel_view: side_view;
+	    =>rrel_type_of_game: singleplayer;
+	    =>nrel_have_donate: have;
+	    =>nrel_graphic: cartoon;
+	    =>nrel_graphic_style: 2D;
+	    =>rrel_genre: classic;
+	    =>nrel_internet_connection: dont_require;
+	    -> rrel_developer: Ketchapp;
+	    -> rrel_supported_platform: Android;
+	    -> rrel_supported_platform: IOS;
+	    -> nrel_supported_language: en_language;
+	    -> nrel_use_of_personal_data: use;;

@@ -1,0 +1,203 @@
+section_tariffs_cars
+    => nrel_main_idtf:
+        [Тарифы]
+        (* <- lang_ru;; *);
+->tariff_minuts;
+->tariff_minuts_and_kilometers;
+->tariff_hours_and_kilometers;
+->tariff_days_and_kilometers;
+->tariff_minut_pack;
+->tariff_hours_pack;
+->tariff_drive_10;
+->tariff_drive_20;
+->tariff_30_minut;
+->tariff_1_hour;
+->tariff_2_hours;
+->tariff_3_hours;
+->tariff_6_hours;
+->tariff_fix;
+->tariff_days;;
+
+tariff_minuts
+    =>nrel_main_idtf: [Тариф "Минуты"] (* <-lang_ru;; *);
+    =>nrel_minut:
+        9_cent;
+        19_cent;
+        31_cent;
+        34_cent;
+        7_rub;
+        9_rub;
+        11_rub;
+        12_rub;
+        14_rub;
+        15_rub;
+        35_rub;
+        50_rub;
+        39_cop;
+        41_cop;
+        43_cop;
+        45_cop;
+        57_cop;
+        65_cop;
+        67_cop;
+        77_cop;
+        79_cop;
+        89_cop;
+        99_cop;
+        139_cop;
+        149_cop;
+        209_cop;;
+
+tariff_minuts_and_kilometers
+    =>nrel_main_idtf: [Тариф "Минуты+Километры"] (* <-lang_ru;; *);
+    =>nrel_minuts_and_kilometers:
+        390_cop_per_30_min;
+        690_cop_per_60_min;
+        1290_cop_per_120_min;
+        490_cop_per_30_min;
+        890_cop_per_60_min;
+    =>nrel_minuts_and_kilometers_for_1_km:
+        39_cop;
+        41_cop;
+        57_cop;;
+
+tariff_hours_and_kilometers
+    =>nrel_main_idtf: [Тариф "Часы+Километры"] (* <-lang_ru;; *);
+    =>nrel_hours_and_kilometers:
+        3_eur;
+        4_eur;
+        6_eur;
+        7_eur;
+        8_eur;
+        9_eur;
+        16_byn_per_3_hour;
+        25_byn_per_6_hour;
+        31_byn_per_9_hour;
+        29_byn_per_3_hour;
+        39_byn_per_6_hour;
+    =>nrel_hours_and_kilometers_for_1_km:
+        19_cent;
+        39_cop;
+        41_cop;
+        57_cop;;
+
+tariff_days_and_kilometers
+    =>nrel_main_idtf: [Тариф "Дни+Километры"] (* <-lang_ru;; *);
+    =>nrel_days_and_kilometers:
+        20_eur;
+        22_eur;
+        26_eur;
+        30_eur;
+        35_eur;
+        40_eur;
+        24_byn_per_1_day;
+        80_byn_per_1_day;
+        57_byn_per_1_day;
+        42_byn_per_1_day;
+        82_byn_per_2_day;
+        119_byn_per_3_day;
+        195_byn_per_5_day;
+        272_byn_per_7_day;
+        535_byn_per_14_day;
+        89_byn_per_1_day;
+        59_byn_per_1_day;
+        116_byn_per_2_day;
+        169_byn_per_3_day;
+        279_byn_per_5_day;
+        391_byn_per_7_day;
+        765_byn_per_14_day;
+        209_byn_per_1_day;
+    =>nrel_days_and_kilometers_for_1_km:
+        19_cent;
+        39_cop;
+        41_cop;
+        57_cop;
+        65_cop;
+        79_cop;;
+tariff_minut_pack
+    =>nrel_main_idtf: [Тариф "Минутный"] (* <-lang_ru;; *);
+    =>nrel_minut_pack:
+        21_byn_per_30_minuts;
+        37_byn_per_60_minuts;
+        39_byn_per_30_minuts;
+        59_byn_per_60_minuts;
+        42_byn_per_30_minuts;
+        69_byn_per_60_minuts;;
+
+tariff_hours_pack
+    =>nrel_main_idtf: [Тариф "Часовой"] (* <-lang_ru;; *);
+    =>nrel_hours_pack:
+        89_byn_per_3_hours;
+        139_byn_per_3_hours;
+        149_byn_per_3_hours;;
+
+tariff_drive_10
+    =>nrel_main_idtf: [Тариф "Драйв 10"] (* <-lang_ru;; *);
+    =>nrel_drive_10: 350_cop_per_5_km;
+    =>nrel_drive_10_for_1_km: 40_cop_per_km;;
+
+tariff_drive_20
+    =>nrel_main_idtf: [Тариф "Драйв 20"] (* <-lang_ru;; *);
+    =>nrel_drive_20: 7_byn_per_10_km;
+    =>nrel_drive_20_for_1_km:40_cop_per_km;;
+
+tariff_30_minut
+    =>nrel_main_idtf: [Тариф "Полчасика"] (* <-lang_ru;; *);
+    =>nrel_30_minut: 170_cop_per_30_min;
+    =>nrel_30_minut_for_1_km: 68_cop_per_km;;
+
+tariff_1_hour
+    =>nrel_main_idtf: [Тариф "Часик"] (* <-lang_ru;; *);
+    =>nrel_1_hour:
+    7_gbp;
+    8_gbp;
+    11_gbp; 
+    340_cop_per_1_hour;
+    =>nrel_1_hour_for_1_km: 68_cop_per_km;;
+
+tariff_2_hours
+    =>nrel_main_idtf: [Тариф "Два часа"] (* <-lang_ru;; *);
+    =>nrel_2_hours: 670_cop_per_2_hours;
+    =>nrel_2_hours_for_1_km: 68_cop_per_km;;
+
+tariff_3_hours
+    =>nrel_main_idtf: [Тариф "Три часа"] (* <-lang_ru;; *);
+    =>nrel_3_hours:
+        449_rub;
+        599_rub;
+        649_rub;
+        699_rub;
+        899_rub;
+        3400_rub;
+        5100_rub;
+    =>nrel_3_hours_for_1_km:
+        0_rub;
+        8_rub;
+        15_rub;;
+       
+
+tariff_6_hours
+    =>nrel_main_idtf: [Тариф "Шесть часов"] (* <-lang_ru;; *);
+    =>nrel_6_hours: 
+        1199_rub;
+        1299_rub;
+        1699_rub;
+        5100_rub;
+        6800_rub;
+    =>nrel_6_hours_for_1_km:
+        0_rub;
+        8_rub;
+        15_rub;;
+
+tariff_fix
+    =>nrel_main_idtf: [Тариф "Фиксированный"] (* <-lang_ru;; *);
+    =>nrel_fix:fix;;
+
+tariff_days
+    =>nrel_main_idtf: [Тариф "Сутки"] (* <-lang_ru;; *);
+    =>nrel_day:
+    68_gbp;
+    75_gpb;
+    105_gbp;
+    2950_rub; 
+    2450_rub;;

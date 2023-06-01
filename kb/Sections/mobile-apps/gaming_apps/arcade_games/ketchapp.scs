@@ -1,0 +1,30 @@
+ketchapp
+
+	=> nrel_main_idtf:
+	    [Ketchapp]
+	    (* <-lang_ru;; *);
+    	<- rrel_key_sc_element: ... (*
+	<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+			->rrel_example: "file://photo//ketchapp.png"
+		    	(*
+		        	=>nrel_format: format_png;;
+		    	*);;
+		*);;
+	*);
+	
+	<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Ketchapp - французский издатель видеоигр, 
+            базирующийся в Париже и специализирующийся на рынке мобильных игр.] (* <-lang_ru;; *);;
+            
+            *);;
+        *);
+
+
+    => nrel_year_of_foundation: 2014;
+    => nrel_country: france;
+    => nrel_dev_genre: arcade_games;;
+

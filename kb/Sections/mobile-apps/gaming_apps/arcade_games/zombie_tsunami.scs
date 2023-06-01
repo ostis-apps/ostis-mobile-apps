@@ -1,0 +1,43 @@
+zombie_tsunami
+
+	=> nrel_main_idtf:
+	    [Платформер Zombie Tsunami]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Platformer game Zombie Tsunami]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//zombie_tsunami.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Zombie Tsunami)] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [Zombie Tsunami представляет собой бесконечный раннер
+		    и геймплей, типичный для игр этого жанра. Игрок управляет зомби, 
+		    который по дистанции должен собирать монеты, поедать людей, 
+		    встречающихся на улице или в транспорте, и избегать различные препятствия и ловушки.] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    =>nrel_view: side_view;
+	    =>rrel_type_of_game: singleplayer;
+	    =>nrel_have_donate: dont_have;
+	    =>nrel_graphic: cartoon;
+	    =>nrel_graphic_style: 3D;
+	    =>rrel_genre: platformer;
+	    =>nrel_internet_connection: require;
+	    -> rrel_developer: Mobigame_S.A.R.L.;
+	    -> rrel_supported_platform: Android;
+	    -> rrel_supported_platform: IOS;
+	    -> nrel_supported_language: all_language;
+	    -> nrel_use_of_personal_data: not_use;; 

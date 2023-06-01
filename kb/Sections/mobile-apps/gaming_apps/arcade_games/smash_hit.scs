@@ -1,0 +1,44 @@
+smash_hit
+
+	=> nrel_main_idtf:
+	    [Аркада Smash Hit]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Arcade game Smash Hit]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//smash_hit.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Def. (Smash Hit)] (* <-lang_en;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [Smash Hit — это увлекательная аркадная игра 
+		    с потрясающими визуальными эффектами. Вы сможете отправиться 
+		    в футуристическое путешествие по другим измерениям, 
+		    слушайте замечательную музыку и сбивайте всё, 
+		    что встретится вам на пути.] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    =>nrel_view: first_face;
+	    =>rrel_type_of_game: singleplayer;
+	    =>nrel_have_donate: have;
+	    =>nrel_graphic: advanced;
+	    =>nrel_graphic_style: 3D;
+	    =>rrel_genre: classic;
+	    =>nrel_internet_connection: require;
+	    -> rrel_developer: Mediocre;
+	    -> rrel_supported_platform: Android;
+	    -> rrel_supported_platform: IOS;
+	    -> nrel_supported_language: all_language;
+	    -> nrel_use_of_personal_data: not_use;; 

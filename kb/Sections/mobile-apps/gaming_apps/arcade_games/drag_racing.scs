@@ -1,0 +1,44 @@
+drag_racing
+
+	=> nrel_main_idtf:
+	    [Гоночная игра Drag Racing]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Racing game Drag Racing]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//drag_racing.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Drag Racing)] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [Первая в своем роде гоночная игра построенная на 
+		    реалистичном физическом движке с широкой кастомизацией. 
+		    Твоё авто - твои правила. Прокачивай его, устанавливай новые детали и 
+		    создай свой уникальный стиль. Будет ли это Боевая Классика, БПАН, 
+		    JDM или что-то еще решать тебе.] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    =>nrel_view: third_face;
+	    =>rrel_type_of_game: single_and_multiplayer;
+	    =>nrel_have_donate: have;
+	    =>nrel_graphic: realistic;
+	    =>nrel_graphic_style: 3D;
+	    =>rrel_genre: race;
+	    =>nrel_internet_connection: require;
+	    -> rrel_developer: Code_Prime;
+	    -> rrel_supported_platform: Android;
+	    -> rrel_supported_platform: IOS;
+	    -> nrel_supported_language: all_language;
+	    -> nrel_use_of_personal_data: use;; 

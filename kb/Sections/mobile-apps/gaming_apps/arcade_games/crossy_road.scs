@@ -1,0 +1,44 @@
+crossy_road
+
+	=> nrel_main_idtf:
+	    [Классическая аркада Crossy Road]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Classic arcade game Crossy Road]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//crossy_road.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	     <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Crossy Road)] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [Crossy Road - это видеоигра в жанре классической аркады и бесконечного раннера, 
+		    разработанная и изданная австралийской компанией Hipster Whale и 
+		    выпущенная 20 ноября 2014 года. Название и концепция игры
+		     обыгрывают извечную шутку «Зачем курица перешла дорогу?] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	   
+	    =>nrel_view: third_face;
+	    =>rrel_type_of_game: singleplayer;
+	    =>nrel_have_donate: dont_have;
+	    =>nrel_graphic: primitive;
+	    =>nrel_graphic: cartoon;
+	    =>nrel_graphic_style: 3D;
+	    =>rrel_genre: classic;
+	    =>nrel_internet_connection: dont_require;
+	    ->rrel_developer: Hipster_Whale;
+	    ->rrel_supported_platform: Android;
+	    ->rrel_supported_platform: IOS;
+	    ->rrel_supported_language: all_language;
+	    ->nrel_use_of_personal_data: not_use;;
+

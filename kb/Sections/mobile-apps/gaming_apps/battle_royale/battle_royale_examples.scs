@@ -1,0 +1,57 @@
+concept_battle_royale_examples
+=> nrel_main_idtf:
+    [Мобильные игры жанра "Королевская битва"]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Mobile Battle Royale games]
+    (* <- lang_en;; *);
+
+-> apex_legends_mobile;
+-> axe_io;
+-> bullet_league_battle_royale;
+-> call_of_duty_mobile;
+-> creative_destruction;
+-> cyber_hunter;
+-> farlight_84;
+-> ffvii_the_first_soldier;
+-> fog;
+-> fortnite_battle_royale;
+-> garena_free_fire;
+-> grand_battle_royale;
+-> guns_royale;
+-> hopeles_survival_battle_game;
+-> knives_out;
+-> modern_combat_5;
+-> new_state_mobile;
+-> pixel_gun_3d;
+-> pixels_unknown_battle_ground;
+-> pubg_mobile;
+-> ride_out_heroes;
+-> rocket_royale;
+-> rules_of_survival;
+-> scarfall_the_royale_combat;
+-> super_mecha_champions;
+-> zombsroyale_io;;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

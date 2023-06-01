@@ -1,0 +1,23 @@
+concept_internet_shops_examples
+=> nrel_main_idtf:
+    [Мобильные Интернет-магазины]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Mobile Internet Shops]
+    (* <- lang_en;; *);
+
+-> ali_express;
+-> depop;
+-> ebay;
+-> etsy;
+-> gearbest;
+-> groupon;
+-> overstock;
+-> shpock;
+-> walmart;
+-> wish;;
+
+
+
+
+

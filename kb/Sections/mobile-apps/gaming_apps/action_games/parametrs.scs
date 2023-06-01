@@ -1,0 +1,19 @@
+fighting => nrel_main_idtf:
+    [Файтинг]
+    (* <- lang_ru;; *);;
+
+shooter => nrel_main_idtf:
+    [Шутер]
+    (* <- lang_ru;; *);;
+
+platformer => nrel_main_idtf:
+    [Платформер]
+    (* <- lang_ru;; *);;
+
+beatemup => nrel_main_idtf:
+    [Beat'em up]
+    (* <- lang_ru;; *);;
+
+roleplay => nrel_main_idtf:
+    [Ролевой]
+    (* <- lang_ru;; *);;

@@ -1,0 +1,57 @@
+shadowfight3
+=> nrel_main_idtf:
+    [Файтинг Shadow Fight 3]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Fighting Shadow Fight 3]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <- description;;
+        => nrel_idtf: [Описание] (* <-lang_ru;; *);;
+        => nrel_idtf: [Description] (* <-lang_en;;*);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Shadow Fight 3 (до выхода именовалась, как Shadow Fight 3D) — видеоигра в жанре Action-RPG-файтинг, 
+            разработанная российской компанией Nekki в 2017 году. Первая бета-версия была выпущена 27 апреля 2017 года, мировой релиз состоялся 16 ноября того же года. 
+            Входит в состав серии игр Shadow Fight, является продолжением Shadow Fight 2, выпущенной на основных мобильных платформах 2 мая 2014 года. 
+            В отличие от своих предшественников, в Shadow Fight 3 бойцы не представлены в виде силуэтов. Вместо этого они изображены как реалистичные трехмерные персонажи в богато анимированном окружении. 
+            Во время боя игроки накапливают очки, которые позволяют им временно переходить в «теневую форму». Это позволяет им использовать теневые способности. 
+            Теневые способности зависят от текущего снаряжения игрока и его фракции. Предметы приобретаются в виде коллекционных карт, 
+            которые можно заработать или купить. Действие игры происходит через несколько лет после событий Shadow Fight 2 и вращается вокруг конфликта между тремя различными фракциями. 
+            Игрок начинает игру в качестве члена Легиона, который использует в основном европейское оружие, такое как мечи и молоты, 
+            и обладает медленными, но мощными атаками. Позже они переходят в Династию, которая имеет более быстрый, акробатический стиль боя и использует оружие со всей Азии, 
+            такое как нунчаку и гуандао. Последняя основная фракция — Вестники, у которых более точные атаки и в основном японское оружие, 
+            такое как нагината и катана (существует два варианта: обычная катана и катана, используемая в манере, похожей на Iaidō).] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Shadow Fight 3 (before it was called Shadow Fight 3D) is an Action-RPG fighting game
+            developed by the Russian company Nekki in 2017. The first beta version was released on April 27, 2017, the world release took place on November 16 of the same year. 
+            Part of the Shadow Fight series of games, it is a sequel to Shadow Fight 2, released on major mobile platforms on May 2, 2014. 
+            Unlike their predecessors, in Shadow Fight 3, the fighters are not presented in the form of silhouettes. Instead, they are depicted as realistic three-dimensional characters in a richly animated environment. 
+            During the battle, players accumulate points that allow them to temporarily transition into a "shadow form". This allows them to use shadow abilities. 
+            Shadow abilities depend on the player's current equipment and his faction. Items are purchased in the form of collectible cards, 
+            which you can earn or buy. The game takes place several years after the events of Shadow Fight 2 and revolves around a conflict between three different factions. 
+            The player starts the game as a member of the Legion, which uses mostly European weapons such as swords and hammers,
+            and possesses slow but powerful attacks. Later they move into a Dynasty that has a faster, acrobatic fighting style and uses weapons from all over Asia, 
+            such as nunchaku and guandao. The last main faction is the Messengers, who have more accurate attacks and mostly Japanese weapons, 
+            such as naginata and katana (there are two variants: a regular katana and a katana used in a manner similar to iaidō).]
+            (* <-lang_en;; *);;
+        *);;
+    *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//Photo//shadowfight3.jpg"
+            (*
+                =>nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+
+    ->rrel_developer: NEKKI;
+    =>nrel_view: third_face;
+    =>nrel_type_of_game: singleplayer;
+    =>nrel_have_donate: have;
+    =>nrel_graphic: realistic;
+    =>nrel_graphic_style: 3D;
+    =>nrel_genre: fighting;;

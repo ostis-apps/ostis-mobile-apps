@@ -1,0 +1,44 @@
+candy_crush_saga
+
+=> nrel_main_idtf:
+    [Казуальная игра Candy Crush Saga]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Casual game Candy Crush Saga]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//images/candy_crush.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Опр. (Candy Crush Saga)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Candy Crush Saga - одна из самых популярных игр для Android всех времен. 
+            Candy Crush Saga, выпущенная в 2012 году компанией King, представляет собой игру “три в ряд”, 
+            в которой пользователи должны составлять ряды из трех или более конфет одного вида для очистки 
+            игрового поля. Сопоставление трех конфет одного и того же типа убирает их с уровня, а на их место 
+            падают новые. Сопоставление более трех конфет одного типа создает особый предмет который обладает 
+            определенной способностью, помогающей пройти уровень. Например, при сопоставлении 4-х одинаковых 
+            конфет создается полосатая конфета, которая при перемещении на соседнюю клетку очищает строку или 
+            столбец игрового поля целиком, что позволяет игроку получить много очков. ] (* <-lang_ru;; *);;
+        *);;
+    *);
+    
+
+    =>rrel_type_of_game: singleplayer;
+    =>nrel_graphic: cartoon;
+    =>nrel_graphic_style: 2D;
+    =>rrel_genre: casual;
+    =>nrel_cost: free;
+    -> rrel_developer: King;
+    => nrel_supported_platform: Android;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_language: all_language;;

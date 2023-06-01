@@ -1,0 +1,44 @@
+rocket_royale
+
+=> nrel_main_idtf:
+    [Игра в жанре королевская битва ROCKET ROYALE]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Battle Royale game ROCKET ROYALE]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//images/rocket_moped.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Опр. (ROCKET ROYALE)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [ROCKET ROYALE - это единственная в своем роде Королевская Битва, 
+            главная цель которой - построить ракету и улететь с острова! Для этого вам нужно 
+            найти редкие ресурсы с падающих метеоритов. Конечно, другие игроки захотят захватить 
+            вашу ракету, так что защищайте ее! Соберите дерево и постройте форт, чтобы защитить свои позиции. 
+            Уникальная игра Battle Royale раскрывает множество тактик, крафтинга укрытий вокруг вас! 100% 
+            разрушаемое окружение, каждое здание может быть разрушено или демонтировано! В Rocket Royale 
+            нет парашютов или уменьшающихся зон смерти, но вместо этого вы должны использовать порталы для 
+            навигации по острову] (* <-lang_ru;; *);;
+        *);;
+    *);
+    
+
+    =>nrel_view: third_face;
+    =>nrel_type_of_game: multiplayer;
+    =>nrel_have_donate: have;
+    =>nrel_graphic: cartoon;
+    =>nrel_graphic_style: 3D;
+    =>rrel_genre: battle_royale;
+    -> rrel_developer: GameSpire;
+    => nrel_supported_platform: Android;
+    => nrel_supported_language: all_language;;

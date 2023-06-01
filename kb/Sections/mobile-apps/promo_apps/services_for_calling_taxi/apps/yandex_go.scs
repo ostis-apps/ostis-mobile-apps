@@ -1,0 +1,22 @@
+yandex_go 
+    => nrel_main_idtf: [Сервис для заказа такси "YandexGo"] (* <-lang_ru;;*);
+    => nrel_main_idtf: [Service for calling taxi "YandexGo"] (* <-lang_en;;*);
+    
+    => nrel_have_autopark: section_yandex_go_autopark;
+    => nrel_tariff: section_yandex_go_tariff;
+    -> rrel_developer: YandexLLC;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_platform: Android;
+    => nrel_supported_language: all_language;
+    =>nrel_use_of_personal_data: use;
+    <-concept_services_for_calling_taxi_examples;
+    
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://..//Photo//Logo//YandexGo.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;

@@ -1,0 +1,41 @@
+yandex_food
+
+=>nrel_main_idtf:[Сервис доставки еды Яндекс Еда]
+    (*
+         <-lang_ru;;
+    *);
+=>nrel_main_idtf:[Food delivery app Яндекс Еда]
+    (*
+         <-lang_en;;
+    *);
+
+
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//logo_yandex.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (* 
+        <- description;; 
+        => nrel_idtf: [Описание] (* <-lang_ru;; *);; 
+        => nrel_idtf: [Description] (* <-lang_en;;*);; 
+        <= nrel_sc_text_translation: ... (* 
+            -> rrel_example: [Яндекс.Еда - это приложение для доставки еды, которое предоставляет широкий выбор ресторанов и кулинарных заведений в вашем городе. С помощью этого приложения вы можете легко и удобно заказать еду на дом или в офис.]  
+            (* <-lang_ru;; *);; 
+        *);; 
+    *);
+    -> rrel_developer: Yandex_LLC;
+    -> rrel_supported_platform: IOS;
+    -> rrel_supported_platform: Android;
+    ->rrel_supported_language: ru_language;
+    ->nrel_zakaz: dostavka;
+    ->nrel_zakaz: samovivoz;
+    ->nrel_kind_of_dostavka:car_delivery;
+    ->nrel_kind_of_dostavka:bike_delivery;
+    ->nrel_kind_of_dostavka:foot_delivery;
+    =>nrel_tariffs: section_yandex_music_tarifs;;
+

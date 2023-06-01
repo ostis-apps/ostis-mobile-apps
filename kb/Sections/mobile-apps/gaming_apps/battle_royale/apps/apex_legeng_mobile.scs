@@ -1,0 +1,41 @@
+apex_legends_mobile
+
+=> nrel_main_idtf:
+    [Игра в жанре королевская битва APEX LEGENDS MOBILE]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Battle Royale game APEX LEGENDS MOBILE]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//images/alm.jpg"
+            (*
+                =>nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Опр. (APEX LEGENDS MOBILE)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [APEX LEGENDS MOBILE - это «королевская битва» в сеттинге sci-fi от Respawn Entertainment 
+            (разработчиков серии шутеров Titanfall), где до 60 игроков десантируются на остров, по которому разбросаны тонны 
+            разного футуристичного оружия и снаряжения. Можно объединяться в группы до трех человек, и, как это водится, 
+            последняя оставшаяся в живых команда одерживает победу.] (* <-lang_ru;; *);;
+        *);;
+    *);
+    
+
+    =>nrel_view: first_and_third_face;
+    =>nrel_type_of_game: multiplayer;
+    =>nrel_have_donate: have;
+    =>nrel_graphic: advanced;
+    =>nrel_graphic_style: 3D;
+    =>rrel_genre: battle_royale;
+    -> rrel_developer: Respawn_Entertainment;
+    => nrel_supported_platform: Android;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_language: all_language;;

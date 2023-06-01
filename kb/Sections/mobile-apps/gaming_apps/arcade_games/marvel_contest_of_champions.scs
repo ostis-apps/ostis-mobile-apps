@@ -1,0 +1,44 @@
+marvel_contest_of_champions
+
+	=> nrel_main_idtf:
+	    [Эпичный файтинг Marvel: Contest of Champions]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Epic fighting game Marvel: Contest of Champions]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//marvel_contest_of_champions.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Marvel: Contest of Champions)] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [ Marvel: Contest of Champions - это видеоигра в жанре файтинг, 
+		    разработанная и анонсированная студией Kabam в 2014 году 
+		    для устройств на базе операционных систем iOS и Android. 
+		    В основе игры лежат события из серии комиксов Marvel Super Hero Contest of Champions] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    =>nrel_view: side_view;
+	    =>rrel_type_of_game: singleplayer;
+	    =>nrel_have_donate: dont_have;
+	    =>nrel_graphic: cartoon;
+	    =>nrel_graphic_style: 3D;
+	    =>rrel_genre: fighting;
+	    =>nrel_internet_connection: require;
+	    -> rrel_developer: Kabam_Games_Inc.;
+	    -> rrel_supported_platform: Android;
+	    -> rrel_supported_platform: IOS;
+	    -> nrel_supported_language: all_language;
+	    -> nrel_use_of_personal_data: use;; 
+

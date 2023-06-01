@@ -1,0 +1,51 @@
+drebedengi
+
+	=> nrel_main_idtf:
+	    [Приложение для учёта финансов Дребеденьги]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Financial accounting app Drebedengi]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//drebedengi.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Дребеденьги] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [Дребеденьги. Основные функции: распознавание банковских СМС, 
+		    автоматический ввод расходов в бухгалтерию, собственные правила обработки, 
+		    автоматическая загрузка электронных чеков и ручное сканирование по QR коду, 
+		    с разбивкой по позициям и категориям расходов, наглядное отображение текущих остатков по счетам.  ] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    => rrel_section: services_for_financial_planning;
+	    => nrel_have_donate: have;
+	    => nrel_size: 4_mb;
+ 	    => nrel_internet_connection: dont_require;
+ 	    => nrel_level_of_financial_literacy: middle;
+ 	    => nrel_synchronization_with_gadget: have;
+ 	    => nrel_services: income_and_expense_accounting;
+ 	    => nrel_services: financial_structuring;
+ 	    => nrel_services: checks_scanning;
+ 	    => nrel_services: family_budget;
+ 	    => nrel_services: accounting_in_several_currencies;
+ 	    => nrel_services: long_time_planning;
+	    -> rrel_developer: Drebedengi_ru;
+	    -> nrel_supported_platform: Android;
+	    -> nrel_supported_platform: IOS;
+	    -> nrel_supported_language: ru_language;
+	    -> nrel_supported_language: en_language;
+	    -> nrel_use_of_personal_data: use;;
+
+

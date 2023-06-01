@@ -1,0 +1,97 @@
+section_parametrs_bike
+    => nrel_main_idtf:
+        [Параметры]
+        (* <- lang_ru;; *);
+        14_years;
+        4_rub;
+        5_rub;
+        6_rub;
+        22_rub;
+        40_rub;
+        100_rub;
+        175_rub;
+        445_rub;
+        590_rub;
+        685_rub;
+        790_rub;
+        1_eur;
+        10_eur;
+        50_cop;
+        349_cop;
+        1690_cop;
+        1_byn;
+        24_cop_per_minut;
+        5_cop_per_minut;;
+
+14_years
+    =>nrel_main_idtf: [14 лет] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_years: 14;;*);;
+50_cop
+    => nrel_main_idtf: [50 копеек] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_cop: 50;; *);;
+349_cop
+    => nrel_main_idtf: [349 копеек] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_cop: 349;; *);;
+1690_cop
+    => nrel_main_idtf: [1690 копеек] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_cop: 1690;; *);;
+1_byn
+    => nrel_main_idtf: [1 BYN] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_byn: 1;; *);;
+24_cop_per_minut
+    => nrel_main_idtf: [24 копеек/минута] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_cop_per_minut: 24;; *);;
+5_cop_per_minut
+    => nrel_main_idtf: [5 копеек/минута] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_cop_per_minut: 5;; *);;
+
+1_eur
+    => nrel_main_idtf: [1 EUR] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_eur: 1;; *);;
+10_eur
+    => nrel_main_idtf: [10 EUR] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_eur: 10;; *);;
+
+4_rub
+    => nrel_main_idtf: [4 RUB] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_rub:4 ;; *);;
+
+5_rub
+    => nrel_main_idtf: [5 RUB] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_rub:5 ;; *);;
+
+6_rub
+    => nrel_main_idtf: [6 RUB] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_rub:6 ;; *);;
+
+22_rub
+    => nrel_main_idtf: [22 RUB] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_rub:22 ;; *);;
+
+40_rub
+    => nrel_main_idtf: [40 RUB] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_rub:40 ;; *);;
+
+100_rub
+    => nrel_main_idtf: [100 RUB] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_rub:100 ;; *);;
+
+175_rub
+    => nrel_main_idtf: [175 RUB] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_rub:175 ;; *);;
+
+445_rub
+    => nrel_main_idtf: [445 RUB] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_rub:445 ;; *);;
+
+590_rub
+    => nrel_main_idtf: [590 RUB] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_rub:590 ;; *);;
+
+685_rub
+    => nrel_main_idtf: [685 RUB] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_rub:685 ;; *);;
+
+790_rub
+    => nrel_main_idtf: [790 RUB] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_rub:790 ;; *);;

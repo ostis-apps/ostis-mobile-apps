@@ -1,0 +1,12 @@
+concept_apps_for_buying_tickets_for_travel
+=> nrel_main_idtf:
+    [Мобильные приложения для покупок билетов для поездок]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Mobile apps for buying tickets for travelling]
+    (* <- lang_en;; *);
+->Aviasales;
+->BC;
+->Oplati;
+->RZD;
+->TUTUZD;;

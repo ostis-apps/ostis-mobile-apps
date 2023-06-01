@@ -1,0 +1,46 @@
+belinvestbank
+
+	=> nrel_main_idtf:
+	    [Банковское приложение Belinvestbank]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Banking app Belinvestbank]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//belinvestbank.jpg"
+		    (*
+		        =>nrel_format: format_jpg;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Belinvestbank)] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [Belinvestbank - это интернет-банкинг от Белинвестбанка, который позволяет дистанционно совершать платежи, 
+		    переводы, управлять своими финансами. Подключение и использование Интернет-банкинга ОАО «Белинвестбанк» бесплатно. ] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    => rrel_section: banking;
+	    => nrel_have_donate: have;
+	    => nrel_size: 95_mb;
+	    => nrel_internet_connection: require;
+	    => nrel_cashback: have;
+	    => nrel_live_technical_support: call_to_bank;
+	    => nrel_inbuilt_exchange_rates: have;
+	    => nrel_services: money_transfers;
+	    => nrel_services: loan_payment;
+	    => nrel_services: deposit_replenishment;
+	    => nrel_services: linking_another_bank_card;
+	    => nrel_services: insurance;
+	    -> rrel_developer: Belinvestbank_OAO;
+	    -> nrel_supported_platform: Android;
+	    -> nrel_supported_platform: IOS;
+	    -> nrel_supported_language: all_language;
+	    -> nrel_use_of_personal_data: use;;

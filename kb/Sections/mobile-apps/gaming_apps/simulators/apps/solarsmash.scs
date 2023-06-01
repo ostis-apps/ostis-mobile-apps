@@ -1,0 +1,38 @@
+solarsmash
+    => nrel_main_idtf:
+        [Симулятор разрушения планеты Solar Smash]
+        (* <- lang_ru;; *);
+    => nrel_main_idtf:
+        [Simulator of planet destroy Solar Smash]
+        (* <- lang_en;; *);
+    
+    <- rrel_key_sc_element: ... (*
+        <- description;;
+        => nrel_idtf: [Описание] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Solar Smash — это симулятор для Android, который позволит вам взрывать целые солнечные системы, 
+            и при этом не нарушать мировой порядок! В вашем распоряжении арсенал самого мощного и смертоносного оружия: 
+            от ядерных ракет до испепеляющего лазерного луча и астероидных дождей. Применяйте их вместе или раздельно, 
+            запускайте в разные части планет и наблюдайте за последствиями! Разработчики сделали все, 
+            чтобы процесс разрушения выглядел реалистично.] 
+            (* <-lang_ru;; *);;
+        *);;
+    *);
+    
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://..//Photo//solarsmash.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+
+    ->rrel_developer: ParadymeGames;
+    =>nrel_view: third_face;
+    =>nrel_type_of_game: singleplayer;
+    =>nrel_have_donate: have;
+    =>nrel_graphic: realistic;
+    =>nrel_graphic_style: 3D;
+    =>nrel_genre: cosmos_simulator;;

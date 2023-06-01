@@ -1,0 +1,26 @@
+section_apple_music_tarifs
+=> nrel_main_idtf:
+        [Тарифы сервиса Apple Music]
+        (* <- lang_ru;; *);
+    ->tariff_Individual_am;
+    ->tariff_Family_am;
+    ->tariff_Student_am;;
+
+tariff_Individual_am
+    =>nrel_main_idtf:[Индивидуальная] (*<-lang_ru;;*);
+    =>nrel_main_idtf:[Individual] (*<-lang_en;;*);
+    ->rrel_usd_per_month:5.99;;
+
+
+tariff_Family_am
+    =>nrel_main_idtf:[Семейная] (*<-lang_ru;;*);
+    =>nrel_main_idtf:[Family] (*<-lang_en;;*);
+
+    ->rrel_usd_per_month:8.99;;
+
+
+tariff_Student_am
+    =>nrel_main_idtf:[Студаент] (*<-lang_ru;;*);
+    =>nrel_main_idtf:[Student] (*<-lang_en;;*);
+
+    ->rrel_usd_per_month:3.49;;

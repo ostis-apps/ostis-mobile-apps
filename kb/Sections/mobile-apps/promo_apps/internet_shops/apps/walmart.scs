@@ -1,0 +1,36 @@
+walmart
+
+=> nrel_main_idtf:
+    [Интернет-магазин Walmart]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Internet shop Walmart]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//images/walmart.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Опр. (Walmart)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Walmart - американская компания, управляющая крупнейшей в мире 
+            сетью оптовой и розничной торговли, действующей под торговой 
+            маркой Walmart. Штаб-квартира находится в Бентонвилле в штате Арканзас.] (* <-lang_ru;; *);;
+        *);;
+    *);
+    
+
+    -> rrel_country: USA;
+    => nrel_the_year_of_creation: 1962;
+    => nrel_author: Sam_Walton;
+    => nrel_supported_platform: Android;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_language: all_language;;

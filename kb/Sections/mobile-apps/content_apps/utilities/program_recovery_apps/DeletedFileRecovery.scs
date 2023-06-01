@@ -1,0 +1,31 @@
+DeletedFileRecovery
+
+=>nrel_main_idtf:[Приложение для восстановления Deleted File Recovery]
+    (*
+         <-lang_ru;;
+    *);
+=>nrel_main_idtf:[App for recovery files Deleted File Recovery]
+    (*
+         <-lang_en;;
+    *);
+
+
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//logo_filerec.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    -> rrel_developer: File_recovery;
+    -> rrel_supported_platform: IOS;
+    -> rrel_supported_platform: Android;
+    ->rrel_supported_language: all_language;
+    ->nrel_use_of_personal_data: use;
+    =>nrel_is_root_required: root_is_required;
+    =>nrel_supported_countries: Belarus;
+    =>nrel_supported_countries: USA;
+    =>nrel_supported_countries: Ukraine;
+    =>nrel_supported_countries: Russia;;

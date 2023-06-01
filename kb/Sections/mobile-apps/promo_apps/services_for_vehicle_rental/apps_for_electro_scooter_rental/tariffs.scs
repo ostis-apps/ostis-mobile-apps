@@ -1,0 +1,27 @@
+section_tariffs_scooter
+    => nrel_main_idtf:
+        [Тарифы]
+        (* <- lang_ru;; *);
+    ->tariff_minuts_scooter;
+    ->tariff_energy;
+    ->tariff_1_hour_scooter;
+    ->tariff_day_scooter;;
+
+tariff_minuts_scooter
+    =>nrel_main_idtf: [Тариф "Минуты"] (* <-lang_ru;; *);
+    =>nrel_minut_scooter: 2_byn;
+    1_byn;
+    =>nrel_minut_scooter_for_minut:29_cop;
+    23_cop;;
+
+tariff_energy
+    =>nrel_main_idtf: [Тариф "Пока не сядет"] (* <-lang_ru;;*);
+    =>nrel_energy: 13_BYN;;
+
+tariff_1_hour_scooter
+    =>nrel_main_idtf: [Тариф "Час"] (* <-lang_ru;;*);
+    =>nrel_1_hour_scooter: 13_BYN;;
+
+tariff_day_scooter
+    =>nrel_main_idtf: [Тариф "День"] (* <-lang_ru;;*);
+    =>nrel_day_scooter: 24_byn;;

@@ -1,0 +1,88 @@
+nrel_possibility_to_export => nrel_main_idtf:
+    [Возможность экспорта в соц.сети]
+    (* <- lang_ru;; *);
+    <- sc_node_norole_relation;;
+
+nrel_internet_connection => nrel_main_idtf:
+    [Подключение к интернету]
+    (* <- lang_ru;; *);
+    <- sc_node_norole_relation;;
+    
+nrel_have_a_donate => nrel_main_idtf:
+    [Платный контент]
+    (* <- lang_ru;; *);
+    <- sc_node_norole_relation;;
+    
+nrel_size => nrel_main_idtf:
+    [Размер приложения]
+    (* <- lang_ru;; *);
+    <- sc_node_norole_relation;;
+    
+nrel_features => nrel_main_idtf:
+    [Функции]
+    (* <- lang_ru;; *);
+    <- sc_node_norole_relation;;
+    
+nrel_amount_of_inbuilt_presets => nrel_main_idtf:
+	[Количество встроенных пресетов]
+	(* <- lang_ru;; *);
+	<- sc_node_norole_relation;;
+	
+nrel_level_of_application => nrel_main_idtf:
+	[Уровень приложения]
+	(* <- lang_ru;; *);
+	<- sc_node_norole_relation;;
+	
+have => nrel_main_idtf:
+	[имеется]
+	(* <- lang_ru;; *);;
+	
+dont_have => nrel_main_idtf:
+	[отсутствует]
+	(* <- lang_ru;; *);;	
+    
+require => nrel_main_idtf:
+	[требуется]
+	(* <- lang_ru;; *);;
+	
+dont_require => nrel_main_idtf:
+	[не требуется]
+	(* <- lang_ru;; *);;
+
+
+chosen_editing => nrel_main_idtf:
+	[выборочная коррекция]
+	(* <- lang_ru;; *);;
+
+history_of_editing => nrel_main_idtf:
+	[история редактирования]
+	(* <- lang_ru;; *);;
+	
+use_of_ai => nrel_main_idtf:
+	[применение искусственного интеллекта]
+	(* <- lang_ru;; *);;
+	
+deleting_object_from_photo => nrel_main_idtf:
+	[удаление объекта с фотографии]
+	(* <- lang_ru;; *);;
+	
+creating_stickers => nrel_main_idtf:
+	[создание стикеров]
+	(* <- lang_ru;; *);;
+	
+beginner => nrel_main_idtf:
+	[новичок]
+	(* <- lang_ru;; *);;
+
+middle => nrel_main_idtf:
+	[средний уровень]
+	(* <- lang_ru;; *);;
+	
+professional => nrel_main_idtf:
+	[профессиональный]
+	(* <- lang_ru;; *);;
+	
+
+ 
+ 
+

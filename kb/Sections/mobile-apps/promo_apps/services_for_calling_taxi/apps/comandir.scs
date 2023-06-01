@@ -1,0 +1,22 @@
+comandir
+  => nrel_main_idtf: [Сервис для заказа такси "Такси Командир"] (* <-lang_ru;;*);
+  => nrel_main_idtf: [Service for calling taxi "Такси Командир"] (* <-lang_en;;*);
+
+  <-concept_services_for_calling_taxi_examples;
+  <- rrel_key_sc_element: ... (*
+      <- illustration;;
+      <= nrel_sc_text_translation: ... (*
+          -> rrel_example: "file://..//Photo//Logo//comandir.jpg"
+          (*
+              => nrel_format: format_jpg;;
+          *);;
+      *);;
+  *);
+
+  => nrel_have_autopark: not_have;
+  => nrel_tariff: section_comandir_tariff;
+  -> rrel_developer: BITMaster;
+  => nrel_supported_platform: IOS;
+  => nrel_supported_platform: Android;
+  => nrel_supported_language: ru_language;
+  =>nrel_use_of_personal_data: use;;

@@ -1,0 +1,27 @@
+military_simulator => nrel_main_idtf:
+    [Военный симулятор]
+    (* <- lang_ru;; *);;
+
+drive_simulator => nrel_main_idtf:
+    [Симулятор вождения]
+    (* <- lang_ru;; *);;
+
+life_simulator => nrel_main_idtf:
+    [Симулятор жизни]
+    (* <- lang_ru;; *);;
+
+sport_simualtor => nrel_main_idtf:
+    [Спортивный симулятор]
+    (* <- lang_ru;; *);;
+
+medicine_simulator => nrel_main_idtf:
+    [Симулятор медицины]
+    (* <- lang_ru;; *);;
+
+cosmos_simulator => nrel_main_idtf:
+    [Симулятор космоса]
+    (* <- lang_ru;; *);;
+
+economic_simulator => nrel_main_idtf:
+    [Экономический симулятор]
+    (* <- lang_ru;; *);;    

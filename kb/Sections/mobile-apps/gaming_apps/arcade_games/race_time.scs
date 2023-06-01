@@ -1,0 +1,44 @@
+race_time
+
+	=> nrel_main_idtf:
+	    [Аркадная гоночная игра Race Time]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Arcade racing game Race Time]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//race_time.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Race Time)] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [Миниатюрная однокнопочная гонка с необычным набором автомобилей – 
+		    тут есть и знакомые нам машины, и ракеты, и персонажи других вселенных… 
+		    Можно прокатиться даже на Кубике Рубика! На трассах Race Time проверит вашу скорость и внимательность – 
+		    автомобили быстрые, повороты крутые, а соперниками выступят другие пользователи со всего мира. 
+		    С ними можно устроить дружеский матч или волнительные гоночные турниры.] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    =>nrel_view: third_face;
+	    =>rrel_type_of_game: single_and_multiplayer;
+	    =>nrel_have_donate: have;
+	    =>nrel_graphic: cartoon;
+	    =>nrel_graphic_style: 2D;
+	    =>rrel_genre: race;
+	    =>nrel_internet_connection: dont_require;
+	    -> rrel_developer: PeopleFun;
+	    -> rrel_supported_platform: Android;
+	    -> rrel_supported_platform: IOS;
+	    -> nrel_supported_language: en_language;
+	    -> nrel_use_of_personal_data: not_use;;

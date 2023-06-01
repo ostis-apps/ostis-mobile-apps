@@ -1,0 +1,36 @@
+sharenow
+=>nrel_main_idtf:[Приложениe для аренды автомобиля Share Now]
+    (*
+         <-lang_ru;;
+    *);
+=>nrel_main_idtf:[App for car rental Share Now]
+    (*
+         <-lang_en;;
+    *);
+
+
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//Sharenow.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    -> rrel_developer: SHARENOW;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_platform: Android;
+    => nrel_supported_language: en_language;
+    => nrel_supported_language: ge_language;
+    =>nrel_use_of_personal_data: use;
+    => nrel_car_park: section_sharenow_car_park;
+    =>nrel_tariffs_car: section_tariffs_sharenow;
+    =>nrel_area_of_action: Austria;
+    =>nrel_area_of_action: Denmark;
+    =>nrel_area_of_action: France;
+    =>nrel_area_of_action: Germany;
+    =>nrel_area_of_action: Hungary;
+    =>nrel_area_of_action: Italy;
+    =>nrel_area_of_action: Netherlands;
+    =>nrel_area_of_action: Spain;;

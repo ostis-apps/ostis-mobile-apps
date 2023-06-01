@@ -1,0 +1,43 @@
+fl_studio_mobile
+
+=> nrel_main_idtf:
+    [Мобильная студия FL Studio Mobile]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Mobile studio FL STUDIO MOBILE]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://photo//fl_studio_mobile.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definiton;;
+        => nrel_idtf: [Def. (FL Studio Mobile)] (* <-lang_en;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [This is the best app for changing your voice by applying effects on the audios.
+            It is very simple to use and can generate fantastic and funny effectsFL Studio Mobile is perhaps 
+            the only complete app for creating music on Android. FL Studio Mobile allows you to create multi-channel 
+            music projects on your Android phone or tablet and save them to a file. Also has a function of 
+            transferring the project from PC to Android device, to continue to improve your composition. 
+            If you want to create a simple melody or to write a hit FL Studio Mobile will help you!.] (* <-lang_en;; *);;
+            *);;
+        *);
+    
+
+    => nrel_support_for_various_formats: yes;
+    => nrel_have_donate: have;
+    => nrel_set_of_tools_and_effects: wide;
+    => nrel_exactingness: exacting;
+    => nrel_support_for_multiple_tracks: support;
+    -> rrel_developer: Image_Line;
+    -> rrel_supported_platform: Android;
+    -> rrel_supported_platform: IOS; 
+    -> rrel_supported_language: en_language;
+    -> nrel_use_of_personal_data: use;;

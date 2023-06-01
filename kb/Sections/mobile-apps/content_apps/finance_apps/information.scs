@@ -1,0 +1,245 @@
+rrel_section => nrel_main_idtf:
+    [Раздел]
+    (* <- lang_ru;; *);
+    <- sc_node_role_relation;;
+    
+nrel_have_donate => nrel_main_idtf:
+    [Платный контент]
+    (* <- lang_ru;; *);
+    <- sc_node_norole_relation;;
+    
+nrel_size => nrel_main_idtf:
+    [Размер приложения]
+    (* <- lang_ru;; *);
+    <- sc_node_norole_relation;;   
+    
+nrel_internet_connection =>  nrel_main_idtf:
+    [Подключение к интернету]
+    (* <- lang_ru;; *);
+    <- sc_node_norole_relation;;
+    
+nrel_cashback =>  nrel_main_idtf:
+    [Кэшбек]
+    (* <- lang_ru;; *);
+    <- sc_node_norole_relation;;
+    
+nrel_services =>  nrel_main_idtf:
+    [Сервисы]
+    (* <- lang_ru;; *);
+    <- sc_node_norole_relation;;
+    
+nrel_live_technical_support =>  nrel_main_idtf:
+    [Техническая поддержка в реальном времени]
+    (* <- lang_ru;; *);
+    <- sc_node_norole_relation;;
+    
+nrel_inbuilt_exchanre_rates =>  nrel_main_idtf:
+    [Встроенные курсы валют]
+    (* <- lang_ru;; *);
+    <- sc_node_norole_relation;;
+    
+nrel_maximum_amount_of_payments =>  nrel_main_idtf:
+    [Максимальная сумма платежа]
+    (* <- lang_ru;; *);
+    <- sc_node_norole_relation;;
+    
+nrel_maximum_amount_of_accounts =>  nrel_main_idtf:
+    [Максимальное количество аккаунтов]
+    (* <- lang_ru;; *);
+    <- sc_node_norole_relation;;
+    
+nrel_inbuilt_exchange_rates =>  nrel_main_idtf:
+    [Встроенные курсы валют]
+    (* <- lang_ru;; *);
+    <- sc_node_norole_relation;;
+    
+nrel_level_of_financial_literacy =>  nrel_main_idtf:
+    [Уровень финансовой грамотности]
+    (* <- lang_ru;; *);
+    <- sc_node_norole_relation;;
+    
+nrel_synchronization_with_gadget =>  nrel_main_idtf:
+    [Синхронизация с устройством]
+    (* <- lang_ru;; *);
+    <- sc_node_norole_relation;;
+    
+nrel_amount_of_trading_instruments =>  nrel_main_idtf:
+    [Количество торговых инструментов]
+    (* <- lang_ru;; *);
+    <- sc_node_norole_relation;;
+    
+nrel_amount_of_currencies =>  nrel_main_idtf:
+    [Количество встроенных валют]
+    (* <- lang_ru;; *);
+    <- sc_node_norole_relation;;
+    
+nrel_real_time_tracking =>  nrel_main_idtf:
+    [Отслеживание в реальном времени]
+    (* <- lang_ru;; *);
+    <- sc_node_norole_relation;;
+    
+nrel_type_of_commission => nrel_main_idtf:
+	[Тип комиссии]
+	(* <- lang_ru;; *);
+	<- sc_node_norole_relation;;
+	
+rrel_specific_possibility => nrel_main_idtf:
+	[отличительная особенность]
+	(* <- lang_ru;; *);
+	<- sc_node_role_relation;;
+	
+have => nrel_main_idtf:
+    [имеется]
+    (* <- lang_ru;; *);;
+
+dont_have => nrel_main_idtf:
+    [отсутствует]
+    (* <- lang_ru;; *);;
+    
+require => nrel_main_idtf:
+    [требуется]
+    (* <- lang_ru;; *);;
+
+dont_reguire => nrel_main_idtf:
+    [не требуется]
+    (* <- lang_ru;; *);;
+    
+chat_messenger => nrel_main_idtf:
+	[чат-мессенджер с оператором]
+	(* <- lang_ru;; *);;
+
+call_to_bank => nrel_main_idtf:
+	[звонок в банк]
+	(* <- lang_ru;; *);;
+	
+low => nrel_main_idtf:
+	[низкий]
+	(* <- lang_ru;; *);;
+	
+middle => nrel_main_idtf:
+	[средний]
+	(* <- lang_ru;; *);;
+	
+high => nrel_main_idtf:
+	[продвинутый]
+	(* <- lang_ru;; *);;
+	
+currencies_tracking => nrel_main_idtf:
+	[отслеживание курсов валют]
+	(* <- lang_ru;; *);;
+	
+crypto_currency_tracking => nrel_main_idtf:
+	[отслеживание курса криптовалюты]
+	(* <- lang_ru;; *);;
+	
+trading_commission => nrel_main_idtf:
+	[торговая комиссия]
+	(* <- lang_ru;; *);;
+
+replenishment_commission => nrel_main_idtf:
+	[комиссия за пополнение счёта]
+	(* <- lang_ru;; *);;
+	
+withdraw_commission => nrel_main_idtf:
+	[комиссия за снятие средств]
+	(* <- lang_ru;; *);;
+	
+money_transfers => nrel_main_idtf:
+	[денежные переводы]
+	(* <- lang_ru;; *);;
+
+loan_payment => nrel_main_idtf:
+	[оплата кредита]
+	(* <- lang_ru;; *);;
+
+deposit_replenishment => nrel_main_idtf:
+	[пополнение депозита]
+	(* <- lang_ru;; *);;
+
+insurance => nrel_main_idtf:
+	[страхование]
+	(* <- lang_ru;; *);;
+	
+linking_another_bank_card => nrel_main_idtf:
+	[привязка карты другого банка]
+	(* <- lang_ru;; *);;
+	
+sms_notification => nrel_main_idtf:
+	[смс-уведомления]
+	(* <- lang_ru;; *);;
+	
+automatic_payment => nrel_main_idtf:
+	[автоматическая оплата]
+	(* <- lang_ru;; *);;
+	
+balance_view => nrel_main_idtf:
+	[просмотр баланса]
+	(* <- lang_ru;; *);;
+	
+tariff_change => nrel_main_idtf:
+	[смена тарифов]
+	(* <- lang_ru;; *);;
+	
+special_offers_and_discounts_view => nrel_main_idtf:
+	[просмотр специальных предложений и скидок]
+	(* <- lang_ru;; *);;
+	
+history_of_payments_check => nrel_main_idtf:
+	[просмотр истории платежей]
+	(* <- lang_ru;; *);;
+	
+connection_and_disconnection_of_services => nrel_main_idtf:
+	[покдлючение и отключение услуг]
+	(* <- lang_ru;; *);;
+	
+income_and_expense_accounting => nrel_main_idtf:
+	[учёт доходов и расходов]
+	(* <- lang_ru;; *);;
+	
+accounting_in_several_currencies => nrel_main_idtf:
+	[учёт в нескольких валютах]
+	(* <- lang_ru;; *);;
+	
+financial_structuring => nrel_main_idtf:
+	[структуризация финансов]
+	(* <- lang_ru;; *);;
+	
+family_budget => nrel_main_idtf:
+	[ведение семейного бюджета]
+	(* <- lang_ru;; *);;
+	
+checks_scanning => nrel_main_idtf:
+	[сканирование чеков]
+	(* <- lang_ru;; *);;
+
+long_time_planning => nrel_main_idtf:
+	[долговременное планирование]
+	(* <- lang_ru;; *);;
+	
+integration_with_electronic_wallets => nrel_main_idtf:
+	[интеграция в электронные кошельки пользователя]
+	(* <- lang_ru;; *);;
+	
+notification => nrel_main_idtf:
+	[уведомления об избранных платежах]
+	(* <- lang_ru;; *);;
+	
+graphics => nrel_main_idtf:
+	[графики]
+	(* <- lang_ru;; *);;
+	
+indicators => nrel_main_idtf:
+	[индикаторы]
+	(* <- lang_ru;; *);;
+
+draw_functions => nrel_main_idtf:
+	[функции рисования]
+	(* <- lang_ru;; *);;
+	
+desktop_platform => nrel_main_idtf:
+	[десктопная платформа]
+	(* <- lang_ru;; *);;
+
+web_platrofm => nrel_main_idtf:
+	[веб-платформа]
+	(* <- lang_ru;; *);;

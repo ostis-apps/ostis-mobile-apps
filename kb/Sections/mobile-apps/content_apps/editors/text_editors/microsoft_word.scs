@@ -1,0 +1,43 @@
+microsoft_word
+
+=> nrel_main_idtf:
+    [Текстовый редактор Microsoft Word]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Text editor Microsoft Word]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://photo//microsoft_word.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definiton;;
+        => nrel_idtf: [Опр. (Microsoft Word)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Microsoft Word — текстовый процессор, предназначенный для создания, просмотра, редактирования и форматирования текстов статей, деловых бумаг, а также иных документов, с локальным применением простейших форм таблично-матричных алгоритмов. Выпускается корпорацией Microsoft в составе пакета Microsoft Office.] (* <-lang_ru;; *);;
+            *);;
+        *);
+    
+
+    	=> nrel_size: 280_mb;
+	=> nrel_have_a_donate: have;
+	=> nrel_internet_connection: dont_require;
+	=> nrel_supported_extensions: docx;
+	=> nrel_supported_extensions: doc;
+	=> nrel_supported_extensions: txt;
+	=> nrel_functional_features: pdf_viewer;
+	=> nrel_functional_features: teamwork;
+	=> nrel_functional_features: simplified_file_sharing;
+	=> nrel_sections: trivial_text_editor;
+    -> rrel_developer: Microsoft;
+    -> rrel_supported_platform: Android;
+    -> rrel_supported_platform: IOS;
+    -> nrel_supported_language: all_language;
+    -> nrel_use_of_personal_data: use;;

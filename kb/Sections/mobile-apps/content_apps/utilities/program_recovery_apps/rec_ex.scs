@@ -1,0 +1,13 @@
+concept_app_recovery
+=> nrel_main_idtf: 
+    [Мобильные приложения для восстановления файлов] 
+    (* <- lang_ru;; *); 
+=> nrel_main_idtf: 
+    [Mobile apps for recovery files] 
+    (* <- lang_en;; *); 
+     
+->DiskDigger;
+->DeletedFileRecovery;
+->PhotoRecovery;
+->Dumpster;
+-> DataRestoreTool;;

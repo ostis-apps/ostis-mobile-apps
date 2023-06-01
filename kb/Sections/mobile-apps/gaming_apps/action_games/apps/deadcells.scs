@@ -1,0 +1,43 @@
+deadcells
+=> nrel_main_idtf:
+    [Платформер Dead Cells]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Platformer Dead Cells]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <- description;;
+        => nrel_idtf: [Описание] (* <-lang_ru;; *);;
+        => nrel_idtf: [Description] (* <-lang_en;;*);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Dead Cells – это экшен-платформер, в котором вам предстоит окунуться в захватывающие 
+            2D-сражения с огромным выбором оружия и навыков против беспощадных боссов и их приспешников. Испытайте 
+            себя в роли подопытного неудавшегося алхимического эксперимента и исследуйте постоянно меняющийся и 
+            разрастающийся замок в поисках разгадок всех тайн зловещего острова.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Dead Cells is an action platformer in which you have to plunge into exciting 
+            2D battles with a huge selection of weapons and skills against ruthless bosses and their minions. Experience 
+            play yourself as a test subject of a failed alchemical experiment and explore the ever-changing and 
+            a sprawling castle in search of clues to all the secrets of the sinister island.]
+            (* <-lang_en;; *);;
+        *);;
+    *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//Photo//deadcells.jpg"
+            (*
+                =>nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+
+    ->rrel_developer: Playdigious;
+    =>nrel_view: third_face;
+    =>nrel_type_of_game: singleplayer;
+    =>nrel_have_donate: have;
+    =>nrel_graphic: primitive;
+    =>nrel_graphic_style: 2D;
+    =>nrel_genre: platformer;;

@@ -1,0 +1,46 @@
+belagroprombank
+
+	=> nrel_main_idtf:
+	    [Банковское приложение Belagroprombank]
+	    (* <- lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Banking app Belagroprombank]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//belagroprombank.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Belagroprombank)] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [ОАО "Белагропромбанк" предоставляет Вам возможность 
+		    быстрого и удобного обслуживания с помощью услуги "Мобильный интернет-банкинг". ] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    => rrel_section: banking;
+	    => nrel_have_donate: dont_have;
+	    => nrel_size: 158_mb;
+	    => nrel_internet_connection: require;
+	    => nrel_cashback: dont_have;
+	    => nrel_live_technical_support: chat_messenger;
+	    => nrel_inbuilt_exchange_rates: have;
+	    => nrel_services: money_transfers;
+	    => nrel_services: loan_payment;
+	    => nrel_services: deposit_replenishment;
+	    => nrel_services: sms_notification;
+	    -> rrel_developer: First_Mobile_Solutions;
+	    -> nrel_supported_platform: Android;
+	    -> nrel_supported_platform: IOS;
+	    -> nrel_supported_language: ru_language;
+	    -> nrel_supported_language: en_language;
+	    -> nrel_use_of_personal_data: use;;

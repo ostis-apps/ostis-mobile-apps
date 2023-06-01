@@ -1,0 +1,805 @@
+GINATS_software
+=> nrel_main_idtf:
+    [GIANTS Software]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [GIANTS Software]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [GIANTS Software - разработчик игр для Android, который работает с 2012 года. Текущее портфолио приложений содержит 6 игр, все из которых перечислены в категории "Симуляторы". В рейтинге Google приложения GIANTS Software входят в топ-100 более чем в 10 странах. Два самых важных приложения от GIANTS Software - это Farming Simulator 2020. Оба они были установлены более 50 миллионов раз.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [GIANTS Software is an Android game developer that has been active since 2012. The current app portfolio contains 6 games, all of which are listed in the category "Simulation". In the Google rankings, GIANTS Software's apps appear in the top 100 in more than 10 countries. Two of the most important apps from GIANTS Software is Farming Simulator 2020. Both of them have been installed more than 50 million times.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+UltraAndre
+=> nrel_main_idtf:
+    [UltraAndre]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [UltraAndre]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Приложения разработанные данным разработчиком: PC Creator и его сиквелы.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Applications developed by this developer: PC Creator and its sequels.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+TOJGAMES
+=> nrel_main_idtf:
+    [TOJGAMES — Car racing games & Driving simulators]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [TOJGAMES — Car racing games & Driving simulators]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [TOJGAMES — Car racing games & Driving simulators - разработчик игр для Android, который работает с 2020 года. Текущее портфолио приложений содержит 4 игры. В целом, по нашим оценкам, приложения TOJGAMES — Car racing games & Driving simulators собрали около 10 миллионов установок, из них 2 миллиона за последние 30 дней. Некоторыми важными приложениями являются Driver Life - автомобильный симулятор, многопользовательские гонки на автомобилях, Real Car Parking 2: Car Sim и Traffic Racer Pro: Автомобильные игры. Все они были установлены более 1 миллиона раз.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [TOJGAMES — Car racing games & Driving simulators is an Android game developer that has been active since 2020. The current app portfolio contains 4 games. Overall, we estimate that TOJGAMES — Car racing games & Driving simulators's apps have collected about 10 million installs, 2 million of them in the last 30 days. Some important apps are Driver Life - Car Simulator, Racing in Car - Multiplayer, Real Car Parking 2 : Car Sim, and Traffic Racer Pro : Car Games. All of them have been installed more than 1 million times.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+RORTOS
+=> nrel_main_idtf:
+    [RORTOS]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [RORTOS]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [RORTOS - разработчик игр для Android, который работает с 2011 года. Текущее портфолио приложений содержит 17 игр, все из которых перечислены в категории "Симуляторы". В рейтинге Google приложения RORTOS входят в топ-100 более чем в 10 странах. Некоторые важные приложения - это AirFighters, Extreme Landings, F18 Carrier Landing Lite и Airline Commander: Flight Game. Все они были установлены более 10 миллионов раз.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [RORTOS is an Android game developer that has been active since 2011. The current app portfolio contains 17 games, all of which are listed in the category "Simulation". In the Google rankings, RORTOS's apps appear in the top 100 in more than 10 countries. Some important apps are AirFighters, Extreme Landings, F18 Carrier Landing Lite, and Airline Commander: Flight Game. All of them have been installed more than 10 million times.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+RoasteryGames
+=> nrel_main_idtf:
+    [Roastery Games]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Roastery Games]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Roastery Games - разработчик игр для Android, который работает с 2016 года. Текущее портфолио приложений содержит 6 игр. Два самых важных приложения от Roastery Games - это Laptop Tycoon и Smartphone Tycoon 2. Оба они были установлены более 1 миллиона раз.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Roastery Games is an Android game developer that has been active since 2016. The current app portfolio contains 6 games. Two of the most important apps from Roastery Games are Laptop Tycoon and Smartphone Tycoon 2. Both of them have been installed more than 1 million times.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+ParadymeGames
+=> nrel_main_idtf:
+    [Paradyme Games]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Paradyme Games]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Paradyme Games - разработчик для Android, который работает с 2017 года. Текущее портфолио приложений содержит 14 приложений, большинство из которых являются играми. В рейтинге Google приложения Paradyme Games входят в топ-100 более чем в 10 странах. Популярным приложением является Solar Smash, которое занимает высокие позиции в нескольких странах и с более чем 100 миллионами установок является одним из самых популярных приложений в Google Play.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Paradyme Games is an Android developer that has been active since 2017. The current app portfolio contains 14 apps, most of which are games. In the Google rankings, Paradyme Games's apps appear in the top 100 in more than 10 countries. A popular app is Solar Smash, which is highly ranked in several countries and, with over 100 million installs, is one of the most popular apps in Google Play.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+OvidiuPop
+=> nrel_main_idtf:
+    [Ovidiu Pop]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Ovidiu Pop]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Ovidiu Pop - разработчик игр для Android, который работает с 2012 года. Текущее портфолио приложений содержит 20 игр. В рейтинге Google приложения Ovidiu Pop входят в топ-100 более чем в 10 странах. Два самых важных приложения от Ovidiu Pop - это Bus Simulator: Original и European Truck Simulator. Оба они были установлены более 50 миллионов раз.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Ovidiu Pop is an Android game developer that has been active since 2012. The current app portfolio contains 20 games. In the Google rankings, Ovidiu Pop's apps appear in the top 100 in more than 10 countries. Two of the most important apps from Ovidiu Pop are Bus Simulator: Original and European Truck Simulator. Both of them have been installed more than 50 million times.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+DevolverDigital
+=> nrel_main_idtf:
+    [Devolver Digital]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Devolver Digital]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Devolver Digital — американский издатель компьютерных игр и кинодистрибьютор. Компания была основана в 2009 году в Остине, штат Техас. Её основателями являются Майк Уилсон, Гарри Миллер и Рик Сталтс, ранее основавшие издательство Gathering of Developers и Gamecock Media Group. Деятельность компании сфокусирована на рынке цифровой дистрибуции и поддержке независимых разработчиков за счёт рекламного продвижения и финансовой поддержки их игр.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Devolver Digital is an American computer game publisher and film distributor. The company was founded in 2009 in Austin, Texas. Its founders are Mike Wilson, Harry Miller and Rick Stiles, who previously founded the publishing house Gathering of Developers and Gamecock Media Group. The company's activities are focused on the digital distribution market and the support of independent developers through advertising promotion and financial support of their games.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+TiltingPoint
+=> nrel_main_idtf:
+    [Tilting Point]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Tilting Point]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Tilting Point - разработчик игр для Android, который работает с 2015 года. Текущее портфолио приложений содержит 26 игр. В рейтинге Google приложения Tilting Point входят в топ-100 более чем в 10 странах. Популярным приложением является SpongeBob: Krusty Cook-Off, которое занимает высокие позиции в нескольких странах и с более чем 50 миллионами установок является одним из самых популярных приложений в Google Play.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Tilting Point is an Android game developer that has been active since 2015. The current app portfolio contains 26 games. In the Google rankings, Tilting Point's apps appear in the top 100 in more than 10 countries. A popular app is SpongeBob: Krusty Cook-Off, which is highly ranked in several countries and, with over 50 million installs, is one of the most popular apps in Google Play.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+blueflower
+=> nrel_main_idtf:
+    [blueflower]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [blueflower]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [blueflower - компания-разработчик программного обеспечения, расположенная в Ашаффенбурге, Германия. Они очень мотивированы к разработке приложений для Android, iOS и ПК. Их самым большим успехом на данный момент является наша градостроительная игра TheoTown, которую мы предлагаем для всех этих платформ.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [blueflower is a software company located in Aschaffenburg, Germany. They highly motivated to develop apps for Android, iOS and PC. Their greatest success so far is our city building game TheoTown which we offer for all of these platforms.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+Nordeus
+=> nrel_main_idtf:
+    [Nordeus]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Nordeus]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Nordeus - сербский независимый разработчик мобильных игр со штаб-квартирой в CBD Новый Белград в Белград. Дебютная игра студии - Top Eleven Football Manager, бесплатная игра-симулятор социального футбола. В 2013 году игра достигла вершины кассовых чартов в 23 странах на Android и в 68 странах на AppStore, согласно данным App Annie. Самофинансируемая компания, одна из самых быстрорастущих компаний Европы в области компьютерных игр. Это частная компания без внешнего финансирования.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Nordeus is a Serbian independent mobile game developer headquartered in the New Belgrade CBD in Belgrade. The studio's debut game is Top Eleven Football Manager, a free simulation game of social football. In 2013, the game reached the top of the box office charts in 23 countries on Android and in 68 countries on the AppStore, according to App Annie. A self-funded company, one of the fastest growing companies in Europe in the field of computer games. This is a private company without external financing.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+ConcernedApe
+=> nrel_main_idtf:
+    [ConcernedApe]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [ConcernedApe]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Эрик Бароне, также известный под псевдонимом ConcernedApe, является американским разработчиком видеоигр, дизайнером видеоигр, художником, композитором и музыкантом. Наиболее известен тем, что самостоятельно создал видеоигру Stardew Valley.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Eric Barone, also known by the pseudonym ConcernedApe, is an American video game developer, video game designer, artist, composer and musician. He is best known for having independently created the video game Stardew Valley.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+AzurInteractiveGamesLimited
+=> nrel_main_idtf:
+    [Azur Interactive Games Limited]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Azur Interactive Games Limited]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Azur Interactive Games Limited - разработчик игр для Android, который работает с 2015 года. Текущее портфолио приложений содержит 40 игр. В рейтинге Google приложения Azur Interactive Games Limited входят в топ-100 более чем в 10 странах. Двумя наиболее важными приложениями от Azur Interactive Games Limited являются Modern Strike Online: PvP FPS и World War Heroes — WW2 PvP FPS. Оба они имеют высокий рейтинг в Google Play и были установлены более 100 миллионов раз.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Azur Interactive Games Limited is an Android game developer that has been active since 2015. The current app portfolio contains 40 games. In the Google rankings, Azur Interactive Games Limited's apps appear in the top 100 in more than 10 countries. Two of the most important apps from Azur Interactive Games Limited are Modern Strike Online: PvP FPS and World War Heroes — WW2 PvP FPS. Both of them are highly ranked on Google Play and have been installed more than 100 million times.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+BBCStudiosLimited
+=> nrel_main_idtf:
+    [BBC Studios Limited]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [BBC Studios Limited]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [BBC Studios Limited - разработчик Android, который работает с 2011 года. Текущее портфолио приложений содержит 30 приложений. В рейтинге Google приложения BBC Studios Limited входят в топ-100 более чем в 10 странах. Популярным приложением является BBC News, которое имеет высокий рейтинг в нескольких странах и с более чем 10 миллионами установок является одним из самых популярных приложений в экосистеме Android.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [BBC Studios Limited is an Android developer that has been active since 2011. The current app portfolio contains 30 apps. In the Google rankings, BBC Studios Limited's apps appear in the top 100 in more than 10 countries. A popular app is BBC News, which is highly ranked in several countries and, with over 10 million installs, is one of the most popular apps in the Android ecosystem.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+HighbrowInteractive
+=> nrel_main_idtf:
+    [Highbrow Interactive]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Highbrow Interactive]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Highbrow Interactive - технологическая компания, базирующаяся в Ченнаи, Индия, которая специализируется на производстве игр, виртуальной и дополненной реальности с более чем 10-летним опытом. У нас работает команда заядлых разработчиков и дизайнеров, которые стремятся создавать увлекательные, захватывающие впечатления. Наша цель - создавать лучшие игры, в которые играет как можно больше пользователей, которыми пользуются годами и которые запоминаются навсегда.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Highbrow Interactive is a tech company based in Chennai, India, that specializes in game production, virtual and augmented reality with over 10 years of experience. We house a team of avid developers and designers who strive to develop engaging, immersive experiences. Our goal is to make the best games that are played by as many users, enjoyed for years and remembered forever.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+WargamingGroup
+=> nrel_main_idtf:
+    [Wargaming Group]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Wargaming Group]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Wargaming Group - разработчик игр для Android, который работает с 2012 года. Текущее портфолио приложений содержит 5 игр. В рейтинге Google приложения Wargaming Group входят в топ-100 более чем в 10 странах. Популярным приложением является World of Tanks Blitz - PVP MMO, которое имеет высокий рейтинг в нескольких странах и с более чем 100 миллионами установок является одним из самых популярных приложений в Google Play.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Wargaming Group is an Android game developer that has been active since 2012. The current app portfolio contains 5 games. In the Google rankings, Wargaming Group's apps appear in the top 100 in more than 10 countries. A popular app is World of Tanks Blitz - PVP MMO, which is highly ranked in several countries and, with over 100 million installs, is one of the most popular apps in Google Play.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+YandexLLC
+=> nrel_main_idtf:
+    [Yandex LLC]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Yandex LLC]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [ Транснациональная компания в отрасли информационных технологий, чьё головное юридическое лицо зарегистрировано в Нидерландах, владеющая одноимённой системой поиска в интернете, интернет-порталом и веб-службами в нескольких странах. Наиболее заметное положение занимает на рынках России, Белоруссии и Казахстана ] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Russian multinational technology company providing Internet-related products and services, including an Internet search engine, information services, e-commerce, transportation, maps and navigation, mobile applications, and online advertising. It primarily serves audiences in Russia and the Commonwealth of Independent States of the former Soviet Union, and has more than 30 offices worldwide.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+TaxiBookingServiceAndDelivery
+=> nrel_main_idtf:
+    [Taxi booking service and delivery]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Taxi booking service and delivery]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Служба бронирования и доставки такси - разработчик для Android, который работает с 2012 года. Текущее портфолио приложений содержит 2 приложения, все из которых перечислены в категории "Авто и транспортные средства". В рейтинге Google приложения службы бронирования такси и доставки входят в топ-100 более чем в 10 странах. Популярным приложением является maxim — закажите такси, еду, которое занимает высокие позиции в нескольких странах и с более чем 50 миллионами установок является одним из самых популярных приложений в экосистеме Android.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Taxi booking service and delivery is an Android developer that has been active since 2012. The current app portfolio contains 2 apps, all of which are listed in the category "Auto & Vehicles". In the Google rankings, Taxi booking service and delivery's apps appear in the top 100 in more than 10 countries. A popular app is maxim — order taxi, food, which is highly ranked in several countries and, with over 50 million installs, is one of the most popular apps in the Android ecosystem.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+BITMaster
+=> nrel_main_idtf:
+    [BITMaster]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [BITMaster]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [BIT Master - разработчик Android, который работает с 2014 года. Текущее портфолио приложений содержит 561 приложение. Некоторыми важными приложениями являются Такси "Лидер", Такси Командир, такси "Жулдыз" и такси "Рахш". Все они были установлены более 100 тысяч раз.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [BIT Master is an Android developer that has been active since 2014. The current app portfolio contains 561 apps. Some important apps are Такси "Лидер", Такси Командир, Жулдыз TAXI, and Rakhsh Taxi. All of them have been installed more than 100 thousand times.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+NetherRealmStudios
+=> nrel_main_idtf:
+    [NetherRealm Studios]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [NetherRealm Studios]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [NetherRealm Studios (стилизуется как NetheЯRealm Studios) — американская студия, специализирующаяся на разработке компьютерных игр. Учреждённая в 2010 году, она появилась в результате замещения WB Games Chicago, дочернего отделения Warner Bros. Interactive Entertainment, расположенного в Чикаго, штат Иллинойс. В возглавляемой Шоном Химмериком студии, командой в качестве креативного директора руководит Эд Бун, выдающийся деятель игровой индустрии и один из создателей серии Mortal Kombat. На логотипе студии изображён силуэт Скорпиона.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [NetherRealm Studios (stylized as NetheYRealm Studios) is an American studio specializing in the development of computer games. Established in 2010, it emerged as a result of the replacement of WB Games Chicago, a subsidiary of Warner Bros. Interactive Entertainment, located in Chicago, Illinois. In the studio headed by Sean Himmerik, the team as creative director is led by Ed Boone, an outstanding figure in the gaming industry and one of the creators of the Mortal Kombat series. The logo of the studio depicts the silhouette of a Scorpion.]
+            (* <-lang_en;;*);;
+        *);;
+    *);; 
+
+Pixelbite
+=> nrel_main_idtf:
+    [Pixelbite]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Pixelbite]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Студия Pixelbite разрабатывает и распространяет игры по множеству цифровых каналов, цель которых - предложить высококачественные игровые возможности, адаптированные для портативных устройств. Чтобы оставаться конкурентоспособными и привнести в наши игры уникальный колорит, мы также разрабатываем собственный мультиплатформенный движок.
+            До сегодняшнего дня мы выпустили более 17 игр на нескольких платформах, где признанные критиками Space Marshals и Reckless Racing являются нашей самой известной и успешной серией игр.
+            Бренд Pixelbite был основан в 2009 году пятью энтузиастами-ветеранами индустрии. С тех пор команда выросла в группу из 8 потрясающих художников и программистов с более чем 140-летним опытом коллективной разработки.  Мы стремимся поддерживать офисную культуру, в которой к каждому относятся как к личности, относятся со смирением и уважением, а также получают массу удовольствия, занимаясь любимым делом!
+            Игровая студия Pixelbite расположена в Хельсингборге, Швеция. МИССИЯ: Предлагать крутые и веселые мобильные игры высокого класса посредством цифровой дистрибуции.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [The Pixelbite studio develops and distributes games over a variety of digital channels, where the ambition is to offer high quality game experiences tailored for handheld devices. To stay competitive and to instill a unique touch and feel in our games we also develop our own in-house multiplatform engine.
+            Until today we have released 17+ game on multiple platforms, where the critically acclaimed Space Marshals and Reckless Racing are our most known and successful game series.
+            The Pixelbite brand was established in 2009 by five enthusiastic industry veterans. Since then the team has grown into a group of 8 awesome artists and coders with over 140 years of collective development experience.  We strive to maintain an office culture where everyone is seen as their own individual, treated with humility and respect, as well as having a lot of fun doing what we love!
+            The Pixelbite game studio is located in Helsingborg, Sweden. MISSION: Offer cool and fun high-end mobile games through digital distribution.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;   
+
+ActivisionPublishingInc
+=> nrel_main_idtf:
+    [Activision Publishing, Inc.]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Activision Publishing, Inc.]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Activision Publishing, Inc. - американский издатель видеоигр, базирующийся в Санта-Монике, Калифорния. 
+            Она служит издательским бизнесом для своей материнской компании, Activision Blizzard, и состоит из нескольких дочерних студий. 
+            Activision является одним из крупнейших сторонних издателей видеоигр в мире и была лучшим издателем в Соединенных Штатах в 2016 году.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Activision Publishing, Inc. is an American video game publisher based in Santa Monica, California. 
+            It serves as a publishing business for its parent company, Activision Blizzard, and consists of several affiliated studios. 
+            Activision is one of the largest third-party video game publishers in the world and was the top publisher in the United States in 2016.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;   
+
+SuperheroAcademy
+=> nrel_main_idtf:
+    [Superhero Academy]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Superhero Academy]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Superhero Academy - разработчик игр для Android, который работает с 2019 года. 
+            Текущее портфолио приложений содержит 8 игр. В целом, по нашим оценкам, приложения Академии супергероев собрали около 30 миллионов установок,
+            из них 2 миллиона за последние 30 дней. Некоторые важные приложения - Spider Fighter 2, Muscle Hero: Future Evolution и Iron Hero: Superhero Fighting. 
+            Все они были установлены более 5 миллионов раз.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Superhero Academy is an Android game developer that has been active since 2019. 
+            The current app portfolio contains 8 games. Overall, we estimate that Superhero Academy's apps have collected about 30 million installs, 
+            2 million of them in the last 30 days. Some important apps are Spider Fighter 2, Muscle Hero: Future Evolution, and Iron Hero: Superhero Fighting. 
+            All of them have been installed more than 5 million times.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+Direlight
+=> nrel_main_idtf:
+    [Direlight]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Direlight]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Мы - небольшая финская игровая студия, занимающаяся созданием увлекательных игр для игроков. 
+            Если бы вы посетили наш офис, вас встретил бы запах темного обжаренного кофе и комната, полная идей и энтузиазма.
+            Firelight была основана, когда участники Touch Foo объединились с парой квалифицированных специалистов в области искусства и программирования. 
+            Теперь, когда наша команда вобрала в себя все важные аспекты разработки игр, мы задались целью создать что-то особенное. 
+            Каждый член команды в душе геймер, часто играющий как в AAA-игры, так и пробующий себя в странных инди-проектах. 
+            Мы все выросли, играя в классику на старых добрых 8-битных NES и Commodore 64.
+            Наши проекты отражают в нас закоренелых геймеров. Так же сильно, как нам нравится играть в игры, мы любим вкладывать себя в их создание.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [We are a small Finnish game studio dedicated to making fun games for players. 
+            If you were to visit our office, you would be greeted by the smell of dark roasted coffee and a room full of ideas and enthusiasm.
+            Direlight was founded when the members of Touch Foo teamed up with a couple of skilled specialists in art and programming. 
+            With our team now incorporating all the important aspects of game development, we set out to create something special. 
+            Everyone on the team is a gamer at heart, often playing both AAA games and trying out weird indie projects. 
+            We have all grown up playing classics on the good old 8-bit NES and Commodore 64.
+            Our projects reflect the hardcore gamers in us. As much as we like playing games, we love putting ourselves into creating them.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;        
+
+Playdigious
+=> nrel_main_idtf:
+    [Playdigious]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Playdigious]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Playdigious — издатель загружаемых видеоигр для iOS и Android .
+            Компания была основана в 2015 году Ксавьером Лиардом и Роменом Тиссераном, соучредителями DotEmu , 
+            после продажи последнего. Playdigious ведет свою коммерческую деятельность в Монтрее , 
+            а деятельность по развитию — в Нанси . В настоящее время в компании работает семь сотрудников.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Playdigious is a publisher of downloadable video games for iOS and Android .
+            The company was founded in 2015 by Xavier Liard and Romain Tisserand, co-founders of DotEmu,
+            after the sale of the latter. Playdigious conducts its commercial activities in Montreuil
+            and its development activities in Nancy . The company currently employs seven employees.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;  
+    
+NEKKI
+=> nrel_main_idtf:
+    [NEKKI]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [NEKKI]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [NEKKI - разработчик игр для Android, который работает с 2013 года. 
+            Текущее портфолио приложений содержит 12 игр. В рейтинге Google приложения Никки появляются 
+            входит в топ-100 более чем в 10 странах. Некоторыми важными приложениями являются Shadow Fight 2,
+            Shadow Fight 3 - RPG-файтинг и Vector: Parkour Run. Все они имеют высокий рейтинг
+            в Google Play и были установлены более 100 миллионов раз.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [NEKKI is an Android game developer that has been active since 2013. 
+            The current app portfolio contains 12 games. In the Google rankings, NEKKI's apps appear 
+            in the top 100 in more than 10 countries. Some important apps are Shadow Fight 2, 
+            Shadow Fight 3 - RPG fighting, and Vector: Parkour Run. All of them are highly ranked 
+            on Google Play and have been installed more than 100 million times.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;         
+
+CoffeeStainPublishing
+=> nrel_main_idtf:
+    [Coffee Stain Publishing]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Coffee Stain Publishing]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [В феврале 2017 года Coffee Stain объявила об учреждении Coffee Stain Publishing — дочернего издательства, занимающегося выпуском игр других разработчиков. Первой такой игрой стала Huntdown от шведской студии Easy Trigger.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [In February 2017, Coffee Stain announced the establishment of Coffee Stain Publishing, a subsidiary publishing house that produces games from other developers. The first such game was Huntdown from the Swedish studio Easy Trigger.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;         
+
+ZVEZDA_STOLITSY
+=> nrel_main_idtf:
+    [Звезда Столицы]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [ZVEZDA STOLITSY]
+    (* <- lang_en;; *);
+<-rrel_place_of_registration: Minsk;
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [ Молодая компания, которая лишь набирает обороты в отрасли информационных технологий, чьё головное юридическое лицо зарегистрировано в городе Минске, разработавшая только одно приложение - Hello  ] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [A young company that is just gaining momentum in the information technology industry, whose parent legal entity is registered in the city of Minsk, which has developed only one application - Hello]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+Multimotors
+=> nrel_main_idtf:
+    [Multimotors]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Multimotors]
+    (* <- lang_en;; *);
+<-rrel_place_of_registration: Minsk;
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [ Компания, специализирующаяся на аренде и лизинге легковых автомобилей и грузовых автомобилей малой грузоподъемности. Компания хорошо себя зарекомендовала и пользуется спросом. Головное юридическое лицо находится в городе Минске и зарегистрировано в 2022 году. Выпустила свое предложение для каршеринга под таким же названием, что и сама компания] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [A company specializing in the rental and leasing of passenger cars and light-duty trucks. The company has proven itself well and is in demand. The head legal entity is located in the city of Minsk and was registered in 2022. Has released its offer for carsharing under the same name as the company itself]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+Minsk
+=> nrel_main_idtf:
+    [Минск]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Minsk]
+    (* <- lang_en;; *);;
+
+unknown
+=> nrel_main_idtf:
+    [Неизвестен]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Unknown]
+    (* <- lang_en;; *);;
+
+IOS
+=> nrel_main_idtf:
+    [IOS]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [IOS]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [ Мобильная операционная система для смартфонов, электронных планшетов, носимых проигрывателей, разрабатываемая и выпускаемая американской компанией Apple. Выпущена в 2007 году; первоначально — для iPhone и iPod touch, позже — для таких устройств, как iPad. В 2014 году появилась поддержка автомобильных мультимедийных систем Apple CarPlay. В отличие от Android, выпускается только для устройств, производимых фирмой Apple.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Mobile operating system for smartphones, electronic tablets, wearable players, developed and produced by the American company Apple. Released in 2007; initially — for iPhone and iPod touch, later — for devices such as iPad. In 2014, support for Apple CarPlay car multimedia systems appeared. Unlike Android, it is available only for devices manufactured by Apple.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+Android
+=> nrel_main_idtf:
+    [Android]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Android]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [ Операционная система для смартфонов, планшетов, электронных книг, цифровых проигрывателей, наручных часов, фитнес-браслетов, игровых приставок, ноутбуков, нетбуков, смартбуков, очков Google Glass, телевизоров, проекторов и других устройств. Изначально разрабатывалась компанией Android, Inc., которую затем приобрела Google. Основана на ядре Linux и собственной реализации виртуальной машины Java компании Google. Впоследствии Google инициировала создание альянса Open Handset Alliance , который занимается поддержкой и дальнейшим развитием платформы.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [An operating system for smartphones, tablets, e-books, digital players, wristwatches, fitness bracelets, game consoles, laptops, netbooks, smartbooks, Google Glass glasses, televisions, projectors and other devices. It was originally developed by Android, Inc., which was then acquired by Google. It is based on the Linux kernel and Google's own implementation of the Java Virtual Machine. Subsequently, Google initiated the creation of the Open Handset Alliance, which is engaged in the support and further development of the platform.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+ZenPlatformLLC
+=> nrel_main_idtf:
+    [Zen Platform LLC]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Zen Platform LLC]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Zen Platform LLC — разработчик Android, который работает около 10 месяцев и имеет одно приложение (Дзен - видео, ролики, статьи) в Google Play. С более чем 1 миллионом установок  Дзен — видео, ролики, статьи является одним из самых популярных приложений в экосистеме Android.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Zen Platform LLC is an Android developer that has been active for about 10 months and has one app (Дзен — видео, ролики, статьи) in Google Play. With more than 1 million installs, Дзен — видео, ролики, статьи is among the more popular apps in the Android ecosystem.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+GoogleLLC
+=> nrel_main_idtf:
+    [Google LLC]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Google LLC]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Google LLC - разработчик Android, который начал свою деятельность до 2010 года и, таким образом, является одним из пионеров Android. Текущее портфолио приложений содержит 193 приложения. В рейтинге Google приложения Google LLC входят в топ-100 более чем в 10 странах. Некоторыми важными приложениями являются Google Chrome: Fast & Secure, Google Maps, Gmail, сервисы Google Play, Google, Android Accessibility Suite, речевые сервисы Google и YouTube. Все они были установлены более 10 миллиардов раз.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Google LLC is an Android developer, who started before 2010, and thus is one of the Android pioneers. The current app portfolio contains 193 apps. In the Google rankings, Google LLC's apps appear in the top 100 in more than 10 countries. Some important apps are Google Chrome: Fast & Secure, Google Maps, Gmail, Google Play services, Google, Android Accessibility Suite, Speech Services by Google, and YouTube. All of them have been installed more than 10 billion times.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+Kufar
+=> nrel_main_idtf:
+    [Kufar]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Kufar]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Куфар - разработчик Android, который работает с 2013 года и имеет одно приложение (Куфар: товары, квартиры, авто) в Google Play. С более чем 5 миллионами установок Куфар: товары, квартиры, авто является одним из самых популярных приложений в экосистеме Android.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Kufar is an Android developer that has been active since 2013 and has one app (Куфар: товары, квартиры, авто) in Google Play. With more than 5 million installs, Куфар: товары, квартиры, авто is among the more popular apps in the Android ecosystem.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+VKcom
+=> nrel_main_idtf:
+    [VK.com]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [VK.com]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [VK.com является разработчиком Android, который работает с 2011 года. Текущее портфолио приложений содержит 19 приложений. В рейтинге Google, VK.com Приложения компании входят в топ-100 более чем в 5 странах. Два самых важных приложения от VK.com это ВКОНТАКТЕ: музыка, видео, мессенджер и Youla. Легко покупайте и продавайте. Оба они были установлены более 50 миллионов раз.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [VK.com is an Android developer that has been active since 2011. The current app portfolio contains 19 apps. In the Google rankings, VK.com's apps appear in the top 100 in more than 5 countries. Two of the most important apps from VK.com are VK: music, video, messenger and Youla. Buy and sell easily. Both of them have been installed more than 50 million times.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+MediagroupRussiaToday
+=> nrel_main_idtf:
+    [Медиагруппа "Россия Сегодня"]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Mediagroup Russia Today]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Sputnik - международный бренд медиагруппы "Россия сегодня", предлагающий веб-сайты на 32 языках, радиовещание в 19 странах, а также новостные ленты на английском, китайском, испанском, арабском и фарси. Бренды группы в России включают ведущее информационное агентство "РИА Новости" и RIA.Сайт RU, а также другие информационные ресурсы, такие как PRIME, ИноСМИ, ТОК/КОТ, Baltnews, Ukraina.ru , Социальный навигатор, Arctic.ru и радио "Спутник".] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Sputnik is Rossiya Segodnya media groups international brand offering websites in 32 languages, radio broadcasting in 19 countries as well as newsfeeds in English, Chinese, Spanish, Arabic and Farsi. The groups brands in Russia include RIA Novosti, a leading news agency, and the RIA.RU website, as well as other information resources such as PRIME, InoSMI, TOK/KOT, Baltnews, Ukraina.ru, Social Navigator, Arctic.ru and Sputnik Radio.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+IBAGroup
+=> nrel_main_idtf:
+    [IBA Group]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [IBA Group]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [IBA Group - один из крупнейших системных интеграторов, разработчиков, производителей и поставщиков информационных технологий (ИТ) в Центральной и Восточной Европе] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [IBA Group is one of the largest system integrators, developers, manufacturers and suppliers of information technology (IT) in Central and Eastern Europe]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+IntertechServicesAG
+=> nrel_main_idtf:
+    [Intertech Services AG]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Intertech Services AG]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Intertech Services AG - разработчик Android, который начал свою деятельность до 2010 года и, таким образом, является одним из пионеров Android. Текущее портфолио приложений содержит 58 приложений. В рейтинге Google приложения Intertech Services AG входят в топ-100 более чем в 5 странах. Некоторые важные приложения — это Яндекс Браузер с защитой, Яндекс Старт, Яндекс Go - такси и доставка, Яндекс Карты и навигатор, а также Яндекс Навигатор. Все они были установлены более 100 миллионов раз.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Intertech Services AG is an Android developer, who started before 2010, and thus is one of the Android pioneers. The current app portfolio contains 58 apps. In the Google rankings, Intertech Services AG's apps appear in the top 100 in more than 5 countries. Some important apps are Yandex Browser with Protect, Yandex Start, Yandex Go — taxi and delivery, Yandex Maps and Navigator, and Yandex Navigator. All of them have been installed more than 100 million times.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+all_language
+=> nrel_main_idtf:
+    [Все языки]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [All language]
+    (* <- lang_en;; *);;
+
+ru_language
+=> nrel_main_idtf:
+    [Русский язык]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Russian language]
+    (* <- lang_en;; *);;
+
+use
+=> nrel_main_idtf:
+    [Использует]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Use]
+    (* <- lang_en;; *);;

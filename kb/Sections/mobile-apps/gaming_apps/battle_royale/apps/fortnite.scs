@@ -1,0 +1,46 @@
+fortnite_battle_royale
+
+=> nrel_main_idtf:
+    [Игра в жанре королевская битва FORTNITE: BATTLE ROYALE]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Battle Royale game FORTNITE: BATTLE ROYALE]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//images//fortnite.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Опр. (FORTNITE: BATTLE ROYALE)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [FORTNITE: BATTLE ROYALE - невероятно популярная бесплатная игра в жанре королевская битва,
+            выпущенная компанией Epic Games. Первый и самый успешный конкурент PUBG.
+            В основе Fortnite лежит механика королевской битвы. Игроки по одиночке или группами по двое или четверо
+            высаживаются на огромный яркий остров, собирают припасы и оружие, а затем сражаются друг с другом,
+            пока не останется единственный выживший или отряд.
+            Постепенно безопасное пространство сужается, что заставляет сражающихся вести себя активнее и двигаться в центр безопасной зоны. 
+            Чтобы драться эффективнее, необходимо подбирать предметы и оружие. 
+            Кроме этого, важным моментом в Fortnite стала возможность строить сооружения. И их можно также разрушать, чтобы из сломанных делать новые. 
+            Fortnite поддерживает кросс-плей: игроки с консолей, ПК и смартфонов могут встретиться в одном бою.] (* <-lang_ru;; *);;
+        *);;
+    *);
+    
+
+    =>nrel_view: third_face;
+    =>nrel_type_of_game: multiplayer;
+    =>nrel_have_donate: have;
+    =>nrel_graphic: cartoon;
+    =>nrel_graphic_style: 3D;
+    =>rrel_genre: battle_royale;
+    -> rrel_developer: Epic_Games;
+    => nrel_supported_platform: Android;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_language: all_language;;

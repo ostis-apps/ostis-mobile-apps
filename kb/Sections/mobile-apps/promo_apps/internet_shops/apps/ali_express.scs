@@ -1,0 +1,37 @@
+ali_express
+
+=> nrel_main_idtf:
+    [Интернет-магазин AliExpress]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Internet shop AliExpress]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//images/ali.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Опр. (AliExpress)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [AliExpress - глобальная виртуальная торговая площадка, 
+            предоставляющая возможность покупать товары производителей из КНР, 
+            а также России, Европы, Турции и других стран. Товары на площадке 
+            продаются в розницу и мелким оптом. Платформа не работает в КНР — там её заменяет Taobao.] (* <-lang_ru;; *);;
+        *);;
+    *);
+    
+
+    -> rrel_country: China;
+    => nrel_the_year_of_creation: 2010;
+    => nrel_author: Josef_Zai;
+    => nrel_supported_platform: Android;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_language: all_language;;

@@ -1,0 +1,44 @@
+farlight_84
+
+=> nrel_main_idtf:
+    [Игра в жанре королевская битва FARLIGHT 84]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Battle Royale game FARLIGHT 84]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//images/farlight.jpg"
+            (*
+                =>nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Опр. (FARLIGHT 84)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [FARLIGHT 84 - это королевская битва с элементами жанров MOBA и шутер, 
+            выполненная в сеттинге киберпанка. Проект разработан студией Miracle Games и издаётся Lilith Games. 
+            Перестрелки в игре проходят с видом от третьего лица, а в наличии множество оружия и способностей. 
+            К примеру, возможны быстрые рывки с помощью ускорителей, взлёты, благодаря джет-пакам и так далее. 
+            Также по картам разбросана всяческая техника для быстрого передвижения и платформы, позволяющие 
+            взбираться на высокие препятствия. Помимо прочего, Farlight 84 очень динамична и отличается от 
+            медитативного геймплея Apex Legends и PUBG.] (* <-lang_ru;; *);;
+        *);;
+    *);
+    
+
+    =>nrel_view: first_and_third_face;
+    =>nrel_type_of_game: multiplayer;
+    =>nrel_have_donate: have;
+    =>nrel_graphic: advanced;
+    =>nrel_graphic_style: 3D;
+    =>rrel_genre: battle_royale;
+    -> rrel_developer: Lilith_Games;
+    => nrel_supported_platform: Android;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_language: all_language;;

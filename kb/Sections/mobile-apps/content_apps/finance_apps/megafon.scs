@@ -1,0 +1,45 @@
+megafon
+
+	=> nrel_main_idtf:
+	    [Приложение провайдера мобильной связи Мегафон]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Mobile connection providers' app Megafon]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//megafon.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Мегафон)] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [Мегафон - это ваш личный кабинет, который всегда под рукой. 
+		    Бесплатное приложение «МегаФон» для управления номером и услугами связи. 
+		    Полный контроль. Проверяйте остатки, подключайте и отключайте услуги, 
+		    меняйте тариф и контролируйте свои финансы где бы вы ни были. ] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    => rrel_section: mobile_provider;
+	    => nrel_have_donate: dont_have;
+	    => nrel_size: 168_mb;
+	    => nrel_internet_connection: require;
+	    => nrel_live_technical_support: chat_messenger;
+	    => nrel_cashback: have;
+	    => nrel_services: balance_view;
+	    => nrel_services: tariff_change;
+	    => nrel_services: connection_and_disconnection_of_services;
+	    -> rrel_developer: Megafon_PJSC;
+	    -> nrel_supported_platform: Android;
+	    -> nrel_supported_platform: IOS;
+	    -> nrel_supported_language: ru_language;
+	    -> nrel_use_of_personal_data: use;;

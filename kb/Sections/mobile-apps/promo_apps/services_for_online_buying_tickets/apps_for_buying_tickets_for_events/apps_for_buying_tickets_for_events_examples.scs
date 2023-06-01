@@ -1,0 +1,12 @@
+concept_apps_for_buying_tickets_for_event
+=> nrel_main_idtf:
+    [Мобильные приложения для покупки билетов на мероприятия]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Mobile apps for buying tickets for events]
+    (* <- lang_en;; *);
+->Afisha;
+->Eventbrite;
+->Kassir_RU;
+->bez_kassira;
+->Biletyna;;

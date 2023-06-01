@@ -1,0 +1,14 @@
+subject_domain_of_music_players
+    =>nrel_main_idtf:[Предметная область музыкальных плееров] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Subject domain of music players] (* <-lang_en;;*);
+
+<-subject_domain;
+
+->rrel_maximum_studied_object_class:
+    concept_app_music_players;
+
+-> rrel_explored_relation:	
+nrel_tariffs;
+
+<-sc_node_norole_relation;;
+

@@ -1,0 +1,43 @@
+doodle_jump
+
+	=> nrel_main_idtf:
+	    [Скроллер Doodle Jump]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Scroller game Doodle Jump]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//doodle_jump.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Doodle Jump)] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [Doodle Jump — аркадный скроллер с видом сбоку. 
+		    Вам предстоит путешествовать по листу миллиметровой бумаги, 
+		    постоянно прыгая с одной платформы на другую, собирая реактивные ранцы, 
+		    избегая черных дыр и взрывая злодеев шариками в носу.] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    =>nrel_view: side_view;
+	    =>rrel_type_of_game: singleplayer;
+	    =>nrel_have_donate: dont_have;
+	    =>nrel_graphic: cartoon;
+	    =>nrel_graphic_style: 2D;
+	    =>rrel_genre: scroller;
+	    =>nrel_internet_connection: dont_require;
+	    -> rrel_developer: Lima_Sky_LLC;
+	    -> rrel_supported_platform: Android;
+	    -> rrel_supported_platform: IOS;
+	    -> nrel_supported_language: all_language;
+	    -> nrel_use_of_personal_data: use;; 

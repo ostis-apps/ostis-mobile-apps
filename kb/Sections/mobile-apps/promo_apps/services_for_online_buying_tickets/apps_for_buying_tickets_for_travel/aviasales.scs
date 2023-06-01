@@ -1,0 +1,43 @@
+Aviasales
+
+=>nrel_main_idtf:[Сервис для покупки билетов Aviasales]
+    (*
+         <-lang_ru;;
+    *);
+=>nrel_main_idtf:[Service for buying tickets Aviasales]
+    (*
+         <-lang_en;;
+    *);
+
+
+<- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//logo_aviasales.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+<- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Определение (Aviasales)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Aviasales.ru был запущен в январе 2008 года как удобная основателю RSS-лента. Однако, сайт оказался интересен многим путешественникам, потому и вырос в самостоятельный проект. Вначале данные о спецпредложениях получались из открытых источников, с других сайтов и из рассылок авиакомпаний.
+Сегодня Aviasales.ru — первый и крупнейший в Рунете метапоиск дешевых авиабилетов. Мы ищем авиабилеты в 728 авиакомпаниях, 200 авиакассах и 5 системах бронирования (GDS), используя наиболее современные технологии. Вы выбираете, где покупать. Наш инновационный нанопоиск авиабилетов найдет для вас не только самый лучший вариант на конкретные даты, но и предложит другие даты, когда стоимость перелета может быть ещё ниже.
+] (* <-lang_ru;; *);;
+        *);;
+    *);
+    -> rrel_developer: Go_Travel_Un_Limited;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_platform: Android;
+    => nrel_supported_language: all_language;
+    => nrel_use_of_personal_data: use;
+    => nrel_supported_cur: USD;
+    => nrel_supported_cur: RUB;
+    => nrel_supported_cur: BYN;
+    => nrel_supported_cur: UAH;
+    => nrel_supported_country: Belarus;
+    => nrel_supported_country: USA;
+    => nrel_supported_country: Canada;
+    => nrel_supported_country: Kazakhstan;;

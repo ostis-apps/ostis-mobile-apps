@@ -1,0 +1,46 @@
+xt_com
+ 	=> nrel_main_idtf:
+	    [Приложение для торговли криптовалютой XTcom]
+	    (* <- lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Crypto trading app XTcom]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//xt_com.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (XTcom] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [XTcom - это комплексная криптовалютная биржа в Дубае 
+		    с расширенными функциями безопасности. Компания вдохновлена рынком 
+		    цифровых финансов и использует передовые технологии для торговли Bitcoin, 
+		    Ethereum, и другими криптовалютами, а также для депозитов и вывода средств, 
+		    чтобы удовлетворить потребности своих активных пользователей по всему миру. ] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    => rrel_section: services_for_work_with_cryptocurrencies;
+	    => nrel_have_donate: dont_have;
+	    => nrel_size: 40_mb;
+ 	    => nrel_internet_connection: require;
+ 	    => nrel_real_time_tracking: have;
+ 	    => nrel_type_of_commission: replenishment_commission;
+ 	    => nrel_amount_of_trading_instruments: 176;
+ 	    => nrel_specific_possibility: graphics;
+ 	    => nrel_specific_possibility: indicators;
+ 	    => nrel_specific_possibility: web_platforms;
+	    -> rrel_developer: XTCOM_Inc;
+	    -> nrel_supported_platform: Android;
+	    -> nrel_supported_platform: IOS;
+	    -> nrel_supported_language: all_language;
+	    -> nrel_use_of_personal_data: use;;	

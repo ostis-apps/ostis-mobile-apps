@@ -1,0 +1,9 @@
+section_youtube_music_tarifs
+=> nrel_main_idtf:
+        [Тарифы сервиса Youtube Music]
+        (* <- lang_ru;; *);
+    ->tarif_Premium_ym;;
+
+tarif_Premium_ym
+    =>nrel_main_idtf:[Premium] (*<-lang_ru;;*);
+    ->rrel_usd_per_month:7.19;;

@@ -1,0 +1,34 @@
+wish
+
+=> nrel_main_idtf:
+    [Интернет-магазин Whish]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Internet shop Whish]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//images/whish.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Опр. (Whish)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Whish - американская онлайн-платформа электронной коммерции для транзакций между продавцами и покупателями] (* <-lang_ru;; *);;
+        *);;
+    *);
+    
+
+    -> rrel_country: USA;
+    => nrel_the_year_of_creation: 2010;
+    => nrel_author: Peter_Shulchevsky;
+    => nrel_supported_platform: Android;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_language: all_language;;

@@ -1,0 +1,39 @@
+nrel_themes_of_handbook
+    => nrel_main_idtf:
+    [Тематика справочника]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Theme of Handbook]
+    (* <- lang_en;; *);;
+
+all_included
+        => nrel_main_idtf:
+    [Любые темы]
+    (* <- lang_ru;; *);
+        => nrel_main_idtf:
+    [Any themes]
+    (* <- lang_en;; *);;
+
+doctors_work
+        => nrel_main_idtf:
+    [Врачебное дело]
+    (* <- lang_ru;; *);
+        => nrel_main_idtf:
+    [Doctor's work]
+    (* <- lang_en;; *);;
+
+plants
+        => nrel_main_idtf:
+    [Растения]
+    (* <- lang_ru;; *);
+        => nrel_main_idtf:
+    [Plants]
+    (* <- lang_en;; *);;
+
+Drugs
+        => nrel_main_idtf:
+    [Лекарства]
+    (* <- lang_ru;; *);
+        => nrel_main_idtf:
+    [Drugs]
+    (* <- lang_en;; *);;

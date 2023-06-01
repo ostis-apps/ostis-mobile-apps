@@ -1,0 +1,12 @@
+concept_social_networks_examples
+=> nrel_main_idtf:
+    [Социальные сети]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Social Apps]
+    (* <- lang_en;; *);
+
+-> facebook;
+-> instagram;
+-> twitter;
+-> vk;;

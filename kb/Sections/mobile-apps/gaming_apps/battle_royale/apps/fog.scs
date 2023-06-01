@@ -1,0 +1,47 @@
+fog
+
+=> nrel_main_idtf:
+    [Игра в жанре королевская битва FOG]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Battle Royale game FOG]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//images/fog.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Опр. (FOG)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [FOG - игра однозначно выделяется на фоне большинства игр жанра, 
+            так как она успешно сочетает в себе элементы MOBA, RPG и Battle Royale. Итак, 
+            если вы заинтригованы и вам уже не терпится попробовать эту гремучую смесь, обратите 
+            внимание на данный проект.
+            По карте разбросаны враждебные мобы как в League of Legends или DOTA. 
+            У игроков есть ограниченное время, чтобы подготовиться, прежде чем отправиться к 
+            зонам сброса, где можно добыть оружие и прочее снаряжение. По мере того, как 
+            окружающий область туман сужается, противники неумолимо приближаются друг к другу, 
+            чтобы схлестнуться в бескомпромиссной битве за припасы. Подходить слишком близко к 
+            границам тумана тоже нежелательно, хотя в FOG и существует встроенная механика, которая 
+            слегка отталкивает игроков от краев, что помогает в пылу борьбы не застрять и не умереть моментально.] (* <-lang_ru;; *);;
+        *);;
+    *);
+    
+
+    =>nrel_view: isometric;
+    =>nrel_type_of_game: single_and_multiplayer;
+    =>nrel_have_donate: have;
+    =>nrel_graphic: primitive;
+    =>nrel_graphic_style: 3D;
+    =>rrel_genre: battle_royale;
+    -> rrel_developer: PLAYNETA_LIMITED;
+    => nrel_supported_platform: Android;
+    => nrel_supported_language: all_language;;

@@ -1,0 +1,43 @@
+traffic_racer
+
+	=> nrel_main_idtf:
+	    [Аркадная гоночная игра Traffic Racer]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Arcade racing game Traffic Racer]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//traffic_racer.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Traffic Racer)] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [Traffic Racer – за рулем одного из 40 автомобилей вам предстоит 
+		    грамотно маневрировать на дорогах в различных режимах, устанавливая рекорд за рекордом 
+		    и прокачивать машину для достижения новых вершин. Необычная гонка проходит в пригороде, 
+		    пустыне, на зимней трассе и в других живописных местах.] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    =>nrel_view: first_and_third_face;
+	    =>rrel_type_of_game: singleplayer;
+	    =>nrel_have_donate: have;
+	    =>nrel_graphic: realistic;
+	    =>nrel_graphic_style: 3D;
+	    =>rrel_genre: race;
+	    =>nrel_internet_connection: require;
+	    -> rrel_developer: Skgames_Yazilim_Muhendislik_Teknoloji_Ltd._Sti.;
+	    -> rrel_supported_platform: Android;
+	    -> rrel_supported_platform: IOS;
+	    -> nrel_supported_language: all_language;
+	    -> nrel_use_of_personal_data: not_use;;

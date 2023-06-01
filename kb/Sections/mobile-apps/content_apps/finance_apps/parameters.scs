@@ -1,0 +1,7 @@
+11_mb
+    => nrel_main_idtf: [139 мегабайт] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_mb: 139;; *);;
+
+37_mb
+    => nrel_main_idtf: [37 мегабайт] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_mb: 37;; *);;

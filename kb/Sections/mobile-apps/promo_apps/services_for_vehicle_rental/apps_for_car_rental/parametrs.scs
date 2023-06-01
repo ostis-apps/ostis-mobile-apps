@@ -1,0 +1,915 @@
+section_parametrs_cars
+    => nrel_main_idtf:
+        [Параметры]
+        (* <- lang_ru;; *);
+    ->sedan;
+    ->offroad;
+    ->liftback;
+    ->hatchback;
+    ->crossover;
+    ->minivan;
+    ->convertible;
+    ->compartment;
+    ->wagon;
+    ->akpp;
+    ->mkpp;
+    ->front;
+    ->full;
+    ->rear;
+    ->60_ls;
+    ->70_ls;
+    ->85_ls;
+    ->90_ls;
+    ->100_ls;
+    ->110_ls;
+    ->120_ls;
+    ->123_ls;
+    ->125_ls;
+    ->130_ls;
+    ->140_ls;
+    ->150_ls;
+    ->160_ls;
+    ->170_ls;
+    ->180_ls;
+    ->190_ls;
+    ->240_ls;
+    ->250_ls;
+    ->260_ls;
+    ->310_ls;
+    ->330_ls;
+    ->360_ls;
+    ->760_ls;
+    ->none;
+    ->30_l;
+    ->35_l;
+    ->40_l;
+    ->45_l;
+    ->50_l;
+    ->55_l;
+    ->60_l;
+    ->70_l;
+    ->125_l;
+    ->135_l;
+    ->160_l;
+    ->170_l;
+    ->185_l;
+    ->210_l;
+    ->260_l;
+    ->280_l;
+    ->300_l;
+    ->310_l;
+    ->330_l;
+    ->340_l;
+    ->350_l;
+    ->360_l;
+    ->370_l;
+    ->380_l;
+    ->390_l;
+    ->400_l;
+    ->410_l;
+    ->420_l;
+    ->430_l;
+    ->440_l;
+    ->455_l;
+    ->460_l;
+    ->470_l;
+    ->480_l;
+    ->490_l;
+    ->500_l;
+    ->520_l;
+    ->530_l;
+    ->540_l;
+    ->550_l;
+    ->590_l;
+    ->615_l;
+    ->650_l;
+    ->680_l;
+    ->745_l;
+    ->850_l;
+    ->9300_l;
+    ->18_years;
+    ->19_years;
+    ->20_years;
+    ->21_years;
+    ->23_years;
+    ->24_years;
+    ->25_years;
+    ->39_cop;
+    ->41_cop;
+    ->43_cop;
+    ->45_cop;
+    ->57_cop;
+    ->65_cop;
+    ->67_cop;
+    ->77_cop;
+    ->79_cop;
+    ->89_cop;
+    ->99_cop;
+    ->139_cop;
+    ->149_cop;
+    ->209_cop;
+    ->fix;
+    ->7_gbp;
+    ->8_gbp;
+    ->11_gbp;
+    ->68_gbp;
+    ->75_gpb;
+    ->105_gbp;
+    ->9_cent;
+    ->19_cent;
+    ->31_cent;
+    ->34_cent;
+    ->3_eur;
+    ->4_eur;
+    ->6_eur;
+    ->7_eur;
+    ->8_eur;
+    ->9_eur;
+    ->20_eur;
+    ->22_eur;
+    ->26_eur;
+    ->30_eur;
+    ->35_eur;
+    ->36_eur;
+    ->40_eur;
+    ->0_rub;
+    ->7_rub;
+    ->8_rub;
+    ->9_rub;
+    ->11_rub;
+    ->14_rub;
+    ->15_rub;
+    ->35_rub;
+    ->50_rub;
+    ->449_rub;
+    ->599_rub;
+    ->649_rub;
+    ->699_rub;
+    ->899_rub;
+    ->1199_rub;
+    ->1299_rub;
+    ->1699_rub;
+    ->3400_rub;
+    ->3680_rub;
+    ->5100_rub;
+    ->6800_rub;
+    ->390_cop_per_30_min;
+    ->690_cop_per_60_min;
+    ->1290_cop_per_120_min;
+    ->490_cop_per_30_min;
+    ->890_cop_per_60_min;
+    ->16_byn_per_3_hour;
+    ->25_byn_per_6_hour;
+    ->31_byn_per_9_hour;
+    ->29_byn_per_3_hour;
+    ->39_byn_per_6_hour;
+    ->57_byn_per_1_day;
+    ->24_byn_per_1_day;
+    ->42_byn_per_1_day;
+    ->80_byn_per_1_day;
+    ->82_byn_per_2_day;
+    ->119_byn_per_3_day;
+    ->195_byn_per_5_day;
+    ->272_byn_per_7_day;
+    ->535_byn_per_14_day;
+    ->89_byn_per_1_day;
+    ->59_byn_per_1_day;
+    ->116_byn_per_2_day;
+    ->169_byn_per_3_day;
+    ->279_byn_per_5_day;
+    ->391_byn_per_7_day;
+    ->765_byn_per_14_day;
+    ->209_byn_per_1_day;
+    ->21_byn_per_30_minuts;
+    ->37_byn_per_60_minuts;
+    ->39_byn_per_30_minuts;
+    ->59_byn_per_60_minuts;
+    ->42_byn_per_30_minuts;
+    ->69_byn_per_60_minuts;
+    ->89_byn_per_3_hours;
+    ->139_byn_per_3_hours;
+    ->149_byn_per_3_hours;
+    ->34_cop_per_km;
+    ->350_cop_per_5_km;
+    ->40_cop_per_km;
+    ->7_byn_per_10_km;
+    ->170_cop_per_30_min;
+    ->68_cop_per_km;
+    ->340_cop_per_1_hour;
+    ->670_cop_per_2_hours;;
+
+39_cop
+    => nrel_main_idtf: [39 копеек] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_cop: 39;; *);;
+
+41_cop
+    => nrel_main_idtf: [41 копейка] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_cop: 41;; *);;
+
+43_cop
+    => nrel_main_idtf: [43 копейки] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_cop: 43;; *);;
+
+45_cop
+    => nrel_main_idtf: [45 копеек] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_cop: 45;; *);;
+
+54_cop
+    => nrel_main_idtf: [54 копеек] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_cop: 54;; *);;
+57_cop
+    => nrel_main_idtf: [57 копеек] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_cop: 57;; *);;
+
+65_cop
+    => nrel_main_idtf: [65 копеек] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_cop: 65;; *);;
+
+67_cop
+    => nrel_main_idtf: [67 копеек] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_cop: 67;; *);;
+
+77_cop
+    => nrel_main_idtf: [77 копеек] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_cop: 77;; *);;
+
+79_cop
+    => nrel_main_idtf: [79 копеек] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_cop: 79;; *);;
+
+89_cop
+    => nrel_main_idtf: [89 копеек] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_cop: 89;; *);;
+99_cop
+    => nrel_main_idtf: [99 копеек] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_cop: 99;; *);;
+
+139_cop
+    => nrel_main_idtf: [139 копеек] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_cop: 139;; *);;
+
+149_cop
+    => nrel_main_idtf: [149 копеек] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_cop: 149;; *);;
+
+209_cop
+    => nrel_main_idtf: [209 копеек] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_cop: 209;; *);;
+
+fix
+    => nrel_main_idtf: [Цена зависит от пункта назначения] (* <-lang_ru;; *);;
+
+390_cop_per_30_min
+    => nrel_main_idtf: [390 копеек за 30 минут] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_cop_per_30_min: 390;; *);;
+
+690_cop_per_60_min
+    => nrel_main_idtf: [690 копеек за 60 минут] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_cop_per_60_min: 690;; *);;
+
+1290_cop_per_120_min
+    => nrel_main_idtf: [1290 копеек за 120 минут] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_cop_per_120_min: 1290;; *);;
+
+490_cop_per_30_min
+    => nrel_main_idtf: [490 копеек за 30 минут] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_cop_per_30_min: 490;; *);;
+
+890_cop_per_60_min
+    => nrel_main_idtf: [890 копеек за 60 минут] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_cop_per_60_min: 890;; *);;
+
+16_byn_per_3_hour
+    => nrel_main_idtf: [16 BYN за 3 часа] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_byn_per_3_hour: 16;; *);;
+
+25_byn_per_6_hour
+    => nrel_main_idtf: [25 BYN за 6 часов] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_byn_per_6_hour: 25;; *);;
+
+31_byn_per_9_hour
+    => nrel_main_idtf: [31 BYN за 9 часов] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_byn_per_9_hour: 31;; *);;
+29_byn_per_3_hour
+    => nrel_main_idtf: [29 BYN за 3 часа] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_byn_per_3_hour: 29;; *);;
+
+39_byn_per_6_hour
+    => nrel_main_idtf: [39 BYN за 6 часов] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_byn_per_6_hour: 39;; *);;
+
+24_byn_per_1_day
+    => nrel_main_idtf: [24 BYN за 1 день] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_byn_per_1_day: 24;; *);;
+
+42_byn_per_1_day
+    => nrel_main_idtf: [42 BYN за 1 день] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_byn_per_1_day: 42;; *);;
+
+57_byn_per_1_day
+    => nrel_main_idtf: [57 BYN за 1 день] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_byn_per_1_day: 57;; *);;
+
+80_byn_per_1_day
+    => nrel_main_idtf: [80 BYN за 1 день] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_byn_per_1_day: 80;; *);;
+
+82_byn_per_2_day
+    => nrel_main_idtf: [82 BYN за 2 дня] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_byn_per_2_day: 82;; *);;
+
+119_byn_per_3_day
+    => nrel_main_idtf: [119 BYN за 3 дня] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_byn_per_3_day: 119;; *);;
+
+195_byn_per_5_day
+    => nrel_main_idtf: [195 BYN за 5 дней] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_byn_per_5_day: 195;; *);;
+
+272_byn_per_7_day
+    => nrel_main_idtf: [272 BYN за 7 дней] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_byn_per_7_day: 272;; *);;
+
+535_byn_per_14_day
+    => nrel_main_idtf: [535 BYN за 14 дней] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_byn_per_14_day: 535;; *);;
+
+89_byn_per_1_day
+    => nrel_main_idtf: [89 BYN за 1 день] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_byn_per_1_day: 89;; *);;
+
+59_byn_per_1_day
+    => nrel_main_idtf: [59 BYN за 1 день] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_byn_per_1_day: 59;; *);;
+
+116_byn_per_2_day
+    => nrel_main_idtf: [116 BYN за 2 дня] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_byn_per_2_day: 116;; *);;
+
+169_byn_per_3_day
+    => nrel_main_idtf: [169 BYN за 3 дня] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_byn_per_3_day: 169;; *);;
+
+279_byn_per_5_day
+    => nrel_main_idtf: [279 BYN за 5 дней] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_byn_per_5_day: 279;; *);;
+
+391_byn_per_7_day
+    => nrel_main_idtf: [391 BYN за 7 дней] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_byn_per_7_day: 391;; *);;
+
+765_byn_per_14_day
+    => nrel_main_idtf: [765 BYN за 14 дней] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_byn_per_14_day: 765;; *);;
+
+209_byn_per_1_day
+    => nrel_main_idtf: [209 BYN за 1 день] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_byn_per_1_day: 209;; *);;
+
+21_byn_per_30_minuts
+    => nrel_main_idtf: [21 BYN за 30 минут] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_byn_per_30_min: 21;; *);;
+
+37_byn_per_60_minuts
+    => nrel_main_idtf: [37 BYN за 60 минут] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_byn_per_60_min: 37;; *);;
+
+39_byn_per_30_minuts
+    => nrel_main_idtf: [39 BYN за 30 минут] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_byn_per_30_min: 39;; *);;
+
+59_byn_per_60_minuts
+    => nrel_main_idtf: [59 BYN за 60 минут] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_byn_per_60_min: 59;; *);;
+
+42_byn_per_30_minuts
+    => nrel_main_idtf: [42 BYN за 30 минут] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_byn_per_30_min: 42;; *);;
+
+69_byn_per_60_minuts
+    => nrel_main_idtf: [69 BYN за 60 минут] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_byn_per_60_min: 69;; *);;
+
+89_byn_per_3_hours
+    => nrel_main_idtf: [89 BYN за 3 часа] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_byn_per_3_hour: 89;; *);;
+
+139_byn_per_3_hours
+    => nrel_main_idtf: [139 BYN за 3 часа] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_byn_per_3_hour: 139;; *);;
+
+149_byn_per_3_hours
+    => nrel_main_idtf: [149 BYN за 3 часа] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_byn_per_3_hour: 149;; *);;
+
+34_cop
+    => nrel_main_idtf: [34 копеек] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_cop_per_minut: 34;; *);;
+
+17_cop
+    => nrel_main_idtf: [17 копеек] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_cop_per_minut: 17;; *);;
+
+350_cop_per_5_km
+    => nrel_main_idtf: [350 копеек за 5 километров] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_cop_per_5_km: 350;; *);;
+
+40_cop_per_km
+    => nrel_main_idtf: [40 копеек/км] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_cop_per_km: 40;; *);;
+
+7_byn_per_10_km
+    => nrel_main_idtf: [7 BYN за 10 километров] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_byn_per_10_km: 7;; *);;
+
+170_cop_per_30_min
+    => nrel_main_idtf: [170 копеек за 30 минут] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_cop_per_30_min: 170;; *);;
+
+68_cop_per_km
+    => nrel_main_idtf: [68 копеек/км] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_cop_per_km: 68;; *);;
+
+34_cop_per_km
+    => nrel_main_idtf: [34 копеек/км] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_cop_per_km: 34;; *);;
+
+340_cop_per_1_hour
+    => nrel_main_idtf: [340 копеек за 1 час] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_cop_per_1_hour: 340;; *);;
+    
+670_cop_per_2_hours
+    => nrel_main_idtf: [670 копеек за 2 часа] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_cop_per_2_hours: 670;; *);;
+
+0_rub
+    => nrel_main_idtf: [0 RUB] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_rub: 0;; *);;
+
+5_rub
+    => nrel_main_idtf: [5 RUB] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_rub: 5;; *);;
+
+7_rub
+    => nrel_main_idtf: [7 RUB] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_rub: 7;; *);;
+
+8_rub
+    => nrel_main_idtf: [8 RUB] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_rub: 8;; *);;
+
+9_rub
+    => nrel_main_idtf: [9 RUB] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_rub: 9;; *);;
+
+11_rub
+    => nrel_main_idtf: [11 RUB] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_rub: 11;; *);;
+
+12_rub
+    => nrel_main_idtf: [12 RUB] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_rub: 12;; *);;
+
+14_rub
+    => nrel_main_idtf: [14 RUB] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_rub: 14;; *);;
+
+15_rub
+    => nrel_main_idtf: [15 RUB] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_rub: 15;; *);;
+
+35_rub
+    => nrel_main_idtf: [35 RUB] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_rub: 35;; *);;
+
+50_rub
+    => nrel_main_idtf: [50 RUB] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_rub: 50;; *);;
+
+449_rub
+    => nrel_main_idtf: [449 RUB] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_rub: 449;; *);;
+
+599_rub
+    => nrel_main_idtf: [599 RUB] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_rub: 599;; *);;
+
+649_rub
+    => nrel_main_idtf: [649 RUB] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_rub: 649;; *);;
+
+699_rub
+    => nrel_main_idtf: [699 RUB] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_rub: 699;; *);;
+
+899_rub
+    => nrel_main_idtf: [899 RUB] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_rub: 899;; *);;
+
+1199_rub
+    => nrel_main_idtf: [1199 RUB] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_rub: 1199;; *);;
+
+1299_rub
+    => nrel_main_idtf: [1299 RUB] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_rub: 1299;; *);;
+
+1699_rub
+    => nrel_main_idtf: [1699 RUB] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_rub: 1699;; *);;
+
+2450_rub
+    => nrel_main_idtf: [2450 RUB] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_rub: 2450;; *);;
+
+2950_rub
+    => nrel_main_idtf: [2950 RUB] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_rub: 2950;; *);;
+
+3400_rub
+    => nrel_main_idtf: [3400 RUB] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_rub: 3400;; *);;
+
+3680_rub
+    => nrel_main_idtf: [3680 RUB] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_rub: 3680;; *);;
+
+5100_rub
+    => nrel_main_idtf: [5100 RUB] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_rub: 5100;; *);;
+
+6800_rub
+    => nrel_main_idtf: [6800 RUB] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_rub: 6800;; *);;
+
+7_gbp
+    => nrel_main_idtf: [7 GBP] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_gbp: 7;; *);;
+
+8_gbp
+    => nrel_main_idtf: [8 GBP] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_gbp: 8;; *);;
+
+11_gbp
+    => nrel_main_idtf: [11 GBP] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_gbp: 11;; *);;
+
+68_gbp
+    => nrel_main_idtf: [68 GBP] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_gbp: 68;; *);;
+
+75_gpb
+    => nrel_main_idtf: [75 GBP] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_gbp: 75;; *);;
+
+105_gbp
+    => nrel_main_idtf: [105 GBP] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_gbp: 105;; *);;
+
+9_cent
+    => nrel_main_idtf: [0,09 EUR] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_cent: 9;; *);;
+19_cent
+    => nrel_main_idtf: [0,19 EUR] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_cent: 19;; *);;
+31_cent
+    => nrel_main_idtf: [0,31 EUR] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_cent: 31;; *);;
+34_cent
+    => nrel_main_idtf: [0,34 EUR] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_cent: 34;; *);;
+3_eur
+    => nrel_main_idtf: [3 EUR] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_eur: 3;; *);;
+
+4_eur
+    => nrel_main_idtf: [4 EUR] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_eur: 4;; *);;
+
+6_eur
+    => nrel_main_idtf: [6 EUR] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_eur: 6;; *);;
+
+7_eur
+    => nrel_main_idtf: [7 EUR] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_eur: 7;; *);;
+
+8_eur
+    => nrel_main_idtf: [8 EUR] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_eur: 8;; *);;
+
+9_eur
+    => nrel_main_idtf: [9 EUR] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_eur: 9;; *);;
+
+20_eur
+    => nrel_main_idtf: [20 EUR] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_eur: 20;; *);;
+
+22_eur
+    => nrel_main_idtf: [22 EUR] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_eur: 22;; *);;
+
+26_eur
+    => nrel_main_idtf: [26 EUR] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_eur: 26;; *);;
+
+30_eur
+    => nrel_main_idtf: [30 EUR] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_eur: 30;; *);;
+
+35_eur
+    => nrel_main_idtf: [35 EUR] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_eur: 35;; *);;
+
+36_eur
+    => nrel_main_idtf: [36 EUR] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_eur: 36;; *);;
+
+40_eur
+    => nrel_main_idtf: [40 EUR] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_eur: 40;; *);;
+
+18_years
+    =>nrel_main_idtf: [18 лет] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_years: 18;;*);;
+
+19_years
+    =>nrel_main_idtf: [19 лет] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_years: 19;;*);;
+
+20_years
+    =>nrel_main_idtf: [20 лет] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_years: 20;;*);;
+
+21_years
+    =>nrel_main_idtf: [21 год] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_years: 21;;*);;
+
+23_years
+    =>nrel_main_idtf: [23 года] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_years: 23;;*);;
+
+24_years
+    =>nrel_main_idtf: [24 года] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_years: 24;;*);;
+
+25_years
+    =>nrel_main_idtf: [25 лет] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_years: 25;;*);;
+
+sedan
+    =>nrel_main_idtf: [Седан] (* <-lang_ru;;*);;
+
+offroad
+    =>nrel_main_idtf: [Внедорожник] (* <-lang_ru;;*);;
+
+liftback
+    =>nrel_main_idtf: [Лифтбек] (* <-lang_ru;;*);;
+
+hatchback
+    =>nrel_main_idtf: [Хэтчбэк] (* <-lang_ru;;*);;
+
+crossover
+    =>nrel_main_idtf: [Кроссовер] (* <-lang_ru;;*);;
+
+minivan
+    =>nrel_main_idtf: [Минивен] (* <-lang_ru;;*);;
+
+convertible
+    =>nrel_main_idtf: [Кабриолет] (* <-lang_ru;;*);;
+
+compartment
+    =>nrel_main_idtf: [Купе] (* <-lang_ru;;*);;
+
+wagon
+    =>nrel_main_idtf: [Универсал] (* <-lang_ru;;*);;
+
+akpp
+    =>nrel_main_idtf: [АКПП] (* <-lang_ru;;*);;
+
+mkpp
+    =>nrel_main_idtf: [МКПП] (* <-lang_ru;;*);;
+
+front
+    =>nrel_main_idtf: [Передний привод] (* <-lang_ru;;*);;
+
+full
+    =>nrel_main_idtf: [Полный привод] (* <-lang_ru;;*);;
+
+rear
+    =>nrel_main_idtf: [Залний привод] (* <-lang_ru;;*);;
+
+60_ls
+    =>nrel_main_idtf: [60 л.с.] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_ls:60 ;;*);;
+70_ls
+    =>nrel_main_idtf: [70 л.с.] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_ls:70 ;;*);;
+85_ls
+    =>nrel_main_idtf: [85 л.с.] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_ls:85 ;;*);;
+90_ls
+    =>nrel_main_idtf: [90 л.с.] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_ls:90 ;;*);;
+100_ls
+    =>nrel_main_idtf: [100 л.с.] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_ls:100 ;;*);;
+110_ls
+    =>nrel_main_idtf: [110 л.с.] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_ls:110 ;;*);;
+120_ls
+    =>nrel_main_idtf: [120 л.с.] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_ls:120 ;;*);;
+123_ls
+    =>nrel_main_idtf: [123 л.с.] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_ls:123 ;;*);;
+125_ls
+    =>nrel_main_idtf: [125 л.с.] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_ls:125 ;;*);;
+130_ls
+    =>nrel_main_idtf: [130 л.с.] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_ls:130 ;;*);;
+140_ls
+    =>nrel_main_idtf: [140 л.с.] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_ls:140 ;;*);;
+150_ls
+    =>nrel_main_idtf: [150 л.с.] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_ls:150 ;;*);;
+160_ls
+    =>nrel_main_idtf: [160 л.с.] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_ls:160 ;;*);;
+170_ls
+    =>nrel_main_idtf: [170 л.с.] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_ls:170 ;;*);;
+180_ls
+    =>nrel_main_idtf: [180 л.с.] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_ls:180 ;;*);;
+190_ls
+    =>nrel_main_idtf: [190 л.с.] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_ls:190 ;;*);;
+240_ls
+    =>nrel_main_idtf: [240 л.с.] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_ls:240 ;;*);;
+250_ls
+    =>nrel_main_idtf: [250 л.с.] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_ls:250 ;;*);;
+260_ls
+    =>nrel_main_idtf: [260 л.с.] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_ls:260 ;;*);;
+310_ls
+    =>nrel_main_idtf: [310 л.с.] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_ls:310 ;;*);;
+330_ls
+    =>nrel_main_idtf: [330 л.с.] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_ls:330 ;;*);;
+360_ls
+    =>nrel_main_idtf: [360 л.с.] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_ls:360 ;;*);;
+760_ls
+    =>nrel_main_idtf: [760 л.с.] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_ls:760 ;;*);;
+none
+    =>nrel_main_idtf: [Отсутствует] (* <-lang_ru;;*);;
+
+30_l
+    =>nrel_main_idtf: [30 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:30 ;;*);;
+35_l
+    =>nrel_main_idtf: [35 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:35 ;;*);;
+40_l
+    =>nrel_main_idtf: [40 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:40 ;;*);;
+45_l
+    =>nrel_main_idtf: [45 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:45 ;;*);;
+50_l
+    =>nrel_main_idtf: [50 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:50 ;;*);;
+55_l
+    =>nrel_main_idtf: [55 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:55 ;;*);;
+60_l
+    =>nrel_main_idtf: [60 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:60 ;;*);;
+70_l
+    =>nrel_main_idtf: [70 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:70 ;;*);;
+125_l
+    =>nrel_main_idtf: [125 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:125 ;;*);;
+135_l
+    =>nrel_main_idtf: [135 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:135 ;;*);;
+160_l
+    =>nrel_main_idtf: [160 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:160 ;;*);;
+170_l
+    =>nrel_main_idtf: [170 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:170 ;;*);;
+185_l
+    =>nrel_main_idtf: [185 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:185 ;;*);;
+210_l
+    =>nrel_main_idtf: [210 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:210 ;;*);;
+260_l
+    =>nrel_main_idtf: [260 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:260 ;;*);;
+280_l
+    =>nrel_main_idtf: [280 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:280 ;;*);;
+300_l
+    =>nrel_main_idtf: [300 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:300 ;;*);;
+310_l
+    =>nrel_main_idtf: [310 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:310 ;;*);;
+330_l
+    =>nrel_main_idtf: [330 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:330 ;;*);;
+340_l
+    =>nrel_main_idtf: [340 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:340 ;;*);;
+350_l
+    =>nrel_main_idtf: [350 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:350 ;;*);;
+360_l
+    =>nrel_main_idtf: [350 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:350 ;;*);;
+370_l
+    =>nrel_main_idtf: [370 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:370 ;;*);;
+380_l
+    =>nrel_main_idtf: [380 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:380 ;;*);;
+390_l
+    =>nrel_main_idtf: [390 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:390 ;;*);;
+400_l
+    =>nrel_main_idtf: [400 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:400 ;;*);;
+410_l
+    =>nrel_main_idtf: [410 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:410 ;;*);;
+420_l
+    =>nrel_main_idtf: [420 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:420 ;;*);;
+430_l
+    =>nrel_main_idtf: [430 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:430 ;;*);;
+440_l
+    =>nrel_main_idtf: [440 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:440 ;;*);;
+455_l
+    =>nrel_main_idtf: [455 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:455 ;;*);;
+460_l
+    =>nrel_main_idtf: [460 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:460 ;;*);;
+470_l
+    =>nrel_main_idtf: [470 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:470 ;;*);;
+480_l
+    =>nrel_main_idtf: [480 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:480 ;;*);;
+490_l
+    =>nrel_main_idtf: [490 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:490 ;;*);;
+500_l
+    =>nrel_main_idtf: [500 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:500 ;;*);;
+520_l
+    =>nrel_main_idtf: [520 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:520 ;;*);;
+530_l
+    =>nrel_main_idtf: [530 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:530 ;;*);;
+540_l
+    =>nrel_main_idtf: [540 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:540 ;;*);;
+550_l
+    =>nrel_main_idtf: [550 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:550 ;;*);;
+590_l
+    =>nrel_main_idtf: [590 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:590 ;;*);;
+615_l
+    =>nrel_main_idtf: [615 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:615 ;;*);;
+650_l
+    =>nrel_main_idtf: [650 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:650 ;;*);;
+680_l
+    =>nrel_main_idtf: [680 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:680 ;;*);;
+745_l
+    =>nrel_main_idtf: [745 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:745 ;;*);;
+850_l
+    =>nrel_main_idtf: [850 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:850 ;;*);;
+9300_l
+    =>nrel_main_idtf: [9300 л] (* <-lang_ru;;*);
+    =>nrel_value:...(* -> rrel_l:9300 ;;*);;

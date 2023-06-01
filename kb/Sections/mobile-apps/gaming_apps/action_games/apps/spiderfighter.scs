@@ -1,0 +1,41 @@
+spiderfighter
+=> nrel_main_idtf:
+    [Файтинг Spider Fighter]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Fighting Spider Fighter]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <- description;;
+        => nrel_idtf: [Описание] (* <-lang_ru;; *);;
+        => nrel_idtf: [Description] (* <-lang_en;;*);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Spider Fighter (Спайдер файтер) – это игра с поистине невероятным уровнем экшена и игрового напряжения, 
+            созданная в супергеройском сеттинге. В главной роли всеми известный и всеми любимый, легендарный Человек паук. 
+            Игрокам предстоит активно бороться с преступными бандами и хитрыми преступниками, замышляющими очередное дерзкое преступление прямо в центре города.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Spider Fighter is a game with a truly incredible level of action and gaming tension,
+            created in a superhero setting. Starring the well-known and beloved, legendary Spider-Man. 
+            Players will have to actively fight criminal gangs and cunning criminals plotting another daring crime right in the city center.]
+            (* <-lang_en;; *);;
+        *);;
+    *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//Photo//spiderfighter.jpg"
+            (*
+                =>nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+
+    ->rrel_developer: SuperheroAcademy;
+    =>nrel_view: third_face;
+    =>nrel_type_of_game: singleplayer;
+    =>nrel_have_donate: have;
+    =>nrel_graphic: advanced;
+    =>nrel_graphic_style: 2D;
+    =>nrel_genre: fighting;;

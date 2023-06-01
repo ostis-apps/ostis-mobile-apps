@@ -1,0 +1,46 @@
+dungreed
+
+	=> nrel_main_idtf:
+	    [Скроллер Dungreed]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Scroller game Dungreed]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//dungreed.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Дангрид)] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [Дангрид — двухмерный сайд-скроллер с элементами rogue-lite.
+		    Тихий и мирный город был разрушен, и всех его жителей 
+		    засосало в таинственное подземелье. Вы должны взять на себя 
+		    роль искателя приключений, посланного из королевства, 
+		    который должен спасти их из этой катастрофы. 
+		    Спуститесь в подземелье, чтобы победить несметные полчища врагов, 
+		    спасти жителей города и отстроить его заново!] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    =>nrel_view: third_face;
+	    =>rrel_type_of_game: singleplayer;
+	    =>nrel_have_donate: have;
+	    =>nrel_graphic: primitive;
+	    =>nrel_graphic_style: 2D;
+	    =>rrel_genre: scroller;
+	    =>nrel_internet_connection: dont_require;
+	    -> rrel_developer: Team_Horay;
+	    -> rrel_supported_platform: Android;
+	    -> rrel_supported_platform: IOS;
+	    -> nrel_supported_language: all_language;
+	    -> nrel_use_of_personal_data: not_use;; 

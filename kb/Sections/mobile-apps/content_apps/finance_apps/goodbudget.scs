@@ -1,0 +1,52 @@
+goodbudget
+
+	=> nrel_main_idtf:
+	    [Приложение для учёта финансов Goodbudget]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Financial accounting app Goodbudget]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//goodbudget.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Goodbudget)] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [Goodbudget (ранее EEBA, Easy Envelope Budget Aid) - 
+		    это менеджер денежных средств и система отслеживания расходов, 
+		    которая отлично подходит для планирования домашнего бюджета. Этот персональный финансовый менеджер 
+		    представляет собой виртуальное обновление системы конвертов вашей бабушки - у
+		    преждающий планировщик бюджета, который поможет вам следить за своими счетами и финансами. 
+		    Создан для простого отслеживания в реальном времени. И синхронизируйте данные на Android, 
+		    iPhone и в Интернете, чтобы делиться своим бюджетом с партнерами по бюджету.] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    => rrel_section: services_for_financial_planning;
+	    => nrel_have_donate: have;
+	    => nrel_size: 6_mb;
+ 	    => nrel_internet_connection: dont_require;
+ 	    => nrel_level_of_financial_literacy: advanced;
+ 	    => nrel_synchronization_with_gadget: have;
+ 	    => nrel_services: income_and_expense_accounting;
+ 	    => nrel_services: financial_structuring;
+ 	    => nrel_services: checks_scanning;
+ 	    => nrel_services: long_time_planning;
+ 	    => nrel_services: family_budget;
+ 	    => nrel_services: notification;
+ 	    => nrel_services: accounting_in_several_currencies;
+	    -> rrel_developer: Dayspring_Partners;
+	    -> nrel_supported_platform: Android;
+	    -> nrel_supported_platform: IOS;
+	    -> nrel_supported_language: en_language;
+	    -> nrel_use_of_personal_data: use;;
