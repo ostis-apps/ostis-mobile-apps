@@ -1,0 +1,121 @@
+section_belka_car_park
+=> nrel_main_idtf:
+        [Автомобили]
+    (* <- lang_ru;; *);
+    ->KIA_Rio_X_belka;
+    ->Volkswagen_Polo_belka;
+    ->Mercedes_Benz_CLA;
+    ->Mercedes_Benz_GLA;
+    ->Renault_Arkana_belka;;
+
+section_tariffs_belka_car
+   => nrel_main_idtf:
+        [Тарифы сервиса BelkaCar]
+        (* <- lang_ru;; *);
+    ->tariff_minuts;
+    ->tariff_days;;
+
+KIA_Rio_X_belka
+    =>nrel_main_idtf:[KIA Rio X] (*<-lang_ru;;*);
+    =>nrel_min_age: 21_years;
+    =>nrel_minut: 5_rub;
+    =>nrel_day: 2450_rub;
+    =>nrel_bodywork:wagon;
+    =>nrel_kpp: akpp;
+    =>nrel_power: 100_ls;
+    =>nrel_actuator: front;
+    =>nrel_V_fuel: 50_l;
+    =>nrel_V_back: 390_l;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//Rio.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);;
+
+Volkswagen_Polo_belka
+    =>nrel_main_idtf:[Volkswagen Polo] (*<-lang_ru;;*);
+    =>nrel_min_age: 21_years;
+    =>nrel_minut: 5_rub;
+    =>nrel_day: 2450_rub;
+    =>nrel_bodywork:sedan;
+    =>nrel_kpp: akpp;
+    =>nrel_power: 110_ls;
+    =>nrel_actuator: front;
+    =>nrel_V_fuel: 55_l;
+    =>nrel_V_back: 460_l;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//Polo.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);;
+
+Renault_Arkana_belka
+    =>nrel_main_idtf:[Renault Arkana] (*<-lang_ru;;*);
+    =>nrel_min_age: 21_years;
+    =>nrel_minut: 5_rub;
+    =>nrel_day: 2450_rub;
+    =>nrel_bodywork:offroad;
+    =>nrel_kpp: akpp;
+    =>nrel_power: 150_ls;
+    =>nrel_actuator: full;
+    =>nrel_V_fuel: 50_l;
+    =>nrel_V_back: 400_l;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//Arkana.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);;
+
+Mercedes_Benz_CLA
+    =>nrel_main_idtf:[Mercedes Benz CLA] (*<-lang_ru;;*);
+    =>nrel_min_age: 25_years;
+    =>nrel_minut: 9_rub;
+    =>nrel_day: 2950_rub;
+    =>nrel_bodywork:compartment;
+    =>nrel_kpp: akpp;
+    =>nrel_power: 160_ls;
+    =>nrel_actuator: front;
+    =>nrel_V_fuel: 50_l;
+    =>nrel_V_back: 470_l;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//CLA.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);;
+
+Mercedes_Benz_GLA
+    =>nrel_main_idtf:[Mercedes Benz GLA] (*<-lang_ru;;*);
+    =>nrel_min_age: 25_years;
+    =>nrel_minut: 9_rub;
+    =>nrel_day: 2950_rub;
+    =>nrel_bodywork:crossover;
+    =>nrel_kpp: akpp;
+    =>nrel_power: 120_ls;
+    =>nrel_actuator: front;
+    =>nrel_V_fuel: 50_l;
+    =>nrel_V_back: 420_l;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//GLA.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);;

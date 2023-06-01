@@ -1,0 +1,39 @@
+audiolab_audio_editor
+
+=> nrel_main_idtf:
+    [Аудио-редактор AudioLab]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Audio editor AudioLab]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://photo//audiolab_audio_editor.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definiton;;
+        => nrel_idtf: [Опр. (AudioLab: Audio Editor)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [AudioLab: Audio Editor Recorder – это самый продвинутый 
+            комплексный аудиоредактор, программа для записи звука, создания рингтонов, 
+            аудиомикшера и звукового редактора, в котором есть все функции, которые вам когда-либо] (* <-lang_ru;; *);;
+            *);;
+        *);
+    
+
+    => nrel_support_for_various_formats: yes;
+    => nrel_have_donate: have;
+    => nrel_set_of_tools_and_effects: conventional;
+    => nrel_exactingness: not_exacting;
+    => nrel_support_for_multiple_tracks: support;
+    -> rrel_developer: HitroLab;
+    -> rrel_supported_platform: Android;
+    -> rrel_supported_language: all_language;
+    -> nrel_use_of_personal_data: use;;

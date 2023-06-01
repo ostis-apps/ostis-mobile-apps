@@ -1,0 +1,40 @@
+simplenote 
+
+	=> nrel_main_idtf:
+    [Текстовый редактор Simplenote]
+    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Text editor Simplenote]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//simplenote.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Simplenote)] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [Simplenote — это простой способ делать заметки, создавать списки дел, записывать идеи и так далее. Откройте его, запишите свои мысли, и готово. Чтобы быстро находить заметки, используйте теги и булавки, а также функцию быстрого поиска. Simplenote бесплатно синхронизирует заметки на ваших устройствах — у вас всегда будет доступ к ним.] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    	=> nrel_size: 13_mb;
+		=> nrel_have_a_donate: dont_have;
+		=> nrel_internet_connection: dont_require;
+		=> nrel_supported_extensions: docx;
+		=> nrel_supported_extensions: doc;
+		=> nrel_functional_features: pdf_viewer;
+		=> nrel_sections: trivial_text_editor;
+	    -> rrel_developer: Automattic_Inc;
+	    -> rrel_supported_platform: Android;
+	    -> rrel_supported_platform: IOS;
+	    -> rrel_supported_language: all_language;
+	    -> nrel_use_of_personal_data: use;;

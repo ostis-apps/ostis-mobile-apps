@@ -1,0 +1,42 @@
+youcut
+
+=> nrel_main_idtf:
+    [Видео-редактор YouCut]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Video editor YouCut]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://photo//youcut.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definiton;;
+        => nrel_idtf: [Опр. (Youcut)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Видеоредактор Youcut - это способный видеоредактор, который может превратить видео 
+            с вашей камеры или смартфона в фильм. В нем есть большинство инструментов редактирования видео, 
+            которые вы найдете в высококачественных приложениях для редактирования видео. 
+            Однако Youcut можно использовать бесплатно. Она была разработана компанией Inshot Inc.] (* <-lang_ru;; *);;
+            *);;
+        *);
+    
+
+    => nrel_have_donate: dont_have;
+    => nrel_set_of_tools_and_effects: wide;
+    => nrel_exactingness: not_exacting;
+    => nrel_have_a_watermark: no;
+    => nrel_possibility_to_share: yes;
+    => nrel_size: 123_mb;
+    -> rrel_developer: Inshot_Inc.;
+    -> rrel_supported_platform: Android;
+    -> rrel_supported_platform: IOS;
+    -> rrel_supported_language: all_language;
+    -> nrel_use_of_personal_data: use;;

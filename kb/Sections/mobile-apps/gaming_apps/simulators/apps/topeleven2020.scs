@@ -1,0 +1,40 @@
+topeleven2020
+    => nrel_main_idtf:
+        [Спортивный симулятор Top Eleven 2020]
+        (* <- lang_ru;; *);
+    => nrel_main_idtf:
+        [Sport simulator Top Eleven 2020]
+        (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <- description;;
+        => nrel_idtf: [Описание] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Top Eleven 2020 - это продвинутый футбольный менеджер, который отличается упором на тактику и стратегию. 
+            Без них тут просто невозможно победить во всевозможных онлайн турнирах и чемпионатах.
+            Суть Top Eleven 2020 сводится к тому, что вам нужно создать собственный футбольный клуб, 
+            разработать программу тренировок для футболистов, освоить различные тактики игры, 
+            разработать уникальную футбольную форму и вести команду к победе. 
+            Найдите лучших игроков и сделайте из них настоящих звезд футбола.] 
+            (* <-lang_ru;; *);;
+        *);;
+    *);
+
+
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://..//Photo//topeleven2020.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+
+    ->rrel_developer: Nordeus;
+    =>nrel_view: third_face;
+    =>nrel_type_of_game: single_and_multiplayer;
+    =>nrel_have_donate: have;
+    =>nrel_graphic: realistic;
+    =>nrel_graphic_style: 3D;
+    =>nrel_genre: sport_simulator;;

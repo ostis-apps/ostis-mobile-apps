@@ -1,0 +1,13 @@
+concept_app_utilites
+=> nrel_main_idtf: 
+    [Мобильные приложения Утилиты] 
+    (* <- lang_ru;; *); 
+=> nrel_main_idtf: 
+    [Mobile apps Utilites] 
+    (* <- lang_en;; *); 
+
+->concept_app_recovery;   
+-> concept_app_archivers; 
+-> concept_app_deleters;
+-> concept_app_optimizers; 
+-> concept_app_viewvers;;

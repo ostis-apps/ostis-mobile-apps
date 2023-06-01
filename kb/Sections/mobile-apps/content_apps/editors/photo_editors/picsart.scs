@@ -1,0 +1,46 @@
+picsart
+
+	=> nrel_main_idtf:
+    	[Фоторедактор PicsArt]
+    	(* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Photo editor PicsArt]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//picsart.jpg"
+		    (*
+		        =>nrel_format: format_jpg;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (PicsArt)] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [ Редактор фото и видео Picsart поможет тебе раскрыть свои творческие способности. 
+		    Делай коллажи профессионального уровня, создавай и добавляй стикеры, 
+		    удаляй и заменяй фоны одним нажатием, экспериментируй с популярными эффектами, 
+		    такими как Golden Hour и трендовые селфи в зеркале, или накладывай фильтры 
+		    в стиле 2000-ых или старых видеокассет. Picsart — это универсальный редактор, 
+		    где есть все необходимые инструменты для создания уникального и заметного контента.] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+	    => nrel_possibility_to_export: have;
+	    => nrel_internet_connection: dont_require;	
+	    => nrel_have_donate: have;
+	    => nrel_size: 212_mb;
+	    => nrel_features: history_of_editing;
+	    => nrel_features: use_of_ai;
+	    => nrel_features: deleting_object_from_photo;
+	    => nrel_features: creating_stickers;
+	    => nrel_level_of_application: middle;
+	    -> rrel_developer: PicsArt_Inc;
+	    -> rrel_supported_platform: Android;
+	    -> rrel_supported_platform: IOS;
+	    -> nrel_supported_language: all_language;
+	    -> nrel_use_of_personal_data: use;;

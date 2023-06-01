@@ -1,0 +1,45 @@
+dunk_shot
+
+	=> nrel_main_idtf:
+	    [Аркада Dunk Shot]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Arcade game Dunk Shot]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//dunk_shot.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Данк Шот)] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [Данк Шот - баскетбольная мини игра, 
+		    которая поможет убить время любому, кто решится сыграть! 
+		    Ваша задача запускать баскетбольный мяч из одной корзины в другую, 
+		    не давая мячу пасть вниз. Цель игры - подняться как можно выше и 
+		    заработать побольше звезд, ведь именно они понадобятся для 
+		    открытия новых, цветных и крутых мячей.] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    =>nrel_view: side_view;
+	    =>rrel_type_of_game: singleplayer;
+	    =>nrel_have_donate: have;
+	    =>nrel_graphic: primitive;
+	    =>nrel_graphic_style: 2D;
+	    =>rrel_genre: classic;
+	    =>nrel_internet_connection: dont_require;
+	    -> rrel_developer: Ketchapp;
+	    -> rrel_supported_platform: Android;
+	    -> rrel_supported_platform: IOS;
+	    -> nrel_supported_language: en_language;
+	    -> nrel_use_of_personal_data: use;;

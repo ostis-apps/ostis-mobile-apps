@@ -1,0 +1,31 @@
+Glovo
+=>nrel_main_idtf:[Приложения для заказа еды "Glovo"]
+    (*
+         <-lang_ru;;
+    *);
+ <- rrel_key_sc_element: ... (*
+        <- description;;
+        => nrel_idtf: [Описание] (* <-lang_ru;; *);;
+        => nrel_idtf: [Description] (* <-lang_en;;*);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [В Glovo можно заказать все, что пожелаете, — доставка будет выполнена за несколько минут. Заказ можно оформить где угодно: ресторан, кафе, супермаркет, гипермаркет, магазин, рынок,базар и даже интернет магазин вашего города.
+
+Еда на дом — десерты, ваш любимый бургер, пицца, гриль, шашлык, закуски, суши, витамины, цветы, алкоголь, бакалея, подарки... Мы даже можем забрать вещи в химчистке, быстро привезти забытые ключи, либо доставить, например, овощи, рис, мясо или лосось, если вы собрались готовить еду дома. Вы заказываете — курьер Glovo доставляет.] 
+            (* <-lang_ru;; *);;
+        *);;
+    *);
+        <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo/Glovo.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    ->rrel_developer: Glovoapp;
+    =>nrel_supported_language:ru_language;
+    =>nrel_supported_platform: IOS;
+    =>nrel_supported_platform: Android;
+    => nrel_zakaz: dostavka;
+    =>nrel_kind_of_dostavka: car_delivery;;

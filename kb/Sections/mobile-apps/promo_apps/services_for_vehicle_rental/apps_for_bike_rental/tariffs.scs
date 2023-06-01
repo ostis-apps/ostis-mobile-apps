@@ -1,0 +1,65 @@
+section_tariffs_bike
+   => nrel_main_idtf:
+        [Тарифы]
+        (* <- lang_ru;; *);
+    ->tariff_usual;
+    ->tariff_quarter_of_hour;
+    ->tariff_month;
+    ->tariff_free_starts;
+    ->tariff_30_plus_15;
+    ->tariff_minuts_bike;
+    ->tariff_days_bike;
+    ->tariff_3_hours_bike;;
+
+tariff_usual
+    =>nrel_main_idtf: [Тариф "Обычный"] (* <-lang_ru;; *);
+    =>nrel_usual_start:
+     50_cop;
+     1_byn;
+    =>nrel_usual_minut:
+     5_cop_per_minut;
+     24_cop_per_minut;;
+
+tariff_free_starts
+    =>nrel_main_idtf: [Тариф "Бесплатные старты на месяц" ] (* <-lang_ru;;*);
+    =>nrel_free_starts: 349_cop;
+    =>nrel_free_starts_minut:
+     5_cop_per_minut;
+     24_cop_per_minut;;
+
+tariff_30_plus_15
+    =>nrel_main_idtf: [Тариф "30+15" ] (* <-lang_ru;;*);
+    =>nrel_30_plus_15: 1690_cop;;
+
+tariff_quarter_of_hour
+    =>nrel_main_idtf: [Тариф "15 минут" ] (* <-lang_ru;;*);
+    =>nrel_quarter_of_hour: 1_eur;;
+
+tariff_month
+    =>nrel_main_idtf: [Тариф "Месяц" ] (* <-lang_ru;;*);
+    =>nrel_month: 10_eur;
+    685_rub;
+    100_rub;
+    =>nrel_month_for_minut:5_rub;
+    4_rub;;
+
+tariff_minuts_bike
+    =>nrel_main_idtf: [Тариф "Минуты" ] (* <-lang_ru;;*);
+    =>nrel_minuts_bike: 22_rub;
+    40_rub;
+    =>nrel_minuts_bike_for_minut: 5_rub;
+    6_rub;;
+
+tariff_days_bike
+    =>nrel_main_idtf: [Тариф "Дни" ] (* <-lang_ru;;*);
+    =>nrel_days_bike: 175_rub;
+    590_rub;
+    =>nrel_days_bike_for_minut: 4_rub;
+    5_rub;;
+
+tariff_3_hours_bike
+    =>nrel_main_idtf: [Тариф "3 часа" ] (* <-lang_ru;;*);
+    =>nrel_3_hours_bike: 445_rub;
+    790_rub;
+    =>nrel_3_hours_bike_for_minut: 4_rub;
+    5_rub;;

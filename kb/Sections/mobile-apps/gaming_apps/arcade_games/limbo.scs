@@ -1,0 +1,44 @@
+limbo
+
+	=> nrel_main_idtf:
+	    [Платформер Limbo]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Platformer game Limbo]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//limbo.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Limbo)] (* <-lang_en;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [Limbo – одна из лучших инди-игр последних лет, 
+		    которая набрала бешеную популярность среди геймеров. Это пазл-платформер 
+		    с элементами survival-horror, в котором игроку нужно управлять 
+		    не только своим персонажем, а и объектами окружающей среды.
+		    Местами Limbo действительно страшный и жуткий, что и делает его уникальным.] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    =>nrel_view: third_face;
+	    =>rrel_type_of_game: singleplayer;
+	    =>nrel_have_donate: have;
+	    =>nrel_graphic: advanced;
+	    =>nrel_graphic_style: 2D;
+	    =>rrel_genre: platformer;
+	    =>nrel_internet_connection: dont_require;
+	    -> rrel_developer: Playdead;
+	    -> rrel_supported_platform: Android;
+	    -> rrel_supported_platform: IOS;
+	    -> nrel_supported_language: all_language;
+	    -> nrel_use_of_personal_data: not_use;; 

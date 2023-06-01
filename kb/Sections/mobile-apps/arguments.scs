@@ -1,0 +1,907 @@
+YandexLLC
+=> nrel_main_idtf:
+    [Yandex LLC]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Yandex LLC]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [ Транснациональная компания в отрасли информационных технологий, чьё головное юридическое лицо зарегистрировано в Нидерландах, владеющая одноимённой системой поиска в интернете, интернет-порталом и веб-службами в нескольких странах. Наиболее заметное положение занимает на рынках России, Белоруссии и Казахстана ] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Russian multinational technology company providing Internet-related products and services, including an Internet search engine, information services, e-commerce, transportation, maps and navigation, mobile applications, and online advertising. It primarily serves audiences in Russia and the Commonwealth of Independent States of the former Soviet Union, and has more than 30 offices worldwide.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+ZVEZDA_STOLITSY
+=> nrel_main_idtf:
+    [Звезда Столицы]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [ZVEZDA STOLITSY]
+    (* <- lang_en;; *);
+<-rrel_place_of_registration: Minsk;
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [ Молодая компания, которая лишь набирает обороты в отрасли информационных технологий, чьё головное юридическое лицо зарегистрировано в городе Минске, разработавшая только одно приложение - Hello  ] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [A young company that is just gaining momentum in the information technology industry, whose parent legal entity is registered in the city of Minsk, which has developed only one application - Hello]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+Multimotors
+=> nrel_main_idtf:
+    [Multimotors]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Multimotors]
+    (* <- lang_en;; *);
+<-rrel_place_of_registration: Minsk;
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [ Компания, специализирующаяся на аренде и лизинге легковых автомобилей и грузовых автомобилей малой грузоподъемности. Компания хорошо себя зарекомендовала и пользуется спросом. Головное юридическое лицо находится в городе Минске и зарегистрировано в 2022 году. Выпустила свое предложение для каршеринга под таким же названием, что и сама компания] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [A company specializing in the rental and leasing of passenger cars and light-duty trucks. The company has proven itself well and is in demand. The head legal entity is located in the city of Minsk and was registered in 2022. Has released its offer for carsharing under the same name as the company itself]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+Anytime
+=> nrel_main_idtf:
+    [Anytime]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Anytime]
+    (* <- lang_en;; *);
+<-rrel_place_of_registration: Minsk;
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [ Anytime — первая в Беларуси каршеринговая компания. Зарегистрирована была в Минске в 2018 году. Сейчас в автопарке уже более 570 автомобилей] 
+            (* <-lang_ru;; *);;
+        *);;
+    *);;
+
+CityDrive
+=> nrel_main_idtf:
+    [СитиДрайв]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [City Drive]
+    (* <- lang_en;; *);
+<-rrel_place_of_registration: Moscow;
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [ СитиДрайв оказывает услуги краткосрочной аренды автомобилей в Москве, Санкт-Петербурге и Сочи, являясь одним из лидеров рынка. Проект реализуется в партнерстве с Mail.Ru Group и Сбербанком через О2О Холдинг. До апреля 2021 года компания вела деятельность под брендом YouDrive.] 
+            (* <-lang_ru;; *);;
+        *);;
+    *);;
+
+Rent_Centric
+=> nrel_main_idtf:
+    [Rent Centric]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Rent Centric]
+    (* <- lang_en;; *);
+<-rrel_place_of_registration: USA;
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Rent Centric - IT компания, специализирующаяся на разработке приложений для аренды автомобилей. Компания начали разрабатывать системы аренды автомобилей для общего рынка еще в конце 90-х.]
+            (* <-lang_ru;; *);;
+        *);;
+    *);;
+
+BelkaCar
+=> nrel_main_idtf:
+    [BelkaCar]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [BelkaCar]
+    (* <- lang_en;; *);
+<-rrel_place_of_registration: Moscow;
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [BelkaCar — российская компания, запустившая сервис каршеринга в октябре 2016 года. Сервис позволяет арендовать автомобиль через приложение на любое время: на короткую поездку в магазин и на продолжительную за город. Пользователю не нужно оплачивать бензин, автомойку, страховку и городской паркинг. Концепция «всё включено» покрывает эти расходы и пользователь платит только за время использования автомобиля. Задача компании — сделать BelkaCar полноценной и выгодной альтернативой личному автомобилю.] 
+            (* <-lang_ru;; *);;
+        *);;
+    *);;
+
+SHARENOW
+=> nrel_main_idtf:
+    [Share Now Gmbh]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Share Now Gmbh]
+    (* <- lang_en;; *);
+<-rrel_place_of_registration: Germany;
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Share Now GmbH — немецкая каршеринговая компания, образованная в результате слияния Car2Go и DriveNow . С 2022 года это дочерняя компания подразделения Free2Move - многонационального автопроизводителя Stellantis , предоставляющая услуги каршеринга в городских районах Европы, а ранее - в Северной Америке. У него более четырех миллионов зарегистрированных членов и парк из более чем 14 000 автомобилей в 18 городах Европы.] 
+            (* <-lang_ru;; *);;
+        *);;
+    *);;
+
+CARS7
+=> nrel_main_idtf:
+    [Cars 7 ]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Cars 7]
+    (* <- lang_en;; *);
+<-rrel_place_of_registration: Novosibirsk;
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Cars7 — каршеринг, который начал свою работу в Новосибирске несколько лет назад. Компания предлагает автомобили на прокат без водителя по доступной цене. Один из главных плюсов компании — возможность аренды автомобиля на сутки и более, что дает большую свободу передвижения.] 
+            (* <-lang_ru;; *);;
+        *);;
+    *);;
+
+Kolobike_LLC
+=> nrel_main_idtf:
+    [Kolobike LLC ]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Kolobike LLC]
+    (* <- lang_en;; *);
+<-rrel_place_of_registration: Minsk;
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Kolobike - первый сервис по аренде велосипедов в Минске. Идея безстанционного шеринга велосипедов в Минске начала воплощаться в июле 2019 года, когда сервис Колоbike был запущен в тестовом режиме. Это оказалось не просто, но очень интересно. Идея пришлась минчанам по душе и благодаря их поддержке Колоbike набирал силу и опыт.]
+            (* <-lang_ru;; *);;
+        *);;
+    *);;
+
+TIER
+=> nrel_main_idtf:
+    [TIER]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [TIER]
+    (* <- lang_en;; *);
+<-rrel_place_of_registration: Germany;
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [TIER - немецкий стартап по аренде велосипедов. Tier Mobility работает в 6 странах. Стартап был основан в 2018 году.]
+            (* <-lang_ru;; *);;
+        *);;
+    *);;
+
+Velobike
+=> nrel_main_idtf:
+    [Velobike]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Velobike]
+    (* <- lang_en;; *);
+<-rrel_place_of_registration: Moscow;
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Велобайк — система совместного использования велосипедов в Москве. Дочерняя компания Группы ВТБ. Первую городскую сеть общественного проката велосипедов «Велобайк» запустили 1-го июня 2013 года в Москве в рамках проекта «ВелоРоссия».]
+            (* <-lang_ru;; *);;
+        *);;
+    *);;
+
+Eleven
+=> nrel_main_idtf:
+    [Eleven]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Eleven]
+    (* <- lang_en;; *);
+<-rrel_place_of_registration: Almaty;
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [В марте 2021 года Jet Sharing запустили шеринг электросамокатов в Алматы. В том же году привлекли более 3 млн долларов инвестиций и стали самым крупным шерингом в СНГ с 10 000 самокатов в парке. В 2022 выросли в 2 раза, и дальше планируют расти в разы больше – вместе с пользователями!]
+            (* <-lang_ru;; *);;
+        *);;
+    *);;
+
+Jet_sharing
+=> nrel_main_idtf:
+    [Jet Sharing]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Jet Sharing]
+    (* <- lang_en;; *);
+<-rrel_place_of_registration: Minsk;
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Eleven разрабатывает собственный электросамокат и запускаем сервисы шеринга по Минску. Компания уверена, что за компактным электрическим транспортом – будущее городов: на нем удобно перемещаться на небольшие расстояния, он быстро паркуется, не загромождает улицы и дружелюбен для окружающей среды.]
+            (* <-lang_ru;; *);;
+        *);;
+    *);;
+
+WSH_Mobility
+=> nrel_main_idtf:
+    [WSH Mobility]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [WSH Mobility]
+    (* <- lang_en;; *);
+<-rrel_place_of_registration: Minsk;
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Whoosh родился из идеи, что жители города должны иметь возможность легко добраться до любого важного для них пункта назначения в течение 15 минут. Создатели считают, что все люди заслуживают доступа к интеллектуальной и доступной мобильности. Они стремятся заполнить пробел между 10-минутной прогулкой и 10-километровой поездкой, предоставив новый способ мобильности.]
+            (* <-lang_ru;; *);;
+        *);;
+    *);;
+    
+LLC_Kassir_ru
+=> nrel_main_idtf:
+    [LLC Kassir ru]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [LLC Kassir ru]
+    (* <- lang_en;; *);
+<-rrel_place_of_registration: Saint_Petersburg;
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Компания KASSIR.RU была основана в 1999 году в Санкт-Петербурге. Сегодня KASSIR.RU осуществляет бронирование и продажу билетов на все события Москвы, Санкт-Петербурга, Нижнего Новгорода, Екатеринбурга, Челябинска, Перми, Белгорода, Казани и других городов. Всего 36 отделений КАССИР. РУ на территории РФ.]
+            (* <-lang_ru;; *);;
+        *);;
+    *);;
+
+Go_Travel_Un_Limited
+=> nrel_main_idtf:
+    [Go Travel Un Limited]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Go Travel Un Limited]
+    (* <- lang_en;; *);
+<-rrel_place_of_registration: Moscow;
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Go Travel Un Limited - это компания сервисов по поиску авиабилетов. Помимо России, компания работает на шести рынках: в Азербайджане, Белоруссии, Казахстане, Киргизии, Узбекистане, на Украине.]
+            (* <-lang_ru;; *);;
+        *);;
+    *);;
+
+BRW
+=> nrel_main_idtf:
+    [Белорусская железная дорога]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Belarus railway]
+    (* <- lang_en;; *);
+<-rrel_place_of_registration: Minsk;
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [ Белорусская железная дорога — это лидер национальной системы перевозок.
+Являясь одним из важнейших транспортных комплексов страны, в настоящее время она успешно развивается и обеспечивает в Беларуси около 63% грузооборота всех видов транспорта общего пользования и около 33% пассажирооборота.
+Единая и слаженная система железнодорожного транспорта позволяет отрасли строить работу по-новому, разрабатывать и внедрять новейшие передовые технологии, обеспечивать безопасность, бесперебойность и надежность функционирования сложнейшего транспортного комплекса страны.]
+            (* <-lang_ru;; *);;
+        *);;
+    *);;
+
+LWO
+=> nrel_main_idtf:
+    [Light Well Organization]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Light Well Organization]
+    (* <- lang_en;; *);
+<-rrel_place_of_registration: Minsk;
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Light Well Organization - эффективная международная IT компания, работающая с 2008 года, поставщик разумных и элегантных решений для любых бизнес вертикалей. Все сделанное нами взвешено до мелочей и проверено тестом на «можно ли сделать лучше?».
+
+Мы гордимся своими комплексными банковскими, индустриальными, BI и IT решениями, как команда авторов гордится своими работами. Мы мечтаем о будущем, но делаем это догоняя и запечатлевая само будущее в наших инновациях.
+
+C 2013 года компания является резидентом Парка высоких технологий]
+            (* <-lang_ru;; *);;
+        *);;
+    *);;
+
+RZD
+=> nrel_main_idtf:
+    [Российская железная дорога]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Russian railway]
+    (* <- lang_en;; *);
+<-rrel_place_of_registration: Moscow;
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [ОАО «Российские железные дороги» (РЖД) — государственная компания, монополист в сфере железных дорог. В ней много разных подразделений, пассажирскими перевозками в поездах дальнего следования занимаются «ДОСС» и АО «ФПК». Кроме того, есть пригородные компании («ППК»), организации в регионах (например, «Железные дороги Якутии»), «Аэроэкспресс» (комфортная электричка от аэропорта до ж/д вокзала) и другие.
+
+В середине 90-х годов железнодорожные перевозки в России стали нерентабельными, министерство путей сообщения погрязло в бюрократии. Это стало причиной реформ, и в 2003 году была создана РЖД. 100% акций компании владеет государство. У РЖД около 520 пассажирских поездов на 120 направлениях, которые перевозят пассажиров в 21 страну мира. Так что расписание РЖД действительно плотное.  ]
+            (* <-lang_ru;; *);;
+        *);;
+    *);;
+
+Tutu
+=> nrel_main_idtf:
+    [Tutu]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Tutu]
+    (* <- lang_en;; *);
+<-rrel_place_of_registration: Russia;
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Сервис путешествий №1 в России. По данным SimilarWeb, Туту.ру входит в мировой топ-50 в категории Travel.
+
+Мы запустились в 2003 году, с тех пор постоянно растем и совершенствуемся. Сегодня мы приносим пользу миллионам путешественников! Ежедневно на наш сайт заходит около 900 тысяч человек. С нами вы можете посмотреть расписание электричек, быстро и удобно купить билеты на поезд, самолет, автобус, забронировать гостиницу или пакетный тур.]
+            (* <-lang_ru;; *);;
+        *);;
+    *);;
+
+Rambler_Co
+=> nrel_main_idtf:
+    [Rambler Co]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Rambler Co]
+    (* <- lang_en;; *);
+<-rrel_place_of_registration: Russia;
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Один из крупнейших российских медиахолдингов. Аудитория проектов — свыше 47,7 миллиона человек в месяц.
+
+Сейчас  в Rambler Co входит «Рамблер» — ведущий портал Рунета, объединяющий новостные, развлекательные и тематические медиа, «Рамблер/почту» и такие востребованные сервисы, как  «Рамблер/гороскопы», «Рамблер/погода», тематические медиавертикали: «Рамблер/новости», «Рамблер/женский», «Рамблер/спорт», «Рамблер/субботний», «Рамблер/финансы», «Рамблер/доктор», «Рамблер/игры», «Рамблер/кино», «Рамблер/путешествия»]
+            (* <-lang_ru;; *);;
+        *);;
+    *);;
+
+EVentbrite
+=> nrel_main_idtf:
+    [Eventbrite]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Eventbrite]
+    (* <- lang_en;; *);
+<-rrel_place_of_registration: Russia;
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Технологии Eventbrite применяются для организации миллионов мероприятий более чем в 180 странах и регионах. Это крупнейшая в мире платформа такого рода. Специалисты по поисковой оптимизации Eventbrite ещё в 2015 г. стали добавлять на сайт компании структурированные данные типа Event, чтобы сделать более доступной опубликованную на нем информацию о мероприятиях. Поэтому компания смогла максимально эффективно использовать представленные в мае 2017­ г. функции Google Поиска для показа мероприятий на мобильных устройствах. ]
+            (* <-lang_ru;; *);;
+        *);;
+    *);;
+
+Leap_fitness_group
+=> nrel_main_idtf:
+    [Leap fitness group]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Leap fitness group]
+    (* <- lang_en;; *);
+<-rrel_place_of_registration: UK;
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Leap Fitness group — компания по разработке мобильных приложений для фитнеса и здоровья, состоящая из опытных профессионалов, которые страстно увлечены получением, созданием и распространением высококачественного контента о фитнесе и тренировках. Мы считаем, что здоровый образ жизни жизненно важен для здоровья и физической формы человека, поэтому мы делаем своей целью и вечной миссией создание исключительных фитнес-приложений, которые помогают пользователям развивать здоровый образ жизни и улучшать общую физическую форму.]
+            (* <-lang_ru;; *);;
+        *);;
+    *);;
+
+Biletyna_pl
+=> nrel_main_idtf:
+    [Biletyna.pl]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Biletyna.pl]
+    (* <- lang_en;; *);
+<-rrel_place_of_registration: Poland;
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Biletyna.pl — компания, компания которая занимается анализом сайтов и приложений и разработкой своего собственного приложения Biletyna.]
+            (* <-lang_ru;; *);;
+        *);;
+    *);;
+
+BezKassira
+=> nrel_main_idtf:
+    [BezKassira]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [BezKassira]
+    (* <- lang_en;; *);
+<-rrel_place_of_registration: Belarus;
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [BezKassira.by одна из крупнейших компаний в РБ, продающих билеты на обучающие мероприятия сферы бизнеса и IT, образовательные и развивающие мероприятия для взрослых и детей. Так же компания занимает лидирующие в продаже музыкальных мероприятий клубного направления. Работает с инновационными и современными направлениями в сфере ивента. Помогает благотворительным организациям, поддерживаем социальные проекты. ]
+            (* <-lang_ru;; *);;
+        *);;
+    *);;
+Minsk
+=> nrel_main_idtf:
+    [Минск]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Minsk]
+    (* <- lang_en;; *);;
+
+Belarus
+=> nrel_main_idtf:
+    [Беларусь]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Belarus]
+    (* <- lang_en;; *);;
+
+Russia
+=> nrel_main_idtf:
+    [Россия]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Russia]
+    (* <- lang_en;; *);;
+
+Grodno
+=> nrel_main_idtf:
+    [Гродно]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Grodno]
+    (* <- lang_en;; *);;
+
+Gomel
+=> nrel_main_idtf:
+    [Гомель]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Gomel]
+    (* <- lang_en;; *);;
+
+Lida
+=> nrel_main_idtf:
+    [Лида]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Lida]
+    (* <- lang_en;; *);;
+
+Moscow
+=> nrel_main_idtf:
+    [Москва]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Moscow]
+    (* <- lang_en;; *);;
+
+Saint_Petersburg
+=> nrel_main_idtf:
+    [Санкт-Петербург]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Saint Petersburg]
+    (* <- lang_en;; *);;
+
+Sochi
+=> nrel_main_idtf:
+    [Сочи]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Sochi]
+    (* <- lang_en;; *);;
+
+Krasnodar
+=> nrel_main_idtf:
+    [Краснодар]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Krasnodar]
+    (* <- lang_en;; *);;
+
+USA
+=> nrel_main_idtf:
+    [Соединенные Штаты Америки]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [USA]
+    (* <- lang_en;; *);;
+
+Canada
+=> nrel_main_idtf:
+    [Канада]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Canada]
+    (* <- lang_en;; *);;
+
+Costa_Rica
+=> nrel_main_idtf:
+    [Коста-Рика]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Costa Rica]
+    (* <- lang_en;; *);;
+
+Iceland
+=> nrel_main_idtf:
+    [Исландия]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Iceland]
+    (* <- lang_en;; *);;
+
+Taiwan
+=> nrel_main_idtf:
+    [Тайвань]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Taiwan]
+    (* <- lang_en;; *);;
+
+Turkey
+=> nrel_main_idtf:
+    [Турция]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Turkey]
+    (* <- lang_en;; *);;
+
+UK
+=> nrel_main_idtf:
+    [Великобритания]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [UK]
+    (* <- lang_en;; *);;
+
+Austria
+=> nrel_main_idtf:
+    [Австрия]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Austria]
+    (* <- lang_en;; *);;
+
+Denmark
+=> nrel_main_idtf:
+    [Дания]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Denmark]
+    (* <- lang_en;; *);;
+
+France
+=> nrel_main_idtf:
+    [Франция]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [France]
+    (* <- lang_en;; *);;
+
+Germany
+=> nrel_main_idtf:
+    [Германия]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Germany]
+    (* <- lang_en;; *);;
+
+Hungary
+=> nrel_main_idtf:
+    [Венгрия]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Hungary]
+    (* <- lang_en;; *);;
+
+Italy
+=> nrel_main_idtf:
+    [Италия]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Italy]
+    (* <- lang_en;; *);;
+
+Netherlands
+=> nrel_main_idtf:
+    [Нидерланды]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Netherlands]
+    (* <- lang_en;; *);;
+
+Spain
+=> nrel_main_idtf:
+    [Испания]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Spain]
+    (* <- lang_en;; *);;
+
+Poland
+=> nrel_main_idtf:
+    [Польша]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Poland]
+    (* <- lang_en;; *);;
+
+Ukraine
+=> nrel_main_idtf:
+    [Украина]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Ukraine]
+    (* <- lang_en;; *);;
+
+Novosibirsk
+=> nrel_main_idtf:
+    [Новосибирск]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Novosibirsk]
+    (* <- lang_en;; *);;
+
+Irkutsk
+=> nrel_main_idtf:
+    [Иркутск]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Irkutsk]
+    (* <- lang_en;; *);;
+
+Krasnoyarsk
+=> nrel_main_idtf:
+    [Красноярск]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Krasnoyarsk]
+    (* <- lang_en;; *);;
+
+Volgograd
+=> nrel_main_idtf:
+    [Волгоград]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Volgograd]
+    (* <- lang_en;; *);;
+
+Tyumen
+=> nrel_main_idtf:
+    [Тюмень]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Tyumen]
+    (* <- lang_en;; *);;
+
+Tomsk
+=> nrel_main_idtf:
+    [Томск]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Tomsk]
+    (* <- lang_en;; *);;
+
+Barnaul
+=> nrel_main_idtf:
+    [Барнаул]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Barnaul]
+    (* <- lang_en;; *);;
+
+Batumi
+=> nrel_main_idtf:
+    [Батуми]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Batumi]
+    (* <- lang_en;; *);;
+Astana
+=> nrel_main_idtf:
+    [Астана]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Astana]
+    (* <- lang_en;; *);;
+Karaganda
+=> nrel_main_idtf:
+    [Караганда]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Karaganda]
+    (* <- lang_en;; *);;
+Almaty
+=> nrel_main_idtf:
+    [Алматы]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Almaty]
+    (* <- lang_en;; *);;
+Tashkent
+=> nrel_main_idtf:
+    [Ташкент]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Tashkent]
+    (* <- lang_en;; *);;
+Belgrad
+=> nrel_main_idtf:
+    [Бедгород]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Belgrad]
+    (* <- lang_en;; *);;
+Tbilisi
+=> nrel_main_idtf:
+    [Тбилиси]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Tbilisi]
+    (* <- lang_en;; *);;
+Kazakhstan
+=> nrel_main_idtf:
+    [Казахстан]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Kazakhstan]
+    (* <- lang_en;; *);;
+
+unknown
+=> nrel_main_idtf:
+    [Неизвестен]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Unknown]
+    (* <- lang_en;; *);;
+
+IOS
+=> nrel_main_idtf:
+    [IOS]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [IOS]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [ Мобильная операционная система для смартфонов, электронных планшетов, носимых проигрывателей, разрабатываемая и выпускаемая американской компанией Apple. Выпущена в 2007 году; первоначально — для iPhone и iPod touch, позже — для таких устройств, как iPad. В 2014 году появилась поддержка автомобильных мультимедийных систем Apple CarPlay. В отличие от Android, выпускается только для устройств, производимых фирмой Apple.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Mobile operating system for smartphones, electronic tablets, wearable players, developed and produced by the American company Apple. Released in 2007; initially — for iPhone and iPod touch, later — for devices such as iPad. In 2014, support for Apple CarPlay car multimedia systems appeared. Unlike Android, it is available only for devices manufactured by Apple.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+Android
+=> nrel_main_idtf:
+    [Android]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Android]
+    (* <- lang_en;; *);
+<- rrel_key_sc_element: ... (*
+        <- definition;;
+        => nrel_idtf: [Определение] (* <-lang_ru;; *);;
+        => nrel_idtf: [Definition] (* <-lang_en;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [ Операционная система для смартфонов, планшетов, электронных книг, цифровых проигрывателей, наручных часов, фитнес-браслетов, игровых приставок, ноутбуков, нетбуков, смартбуков, очков Google Glass, телевизоров, проекторов и других устройств. Изначально разрабатывалась компанией Android, Inc., которую затем приобрела Google. Основана на ядре Linux и собственной реализации виртуальной машины Java компании Google. Впоследствии Google инициировала создание альянса Open Handset Alliance , который занимается поддержкой и дальнейшим развитием платформы.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [An operating system for smartphones, tablets, e-books, digital players, wristwatches, fitness bracelets, game consoles, laptops, netbooks, smartbooks, Google Glass glasses, televisions, projectors and other devices. It was originally developed by Android, Inc., which was then acquired by Google. It is based on the Linux kernel and Google's own implementation of the Java Virtual Machine. Subsequently, Google initiated the creation of the Open Handset Alliance, which is engaged in the support and further development of the platform.]
+            (* <-lang_en;;*);;
+        *);;
+    *);;
+
+
+all_language
+=> nrel_main_idtf:
+    [Все языки]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [All language]
+    (* <- lang_en;; *);;
+
+ru_language
+=> nrel_main_idtf:
+    [Русский язык]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Russian language]
+    (* <- lang_en;; *);;
+
+en_language
+=> nrel_main_idtf:
+    [Английский язык]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [English language]
+    (* <- lang_en;; *);;
+
+ge_language
+=> nrel_main_idtf:
+    [Немецкий язык]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [German language]
+    (* <- lang_en;; *);;
+
+use
+=> nrel_main_idtf:
+    [Использует]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Use]
+    (* <- lang_en;; *);;
+
+unuse
+=> nrel_main_idtf:
+    [Не использует]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Don't use]
+    (* <- lang_en;; *);;

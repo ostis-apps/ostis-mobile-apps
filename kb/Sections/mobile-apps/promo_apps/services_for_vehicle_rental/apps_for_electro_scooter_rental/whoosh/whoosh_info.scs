@@ -1,0 +1,28 @@
+section_whoosh_park
+ => nrel_main_idtf:
+        [Электросамокаты]
+    (* <- lang_ru;; *);
+    ->whoosh_scooter;;
+
+section_tariffs_whoosh
+   => nrel_main_idtf:
+        [Тарифы сервиса Whoosh]
+        (* <- lang_ru;; *);
+    ->tariff_minuts_scooter;
+    ->tariff_day_scooter;;
+
+whoosh_scooter
+    =>nrel_main_idtf:[Самокат Whoosh] (*<-lang_ru;;*);
+    =>nrel_min_age: 14_years;
+    =>nrel_minut_scooter: 120_cop;
+    =>nrel_minut_scooter_for_minut:26_cop;
+    =>nrel_1_hour_scooter: 24_byn;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//1.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);;

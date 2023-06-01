@@ -1,0 +1,42 @@
+n_track_studio
+
+=> nrel_main_idtf:
+    [Музыкальная студия n-Track Studio]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Music studio n-Track Studio]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://photo//n_track_studio.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definiton;;
+        => nrel_idtf: [Опр. (n-Track Studio)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [n-Track Studio - мощное портативное приложение для создания музыки, которое превратит ваше устройство Android в полноценную студию звукозаписи и создатель ритма.
+                Записывайте любое количество аудио, MIDI и дорожек барабанов, 
+                микшируйте их при воспроизведении, добавляйте эффекты от Guitar Amps до 
+                VocalTune и Reverb. Редактируйте песни, делитесь ими онлайн и 
+                вступайте в сообщество Songtree, чтобы работать вместе. ] (* <-lang_ru;; *);;
+            *);;
+        *);
+    
+
+    => nrel_support_for_various_formats: yes;
+    => nrel_have_donate: have;
+    => nrel_set_of_tools_and_effects: wide;
+    => nrel_exactingness: exacting;
+    => nrel_support_for_multiple_tracks: support;
+    -> rrel_developer: n_Track;
+    -> rrel_supported_platform: Android;
+    -> rrel_supported_platform: IOS;
+    -> rrel_supported_language: all_language;
+    -> nrel_use_of_personal_data: use;;

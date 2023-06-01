@@ -1,0 +1,47 @@
+pubg_mobile
+
+=> nrel_main_idtf:
+    [Игра в жанре королевская битва PUBG MOBILE]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Battle Royale game PUBG MOBILE]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//images/pubg.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Опр. (PUBG MOBILE)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [PUBG MOBILE - это игра созданная создана на базе движка Unreal Engine 4,
+            и разработчики игры уделили особое внимание качеству изображения, картам, механике стрельбы 
+            и другим аспектам, обеспечивающим игрокам полное и гиперреалистичное погружение в «Королевскую битву». 
+            Сотни игроков высаживаются на поле боя, где их ожидает напряженное, но увлекательное приключение. 
+            Чтобы выжить, каждому игроку необходимо собирать ресурсы. Кроме того, команда игроков должна по 
+            максимуму использовать местность, транспорт и предметы на карте — лишь тогда она сможет выстоять. 
+            Дышите ровно и будьте начеку, так как игровая зона постоянно сужается. Игрокам на выбор доступно несколько 
+            карт: Эрангель, Мирамар, Санук, Ливик и многие другие. Вас ждет чрезвычайно разнообразный игровой процесс! 
+            На сегодняшний день PUBG MOBILE — это не просто игра, но и центр, объединяющий игроков со всего мира, а 
+            также бренд, побуждающий их жить на полную.] (* <-lang_ru;; *);;
+        *);;
+    *);
+    
+
+    =>nrel_view: first_and_third_face;
+    =>nrel_type_of_game: multiplayer;
+    =>nrel_have_donate: have;
+    =>nrel_graphic: realistic;
+    =>nrel_graphic_style: 3D;
+    =>rrel_genre: battle_royale;
+    -> rrel_developer: Tencent_Games;
+    => nrel_supported_platform: Android;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_language: all_language;;

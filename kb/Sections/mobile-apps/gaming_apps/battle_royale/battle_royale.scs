@@ -1,0 +1,18 @@
+subject_domain_of_battle_royale
+    =>nrel_main_idtf:[Предметная область. Королевская битва] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Subject domain. Battle royale] (* <-lang_en;;*);
+
+<-subject_domain;
+
+->rrel_maximum_studied_object_class:
+    concept_battle_royale_examples;
+
+-> rrel_explored_relation:
+    nrel_graphic;
+    rrel_genre;
+    nrel_have_donate;
+    nrel_view;
+    nrel_type_of_game;
+    nrel_graphic_style;;
+
+

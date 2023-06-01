@@ -1,0 +1,42 @@
+vn
+
+=> nrel_main_idtf:
+    [Студия для видеомонтажа VN]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Video editing studio VN]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://photo//vn.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definiton;;
+        => nrel_idtf: [Опр. (VN Video Editor)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [VN, профессиональный редактор мобильного видео, 
+            позволяет вам стать режиссером своей собственной жизни с помощью VN Video Editor Maker. 
+            Простой, но мощный как настольный редактор, VN подходит как для начинающих, 
+            так и для профессиональных пользователей.] (* <-lang_ru;; *);;
+            *);;
+        *);
+    
+
+    => nrel_have_donate: have;
+    => nrel_set_of_tools_and_effects: wide;
+    => nrel_exactingness: exacting;
+    => nrel_have_a_watermark: no;
+    => nrel_possibility_to_share: yes;
+    => nrel_size: 201_mb;
+    -> rrel_developer: Ubiquiti_Labs_LLC;
+    -> rrel_supported_platform: Android;
+    -> rrel_supported_platform: IOS;
+    -> rrel_supported_language: all_language;
+    -> nrel_use_of_personal_data: use;;

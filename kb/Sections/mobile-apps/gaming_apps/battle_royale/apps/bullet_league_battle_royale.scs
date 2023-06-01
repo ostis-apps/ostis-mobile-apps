@@ -1,0 +1,42 @@
+bullet_league_battle_royale
+
+=> nrel_main_idtf:
+    [Игра в жанре королевская битва Bullet League — Battle Royale]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Battle Royale game Bullet League — Battle Royale]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//images/bullet_league.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Опр. (Bullet League — Battle Royale)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Bullet League — Battle Royale - игру можно назвать самым необычным представителем жанра «королевской битвы», 
+            так как он полностью двухмерный. Этот проект явно создавался с учетом потребностей мобильных пользователей, и это хорошо 
+            видно по короткому времени ожидания и быстрым матчам. Каждый матч длится около трех минут, что подразумевает нереально 
+            динамичные и насыщенные сражения, поскольку игроки должны попытаться убить всех противников или выжить в течение очень ограниченного периода времени.
+            Bullet League обладает потрясающей физикой и даже системой разрушаемости окружения. Здесь также представлено множество вариантов оружия, 
+            которое можно улучшать по мере прохождения игры.] (* <-lang_ru;; *);;
+        *);;
+    *);
+    
+
+    =>nrel_view: side_view;
+    =>nrel_type_of_game: single_and_multiplayer;
+    =>nrel_have_donate: dont_have;
+    =>nrel_graphic: cartoon;
+    =>nrel_graphic_style: 2D;
+    =>rrel_genre: battle_royale;
+    -> rrel_developer: Funday_Factory;
+    => nrel_supported_platform: Android;
+    => nrel_supported_language: all_language;;

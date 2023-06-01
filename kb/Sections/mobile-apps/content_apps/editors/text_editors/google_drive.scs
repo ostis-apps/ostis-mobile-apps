@@ -1,0 +1,40 @@
+google_drive
+
+=> nrel_main_idtf:
+    [Текстовый редактор Google Диск]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Text editor Google Drive]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://photo//google_drive.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definiton;;
+        => nrel_idtf: [Опр. (Google Drive)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Google Drive — это сервис хранения, редактирования и синхронизации файлов, разработанный компанией Google. Его функции включают хранение файлов в Интернете, общий доступ к ним и совместное редактирование.] (* <-lang_ru;; *);;
+            *);;
+        *);
+    
+
+    	=> nrel_size: 264_mb;
+	=> nrel_have_a_donate: have;
+	=> nrel_internet_connection: dont_require;
+	=> nrel_supported_extensions: txt;
+	=> nrel_functional_features: pdf_viewer;
+	=> nrel_functional_features: teamwork;
+	=> nrel_sections: trivial_text_editor;
+    -> rrel_developer: Google_LLC;
+    -> rrel_supported_platform: Android;
+    -> rrel_supported_platform: IOS;
+    -> nrel_supported_language: all_language;
+    -> nrel_use_of_personal_data: use;;

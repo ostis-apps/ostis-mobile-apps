@@ -1,0 +1,60 @@
+nrel_have_donate => nrel_main_idtf:
+    [Платный контент]
+    (* <- lang_ru;; *);
+    <- sc_node_norole_relation;;
+
+nrel_set_of_tools_and_effects => nrel_main_idtf:
+    [Набор инструментов и эффектов]
+    (* <- lang_ru;; *);
+    <- sc_node_norole_relation;;
+
+nrel_exactingness => nrel_main_idtf:
+    [Требовательность]
+    (* <- lang_ru;; *);
+    <- sc_node_norole_relation;;
+
+nrel_have_a_watermark => nrel_main_idtf:
+	[Есть ли водяной знак]
+	(* <- lang_ru;; *);
+	<- sc_node_norole_relation;;
+
+nrel_possibility_to_share => nrel_main_idtf:
+	[Возможность делиться видео]
+	(* <- lang_ru;; *);
+	<- sc_node_norole_relation;;
+
+yes => nrel_main_idtf:
+    [да]
+    (* <- lang_ru;; *);;
+
+no => nrel_main_idtf:
+    [нет]
+    (* <- lang_ru;; *);;
+
+wide => nrel_main_idtf:
+    [широкий]
+    (* <- lang_ru;; *);;
+
+conventional => nrel_main_idtf:
+    [стандартный]
+    (* <- lang_ru;; *);;
+
+small => nrel_main_idtf:
+    [небольшой]
+    (* <- lang_ru;; *);;
+
+exacting => nrel_main_idtf:
+    [требовательный]
+    (* <- lang_ru;; *);;
+
+not_exacting => nrel_main_idtf:
+    [нетребовательный]
+    (* <- lang_ru;; *);;
+
+have => nrel_main_idtf:
+    [имеется]
+    (* <- lang_ru;; *);;
+
+dont_have => nrel_main_idtf:
+    [отсутствует]
+    (* <- lang_ru;; *);;

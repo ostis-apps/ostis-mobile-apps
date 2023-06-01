@@ -1,0 +1,45 @@
+asphalt_9_legends
+
+	=> nrel_main_idtf:
+	    [Гоночная игра Asphalt 9: Legends]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Racing game Asphalt 9: Legends]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//asphalt_9.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Asphalt 9: Легенды)] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [В Asphalt 9: Легенды вы можете прокатиться на реальных автомобилях 
+		    от лучших легендарных всемирно известных производителей, 
+		    как например Ferrari, Porsche, Lamborghini и W Motors, 
+		    и прочие международные бренды. Гоните, форсируйте и выполняйте трюки, 
+		    проезжая по динамическим реальных локациям в одиночном или многопользовательском режиме.] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    =>nrel_view: first_and_third_face;
+	    =>rrel_type_of_game: single_and_multiplayer;
+	    =>nrel_have_donate: have;
+	    =>nrel_graphic: realistic;
+	    =>nrel_graphic_style: 3D;
+	    =>rrel_genre: race;
+	    =>nrel_internet_connection: require;
+	    -> rrel_developer: Gameloft_SE;
+	    -> rrel_supported_platform: Android;
+	    -> rrel_supported_platform: IOS;
+	    -> nrel_supported_language: all_language;
+	    -> nrel_use_of_personal_data: use;;
+

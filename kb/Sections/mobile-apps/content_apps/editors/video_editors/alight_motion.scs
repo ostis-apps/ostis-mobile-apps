@@ -1,0 +1,41 @@
+alight_motion
+
+=> nrel_main_idtf:
+    [Моушн-студия Alight Motion]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Motion studio Alight Motion]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://photo//alight_motion.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definiton;;
+        => nrel_idtf: [Опр. (Alight Motion)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Alight Motion - первое профессиональное приложение для моушн-дизайна 
+            в вашем смартфоне, предлагающее вам анимацию профессионального качества, 
+            анимированную графику, визуальные эффекты, редактирование и композитинг видео и многое другое!] (* <-lang_ru;; *);;
+            *);;
+        *);
+    
+
+    => nrel_have_donate: have;
+    => nrel_set_of_tools_and_effects: conventional;
+    => nrel_exactingness: exacting;
+    => nrel_have_a_watermark: yes;
+    => nrel_possibility_to_share: yes;
+    => nrel_size: 143_mb;
+    -> rrel_developer: Alight_Motion;
+    -> rrel_supported_platform: Android;
+    -> rrel_supported_platform: IOS;
+    -> rrel_supported_language: all_language;
+    -> nrel_use_of_personal_data: use;;

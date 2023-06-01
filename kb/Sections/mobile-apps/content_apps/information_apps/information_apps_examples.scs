@@ -1,0 +1,9 @@
+concept_of_information_apps
+=> nrel_main_idtf:
+    [Информационные приложения]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Information apps]
+    (* <- lang_en;; *);; /*убрать одну ;*/
+    
+/*->название приложения;*/

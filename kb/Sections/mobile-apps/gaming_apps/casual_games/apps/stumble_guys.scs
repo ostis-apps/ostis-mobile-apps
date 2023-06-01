@@ -1,0 +1,44 @@
+stumble_guys
+
+=> nrel_main_idtf:
+    [Казуальная игра Stumble Guys]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Casual game Stumble Guys]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//images/stumble_guys.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Опр. (Stumble Guys)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Stumble Guys - это MMO-игра, в которой до 32-х игроков соревнуются 
+            в попытках добраться до финиша через множество препятствий и ловушек. В каждом матче около 
+            трех различных раундов. Вы должны пройти каждый раунд, чтобы выиграть матч. После первого 
+            раунда половина из 32-х игроков выбывает из матча. Во втором раунде выбываем половина из 
+            оставшихся 16-ти. Наконец, в последнем раунде побеждает лишь 1 из 8 игроков. Хотя может 
+            показаться, что Stumble Guys требует уйму вашего времени, в действительности каждый раунд 
+            длится всего несколько минут (даже меньше, если вы проигрываете). Прохождение матча из нескольких 
+            раундов обычно занимает не больше 5 или 7 минут. ] (* <-lang_ru;; *);;
+        *);;
+    *);
+    
+
+    =>rrel_type_of_game: multiplayer;
+    =>nrel_graphic: cartoon;
+    =>nrel_graphic_style: 3D;
+    =>rrel_genre: casual;
+    =>nrel_cost: free;
+    -> rrel_developer: Kitka_Games;
+    => nrel_supported_platform: Android;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_language: all_language;;

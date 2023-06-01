@@ -1,0 +1,88 @@
+subject_domain_of_apps_for_health
+
+=>nrel_main_idtf:[Предметная область. Приложения для здоровья]
+    (*
+         <-lang_ru;;
+    *);
+=>nrel_main_idtf:[Subject domain. Apps for health]
+    (*
+         <-lang_en;;
+    *);
+<-subject_domain;
+
+-> rrel_maximum_studied_object_class:
+    concept_apps_for_health_examples;
+
+-> rrel_explored_relation:
+    nrel_extra_devices;
+    nrel_kind_of_activity;
+    nrel_quality;
+    nrel_otchot;
+    nrel_exercises;
+    nrel_gender;;
+
+nrel_extra_devices
+    =>nrel_main_idtf:[Использование дополнительный устройств]
+    (*
+         <-lang_ru;;
+    *);
+=>nrel_main_idtf:[Using extra devices]
+    (*
+         <-lang_en;;
+    *);
+<-sc_node_norole_relation;;
+
+nrel_kind_of_activity
+    =>nrel_main_idtf:[Вид активности]
+    (*
+         <-lang_ru;;
+    *);
+=>nrel_main_idtf:[Kind of activity]
+    (*
+         <-lang_en;;
+    *);
+<-sc_node_norole_relation;;
+
+nrel_quality
+    =>nrel_main_idtf:[Классификация пользователя]
+    (*
+         <-lang_ru;;
+    *);
+=>nrel_main_idtf:[Quality of user]
+    (*
+         <-lang_en;;
+    *);
+<-sc_node_norole_relation;;
+
+nrel_otchot
+    =>nrel_main_idtf:[Наличие отчета]
+    (*
+         <-lang_ru;;
+    *);
+=>nrel_main_idtf:[Availability of report]
+    (*
+         <-lang_en;;
+    *);
+<-sc_node_norole_relation;;
+
+nrel_exercises
+    =>nrel_main_idtf:[Упражнения]
+    (*
+         <-lang_ru;;
+    *);
+=>nrel_main_idtf:[Exercises]
+    (*
+         <-lang_en;;
+    *);
+<-sc_node_norole_relation;;
+
+nrel_gender
+    =>nrel_main_idtf:[Пол]
+    (*
+         <-lang_ru;;
+    *);
+=>nrel_main_idtf:[Gender]
+    (*
+         <-lang_en;;
+    *);
+<-sc_node_norole_relation;;

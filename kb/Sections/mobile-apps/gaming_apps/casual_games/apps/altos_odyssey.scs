@@ -1,0 +1,44 @@
+altos_odyssey
+
+=> nrel_main_idtf:
+    [Казуальная игра Alto’s Odyssey]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Casual game Alto’s Odyssey]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//images/altos.webp"
+            (*
+                =>nrel_format: format_webp;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Опр. (Alto’s Odyssey)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Alto’s Odyssey - Alto’s Odyssey, как и его предшественница, представляет собой 
+            бесконечный раннер, но, в отличие от первой части, теперь Alto будет перемещаться на сэндборде по пустыне 
+            с каменистой местностью, преодолевать сложные песчаные дюны, неровные стены, уворачиваться от лемуров и 
+            пробиваться сквозь лианы в руинах. Все для того, чтобы разгадать секреты, сокрытые в глуши пустыни. 
+            Хотя Alto’s Odyssey является преемником Alto’s Adventure, вам необязательно проходить первую часть, 
+            чтобы понять вторую. Задача проста: проехать на сэндборде как можно дальше. 
+            Игрок должен касаться экрана, чтобы прыгать, удерживать палец на дисплее для выполнения трюков, 
+            комбинировать их, чтобы увеличивать счет, а также стремиться пройти 180 уровней.] (* <-lang_ru;; *);;
+        *);;
+    *);
+    
+
+    =>rrel_type_of_game: singleplayer;
+    =>nrel_graphic: advanced;
+    =>nrel_graphic_style: 3D;
+    =>rrel_genre: casual;
+    =>nrel_cost: free;
+    -> rrel_developer: Noodlecake_Studios;
+    => nrel_supported_platform: Android;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_language: all_language;;

@@ -1,0 +1,43 @@
+stack
+
+	=> nrel_main_idtf:
+	    [Классическая аркадная игра-скроллер Stack]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Classic Arcade Scroller game Stack]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//stack.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Стак)] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [Стак – это игра, в которой вы будете должны строить башню из разноцветных блоков, 
+		    располагая новые блоки поверх уже уложенных. В чем же сложность? Новые блоки постоянно 
+		    перемещаться от одной стороны экрана к другой, и необходимо нажимать по экрану, чтобы они падали на башню.] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    =>nrel_view: third_face;
+	    =>rrel_type_of_game: singleplayer;
+	    =>nrel_have_donate: have;
+	    =>nrel_graphic: advanced;
+	    =>nrel_graphic_style: 3D;
+	    =>nrel_genre: classic;
+	    =>rrel_genre: scroller;
+	    =>nrel_internet_connection: dont_require;
+	    -> rrel_developer: Ketchapp;
+	    -> rrel_supported_platform: Android;
+	    -> rrel_supported_platform: IOS;
+	    -> nrel_supported_language: all_language;
+	    -> nrel_use_of_personal_data: use;;

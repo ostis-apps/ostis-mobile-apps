@@ -1,0 +1,44 @@
+knives_out
+
+=> nrel_main_idtf:
+    [Игра в жанре королевская битва KNIVES OUT]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Battle Royale game KNIVES OUT]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//images/ko.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Опр. (KNIVES OUT)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [KNIVES OUT — игра выпущенная региональным титаном китайской игровой индустрии NetEase Games 
+            медленно вырастил имя для себя, как разработчик мобильных Battle Royale. 
+            Компания основывалась на опыте и впечатлениях из других смартфонных игр вроде PUBG и Fortnite. 
+            Они долго работали, чтобы довести продукт до удивительно высокого качества.
+            На Knives Out очень сильно повлияла творческая жилка PlayerUnknown, с его военными стилями
+            и мощным набором автомобилей, оружия и костюмов с аналогичной тематикой. Ничто в Knives Out даже особо не выделяется
+            на самом деле, но данный проект настолько отточен в плане геймплея, что делает его лучшим
+            в целом списке Battle Royale игр. Настоятельно рекомендуется для тех, кто хочет занять себя чем-то интересным.] (* <-lang_ru;; *);;
+        *);;
+    *);
+    
+
+    =>nrel_view: third_face;
+    =>nrel_type_of_game: multiplayer;
+    =>nrel_have_donate: have;
+    =>nrel_graphic: realistic;
+    =>nrel_graphic_style: 3D;
+    =>rrel_genre: battle_royale;
+    -> rrel_developer: NetEase_Games;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_language: all_language;;

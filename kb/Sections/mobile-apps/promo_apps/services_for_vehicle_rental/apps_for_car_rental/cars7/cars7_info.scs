@@ -1,0 +1,241 @@
+section_cars7_car_park
+ => nrel_main_idtf:
+        [Автомобили]
+    (* <- lang_ru;; *);
+    ->Volkswagen_Polo_cars7;
+    ->KIA_Rio_cars7;
+    ->Skoda_Octavia_cars7;
+    ->Hyundai_Solaris_cars7;
+    ->Ravon_R2;
+    ->Toyota_Camry_cars7;
+    ->KIA_Ceed;
+    ->Hyundai_Creta;
+    ->Renault_Arkana_cars7;
+    ->Volkswagen_Tiguan_cars7;;
+
+section_tariffs_cars7
+   => nrel_main_idtf:
+        [Тарифы сервиса Cars 7]
+        (* <- lang_ru;; *);
+    ->tariff_hours_and_kilometers;
+    ->tariff_days_and_kilometers;
+    ->tariff_fix;
+    ->tariff_minuts;;
+
+Volkswagen_Polo_cars7
+    =>nrel_main_idtf:[Volkswagen Polo] (*<-lang_ru;;*);
+    =>nrel_min_age: 21_years;
+    =>nrel_minut: 9_rub;
+    =>nrel_fix:fix;
+    =>nrel_bodywork:sedan;
+    =>nrel_kpp: akpp;
+    =>nrel_power: 110_ls;
+    =>nrel_actuator: front;
+    =>nrel_V_fuel: 55_l;
+    =>nrel_V_back: 460_l;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//Polo.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;
+   
+KIA_Rio_cars7
+    =>nrel_main_idtf:[KIA Rio] (*<-lang_ru;;*);
+    =>nrel_min_age: 21_years;
+    =>nrel_minut: 9_rub;
+    =>nrel_fix:fix;
+    =>nrel_bodywork:sedan;
+    =>nrel_kpp: akpp;
+    =>nrel_power: 100_ls;
+    =>nrel_actuator: front;
+    =>nrel_V_fuel: 50_l;
+    =>nrel_V_back: 480_l;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//Rio.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;
+
+Skoda_Octavia_cars7
+    =>nrel_main_idtf:[Skoda Octavia] (*<-lang_ru;;*);
+    =>nrel_min_age: 21_years;
+    =>nrel_minut: 9_rub;
+    =>nrel_fix:fix;
+    =>nrel_bodywork:liftback;
+    =>nrel_kpp: akpp;
+    =>nrel_power: 110_ls;
+    =>nrel_actuator: front;
+    =>nrel_V_fuel: 50_l;
+    =>nrel_V_back: 590_l;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//Octavia.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;
+
+Hyundai_Solaris_cars7
+    =>nrel_main_idtf:[Hyundai Solaris] (*<-lang_ru;;*);
+    =>nrel_min_age: 21_years;
+    =>nrel_minut: 9_rub;
+    =>nrel_fix:fix;
+    =>nrel_bodywork:sedan;
+    =>nrel_kpp: akpp;
+    =>nrel_power: 100_ls;
+    =>nrel_actuator: front;
+    =>nrel_V_fuel: 50_l;
+    =>nrel_V_back: 480_l;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//Solaris.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;
+
+Ravon_R2
+    =>nrel_main_idtf:[Ravon R2] (*<-lang_ru;;*);
+    =>nrel_min_age: 21_years;
+    =>nrel_minut: 7_rub;
+    =>nrel_fix:fix;
+    =>nrel_bodywork:hatchback;
+    =>nrel_kpp: akpp;
+    =>nrel_power: 85_ls;
+    =>nrel_actuator: front;
+    =>nrel_V_fuel: 35_l;
+    =>nrel_V_back: 170_l;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//R2.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;
+
+Toyota_Camry_cars7
+    =>nrel_main_idtf:[Toyota Camry] (*<-lang_ru;;*);
+    =>nrel_min_age: 21_years;
+    =>nrel_minut: 9_rub;
+    =>nrel_hours_and_kilometers: 599_rub;
+    =>nrel_hours_and_kilometers_for_1_km: 8_rub;
+    =>nrel_days_and_kilometers: 3680_rub;
+    =>nrel_days_and_kilometers_for_1_km: 8_rub;
+    =>nrel_fix:fix;
+    =>nrel_bodywork:sedan;
+    =>nrel_kpp: akpp;
+    =>nrel_power: 150_ls;
+    =>nrel_actuator: front;
+    =>nrel_V_fuel: 70_l;
+    =>nrel_V_back: 500_l;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//Camry.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;
+
+KIA_Ceed
+    =>nrel_main_idtf:[KIA Seed] (*<-lang_ru;;*);
+    =>nrel_min_age: 21_years;
+    =>nrel_minut: 9_rub;
+    =>nrel_hours_and_kilometers: 599_rub;
+    =>nrel_hours_and_kilometers_for_1_km: 8_rub;
+    =>nrel_days_and_kilometers: 3680_rub;
+    =>nrel_days_and_kilometers_for_1_km: 8_rub;
+    =>nrel_fix:fix;
+    =>nrel_bodywork:hatchback;
+    =>nrel_kpp: akpp;
+    =>nrel_power: 130_ls;
+    =>nrel_actuator: front;
+    =>nrel_V_fuel: 50_l;
+    =>nrel_V_back: 380_l;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//KIA.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;
+
+Hyundai_Creta
+    =>nrel_main_idtf:[Hyundai Creta] (*<-lang_ru;;*);
+    =>nrel_min_age: 21_years;
+    =>nrel_minut: 9_rub;
+    =>nrel_fix:fix;
+    =>nrel_bodywork:offroad;
+    =>nrel_kpp: akpp;
+    =>nrel_power: 123_ls;
+    =>nrel_actuator: front;
+    =>nrel_V_fuel: 50_l;
+    =>nrel_V_back: 400_l;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//Creta.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;
+
+Renault_Arkana_cars7
+    =>nrel_main_idtf:[Renault Arkana] (*<-lang_ru;;*);
+    =>nrel_min_age: 21_years;
+    =>nrel_minut: 9_rub;
+    =>nrel_fix:fix;
+    =>nrel_bodywork:offroad;
+    =>nrel_kpp: akpp;
+    =>nrel_power: 150_ls;
+    =>nrel_actuator: full;
+    =>nrel_V_fuel: 50_l;
+    =>nrel_V_back: 400_l;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//Arkana.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;
+
+Volkswagen_Tiguan_cars
+    =>nrel_main_idtf:[Volkswagen Tiguan] (*<-lang_ru;;*);
+    =>nrel_min_age: 21_years;
+    =>nrel_minut: 9_rub;
+    =>nrel_fix:fix;
+    =>nrel_bodywork:offroad;
+    =>nrel_kpp: akpp;
+    =>nrel_power: 125_ls;
+    =>nrel_actuator: full;
+    =>nrel_V_fuel: 60_l;
+    =>nrel_V_back: 615_l;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//Tiguan.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;

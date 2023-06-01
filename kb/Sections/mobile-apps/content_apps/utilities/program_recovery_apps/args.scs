@@ -1,0 +1,19 @@
+root_required
+=>nrel_main_idtf:[Рут требуется]
+    (*
+         <-lang_ru;;
+    *);
+=>nrel_main_idtf:[Root is required]
+    (*
+         <-lang_en;;
+    *);;
+
+root_is_not_required
+=>nrel_main_idtf:[Рут не требуется]
+    (*
+         <-lang_ru;;
+    *);
+=>nrel_main_idtf:[Root is not required]
+    (*
+         <-lang_en;;
+    *);;

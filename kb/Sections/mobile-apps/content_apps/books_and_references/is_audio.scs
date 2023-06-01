@@ -1,0 +1,24 @@
+nrel_is_audio_included
+    => nrel_main_idtf:
+    [Поддерживаются ли аудиокниги]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Is audiobooks supported]
+    (* <- lang_en;; *);
+<-sc_node_norole_relation;;
+
+included
+        => nrel_main_idtf:
+    [Поддерживаются]
+    (* <- lang_ru;; *);
+        => nrel_main_idtf:
+    [Supported]
+    (* <- lang_en;; *);;
+
+not_included
+        => nrel_main_idtf:
+    [Не поддерживаются]
+    (* <- lang_ru;; *);
+        => nrel_main_idtf:
+    [Not supported]
+    (* <- lang_en;; *);;

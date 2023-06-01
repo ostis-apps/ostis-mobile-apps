@@ -1,0 +1,40 @@
+quickedit_text_editor
+
+	=> nrel_main_idtf:
+    [Текстовый редактор QuickEdit Text Editor]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Text editor QuickEdit Text Editor]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://photo//quickedit.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definiton;;
+        => nrel_idtf: [Опр. (QuickEdit Text Editor)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [QuickEdit Text Editor является надежным и быстрым текстовым редактором с достаточно большим количеством функций правки текста и инструментов редактирования. Программа отменно оптимизирована под мобильные аппараты на Android.] (* <-lang_ru;; *);;
+            *);;
+        *);
+    
+
+    	=> nrel_size: 86_mb;
+	=> nrel_have_a_donate: dont_have;
+	=> nrel_internet_connection: dont_require;
+	=> nrel_supported_extensions: docx;
+	=> nrel_functional_features: teamwork;
+	=> nrel_functional_features: simplified_file_sharing;
+	=> nrel_sections: trivial_text_editor;
+	=> nrel_sections: code_text_editor;
+    -> rrel_developer: Rhythm_Software;
+    -> rrel_supported_platform: Android;
+    -> rrel_supported_language: all_language;
+    -> nrel_use_of_personal_data: use;;

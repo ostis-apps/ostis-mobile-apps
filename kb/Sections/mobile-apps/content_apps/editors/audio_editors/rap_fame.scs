@@ -1,0 +1,40 @@
+rap_fame
+
+=> nrel_main_idtf:
+    [Рэп-студия Rap Fame]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Rap studio Rap Fame]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://photo//rap_fame.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definiton;;
+        => nrel_idtf: [Опр. (Rap Fame)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Слушай хип-хоп, создавай свои треки и сражайся за звание лучшего рэпера!
+            Rap Fame - это музыкальное приложение №1 для рэперов и фанатов хип хопа. 
+            Записывай треки, сражайся в рэп батлах, приглашай друзей на совместки. Побеждай в недельных рэп турнирах!] (* <-lang_ru;; *);;
+            *);;
+        *);
+    
+
+    => nrel_support_for_various_formats: yes;
+    => nrel_have_donate: have;
+    => nrel_set_of_tools_and_effects: wide;
+    => nrel_exactingness: not_exacting;
+    => nrel_support_for_multiple_tracks: support;
+    -> rrel_developer: Rap_Tech_Studios;
+    -> rrel_supported_platform: Android;
+    -> rrel_supported_platform: IOS;
+    -> rrel_supported_language: all_language;
+    -> nrel_use_of_personal_data: use;;

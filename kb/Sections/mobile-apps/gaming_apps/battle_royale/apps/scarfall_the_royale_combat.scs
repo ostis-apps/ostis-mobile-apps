@@ -1,0 +1,40 @@
+scarfall_the_royale_combat
+
+=> nrel_main_idtf:
+    [Игра в жанре королевская битва SCARFALL: THE ROYALE COMBAT]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Battle Royale game SCARFALL: THE ROYALE COMBAT]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//images/scarfall.jpg"
+            (*
+                =>nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Опр. (SCARFALL: THE ROYALE COMBAT)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [SCARFALL: THE ROYALE COMBAT - индийская многопользовательская 
+            онлайн-игра в жанре «королевская битва», разработанная компанией 
+            XSQUADS Tech Private Ltd., поставщиком игр и ИТ-услуг из Сурата.] (* <-lang_ru;; *);;
+        *);;
+    *);
+    
+
+    =>nrel_view: first_and_third_face;
+    =>nrel_type_of_game: multiplayer;
+    =>nrel_have_donate: have;
+    =>nrel_graphic: cartoon;
+    =>nrel_graphic_style: 3D;
+    =>rrel_genre: battle_royale;
+    -> rrel_developer: XSQUADS_Tech_Private_Ltd;
+    => nrel_supported_platform: Android;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_language: all_language;;

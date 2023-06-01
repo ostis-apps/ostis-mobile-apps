@@ -1,0 +1,13 @@
+concept_app_deleters
+=> nrel_main_idtf: 
+    [Мобильные приложения для удаления приложений и их файлов] 
+    (* <- lang_ru;; *); 
+=> nrel_main_idtf: 
+    [Mobile apps for deleting apps] 
+    (* <- lang_en;; *); 
+     
+->appmanager;
+->Uninstaller;
+->delete;
+->EasyUninstaller;
+-> deinstallator;;

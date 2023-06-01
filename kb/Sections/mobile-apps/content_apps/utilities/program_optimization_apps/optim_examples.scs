@@ -1,0 +1,9 @@
+concept_app_optimizers
+    =>nrel_main_idtf:[Приложений для оптимизации программ] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Optimization apps] (* <-lang_en;;*);
+    
+->FastOptimizer;
+->FancyOptimizer;
+->CCleaner;
+->Drweb;
+->PhoneMaster;;

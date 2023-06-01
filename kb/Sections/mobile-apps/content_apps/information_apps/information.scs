@@ -1,0 +1,72 @@
+news
+=> nrel_main_idtf:
+    [Новости]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [News]
+    (* <- lang_en;; *);;
+
+calendar
+=> nrel_main_idtf:
+    [Календарь]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Calendar]
+    (* <- lang_en;; *);;
+
+tradingplatform
+=> nrel_main_idtf:
+    [Торговая площадка]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Trading platform]
+    (* <- lang_en;; *);;
+
+transportinfo
+=> nrel_main_idtf:
+    [Информация о транспорте]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Information about transport]
+    (* <- lang_en;; *);;
+
+appforhome
+=> nrel_main_idtf:
+    [Приложение для дома]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [App for home]
+    (* <- lang_en;; *);;
+    
+map
+=> nrel_main_idtf:
+    [Навигатор]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Map]
+    (* <- lang_en;; *);;
+
+weather
+=> nrel_main_idtf:
+    [Погода]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Weather]
+    (* <- lang_en;; *);;
+
+forum
+=> nrel_main_idtf:
+    [Форум для общения]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Forum for communication]
+    (* <- lang_en;; *);;
+
+nrel_type_of_information_app
+=> nrel_main_idtf:
+    [Тип информационного приложения]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Type of information app]
+    (* <- lang_en;; *);
+<-sc_node_norole_relation;;

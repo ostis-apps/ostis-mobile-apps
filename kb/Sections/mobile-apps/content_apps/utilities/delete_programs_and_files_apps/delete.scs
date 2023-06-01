@@ -1,0 +1,33 @@
+delete
+
+=>nrel_main_idtf:[Приложение для удаления Удаление]
+    (*
+         <-lang_ru;;
+    *);
+=>nrel_main_idtf:[App for deleting apps Delete]
+    (*
+         <-lang_en;;
+    *);
+
+
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//logo_del.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    -> rrel_developer: Splend_Apps;
+    -> rrel_supported_platform: IOS;
+    -> rrel_supported_platform: Android;
+    ->rrel_supported_language: all_language;
+    ->nrel_use_of_personal_data: use;
+    =>nrel_is_deletes_suggested_files: deletes_files;
+    =>nrel_supported_multidelete: supported_multidelete;
+    =>nrel_supported_countries: Belarus;
+    =>nrel_supported_countries: USA;
+    =>nrel_supported_countries: Ukraine;
+    =>nrel_supported_countries: Kazakhstan;
+    =>nrel_supported_countries: Russia;;

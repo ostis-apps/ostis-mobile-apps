@@ -1,0 +1,38 @@
+DOSTAEBCKIY
+=>nrel_main_idtf:[Сервис доставки еды DOSTAЕВСКИЙ]
+    (*
+         <-lang_ru;;
+    *);
+=>nrel_main_idtf:[Food delivery app DOSTAЕВСКИЙ]
+    (*
+         <-lang_en;;
+    *);
+
+
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//logo_DOSTAEVSKIY.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+        <- rrel_key_sc_element: ... (* 
+        <- description;; 
+        => nrel_idtf: [Описание] (* <-lang_ru;; *);; 
+        => nrel_idtf: [Description] (* <-lang_en;;*);; 
+        <= nrel_sc_text_translation: ... (* 
+            -> rrel_example: [Доставка. Давайте разделим эмоции вместе! Доставка еды в Москве, Санкт-Петербурге, Сочи, Краснодаре и Новосибирске.]  
+            (* <-lang_ru;; *);; 
+        *);; 
+    *);
+    -> rrel_developer: Dostaevskiy;
+    -> rrel_supported_platform: IOS;
+    -> rrel_supported_platform: Android;
+    ->rrel_supported_language: ru_language;
+    ->nrel_zakaz: dostavka;
+    ->nrel_kind_of_dostavka:bike_delivery;
+    ->nrel_kind_of_dostavka:foot_delivery;
+    =>nrel_tariffs: section_yandex_music_tarifs;;
+

@@ -1,0 +1,7 @@
+nrel_themes_of_handbook
+    => nrel_main_idtf:
+    [Тематика справочника]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Theme of Handbook]
+    (* <- lang_en;; *);;

@@ -1,0 +1,16 @@
+concept_video_editors_examples
+=> nrel_main_idtf:
+    [Видеоредакторы]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Video editors]
+    (* <- lang_en;; *);
+    
+-> youcut;
+-> capcut;
+-> movavi_clips;
+-> filmora;
+-> alight_motion;
+-> video_guru;
+-> splice;
+-> vn;;

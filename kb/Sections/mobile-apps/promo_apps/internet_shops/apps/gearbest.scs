@@ -1,0 +1,35 @@
+gearbest
+
+=> nrel_main_idtf:
+    [Интернет-магазин Gearbest]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Internet shop Gearbest]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//images/gearbest.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Опр. (Gearbest)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Gearbest - Интернет-магазин, в котором можно приобрести новинки электроники, 
+            гаджетов, одежды и других товаров из Китая по лучшим ценам.] (* <-lang_ru;; *);;
+        *);;
+    *);
+    
+
+    -> rrel_country: China;
+    => nrel_the_year_of_creation: 2014;
+    => nrel_author: Jonathan_Magasanik;
+    => nrel_supported_platform: Android;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_language: all_language;;

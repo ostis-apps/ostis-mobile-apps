@@ -1,0 +1,57 @@
+streetsofrage4
+=> nrel_main_idtf:
+    [Файтинг Streets of Rage 4]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Fighting Streets of Rage 4]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <- description;;
+        => nrel_idtf: [Описание] (* <-lang_ru;; *);;
+        => nrel_idtf: [Description] (* <-lang_en;;*);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Street of Rage 4 – захватывающая мобильная видеоигра в жанре «Файтинг», 
+            в которой авторы нарисовали графику фактически вручную. Герой игры оказывается в мегаполисе, 
+            где власть на 100 процентов принадлежит криминальным структурам. Полиция либо бессильна, 
+            либо проплачена преступными группировками, и закрывает глаза на их злодеяния. Им не может противостоять никто, 
+            кроме ГГ и команды его друзей. Геймплей отличается динамичностью, разнообразными, быстрыми, интересными поединками.
+            В задачах пользователя – успешно управлять своим персонажем, внимательно изучать навыки бойцов. 
+            После подготовки к бою можно применить «скиллы» в уличных стычках с рядовыми членами банд и их боссами. 
+            Главная цель – очистить город от криминала и вернуть мирную жизнь его жителям.
+            Всего в игре 5 непохожих ни на кого персонажей с индивидуальным набором навыков и стилем ведения поединков. 
+            Street of Rage 4 состоит из 12 масштабных уровней, где герою предстоит встретиться с несколькими десятками оппонентов. 
+            Яркая графика дарит положительные эмоции и впечатления.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Street of Rage 4 is an exciting mobile video game in the Fighting Game genre,
+            in which the authors actually drew the graphics manually. The hero of the game finds himself in a megalopolis
+            where the power is 100 percent owned by criminal structures. The police are either powerless
+            or paid for by criminal gangs, and turn a blind eye to their atrocities. No one can resist them
+            except GG and his friends' team. The gameplay is characterized by dynamism, diverse, fast, interesting fights.
+            The user's tasks are to successfully control his character, carefully study the skills of fighters. 
+            After preparing for battle, you can apply "skills" in street skirmishes with ordinary gang members and their bosses. 
+            The main goal is to clear the city of crime and return peaceful life to its inhabitants.
+            In total, there are 5 characters unlike anyone else in the game with an individual set of skills and style of fighting. 
+            Street of Rage 4 consists of 12 large-scale levels, where the hero will have to face several dozen opponents. 
+            Bright graphics give positive emotions and impressions.]
+            (* <-lang_en;; *);;
+        *);;
+    *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//Photo//streetsofrage4.jpg"
+            (*
+                =>nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+
+    ->rrel_developer: Playdigious;
+    =>nrel_view: third_face;
+    =>nrel_type_of_game: singleplayer;
+    =>nrel_have_donate: have;
+    =>nrel_graphic: retro;
+    =>nrel_graphic_style: 2D;
+    =>nrel_genre: fighting;;

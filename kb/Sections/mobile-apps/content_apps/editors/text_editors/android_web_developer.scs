@@ -1,0 +1,42 @@
+android_web_developer
+
+	=> nrel_main_idtf:
+    [Текстовый редактор Android Web Developer]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Text editor Android Web Developer]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://photo//awd.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definiton;;
+        => nrel_idtf: [Опр. (Android Web Developer)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Android Web Developer - это не просто текстовый редактор для Андроид, но полноценная интегрированная среда разработки для программистов. Поддерживаются такие языки и форматы, как PHP, HTML, CSS, JS, JSON.] (* <-lang_ru;; *);;
+            *);;
+        *);
+    
+
+    	=> nrel_size: 138_mb;
+	=> nrel_have_a_donate: have;
+	=> nrel_internet_connection: require;
+	=> nrel_supported_extensions: doc;
+	=> nrel_supported_extensions: txt;
+	=> nrel_functional_features: pdf_viewer;
+	=> nrel_functional_features: teamwork;
+	=> nrel_functional_features: simplified_file_sharing;
+	=> nrel_sections: trivial_text_editor;
+	=> nrel_sections: code_text_editor;
+    -> rrel_developer: Akid_Soft;
+    -> rrel_supported_platform: Android;
+    -> nrel_supported_language: all_language;
+    -> nrel_use_of_personal_data: use;;

@@ -1,0 +1,40 @@
+pixels_unknown_battle_ground
+
+=> nrel_main_idtf:
+    [Игра в жанре королевская битва PIXEL’S UNKNOWN BATTLE GROUND]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Battle Royale game PIXEL’S UNKNOWN BATTLE GROUND]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//images/pixel_unknown.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Опр. (PIXEL’S UNKNOWN BATTLE GROUND)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [PIXEL’S UNKNOWN BATTLE GROUND - Несмотря на внешнюю несерьезность, 
+            в Pixel’s Unknown Battle Ground все необходимые элементы жанра выполнены на должном уровне. 
+            Здесь есть внутриигровой чат, автоматическая стрельба и даже более низкие настройки графики 
+            для менее производительных смартфонов, хотя казалось бы.] (* <-lang_ru;; *);;
+        *);;
+    *);
+    
+
+    =>nrel_view: first_face;
+    =>nrel_type_of_game: multiplayer;
+    =>nrel_have_donate: dont_have;
+    =>nrel_graphic: primitive;
+    =>nrel_graphic_style: 3D;
+    =>rrel_genre: battle_royale;
+    -> rrel_developer: Azur_Interactive;
+    => nrel_supported_platform: Android;
+    => nrel_supported_language: all_language;;

@@ -1,0 +1,28 @@
+velobike
+=>nrel_main_idtf:[Приложениe для аренды велосипеда velobike]
+    (*
+         <-lang_ru;;
+    *);
+=>nrel_main_idtf:[App for bike rental velobike]
+    (*
+         <-lang_en;;
+    *);
+
+
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//logo.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    -> rrel_developer: Velobike;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_platform: Android;
+    => nrel_supported_language: ru_language;
+    => nrel_use_of_personal_data: use;
+    => nrel_bike_park: section_velobike_bike_park;
+    => nrel_tariffs_bike: section_tariffs_velobike;
+    =>nrel_area_of_action: Moscow;;

@@ -1,0 +1,16 @@
+subject_domain_of_social_networks
+    =>nrel_main_idtf:[Предметная область. Социальные сети] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Subject domain. Social Apps] (* <-lang_en;;*);
+
+<-subject_domain;
+
+->rrel_maximum_studied_object_class:
+    concept_social_networks_examples;
+
+-> rrel_explored_relation:
+    rrel_country;
+    nrel_author;
+    nrel_have_stories;
+    nrel_the_year_of_creation;;
+
+

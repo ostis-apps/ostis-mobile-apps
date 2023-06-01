@@ -1,0 +1,44 @@
+inshot
+
+	=> nrel_main_idtf:
+    	[Фоторедактор InShot]
+    	(* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Photo editor InShot]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//inshot.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (InShot)] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [InShot- Мощный видеоредактор и фоторедактор на русском! 
+		    Нужно монтировать или отредактировать видео на и фото для Instagram, Whatsapp, Тикток или Youtube? Запишите свою повседневную жизнь с InShot! 
+		    С InShot, вы можете наложить музыку на видео, обрезка видео, объединить видео, 
+		    повернуть видео, размытие фона одним нажатием пальца, дополняй видео текстом. Наш редактор видео 	
+		    подходит для Тикток, YouTube, Whatsapp, Snapchat. и т.д.] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+	    => nrel_possibility_to_export: have;
+	    => nrel_internet_connection: dont_require;	
+	    => nrel_have_donate: have;
+	    => nrel_size: 169_mb;
+	    => nrel_features: deleting_object_from_photo;
+	    => nrel_features: creating_stickers;
+	    => nrel_amount_of_inbuilt_presets: 35;
+	    => nrel_level_of_application: beginner;
+	    -> rrel_developer: InShot_Video_Editor;
+	    -> rrel_supported_platform: Android;
+	    -> rrel_supported_platform: IOS;
+	    -> nrel_supported_language: all_language;
+	    -> nrel_use_of_personal_data: use;;

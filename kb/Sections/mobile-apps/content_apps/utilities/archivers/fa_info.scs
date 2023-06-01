@@ -1,0 +1,13 @@
+section_fa_formats
+=> nrel_main_idtf:
+        [Поддерживаемые форматы File Archiver]
+        (* <- lang_ru;; *);
+    ->RAR;
+    ->ZIP;
+    ->TAR;
+    ->GZ;
+    ->BZ2;
+    ->XZ;
+    ->7z;
+    ->ISO;
+    ->ARJ;;

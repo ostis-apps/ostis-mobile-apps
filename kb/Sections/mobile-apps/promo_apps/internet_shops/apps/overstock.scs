@@ -1,0 +1,38 @@
+overstock
+
+=> nrel_main_idtf:
+    [Интернет-магазин Overstock]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Internet shop Overstock]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//images/overstock.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Опр. (Overstock)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Overstock - американский онлайн-ретейлер со штаб-квартирой в Cottonwood Heights, 
+            Utah. Компания была открыта в мае 1999 года её CEO, Патриком Бёрном (англ. Patrick M. Byrne).
+            Первоначально Overstock.com продавала излишки и товар, возвращённый на электронные торговые площадки, 
+            занимаясь ликвидацией остатков по крайней мере 18 неудачных доткомов по ценам ниже оптовых. 
+            В последние годы начала продажу новых товаров, расширив этим свою деятельность] (* <-lang_ru;; *);;
+        *);;
+    *);
+    
+
+    -> rrel_country: USA;
+    => nrel_the_year_of_creation: 1997;
+    => nrel_author: Patrick_Byrne;
+    => nrel_supported_platform: Android;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_language: all_language;;

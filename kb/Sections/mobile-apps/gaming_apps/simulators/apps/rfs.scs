@@ -1,0 +1,43 @@
+rfs
+    => nrel_main_idtf:
+        [Симулятор управления самолётом Real Flight Simulator]
+        (* <- lang_ru;; *);
+    => nrel_main_idtf:
+        [Airplane control simulator Real Flight Simulator]
+        (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <- description;;
+        => nrel_idtf: [Описание] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Этот симулятор с хорошей графикой перенесет вас в воздушное пространство. 
+            Почувствуйте себя настоящим летчиком, который управляет огромным самолетом с пассажирами на борту. 
+            На ваш выбор будет предоставлено множество видов реальных летательных аппаратов и аэропортов, 
+            которые до мелочей повторяют объекты и сооружения, существующие в реальности.
+            Разработчики максимально сосредоточились на реалистичности симулятора.
+            Ей способствует качественная трехмерная графика, а также продвинутая физика полета самолетов, 
+            которые управляются по разному в зависимости от размеров, скорости, погоды и других параметров. 
+            Это оффлайн игра, которая работает без интернета, что делает ее еще привлекательнее для многих. ] 
+            (* <-lang_ru;; *);;
+        *);;
+    *);
+
+
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://..//Photo//rfs.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+
+    ->rrel_developer:RORTOS;
+    =>nrel_view: first_and_third_face;
+    =>nrel_type_of_game: singleplayer;
+    =>nrel_have_donate: have;
+    =>nrel_graphic: realistic;
+    =>nrel_graphic_style: 3D;
+    =>nrel_genre: life_simulator;
+    =>nrel_genre: drive_simulator;;

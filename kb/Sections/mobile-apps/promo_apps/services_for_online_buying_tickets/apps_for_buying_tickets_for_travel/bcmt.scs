@@ -1,0 +1,45 @@
+BC
+
+=>nrel_main_idtf:[Сервис для покупки билетов БЧ. Мой поезд]
+    (*
+         <-lang_ru;;
+    *);
+=>nrel_main_idtf:[Service for buying tickets BC. My Train]
+    (*
+         <-lang_en;;
+    *);
+
+
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//logo_bc.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+<- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Определение (БЧ. Мой поезд)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Основная функция мобильного приложения «БЧ. Мой поезд» – оформление электронных билетов. Этот процесс разделен на этапы, при выполнении которых необходимо вводить дополнительную информацию.Этапы:
+Авторизация пользователей;
+Выбор маршрута поездки;
+Выбор поезда;
+Выбор количества пассажиров для поездов с нумерованными местами;
+Выбор мест в вагоне;
+Внесение данных о пассажирах;
+Оплата за пользование постельным бельем;
+Оплата корзины заказов;
+Заказы.
+] (* <-lang_ru;; *);;
+        *);;
+    *);
+    -> rrel_developer: BRW;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_platform: Android;
+    => nrel_supported_language: all_language;
+    => nrel_use_of_personal_data: use;
+    => nrel_supported_cur: BYN;
+    => nrel_supported_country: Belarus;;

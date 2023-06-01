@@ -1,0 +1,13 @@
+section_zipfy_formats
+=> nrel_main_idtf:
+        [Поддерживаемые форматы Zipfy]
+        (* <- lang_ru;; *);
+    ->RAR;
+    ->ZIP;
+    ->TAR;
+    ->GZ;
+    ->BZ2;
+    ->XZ;
+    ->7z;
+    ->ISO;
+    ->ARJ;;

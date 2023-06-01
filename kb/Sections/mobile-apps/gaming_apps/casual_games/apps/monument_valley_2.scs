@@ -1,0 +1,44 @@
+monument_valley_2
+
+=> nrel_main_idtf:
+    [Казуальная игра Monument Valley 2]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Casual game Monument Valley 2]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//images/mv2.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Опр. (Monument Valley 2)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Monument Valley 2 - продолжение захватывающей головоломки на Android, 
+            где перед вами откроется волшебный мир архитектуры. В этой игре вы будете помогать 
+            Ро и ее дочери постегать все тайны и секреты этого потрясающего мира и решать непростые 
+            головоломки. Помогите Ро открыть перед дочерью все тайны долины, исследуя невероятные 
+            уровни и управляя архитектурными объектами. Путешествуйте по невероятным уровням и наслаждайтесь 
+            иллюзорными и медитативными головоломками и наблюдайте за тем как взаимодействуют персонажи. 
+            Окунитесь в невероятный мир Monument Valley 2 и получайте максимум удовольствия от звукового 
+            оформления, которое как нельзя лучше дополняет игру.] (* <-lang_ru;; *);;
+        *);;
+    *);
+    
+
+    =>rrel_type_of_game: singleplayer;
+    =>nrel_graphic: advanced;
+    =>nrel_graphic_style: 3D;
+    =>rrel_genre: casual;
+    =>nrel_cost: dont_free;
+    -> rrel_developer: Ustwo;
+    => nrel_supported_platform: Android;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_language: all_language;;

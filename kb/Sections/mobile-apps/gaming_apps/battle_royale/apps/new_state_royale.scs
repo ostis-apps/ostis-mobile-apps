@@ -1,0 +1,43 @@
+new_state_mobile
+
+=> nrel_main_idtf:
+    [Игра в жанре королевская битва NEW STATE MOBILE]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Battle Royale game NEW STATE MOBILE]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//images/nsm.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Опр. (NEW STATE MOBILE)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [NEW STATE MOBILE — это новый многообещающий проект от создателей PUBG, 
+            который перенесет участников «королевской битвы» 
+            в недалекое будущее — 2051 год. В своей основе игра останется традиционной: 
+            уменьшающаяся карта, сотня стремящихся к первенству игроков, транспорт, большие открытые локации 
+            и реалистичные перестрелки. Вместе с тем, в футуристической версии PUBG появятся «беспилотники», 
+            высокотехнологичное оружие, продвинутое снаряжение и многое другое.] (* <-lang_ru;; *);;
+        *);;
+    *);
+    
+
+    =>nrel_view: first_and_third_face;
+    =>nrel_type_of_game: multiplayer;
+    =>nrel_have_donate: have;
+    =>nrel_graphic: futuristic;
+    =>nrel_graphic_style: 3D;
+    =>rrel_genre: battle_royale;
+    -> rrel_developer: Krafton;
+    => nrel_supported_platform: Android;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_language: all_language;;

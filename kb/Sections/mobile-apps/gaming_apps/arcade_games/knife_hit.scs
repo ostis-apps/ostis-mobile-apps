@@ -1,0 +1,43 @@
+knife_hit
+
+	=> nrel_main_idtf:
+	    [Аркада Knife Hit]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Arcade game Knife Hit]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//knife_hit.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Def. (The Cave)] (* <-lang_en;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [The ultimate knife challenge is here! 
+		    Throw the knives into the logs to break them. Slash the apples and 
+		    unlock new knives. Each 5th stage is defended by a boss - 
+		    beat them to get exclusive knives!] (* <-lang_en;; *);;
+		    *);;
+		*);
+	    
+
+	    =>nrel_view: side_view;
+	    =>rrel_type_of_game: singleplayer;
+	    =>nrel_have_donate: have;
+	    =>nrel_graphic: cartoon;
+	    =>nrel_graphic_style: 2D;
+	    =>rrel_genre: classic;
+	    =>nrel_internet_connection: dont_require;
+	    -> rrel_developer: Ketchapp;
+	    -> rrel_supported_platform: Android;
+	    -> rrel_supported_platform: IOS;
+	    -> nrel_supported_language: all_language;
+	    -> nrel_use_of_personal_data: use;; 

@@ -1,0 +1,687 @@
+section_hello_car_park
+     => nrel_main_idtf:
+        [Автомобили]
+    (* <- lang_ru;; *);
+    ->Volkswagen_Polo_hello;
+    ->NEW_Volkswagen_Polo_hello;
+    ->Skoda_Rapid;
+    ->KIA_Rio_X;
+    ->JAC_J7;
+    ->MINI_Cooper_S_JCW;
+    ->MINI_Clubman;
+    ->MINI_Cooper;
+    ->Geely_Tugella;
+    ->Skoda_Karoq;
+    ->Volkswagen_Tiguan;
+    ->Volkswagen_Taos;
+    ->Geely_Coolray;
+    ->Kia_Seltos;
+    ->Ford_Mustang;
+    ->Doodge_Challenger;
+    ->Chevrolet_Camaro;
+    ->Tesla_Model_3;
+    ->Tesla_Model_3_Dual_Motor;
+    ->Tesla_Model_S;
+    ->Tesla_Model_X;
+    ->Tesla_Model_X_PERFOMANCE;;
+    
+
+section_tariffs_hello
+   => nrel_main_idtf:
+        [Тарифы сервиса Hello]
+        (* <- lang_ru;; *);
+    ->tariff_minuts;
+    ->tariff_minuts_and_kilometers;
+    ->tariff_hours_and_kilometers;
+    ->tariff_days_and_kilometers;
+    ->tariff_minut_pack;
+    ->tariff_hours_pack;;
+    
+  Volkswagen_Polo_hello
+    =>nrel_main_idtf:[Volkswagen Polo] (*<-lang_ru;;*);
+    =>nrel_min_age: 18_years;
+    =>nrel_minut: 43_cop;
+    =>nrel_minuts_and_kilometers:
+     690_cop_per_60_min;
+     390_cop_per_30_min;
+     1290_cop_per_120_min;
+    =>nrel_minuts_and_kilometers_for_1_km:
+     39_cop;
+    =>nrel_hours_and_kilometers :
+     16_byn_per_3_hour;
+     25_byn_per_6_hour;
+     31_byn_per_9_hour;
+    =>nrel_hours_and_kilometers_for_1_km :
+     39_cop;
+    =>nrel_days_and_kilometers :
+     42_byn_per_1_day;
+     82_byn_per_2_day;
+     119_byn_per_3_day;
+     195_byn_per_5_day;
+     272_byn_per_7_day;
+     535_byn_per_14_day;
+    =>nrel_days_and_kilometers_for_1_km :
+     39_cop;
+    =>nrel_bodywork:sedan;
+    =>nrel_kpp: akpp;
+    =>nrel_power: 110_ls;
+    =>nrel_actuator: front;
+    =>nrel_V_fuel: 55_l;
+    =>nrel_V_back: 460_l;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//Polo.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);;
+
+  NEW_Volkswagen_Polo_hello
+    =>nrel_main_idtf:[Volkswagen Polo NEW] (*<-lang_ru;;*);
+    =>nrel_min_age: 18_years;
+    =>nrel_minut: 45_cop;
+    =>nrel_minuts_and_kilometers:
+     690_cop_per_60_min;
+     390_cop_per_30_min;
+     1290_cop_per_120_min;
+    =>nrel_minuts_and_kilometers_for_1_km:
+     39_cop;
+    =>nrel_hours_and_kilometers :
+     16_byn_per_3_hour;
+     25_byn_per_6_hour;
+     31_byn_per_9_hour;
+    =>nrel_hours_and_kilometers_for_1_km :
+     39_cop;
+    =>nrel_days_and_kilometers :
+     42_byn_per_1_day;
+     82_byn_per_2_day;
+     119_byn_per_3_day;
+     195_byn_per_5_day;
+     272_byn_per_7_day;
+     535_byn_per_14_day;
+    =>nrel_days_and_kilometers_for_1_km :
+     39_cop;
+    =>nrel_bodywork:liftback;
+    =>nrel_kpp: akpp;
+    =>nrel_power: 110_ls;
+    =>nrel_actuator: front;
+    =>nrel_V_fuel: 55_l;
+    =>nrel_V_back: 550_l;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//Polo_new.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);;
+
+  Skoda_Rapid
+    =>nrel_main_idtf:[Skoda Rapid] (*<-lang_ru;;*);
+    =>nrel_min_age: 18_years;
+    =>nrel_minut: 45_cop;
+    =>nrel_minuts_and_kilometers:
+     690_cop_per_60_min;
+     390_cop_per_30_min;
+     1290_cop_per_120_min;
+    =>nrel_minuts_and_kilometers_for_1_km:
+     41_cop;
+    =>nrel_hours_and_kilometers :
+     16_byn_per_3_hour;
+     25_byn_per_6_hour;
+     31_byn_per_9_hour;
+    =>nrel_hours_and_kilometers_for_1_km :
+     41_cop;
+    =>nrel_days_and_kilometers :
+     42_byn_per_1_day;
+     82_byn_per_2_day;
+     119_byn_per_3_day;
+     195_byn_per_5_day;
+     272_byn_per_7_day;
+     535_byn_per_14_day;
+    =>nrel_days_and_kilometers_for_1_km :
+     41_cop;
+    =>nrel_bodywork:liftback;
+    =>nrel_kpp: akpp;
+    =>nrel_power: 110_ls;
+    =>nrel_actuator: front;
+    =>nrel_V_fuel: 55_l;
+    =>nrel_V_back: 540_l;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//rapid.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);;
+
+  KIA_Rio_X
+    =>nrel_main_idtf:[KIA Rio X] (*<-lang_ru;;*);
+    =>nrel_min_age: 18_years;
+    =>nrel_minut: 45_cop;
+    =>nrel_minuts_and_kilometers:
+     690_cop_per_60_min;
+     390_cop_per_30_min;
+     1290_cop_per_120_min;
+    =>nrel_minuts_and_kilometers_for_1_km:
+     41_cop;
+    =>nrel_hours_and_kilometers :
+     16_byn_per_3_hour;
+     25_byn_per_6_hour;
+     31_byn_per_9_hour;
+    =>nrel_hours_and_kilometers_for_1_km :
+     41_cop;
+    =>nrel_days_and_kilometers :
+     42_byn_per_1_day;
+     82_byn_per_2_day;
+     119_byn_per_3_day;
+     195_byn_per_5_day;
+     272_byn_per_7_day;
+     535_byn_per_14_day;
+    =>nrel_days_and_kilometers_for_1_km :
+     41_cop;
+    =>nrel_bodywork:wagon;
+    =>nrel_kpp: akpp;
+    =>nrel_power: 100_ls;
+    =>nrel_actuator: front;
+    =>nrel_V_fuel: 50_l;
+    =>nrel_V_back: 390_l;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//Rio.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);;
+
+  JAC_J7
+    =>nrel_main_idtf:[JAC J7] (*<-lang_ru;;*);
+    =>nrel_min_age: 18_years;
+    =>nrel_minut: 41_cop;
+    =>nrel_minuts_and_kilometers:
+     690_cop_per_60_min;
+     390_cop_per_30_min;
+     1290_cop_per_120_min;
+    =>nrel_minuts_and_kilometers_for_1_km:
+     41_cop;
+    =>nrel_hours_and_kilometers :
+     16_byn_per_3_hour;
+     25_byn_per_6_hour;
+     31_byn_per_9_hour;
+    =>nrel_hours_and_kilometers_for_1_km :
+     41_cop;
+    =>nrel_days_and_kilometers :
+     42_byn_per_1_day;
+     82_byn_per_2_day;
+     119_byn_per_3_day;
+     195_byn_per_5_day;
+     272_byn_per_7_day;
+     535_byn_per_14_day;
+    =>nrel_days_and_kilometers_for_1_km :
+     41_cop;
+    =>nrel_bodywork:liftback;
+    =>nrel_kpp: mkpp;
+    =>nrel_power: 140_ls;
+    =>nrel_actuator: front;
+    =>nrel_V_fuel: 55_l;
+    =>nrel_V_back: 540_l;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//J7.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);;
+
+  MINI_Cooper_S_JCW
+    =>nrel_main_idtf:[MINI Cooper S JCW] (*<-lang_ru;;*);
+    =>nrel_min_age: 19_years;
+    =>nrel_minut: 89_cop;
+    =>nrel_days_and_kilometers: 89_byn_per_1_day;
+    =>nrel_days_and_kilometers_for_1_km: 65_cop;
+    =>nrel_bodywork:hatchback;
+    =>nrel_kpp: akpp;
+    =>nrel_power: 190_ls;
+    =>nrel_actuator: front;
+    =>nrel_V_fuel: 50_l;
+    =>nrel_V_back: 210_l;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//S_jsw.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);;
+ 
+  MINI_Clubman
+    =>nrel_main_idtf:[MINI Clubman] (*<-lang_ru;;*);
+    =>nrel_min_age: 19_years;
+    =>nrel_minut: 89_cop;
+    =>nrel_days_and_kilometers: 89_byn_per_1_day;
+    =>nrel_days_and_kilometers_for_1_km: 65_cop;
+    =>nrel_bodywork:hatchback;
+    =>nrel_kpp: mkpp;
+    =>nrel_power: 140_ls;
+    =>nrel_actuator: front;
+    =>nrel_V_fuel: 50_l;
+    =>nrel_V_back: 360_l;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//clubman.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);;
+ 
+  MINI_Cooper
+    =>nrel_main_idtf:[MINI Cooper] (*<-lang_ru;;*);
+    =>nrel_min_age: 19_years;
+    =>nrel_minut: 67_cop;
+    =>nrel_days_and_kilometers: 79_byn_per_1_day;
+    =>nrel_days_and_kilometers_for_1_km: 61_cop;
+    =>nrel_bodywork:hatchback;
+    =>nrel_kpp: mkpp;
+    =>nrel_power: 140_ls;
+    =>nrel_actuator: front;
+    =>nrel_V_fuel: 40_l;
+    =>nrel_V_back: 210_l;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//cooper.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);;
+ 
+  Geely_Tugella
+    =>nrel_main_idtf:[Geely Tugella] (*<-lang_ru;;*);
+    =>nrel_min_age: 19_years;
+    =>nrel_minut : 77_cop;
+    =>nrel_bodywork:offroad;
+    =>nrel_kpp: akpp;
+    =>nrel_power: 240_ls;
+    =>nrel_actuator: full;
+    =>nrel_V_fuel: 55_l;
+    =>nrel_V_back: 455_l;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//tugella.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);;
+ 
+  Skoda_Karoq
+    =>nrel_main_idtf:[Skoda Karoq] (*<-lang_ru;;*);
+    =>nrel_min_age: 19_years;
+    =>nrel_minut : 57_cop;
+    =>nrel_minuts_and_kilometers :
+     890_cop_per_60_min;
+     490_cop_per_30_min;
+    =>nrel_minuts_and_kilometers_for_1_km : 57_cop;
+    =>nrel_hours_and_kilometers :
+     29_byn_per_3_hour;
+     39_byn_per_6_hour;
+    =>nrel_hours_and_kilometers_for_1_km : 57_cop;
+    =>nrel_days_and_kilometers :
+     59_byn_per_1_day;
+     116_byn_per_2_day;
+     169_byn_per_3_day;
+     279_byn_per_5_day;
+     391_byn_per_7_day;
+     765_byn_per_14_day;
+    =>nrel_days_and_kilometers_for_1_km : 57_cop;
+    =>nrel_bodywork:offroad;
+    =>nrel_kpp: akpp;
+    =>nrel_power: 150_ls;
+    =>nrel_actuator: front;
+    =>nrel_V_fuel: 55_l;
+    =>nrel_V_back: 520_l;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//karoq.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);;
+ 
+  Volkswagen_Tiguan
+    =>nrel_main_idtf:[Volkswagen Tiguan] (*<-lang_ru;;*);
+    =>nrel_min_age: 19_years;
+    =>nrel_minut : 57_cop;
+    =>nrel_minuts_and_kilometers :
+     890_cop_per_60_min;
+     490_cop_per_30_min;
+    =>nrel_minuts_and_kilometers_for_1_km : 57_cop;
+    =>nrel_hours_and_kilometers :
+     29_byn_per_3_hour;
+     39_byn_per_6_hour;
+    =>nrel_hours_and_kilometers_for_1_km : 57_cop;
+    =>nrel_days_and_kilometers :
+     59_byn_per_1_day;
+     116_byn_per_2_day;
+     169_byn_per_3_day;
+     279_byn_per_5_day;
+     391_byn_per_7_day;
+     765_byn_per_14_day;
+    =>nrel_days_and_kilometers_for_1_km : 57_cop;
+    =>nrel_bodywork:offroad;
+    =>nrel_kpp: akpp;
+    =>nrel_power: 125_ls;
+    =>nrel_actuator: full;
+    =>nrel_V_fuel: 60_l;
+    =>nrel_V_back: 615_l;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//tiguan.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);;
+ 
+  Volkswagen_Taos
+    =>nrel_main_idtf:[Volkswagen Taos] (*<-lang_ru;;*);
+    =>nrel_min_age: 19_years;
+    =>nrel_minut : 57_cop;
+    =>nrel_minuts_and_kilometers :
+     890_cop_per_60_min;
+     490_cop_per_30_min;
+    =>nrel_minuts_and_kilometers_for_1_km : 57_cop;
+    =>nrel_hours_and_kilometers :
+     29_byn_per_3_hour;
+     39_byn_per_6_hour;
+    =>nrel_hours_and_kilometers_for_1_km : 57_cop;
+    =>nrel_days_and_kilometers :
+     59_byn_per_1_day;
+     116_byn_per_2_day;
+     169_byn_per_3_day;
+     279_byn_per_5_day;
+     391_byn_per_7_day;
+     765_byn_per_14_day;
+    =>nrel_days_and_kilometers_for_1_km : 57_cop;
+    =>nrel_bodywork:offroad;
+    =>nrel_kpp: akpp;
+    =>nrel_power: 150_ls;
+    =>nrel_actuator: full;
+    =>nrel_V_fuel: 55_l;
+    =>nrel_V_back: 420_l;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//taos.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);;
+ 
+  Geely_Coolray
+    =>nrel_main_idtf:[Geely Coolray] (*<-lang_ru;;*);
+    =>nrel_min_age: 19_years;
+    =>nrel_minut : 57_cop;
+    =>nrel_minuts_and_kilometers :
+     890_cop_per_60_min;
+     490_cop_per_30_min;
+    =>nrel_minuts_and_kilometers_for_1_km : 57_cop;
+    =>nrel_hours_and_kilometers :
+     29_byn_per_3_hour;
+     39_byn_per_6_hour;
+    =>nrel_hours_and_kilometers_for_1_km : 57_cop;
+    =>nrel_days_and_kilometers :
+     59_byn_per_1_day;
+     116_byn_per_2_day;
+     169_byn_per_3_day;
+     279_byn_per_5_day;
+     391_byn_per_7_day;
+     765_byn_per_14_day;
+    =>nrel_days_and_kilometers_for_1_km : 57_cop;
+    =>nrel_bodywork:offroad;
+    =>nrel_kpp: akpp;
+    =>nrel_power: 150_ls;
+    =>nrel_actuator: front;
+    =>nrel_V_fuel: 45_l;
+    =>nrel_V_back: 330_l;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//coolray.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);;
+ 
+  Kia_Seltos
+    =>nrel_main_idtf:[Kia Seltos] (*<-lang_ru;;*);
+    =>nrel_min_age: 19_years;
+    =>nrel_minut : 57_cop;
+    =>nrel_minuts_and_kilometers :
+     890_cop_per_60_min;
+     490_cop_per_30_min;
+    =>nrel_minuts_and_kilometers_for_1_km : 57_cop;
+    =>nrel_hours_and_kilometers :
+     29_byn_per_3_hour;
+     39_byn_per_6_hour;
+    =>nrel_hours_and_kilometers_for_1_km : 57_cop;
+    =>nrel_days_and_kilometers :
+     59_byn_per_1_day;
+     116_byn_per_2_day;
+     169_byn_per_3_day;
+     279_byn_per_5_day;
+     391_byn_per_7_day;
+     765_byn_per_14_day;
+    =>nrel_days_and_kilometers_for_1_km : 57_cop;
+    =>nrel_bodywork:offroad;
+    =>nrel_kpp: akpp;
+    =>nrel_power: 140_ls;
+    =>nrel_actuator: full;
+    =>nrel_V_fuel: 55_l;
+    =>nrel_V_back: 430_l;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//seltos.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);;
+ 
+  Ford_Mustang
+    =>nrel_main_idtf:[Ford Mustang] (*<-lang_ru;;*);
+    =>nrel_min_age: 23_years;
+    =>nrel_minut: 99_cop;
+    =>nrel_days_and_kilometers : 209_byn_per_1_day;
+    =>nrel_days_and_kilometers_for_1_km : 79_cop;
+    =>nrel_bodywork:compartment;
+    =>nrel_kpp: akpp;
+    =>nrel_power: 310_ls;
+    =>nrel_actuator: rear;
+    =>nrel_V_fuel: 60_l;
+    =>nrel_V_back: 410_l;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//mustang.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);;
+ 
+  Doodge_Challenger
+    =>nrel_main_idtf:[Doodge Challenger] (*<-lang_ru;;*);
+    =>nrel_min_age: 23_years;
+    =>nrel_minut: 99_cop;
+    =>nrel_days_and_kilometers : 209_byn_per_1_day;
+    =>nrel_days_and_kilometers_for_1_km : 79_cop;
+    =>nrel_bodywork:compartment;
+    =>nrel_kpp: akpp;
+    =>nrel_power: 250_ls;
+    =>nrel_actuator: rear;
+    =>nrel_V_fuel: 70_l;
+    =>nrel_V_back: 460_l;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//challenger.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);;
+ 
+  Chevrolet_Camaro
+    =>nrel_main_idtf:[Chevrolet Camaro] (*<-lang_ru;;*);
+    =>nrel_min_age: 23_years;
+    =>nrel_minut: 99_cop;
+    =>nrel_days_and_kilometers : 209_byn_per_1_day;
+    =>nrel_days_and_kilometers_for_1_km : 79_cop;
+    =>nrel_bodywork:compartment;
+    =>nrel_kpp: akpp;
+    =>nrel_power: 240_ls;
+    =>nrel_actuator: rear;
+    =>nrel_V_fuel: 70_l;
+    =>nrel_V_back: 360_l;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//camaro.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);;
+ 
+  Tesla_Model_3
+    =>nrel_main_idtf:[Tesla Model 3] (*<-lang_ru;;*);
+    =>nrel_min_age: 23_years;
+    =>nrel_minut: 79_cop;
+    =>nrel_minut_pack: 21_byn_per_30_minuts;
+    =>nrel_minut_pack: 37_byn_per_60_minuts;
+    =>nrel_hours_pack: 89_byn_per_3_hours;
+    =>nrel_bodywork:sedan;
+    =>nrel_kpp: akpp;
+    =>nrel_power: 260_ls;
+    =>nrel_actuator: rear;
+    =>nrel_V_fuel: none;
+    =>nrel_V_back: 430_l;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//3.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);;
+ 
+  Tesla_Model_3_Dual_Motor
+    =>nrel_main_idtf:[Tesla Model 3 DM] (*<-lang_ru;;*);
+    =>nrel_min_age: 23_years;
+    =>nrel_minut: 79_cop;
+    =>nrel_minut_pack: 21_byn_per_30_minuts;
+    =>nrel_minut_pack: 37_byn_per_60_minuts;
+    =>nrel_hours_pack: 89_byn_per_3_hours;
+    =>nrel_bodywork:sedan;
+    =>nrel_kpp: akpp;
+    =>nrel_power: 360_ls;
+    =>nrel_actuator: full;
+    =>nrel_V_fuel: none;
+    =>nrel_V_back: 430_l;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//3_d.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);;
+ 
+  Tesla_Model_S
+    =>nrel_main_idtf:[Tesla Model S] (*<-lang_ru;;*);
+    =>nrel_min_age: 23_years;
+    =>nrel_minut: 139_cop;
+    =>nrel_minut_pack: 39_byn_per_30_minuts;
+    =>nrel_minut_pack: 59_byn_per_60_minuts;
+    =>nrel_hours_pack: 139_byn_per_3_hours;
+    =>nrel_bodywork:sedan;
+    =>nrel_kpp: akpp;
+    =>nrel_power: 330_ls;
+    =>nrel_actuator: full;
+    =>nrel_V_fuel: none;
+    =>nrel_V_back: 745_l;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//s.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);;
+ 
+  Tesla_Model_X
+    =>nrel_main_idtf:[Tesla Model X] (*<-lang_ru;;*);
+    =>nrel_min_age: 23_years;
+    =>nrel_minut: 149_cop;
+    =>nrel_minut_pack: 42_byn_per_30_minuts;
+    =>nrel_minut_pack: 69_byn_per_60_minuts;
+    =>nrel_hours_pack: 149_byn_per_3_hours;
+    =>nrel_bodywork:offroad;
+    =>nrel_kpp: akpp;
+    =>nrel_power: 330_ls;
+    =>nrel_actuator: full;
+    =>nrel_V_fuel: none;
+    =>nrel_V_back: 185_l;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//x.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);;
+ 
+  Tesla_Model_X_PERFOMANCE
+    =>nrel_main_idtf:[Tesla Model X PERFOMANSE] (*<-lang_ru;;*);
+    =>nrel_min_age: 25_years;
+    =>nrel_minut: 209_cop;
+    =>nrel_bodywork:offroad;
+    =>nrel_kpp: akpp;
+    =>nrel_power: 760_ls;
+    =>nrel_actuator: full;
+    =>nrel_V_fuel: none;
+    =>nrel_V_back: 185_l;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//x_p.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);;

@@ -1,0 +1,37 @@
+stardewvalley
+    => nrel_main_idtf:
+        [Симулятор фермерства Stardew Valley]
+        (* <- lang_ru;; *);
+    => nrel_main_idtf:
+        [Farm simulator Stardew Valley]
+        (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <- description;;
+        => nrel_idtf: [Описание] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Игра сочетает в себе элементы различных жанров, таких как ролевые игры, социальные симуляции, 
+            симуляторы сельского хозяйства и симуляторы жизни. Игрок начинает с полуразрушенной фермы, которая нуждается в ремонте. 
+            Можете пообщаться с кем-нибудь из близлежащей деревни, и есть десятки мини-игр и квестов, чтобы все было интересно.] 
+            (* <-lang_ru;; *);;
+        *);;
+    *);
+
+
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://..//Photo//stardewvalley.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+
+    ->rrel_developer: ConcernedApe;
+    =>nrel_view: third_face;
+    =>nrel_type_of_game: singleplayer;
+    =>nrel_have_donate: have;
+    =>nrel_graphic: cartoon;
+    =>nrel_graphic_style: 2D;
+    =>nrel_genre: life_simulator;;

@@ -1,0 +1,31 @@
+google_play_music
+=>nrel_main_idtf:[Музыкальный плеер Google Play Music]
+    (*
+         <-lang_ru;;
+    *);
+=>nrel_main_idtf:[Music Player Google Play Music]
+    (*
+         <-lang_en;;
+    *);
+
+
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+
+    *);
+    -> rrel_developer: Google;
+    -> rrel_supported_platform: IOS;
+    -> rrel_supported_platform: Android;
+    ->rrel_supported_language: ru_language;
+    ->rrel_supported_language: en_language;
+    ->rrel_supported_language: cs_language;
+    ->rrel_supported_language: da_language;
+    ->rrel_supported_language: es_language;
+    ->nrel_use_of_personal_data: use;
+    =>nrel_tariffs: section_google_tarifs;
+    =>nrel_supported_countries: Belarus;
+    =>nrel_supported_countries: USA;
+    =>nrel_supported_countries: Czech;
+    =>nrel_supported_countries: Denmark;
+    =>nrel_supported_countries: Spain;;
+

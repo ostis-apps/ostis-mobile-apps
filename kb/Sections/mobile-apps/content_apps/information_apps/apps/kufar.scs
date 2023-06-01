@@ -1,0 +1,23 @@
+kufar
+=> nrel_main_idtf:
+    [Kufar]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Kufar]
+    (* <- lang_en;; *);
+
+    -> rrel_developer: Kufar;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_platform: Android;
+    => nrel_supported_language: ru_language;
+    =>nrel_use_of_personal_data: use;
+    =>nrel_type_of_information_app: tradingplatform;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://..//Photo//kufar.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;

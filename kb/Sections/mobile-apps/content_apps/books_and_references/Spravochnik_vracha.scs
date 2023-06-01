@@ -1,0 +1,33 @@
+Spravochnik_vracha
+
+
+=>nrel_main_idtf:[Справочник Врача]
+    (*
+         <-lang_ru;;
+    *);
+=>nrel_main_idtf:[Handbook Doctor's Handbook]
+    (*
+         <-lang_en;;
+    *);
+
+
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//logo_vrach.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    -> rrel_developer: OOO_MIR;
+    -> rrel_supported_platform: IOS;
+    -> rrel_supported_platform: Android;
+    ->rrel_supported_language: all_language;
+    ->nrel_use_of_personal_data: use;
+    =>nrel_themes_of_handbook: doctors_work;
+    => nrel_supported_countries: Belarus;
+    => nrel_supported_countries: USA;
+    => nrel_supported_countries: Iceland;
+    => nrel_supported_countries: Canada;
+    => nrel_supported_countries: Kazakhstan;;

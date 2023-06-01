@@ -1,0 +1,30 @@
+vk_music
+
+=>nrel_main_idtf:[Музыкальный плеер VK Music]
+    (*
+         <-lang_ru;;
+    *);
+=>nrel_main_idtf:[Music Player VK Music]
+    (*
+         <-lang_en;;
+    *);
+
+
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//logo_VK.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    -> rrel_developer: VK_com;
+    -> rrel_supported_platform: IOS;
+    -> rrel_supported_platform: Android;
+    ->rrel_supported_language: ru_language;
+    ->nrel_use_of_personal_data: use;
+    =>nrel_tariffs: section_tariffs_vk;
+    =>nrel_supported_countries: Belarus;
+    =>nrel_supported_countries: Russia;;
+

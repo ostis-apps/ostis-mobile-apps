@@ -1,0 +1,49 @@
+snapseed
+
+	=> nrel_main_idtf:
+    	[Профессиональный фоторедактор Snapseed]
+    	(* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Professional photo editor Snapseed]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//snapseed.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Snapseed)] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [Snapseed – это профессиональный фоторедактор, который представляет собой 
+		    универсальный мобильный помощник для редактирования фотографией. Его функционал крайне многообразен, 
+		    это не просто приложение с галереей готовых фильтров, 
+		    в умелых руках программа для обработки фото Snapseed способна стать мощным инструментом. 
+		    Из любого невзрачного снимка, сделанного случайно ночью при плохом освещении, с ее помощью 
+		    можно сотворить истинный шедевр, которым не стыдно будет похвастаться. 
+		    Все это благодаря наличию возможности многогранной обработки ] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+	    => nrel_possibility_to_export: have;
+	    => nrel_internet_connection: dont_require;	
+	    => nrel_have_donate: dont_have;
+	    => nrel_size: 81_mb;
+	    => nrel_features: chosen_editing;
+	    => nrel_features: history_of_editing;
+	    => nrel_features: use_of_ai;
+	    => nrel_features: deleting_object_from_photo;
+	    => nrel_features: creating_stickers;
+	    => nrel_amount_of_inbuilt_presets: 80;
+	    => nrel_level_of_application: professional;
+	    -> rrel_developer: Google_LLC;
+	    -> rrel_supported_platform: Android;
+	    -> rrel_supported_platform: IOS;
+	    -> nrel_supported_language: all_language;
+	    -> nrel_use_of_personal_data: use;;

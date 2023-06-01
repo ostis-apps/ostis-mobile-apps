@@ -1,0 +1,46 @@
+Litnet
+
+=>nrel_main_idtf:[Приложение для чтения книг Litnet]
+    (*
+         <-lang_ru;;
+    *);
+=>nrel_main_idtf:[App for reading books Litnet]
+    (*
+         <-lang_en;;
+    *);
+
+
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//logo_litnet.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    -> rrel_developer: litnet_com;
+    -> rrel_supported_platform: IOS;
+    -> rrel_supported_platform: Android;
+    ->rrel_supported_language: all_language;
+    ->nrel_use_of_personal_data: use;
+    ->nrel_is_audio_included: included;
+    => nrel_supported_countries: Belarus;
+    => nrel_supported_countries: USA;
+    => nrel_supported_countries: Iceland;
+    => nrel_supported_countries: Canada;
+    => nrel_supported_countries: Kazakhstan;;
+
+nrel_supported_countries
+=>nrel_main_idtf:[Поддерживаемые страны]
+    (*
+         <-lang_ru;;
+    *);
+<-sc_node_norole_relation;;
+
+nrel_is_audio_included
+=>nrel_main_idtf:[Поддерживает аудио]
+    (*
+         <-lang_ru;;
+    *);
+<-sc_node_norole_relation;;

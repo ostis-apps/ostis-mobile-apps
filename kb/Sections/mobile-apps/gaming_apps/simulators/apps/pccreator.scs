@@ -1,0 +1,40 @@
+pccreator
+    => nrel_main_idtf:
+        [Симулятор сборки компьютеров PC Creator]
+        (* <- lang_ru;; *);
+    => nrel_main_idtf:
+        [Computer assembly simulator PC Creator]
+        (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <- description;;
+        => nrel_idtf: [Описание] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [PC Creator – это уникальный симулятор, в котором вы сможете заняться карьерой сборщика компьютеров. 
+            Для многих геймеров это будет действительно уникальный опыт, ведь PC Creator не похож ни на одну другую игру. 
+            Кроме того, он дает возможность получить полезные знания, которые пригодятся в обращении с компьютерами в реальном мире.
+            Выполняя простые задания, вы сможете заработать определенную сумму денег. 
+            Это позволит купить более дорогостоящие детали и начать принимать заказы покрупнее. 
+            Вы пройдете полный путь от новичка до опытного мастера и сможете создать свой магазин компьютерной техники. ] 
+            (* <-lang_ru;; *);;
+        *);;
+    *);
+
+
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://..//Photo//pccreator.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+
+    ->rrel_developer: UltraAndre;
+    =>nrel_view: third_face;
+    =>nrel_type_of_game: singleplayer;
+    =>nrel_have_donate: have;
+    =>nrel_graphic: cartoon;
+    =>nrel_graphic_style: 3D;
+    =>nrel_genre: life_simulator;;

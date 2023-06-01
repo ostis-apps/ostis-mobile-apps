@@ -1,0 +1,50 @@
+twine
+=>nrel_main_idtf:[Приложение "Тренировки шпагата"]
+    (*
+         <-lang_ru;;
+    *);
+=>nrel_main_idtf:[App "Twine exercises"]
+    (*
+         <-lang_en;;
+    *);
+
+
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//twine.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    -> rrel_developer: Leap_fitness_group;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_platform: Android;
+    => nrel_supported_language: all_language;
+    => nrel_use_of_personal_data: unuse;
+    => nrel_kind_of_activity: sport;
+    => nrel_extra_devices: unuse;
+    => nrel_otchot: is;
+    => nrel_gender: women;
+    => nrel_quality: beginner;
+    continue;
+    progressive;
+    => nrel_exercises: alpinist;
+    squats;
+    run;
+    push_ups;
+    twists;
+    plank;
+    cobra;
+    push_ups_chair;
+    jump;
+    bike;
+    slopes;
+    swing;
+    lunges;
+streching;
+streching_lunge;
+slopes_twine;
+halfbow;
+    butterfly;;

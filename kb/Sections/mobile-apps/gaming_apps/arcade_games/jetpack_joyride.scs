@@ -1,0 +1,46 @@
+jetpack_joyride
+
+		=> nrel_main_idtf:
+	    [Скролл-шутер Jetpack Joyride]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Platformer game Jetpack Joyride]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//jetpack_joyride.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Jetpack Joyride)] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [Jetpack Joyride — это замечательная аркада из разряда раннеров, 
+		    которая получила динамичный геймплей и отличную графику. 
+		    В роли Барри — обычного парня, который решил резко изменить свою жизнь, 
+		    вы отправитесь в научную лабораторию, где, завладев испытательным образцом нового оружия, 
+		    начнете настоящий разгром. Накинув на плечи некое подобие реактивного ранца, 
+		    вы будете преодолевать множество препятствий, избегая ловушек и ракетных залпов! ] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    =>nrel_view: side_view;
+	    =>rrel_type_of_game: singleplayer;
+	    =>nrel_have_donate: dont_have;
+	    =>nrel_graphic: cartoon;
+	    =>nrel_graphic_style: 2D;
+	    =>rrel_genre: scroller;
+	    =>nrel_internet_connection: dont_require;
+	    -> rrel_developer: Halfbrick_Studios;
+	    -> rrel_supported_platform: Android;
+	    -> rrel_supported_platform: IOS;
+	    -> nrel_supported_language: all_language;
+	    -> nrel_use_of_personal_data: use;; 
+

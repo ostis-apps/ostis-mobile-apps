@@ -1,0 +1,51 @@
+john_assasin
+=> nrel_main_idtf:
+    [Beat'em up игра John Assasin]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Beat'em up game John Assasin]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <- description;;
+        => nrel_idtf: [Описание] (* <-lang_ru;; *);;
+        => nrel_idtf: [Description] (* <-lang_en;;*);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Вы играете за вымышленного персонажа Джона, наемника со сверхчеловеческими способностями к регенерации и физической доблести. 
+            Вы сражаетесь с преступными бандитами и их боссами. Наслаждайтесь боями в реальном времени, сражайтесь как на земле, так и в воздухе, 
+            как настоящий нео. Открывайте новые способности супергероев, приобретая боевой опыт и становясь еще более смертоносными. 
+            Эпический боевик-блокбастер! Действие этой игры про супергероев происходит в криминальном городе. Криминальные боссы - ваши соперники, 
+            и вы должны спасти город, победив их. Полиция и армия коррумпированы. Великий город - это просто матрица. 
+            Просто постарайся побеждать боссов в лучшем файтинге! Кинематографические боевые действия и плавные нео-бои. 
+            Уличный файтинг Wick создан в жанре beat 'em up, как один из лучших файтингов о супергероях. 
+            Выполняйте рукопашные атаки и эпические суперспособности с пистолетом и катаной в качестве теневого нео.] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [You play as the fictional character John, a mercenary with superhuman regeneration abilities and physical prowess. 
+            You are fighting with criminal bandits and their bosses. Enjoy real-time battles, fight both on the ground and in the air
+            like a real neo. Unlock new superhero abilities by gaining combat experience and becoming even more deadly. 
+            An epic blockbuster action movie! The action of this superhero game takes place in a criminal city. Criminal bosses are your rivals, 
+            and you have to save the city by defeating them. The police and the army are corrupt. A great city is just a matrix. 
+            Just try to beat the bosses in the best fighting game! Cinematic fighting and smooth neo-fights. 
+            Street fighting game Wick is created in the beat 'em up genre, as one of the best fighting games about superheroes. 
+            Perform melee attacks and epic superpowers with a pistol and a katana as a shadow neo.]
+            (* <-lang_en;; *);;
+        *);;
+    *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//Photo//johnassasin.jpg"
+            (*
+                =>nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+
+    ->rrel_developer: SuperheroAcademy;
+    =>nrel_view: third_face;
+    =>nrel_type_of_game: singleplayer;
+    =>nrel_have_donate: have;
+    =>nrel_graphic: cartoon;
+    =>nrel_graphic_style: 2D;
+    =>nrel_genre: beatemup;;

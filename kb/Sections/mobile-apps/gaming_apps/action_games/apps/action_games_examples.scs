@@ -1,0 +1,23 @@
+concept_action_games_examples
+=> nrel_main_idtf:
+    [Мобильные экшн игры]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Mobile action games]
+    (* <- lang_en;; *);
+
+->deadcells;
+->evoland2;
+->huntdown;
+->shadowfight2;
+->shadowfight3;
+->shadowfight4;
+->streetsofrage4;
+->grimvalor;
+->john_assasin;
+->call_of_duty_mobile;
+->spiderfightertwo;
+->spiderfighter;
+->xenowerk;
+->my_friend_pedro;
+->mortal_kombat;;

@@ -1,0 +1,31 @@
+subject_domain_of_finance_apps
+
+=>nrel_main_idtf:[Предметная область.  Финансовые приложения]
+    (*
+         <-lang_ru;;
+    *);
+=>nrel_main_idtf:[Subject domain. Finance apps]
+    (*
+         <-lang_en;;
+    *);
+<-subject_domain;
+
+->rrel_maximum_studied_object_class:
+    concept_of_finance_apps;
+
+-> rrel_explored_relation:
+    rrel_section;
+    nrel_have_donate;
+    nrel_size;
+    nrel_internet_connection;
+    nrel_cashback;
+    nrel_services;
+    nrel_live_technical_support;
+    nrel_inbuilt_exchange_rates;
+    nrel_maximum_amount_of_accounts;
+    nrel_level_of_financial_literacy;
+    nrel_synchronization_with_gadget;
+    nrel_amount_of_trading_instruments;
+    nrel_amount_of_currencies;
+    nrel_real_time_tracking;
+    nrel_type_of_commission;;

@@ -1,0 +1,44 @@
+section_nextbike_bike_park
+ => nrel_main_idtf:
+        [Велосипеды]
+    (* <- lang_ru;; *);
+    -> SMARTbike_2;
+    -> e_SMARTbike_2;;
+
+section_tariffs_nextbike
+   => nrel_main_idtf:
+        [Тарифы сервиса Nextbike]
+        (* <- lang_ru;; *);
+    ->tariff_month;
+    ->tariff_quarter_of_hour;;
+
+SMARTbike_2
+    =>nrel_main_idtf:[SMARTbike 2] (*<-lang_ru;;*);
+    =>nrel_min_age: 14_years;
+    =>nrel_month: 10_eur;
+    =>nrel_quarter_of_hour: 1_eur;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//2.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;
+
+e_SMARTbike_2
+    =>nrel_main_idtf:[electro SMARTbike 2] (*<-lang_ru;;*);
+    =>nrel_min_age: 14_years;
+    =>nrel_month: 10_eur;
+    =>nrel_quarter_of_hour: 1_eur;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//e.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;
+

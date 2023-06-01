@@ -1,0 +1,13 @@
+concept_apps_for_health_examples
+=> nrel_main_idtf:
+    [Мобильные приложения для здоровья]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Mobile apps for health]
+    (* <- lang_en;; *);
+->lose_weight_in_30_days;
+->hands_exercises;
+->height_exercises;
+->twine;
+->exercises_for_home;
+->press_for_30_days;;

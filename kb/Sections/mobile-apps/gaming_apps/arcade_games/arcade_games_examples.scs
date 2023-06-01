@@ -1,0 +1,44 @@
+concept_arcade_games_examples
+=> nrel_main_idtf:
+    [Мобильные аркадные игры]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Mobile arcade games]
+    (* <- lang_en;; *);
+    
+->angry_birds_2;
+->air_force_1945;
+->asphalt_9_legends;
+->bouncy_hills;
+->circle;
+->crossy_road;
+->dont_touch_the_spikes;
+->doodle_jump;
+->drag_racing;
+->drive_ahead;
+->dungreed;
+->jetpack_joyride;
+->dunk_shot;
+->elemental_wings;
+->geometry_dash_lite;
+->knife_hit;
+->limbo;
+->marvel_contest_of_champions;
+->magic_tiles;
+->mr_gun;
+->race_time;
+->concept_rider;
+->rotator;
+->skullgirls;
+->smash_hit;
+->spinny_gun;
+->stack;
+->stairs;
+->stick_hero;
+->subway_surfers;
+->the_cave;
+->tomb_of_the_mask;
+->traffic_racer;
+->vector;
+->zigzag;
+->zombie_tsunami;;

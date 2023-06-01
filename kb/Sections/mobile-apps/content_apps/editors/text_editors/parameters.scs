@@ -1,0 +1,27 @@
+280_mb
+    => nrel_main_idtf: [280 мегабайт] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_mb: 280;; *);;
+    
+264_mb
+    => nrel_main_idtf: [264 мегабайт] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_mb: 264;; *);;
+    
+13_mb
+    => nrel_main_idtf: [13 мегабайт] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_mb: 13;; *);;
+    
+234_mb
+    => nrel_main_idtf: [234 мегабайт] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_mb: 234;; *);;
+    
+86_mb
+    => nrel_main_idtf: [86 мегабайт] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_mb: 86;; *);;
+    
+39_mb
+    => nrel_main_idtf: [39 мегабайт] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_mb: 39;; *);;
+    
+138_mb
+    => nrel_main_idtf: [138 мегабайт] (* <-lang_ru;; *);
+    => nrel_value:...(* -> rrel_mb: 138;; *);;

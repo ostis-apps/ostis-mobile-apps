@@ -1,0 +1,7 @@
+concept_services_for_calling_taxi_examples
+=> nrel_main_idtf:
+    [Мобильные сервисы для заказа такси]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Mobile services for calling taxi]
+    (* <- lang_en;; *);;

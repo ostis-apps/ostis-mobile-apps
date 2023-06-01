@@ -1,0 +1,43 @@
+geometry_dash_lite
+
+	=> nrel_main_idtf:
+	    [Платформер Geometry Dash Lite]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Platformer game Geometry Dash Lite]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//geometry_dash_lite.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Geometry Dash Lite)] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [Geometry Dash Lite это 2-х мерный платформер, 
+		    в котором вы управляете квадратом, который должен добираться 
+		    до конца разнообразных уровней, избегая множества разных препятствий, 
+		    с которыми он сталкивается на своём пути. ] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    =>nrel_view: side_view;
+	    =>rrel_type_of_game: singleplayer;
+	    =>nrel_have_donate: have;
+	    =>nrel_graphic: advanced;
+	    =>nrel_graphic_style: 2D_and_3D;
+	    =>rrel_genre: platformer;
+	    =>nrel_internet_connection: dont_require;
+	    -> rrel_developer: RobTop_Games;
+	    -> rrel_supported_platform: Android;
+	    -> rrel_supported_platform: IOS;
+	    -> nrel_supported_language: all_language;
+	    -> nrel_use_of_personal_data: use;; 

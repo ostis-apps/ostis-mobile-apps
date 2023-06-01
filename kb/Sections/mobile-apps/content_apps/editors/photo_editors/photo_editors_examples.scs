@@ -1,0 +1,19 @@
+concept_photo_editors_examples
+=> nrel_main_idtf:
+    [Фоторедакторы]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Photo editors]
+    (* <- lang_en;; *);
+    
+-> picsart;
+-> inshot;
+-> snapseed;
+-> vsco;
+-> adobe_photoshop_express;
+-> faceapp;
+-> adobe_lightroom;
+-> prisma_photo_editor;
+-> pixlr;
+-> fotor;
+-> google_photos;;

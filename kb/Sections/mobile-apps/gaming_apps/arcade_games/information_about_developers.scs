@@ -1,0 +1,16 @@
+rrel_dev_genre => nrel_main_idtf:
+    [Жанр выпускаемых игр]
+    (* <- lang_ru;; *);
+    <- sc_node_norole_relation;;
+
+    
+nrel_year_of_foundation => nrel_main_idtf:
+	[Год основания]
+	(* <- lang_ru;; *);
+	<- sc_node_norole_relation;;
+	
+nrel_country => nrel_main_idtf:
+	[Страна разработчика]
+	(* <- lang_ru;; *);
+	<- sc_node_norole_relation;;
+

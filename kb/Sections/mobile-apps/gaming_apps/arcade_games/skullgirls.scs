@@ -1,0 +1,42 @@
+skullgirls
+
+	=> nrel_main_idtf:
+	    [РПГ-файтинг Skullgirls]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [RPG-fighting game Skullgirls]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//skullgirls.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Skullgirls)] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [Skullgirls — это двумерный РПГ-файтинг со 
+		    множеством уникальных и ярких персонажей, которых можно собирать, 
+		    улучшать и персонализировать, чтобы добраться до загадочной SKULLGIRL! ] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    =>nrel_view: third_face;
+	    =>rrel_type_of_game: single_and_multiplayer;
+	    =>nrel_have_donate: have;
+	    =>nrel_graphic: anime;
+	    =>nrel_graphic_style: 3D;
+	    =>rrel_genre: fighting;
+	    =>nrel_internet_connection: require;
+	    -> rrel_developer: Autumn_Games_LLC;
+	    -> rrel_supported_platform: Android;
+	    -> rrel_supported_platform: IOS;
+	    -> nrel_supported_language: all_language;
+	    -> nrel_use_of_personal_data: use;; 

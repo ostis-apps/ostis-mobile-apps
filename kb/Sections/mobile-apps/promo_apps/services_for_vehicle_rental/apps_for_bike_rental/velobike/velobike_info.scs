@@ -1,0 +1,79 @@
+section_velobike_bike_park
+ => nrel_main_idtf:
+        [Велосипеды]
+    (* <- lang_ru;; *);
+    ->bike_velo;
+    ->bike_velo_e;
+    ->bike_velo_2;;
+
+section_tariffs_velobike
+   => nrel_main_idtf:
+        [Тарифы сервиса velobike]
+        (* <- lang_ru;; *);
+    ->tariff_minuts_bike;
+    ->tariff_days_bike;
+    ->tariff_month;
+    ->tariff_3_hours_bike;;
+
+bike_velo
+    =>nrel_main_idtf:[Велосипед "Велобайк"] (*<-lang_ru;;*);
+    =>nrel_min_age: 14_years;
+    =>nrel_minuts_bike:22_rub;
+    =>nrel_minuts_bike_for_minut: 5_rub;
+    =>nrel_days_bike: 175_rub;
+    =>nrel_days_bike_for_minut: 4_rub;
+    =>nrel_month: 685_rub;
+    =>nrel_month_for_minut:4_rub;
+    =>nrel_3_hours_bike: 445_rub;
+    =>nrel_3_hours_bike_for_minuts: 4_rub;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//1.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;
+
+bike_velo_e
+    =>nrel_main_idtf:[Велосипед "Велобайк" электрический] (*<-lang_ru;;*);
+    =>nrel_min_age: 14_years;
+    =>nrel_minuts_bike:22_rub;
+    =>nrel_minuts_bike_for_minut: 5_rub;
+    =>nrel_days_bike: 175_rub;
+    =>nrel_days_bike_for_minut: 4_rub;
+    =>nrel_month: 100_rub;
+    =>nrel_month_for_minut:4_rub;
+    =>nrel_3_hours_bike: 445_rub;
+    =>nrel_3_hours_bike_for_minuts: 4_rub;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//11.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);;
+
+bike_velo_2
+    =>nrel_main_idtf:[Велосипед "Велобайк" 2.0] (*<-lang_ru;;*);
+    =>nrel_min_age: 14_years;
+    =>nrel_minuts_bike:40_rub;
+    =>nrel_minuts_bike_for_minut: 6_rub;
+    =>nrel_days_bike: 590_rub;
+    =>nrel_days_bike_for_minut: 5_rub;
+    =>nrel_month: 685_rub;
+    =>nrel_month_for_minut:5_rub;
+    =>nrel_3_hours_bike: 790_rub;
+    =>nrel_3_hours_bike_for_minuts: 5_rub;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//2.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;

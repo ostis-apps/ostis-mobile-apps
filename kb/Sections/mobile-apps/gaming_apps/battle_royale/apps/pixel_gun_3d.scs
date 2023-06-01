@@ -1,0 +1,45 @@
+pixel_gun_3d
+
+=> nrel_main_idtf:
+    [Игра в жанре королевская битва PIXEL GUN 3D — BATTLE ROYALE]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Battle Royale game PIXEL GUN 3D — BATTLE ROYALE]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//images/pixel_gun.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Опр. (PIXEL GUN 3D — BATTLE ROYALE)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [PIXEL GUN 3D — BATTLE ROYALE - Данный продукт немного отличается от клонов Fortnite, 
+            которые вы найдете в других местах. Без сомнения, это одна из самых безумных игр жанра Battle Royale, в 
+            которую вы будете играть! Игра со множеством карт, персонажей, оружия и способностей, с которыми можно 
+            играть против девяти других игроков.
+            Пока что этот шутер не слишком популяризировался, как например, проекты вроде PUBG и прочие, 
+            но тем не менее, это не делает его минорным продуктом. Напротив, число фанатов постоянно растёт. 
+            А всему виной особый игровой стиль и крайне необычная визуализация. Ведь воевать вам придётся не за 
+            кого-нибудь, а за пиксельных майнкрафтовских героев!] (* <-lang_ru;; *);;
+        *);;
+    *);
+    
+
+    =>nrel_view: third_face;
+    =>nrel_type_of_game: single_and_multiplayer;
+    =>nrel_have_donate: have;
+    =>nrel_graphic: primitive;
+    =>nrel_graphic_style: 3D;
+    =>rrel_genre: battle_royale;
+    -> rrel_developer: Pixel_Gun_3D;
+    => nrel_supported_platform: Android;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_language: all_language;;

@@ -1,0 +1,47 @@
+mortal_kombat
+=> nrel_main_idtf:
+    [Файтинг Mortal Kombat Mobile]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Fighting Mortal Kombat Mobile]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <- description;;
+        => nrel_idtf: [Описание] (* <-lang_ru;; *);;
+        => nrel_idtf: [Description] (* <-lang_en;;*);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Mortal Kombat Mobile (ранее Mortal Kombat X Mobile) — карточная мини-игра созданная на основе файтинга Mortal Kombat X.
+            Геймплей является соединением файтинга и пошаговой карточной игры. У игрока есть карты персонажей, экипировки, оружия, спецприёмов и так далее. 
+            Участвуя в командных битвах 3 на 3, против компьютерных противников или против оппонентов созданных на основе персонажей других игроков, 
+            можно прокачивать карты персонажей, получая новые уровни, спец-атаки и улучшать их способности. Игра включает персонажей из ростера консольной версии, 
+            а также эксклюзивных персонажей, созданных специально для мобильной версии. X-Ray атаки и Фаталити также включены в игру, но с ограничениями. 
+            Фаталити доступны только для некоторых персонажей в некоторых башнях, а X-Ray могут производить только "золотые персонажи".] 
+            (* <-lang_ru;; *);;
+            -> rrel_example: [Mortal Kombat Mobile (formerly Mortal Kombat X Mobile) is a card mini—game based on the fighting game Mortal Kombat X.
+            The gameplay is a combination of a fighting game and a turn-based card game. The player has character cards, equipment, weapons, special techniques, and so on. 
+            By participating in 3-on-3 team battles, against computer opponents or against opponents created based on the characters of other players,
+            you can pump character cards, get new levels, special attacks and improve their abilities. The game includes characters from the roster of the console version, 
+            as well as exclusive characters created specifically for the mobile version. X-Ray attacks and Fatalities are also included in the game, but with limitations. 
+            Fatalities are only available for some characters in some towers, and X-Ray can only produce "golden characters".]
+            (* <-lang_en;; *);;
+        *);;
+    *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//Photo//Mortal_Kombat.jpg"
+            (*
+                =>nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+
+    ->rrel_developer: NetherRealmStudios;
+    =>nrel_view: third_face;
+    =>nrel_type_of_game: single_and_multiplayer;
+    =>nrel_have_donate: have;
+    =>nrel_graphic: advanced;
+    =>nrel_graphic_style: 3D;
+    =>nrel_genre: fighting;;

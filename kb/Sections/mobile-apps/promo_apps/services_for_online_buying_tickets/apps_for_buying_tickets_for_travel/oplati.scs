@@ -1,0 +1,35 @@
+Oplati
+
+=>nrel_main_idtf:[Сервис для покупки билетов Оплати]
+    (*
+         <-lang_ru;;
+    *);
+=>nrel_main_idtf:[Service for buying tickets Oplati]
+    (*
+         <-lang_en;;
+    *);
+
+
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//logo_oplati.png"
+            (*
+                => nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+<- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Определение (Оплати)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Пассажир, приобретая билет с помощью приложения Оплати TM , получает его в электронном виде, а оплата моментально поступает на счет юридического лица. Контролер имеет право попросить пассажира отсканировать его персональный QR-код и проверить электронный билет пассажира.] (* <-lang_ru;; *);;
+        *);;
+    *);
+    -> rrel_developer: LWO;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_platform: Android;
+    => nrel_supported_language: all_language;
+    => nrel_use_of_personal_data: use;
+    => nrel_supported_cur: BYN;
+    => nrel_supported_country: Belarus;;

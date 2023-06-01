@@ -1,0 +1,17 @@
+section_soundcloud_tarifs
+=> nrel_main_idtf:
+        [Тарифы сервиса SoundCloud]
+        (* <- lang_ru;; *);
+    ->tariff_Next;
+    ->tariff_Next_Pro;;
+
+tariff_Next
+    =>nrel_main_idtf:[Next] (*<-lang_ru;;*);
+    ->rrel_free_to_use;;
+
+
+tariff_Next_Pro
+    =>nrel_main_idtf:[Next Pro] (*<-lang_ru;;*);
+    ->rrel_eur_per_month:7.08;
+    ->rrel_eur_per_year:85;;
+

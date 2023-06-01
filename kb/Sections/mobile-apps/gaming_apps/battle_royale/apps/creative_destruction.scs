@@ -1,0 +1,41 @@
+creative_destruction
+
+=> nrel_main_idtf:
+    [Игра в жанре королевская битва CREATIVE DESTRUCTION]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Battle Royale game CREATIVE DESTRUCTION]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//images//cd.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Опр. (CREATIVE DESTRUCTION)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [CREATIVE DESTRUCTION - игра мультяшная, яркая, с возможностью быстро строить простенькие конструкции. 
+            Для многих геймеров именно этот проект стал достойной заменой «королевской битвы» Epic Games после того, как она была исключена 
+            из цифровых магазинов Apple и Google. В Creative Destruction масса интересных скинов для персонажей, динамичный игровой процесс 
+            и в целом удобное управление, только устройства потребуются производительные.] (* <-lang_ru;; *);;
+        *);;
+    *);
+    
+
+    =>nrel_view: third_face;
+    =>nrel_type_of_game: multiplayer;
+    =>nrel_have_donate: have;
+    =>nrel_graphic: cartoon;
+    =>nrel_graphic_style: 3D;
+    =>rrel_genre: battle_royale;
+    -> rrel_developer: NetEase_Games;
+    => nrel_supported_platform: Android;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_language: all_language;;

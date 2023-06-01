@@ -1,0 +1,43 @@
+zombsroyale_io
+
+=> nrel_main_idtf:
+    [Игра в жанре королевская битва ZOMBSROYALE.IO]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Battle Royale game ZOMBSROYALE.IO]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//images/zombiki.webp"
+            (*
+                =>nrel_format: format_webp;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Опр. (ZOMBSROYALE.IO)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [ZOMBSROYALE.IO - В изометрической ZombsRoyale.io на 
+            небольших картах без устали сражаются сразу 100 участников, а простой, 
+            но довольно приятный визуал, отчасти напоминающий игры, вроде RimWorld, 
+            позволяет разгрузить игровые системы и избежать багов. В проекте сотни 
+            косметических предметов и огромный выбор оружия. Разработчики постоянно дополняют 
+            его контентом и новыми, замысловатыми картами.] (* <-lang_ru;; *);;
+        *);;
+    *);
+    
+
+    =>nrel_view: isometric;
+    =>nrel_type_of_game: multiplayer;
+    =>nrel_have_donate: dont_have;
+    =>nrel_graphic: primitive;
+    =>nrel_graphic_style: 2D;
+    =>rrel_genre: battle_royale;
+    -> rrel_developer: Yangcheng_Liu;
+    => nrel_supported_platform: Android;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_language: all_language;;

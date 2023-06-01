@@ -1,0 +1,43 @@
+fruit_ninja
+
+=> nrel_main_idtf:
+    [Казуальная игра Fruit Ninja]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Casual game Fruit Ninja]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//images/arbuz.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Опр. (Fruit Ninja)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Fruit Ninja - проект представляет собой аркадную видеоигру, 
+            в которой цель состоит в том, чтобы вы разрезали различные фрукты, проводя пальцем 
+            по экрану. Нарезка фруктов приносит очки, но иногда вместо фруктов появляются бомбы, 
+            и попытка нарезать их приведет ко взрыву и концу раунда. Разрезая одним движением 
+            сразу несколько фруктов, вы получаете бонусные очки. Игроки могут использовать более 
+            одного пальца для игры. Чрезвычайно важно быть быстрым, потому что если оставить три фрукта не 
+            разрезанными за один раунд, то игра закончится. ] (* <-lang_ru;; *);;
+        *);;
+    *);
+    
+
+    =>rrel_type_of_game: singleplayer;
+    =>nrel_graphic: cartoon;
+    =>nrel_graphic_style: 2D;
+    =>rrel_genre: casual;
+    =>nrel_cost: free;
+    -> rrel_developer: Halfbrick_Studios;
+    => nrel_supported_platform: Android;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_language: all_language;;

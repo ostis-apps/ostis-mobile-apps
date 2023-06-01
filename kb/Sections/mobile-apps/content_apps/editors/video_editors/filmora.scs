@@ -1,0 +1,43 @@
+filmora
+
+=> nrel_main_idtf:
+    [Видеоредактор Filmora]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Filmora Video Editor]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://photo//filmora.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definiton;;
+        => nrel_idtf: [Опр. (Filmora Video Editor)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Filmora video editor - an easy-to-use video editor and movie maker 
+            for YouTube and Tik Tok with over 1000 music, over 5000 stickers and filters, text, 
+            audio, emoji, backgrounds, etc. Just trim the clips, add music, transition effects, 
+            text, emoji and filters to create incredible videos in minutes.] (* <-lang_en;; *);;
+            *);;
+        *);
+    
+
+    => nrel_have_donate: have;
+    => nrel_set_of_tools_and_effects: wide;
+    => nrel_exactingness: exacting;
+    => nrel_have_a_watermark: yes;
+    => nrel_possibility_to_share: yes;
+    => nrel_size: 98_mb;
+    -> rrel_developer: FilmoraGo_Studio;
+    -> rrel_supported_platform: Android;
+    -> rrel_supported_platform: IOS;
+    -> rrel_supported_language: all_language;
+    -> nrel_use_of_personal_data: use;
+    -> nrel_internet_connection: dont_requires;;

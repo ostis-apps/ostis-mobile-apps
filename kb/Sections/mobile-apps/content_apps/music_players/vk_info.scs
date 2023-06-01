@@ -1,0 +1,21 @@
+section_tariffs_vk
+=> nrel_main_idtf:
+        [Тарифы сервиса VK Music]
+        (* <- lang_ru;; *);
+    ->tariff_standart_vk;
+    ->tariff_VK_combo;
+    ->tariff_Student_vk;;
+
+tariff_standart_vk
+    =>nrel_main_idtf:[Стандартная] (*<-lang_ru;;*);
+    ->rrel_rub_per_month:159;;
+
+
+tariff_VK_combo
+    =>nrel_main_idtf:[VK Combo] (*<-lang_ru;;*);
+    ->rrel_rub_per_month:169;;
+
+
+tariff_Student_vk
+    =>nrel_main_idtf:[Студент] (*<-lang_ru;;*);
+    ->rrel_rub_per_month:89;;

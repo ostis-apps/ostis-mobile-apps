@@ -1,0 +1,45 @@
+uno
+
+=> nrel_main_idtf:
+    [Казуальная игра Uno!]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Casual game Uno!]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//images/uno.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Опр. (Uno!)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Uno! - это карточная игра, в которой главная цель состоит в том, 
+            чтобы избавиться от всех своих карт быстрее других игроков. Карты в игре имеют разные 
+            цвета, числа и функции (подставные карты). Есть четыре цвета: красный, синий, зеленый и желтый. 
+            У каждого из этих цветов есть карты от 0 до 9. Помимо этого, у каждого цвета есть 
+            определенные специальные карты, которые обязывают выполнить различные действия, такие
+            как пропуск хода следующего игрока, игра в обратную сторону или получение игроком 
+            дополнительных карт из колоды. Наконец, есть дикие карты, в том числе “Вытяни Четыре”, 
+            приводящая к тому, что следующий игрок берет четыре карты и пропускает ход, а вы 
+            заказываете цвет следующей сыгранной карты. ] (* <-lang_ru;; *);;
+        *);;
+    *);
+    
+
+    =>rrel_type_of_game: single_and_multiplayer;
+    =>nrel_graphic: primitive;
+    =>nrel_graphic_style: 2D;
+    =>rrel_genre: casual;
+    =>nrel_cost: free;
+    -> rrel_developer: Mattel163;
+    => nrel_supported_platform: Android;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_language: all_language;;

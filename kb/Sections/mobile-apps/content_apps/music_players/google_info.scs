@@ -1,0 +1,9 @@
+section_google_tarifs
+=> nrel_main_idtf:
+        [Тарифы сервиса Google Play Music]
+        (* <- lang_ru;; *);
+    ->tariff_standart_gpm;;
+
+tariff_standart_gpm
+    =>nrel_main_idtf:[standart] (*<-lang_ru;;*);
+    ->rrel_rub_per_month:159;;

@@ -1,0 +1,18 @@
+concept_app_archivers
+=> nrel_main_idtf: 
+    [Мобильные приложения Архиваторы] 
+    (* <- lang_ru;; *); 
+=> nrel_main_idtf: 
+    [Mobile apps archivers] 
+    (* <- lang_en;; *); 
+     
+-> rar; 
+-> AZIP;
+-> ALZip;
+-> B1;
+-> FArchiver;
+-> WinZip;
+-> zipnrar;
+-> 7Zip;
+-> Zipify;
+-> ZArchiver;;

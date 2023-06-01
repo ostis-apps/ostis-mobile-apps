@@ -1,0 +1,35 @@
+section_relations_scooter
+    => nrel_main_idtf:
+        [используемые отношения]
+        (*<-lang_ru;;*);
+    =>nrel_minut_scooter;
+    =>nrel_minut_scooter_for_minut;
+    =>nrel_energy;
+    =>nrel_1_hour_scooter;
+    =>nrel_day_scooter;;
+
+nrel_minut_scooter
+    => nrel_main_idtf:
+        [Стоимость тарифа " Минуты"]
+        (*<-lang_ru;;*);
+<-sc_node_norole_relation;;
+nrel_minut_scooter_for_minut
+    => nrel_main_idtf:
+        [Стоимость тарифа " Минуты" (стоимость за минуту)]
+        (*<-lang_ru;;*);
+<-sc_node_norole_relation;;
+nrel_energy
+    => nrel_main_idtf:
+        [Стоимость тарифа " Пока не сядет"]
+        (*<-lang_ru;;*);
+<-sc_node_norole_relation;;
+nrel_1_hour_scooter
+    => nrel_main_idtf:
+        [Стоимость тарифа "Час"]
+        (*<-lang_ru;;*);
+<-sc_node_norole_relation;;
+nrel_day_scooter
+    => nrel_main_idtf:
+        [Стоимость тарифа "День"]
+        (*<-lang_ru;;*);
+<-sc_node_norole_relation;;

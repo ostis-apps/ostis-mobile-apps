@@ -1,0 +1,13 @@
+section_rar_formats
+=> nrel_main_idtf:
+        [Поддерживаемые форматы RAR]
+        (* <- lang_ru;; *);
+    ->RAR;
+    ->ZIP;
+    ->TAR;
+    ->GZ;
+    ->BZ2;
+    ->XZ;
+    ->7z;
+    ->ISO;
+    ->ARJ;;

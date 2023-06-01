@@ -1,0 +1,50 @@
+bitmex
+
+	=> nrel_main_idtf:
+	    [Приложение для торговли криптовалютой BitMEX]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Crypto trading app BitMEX]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//bitmex.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (BitMEX] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [BitMEX — ведущая криптовалютная биржа для 
+		    торговли криптодеривативами и спотовыми валютами. Это просто, быстро и безопасно. 
+		    BitMEX Mobile дает вам свободу анализировать бессрочные и фьючерсные 
+		    контракты и торговать ими, а также покупать, продавать и мгновенно конвертировать 
+		    до 30+ криптовалют, зная, что вы торгуете в приложении, созданном биржей с лучшей в 
+		    отрасли надежной защитой, которая не скомпрометирован для удобства. ] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    => rrel_section: services_for_work_with_cryptocurrencies;
+	    => nrel_have_donate: dont_have;
+	    => nrel_size: 40_mb;
+ 	    => nrel_internet_connection: require;
+ 	    => nrel_real_time_tracking: have;
+ 	    => nrel_type_of_commission: withdraw_commission;
+ 	    => nrel_type_of_commission: replenishment_commission;
+ 	    => nrel_type_of_commission: trading_commission;
+ 	    => nrel_amount_of_trading_instruments: 76;
+ 	    => nrel_specific_possibility: graphics;
+ 	    => nrel_specific_possibility: indicators;
+ 	    => nrel_specific_possibility: web_platforms;
+	    -> rrel_developer: BitMEX;
+	    -> nrel_supported_platform: Android;
+	    -> nrel_supported_platform: IOS;
+	    -> nrel_supported_language: en_language;
+	    -> nrel_use_of_personal_data: use;;	

@@ -1,0 +1,46 @@
+my_life
+
+	=> nrel_main_idtf:
+	    [Приложение провайдера мобильной связи Мой life:)]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Mobile connection providers' app My life:)]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//my_life.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Мой life:)] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [С Мой life:) легко контролировать баланс и остатки трафика, 
+		    менять тариф, подключать/отключать услуги, узнавать о новостях и акциях оператора. 
+		    В одном приложении можно управлять сразу несколькими номерами. 
+		    Каждую неделю в Мой life:) можно получать бесплатный трафик и другие подарки. 
+		    Приложение работает, даже когда у тебя совсем нет трафика.] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    => rrel_section: mobile_provider;
+	    => nrel_have_donate: dont_have;
+	    => nrel_size: 72_mb;
+	    => nrel_internet_connection: dont_require;
+	    => nrel_services: balance_view;
+	    => nrel_services: tariff_change;
+	    => nrel_services: special_offers_and_discounts_view;
+	    => nrel_services: history_of_payments_check;
+	    => nrel_services: connection_and_disconnection_of_services;
+	    -> rrel_developer: life_Belarus;
+	    -> nrel_supported_platform: Android;
+	    -> nrel_supported_platform: IOS;
+	    -> nrel_supported_language: ru_language;
+	    -> nrel_use_of_personal_data: use;;

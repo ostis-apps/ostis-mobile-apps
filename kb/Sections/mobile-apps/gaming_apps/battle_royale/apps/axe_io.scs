@@ -1,0 +1,41 @@
+axe_io
+
+=> nrel_main_idtf:
+    [Игра в жанре королевская битва AXE.IO]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Battle Royale game AXE.IO]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//images/axe_io.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Опр. (AXE.IO)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [AXE.IO - это мобильная королевская битва, в которой вы будете сражаться 
+            с другими игроками, бросаясь холодным оружием. Останьтесь последним выжившим. 
+            Победитель забирает всё! Вам понравится AXES.io , если вы любите другие 
+            ио игры и игры в режиме королевской битвы.] (* <-lang_ru;; *);;
+        *);;
+    *);
+    
+
+    =>nrel_view: isometric;
+    =>nrel_type_of_game: single_and_multiplayer;
+    =>nrel_have_donate: have;
+    =>nrel_graphic: primitive;
+    =>nrel_graphic_style: 3D;
+    =>rrel_genre: battle_royale;
+    -> rrel_developer: AZUR_GAMES;
+    => nrel_supported_platform: Android;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_language: all_language;;

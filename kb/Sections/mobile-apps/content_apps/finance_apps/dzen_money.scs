@@ -1,0 +1,47 @@
+dzen_money
+
+	=> nrel_main_idtf:
+	    [Приложение для учёта финансов Дзен-Мани]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Financial accounting app Dzen-Money]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//acasa.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Дзен-Мани] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [Опирайтесь на цифры при принятии решений. 
+		    Аналитика показывает, куда уходят деньги. Статистика за прошлые месяцы подсказывает, 
+		    сколько нужно на обязательные платежи, и сколько можно потратить на кофе, книги, кино и поездки. 
+		    План помогает понять, сколько денег свободно — их можно отложить на важные цели или инвестировать. ] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    => rrel_section: services_for_financial_planning;
+	    => nrel_have_donate: have;
+	    => nrel_size: 133_mb;
+ 	    => nrel_internet_connection: dont_require;
+ 	    => nrel_level_of_financial_literacy: middle;
+ 	    => nrel_synchronization_with_gadget: have;
+ 	    => nrel_services: income_and_expense_accounting;
+ 	    => nrel_services: financial_structuring;
+ 	    => nrel_services: checks_scanning;
+ 	    => nrel_services: long_time_planning;
+ 	    => nrel_services: integration_with_electronic_wallets;
+	    -> rrel_developer: ZenMoney_OU;
+	    -> nrel_supported_platform: Android;
+	    -> nrel_supported_platform: IOS;
+	    -> nrel_supported_language: all_language;
+	    -> nrel_use_of_personal_data: use;;

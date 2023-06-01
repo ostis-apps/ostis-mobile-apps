@@ -1,0 +1,28 @@
+anytime
+=>nrel_main_idtf:[Приложениe для аренды автомобиля Anytime]
+    (*
+         <-lang_ru;;
+    *);
+=>nrel_main_idtf:[App for car rental Anytime]
+    (*
+         <-lang_en;;
+    *);
+
+
+ <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//anytime_logo.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+    -> rrel_developer: Anytime;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_platform: Android;
+    => nrel_supported_language: ru_language;
+    =>nrel_use_of_personal_data: use;
+    => nrel_car_park: section_anytime_car_park;
+    =>nrel_tariffs_car: section_tariffs_anytime;
+    =>nrel_area_of_action: Minsk;;

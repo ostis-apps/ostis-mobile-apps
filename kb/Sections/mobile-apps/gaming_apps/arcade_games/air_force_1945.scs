@@ -1,0 +1,43 @@
+air_force_1945
+
+	=> nrel_main_idtf:
+	    [Аркадная скролл-шутер игра Air Force 1945]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Arcade scroll-shooter game Air Force 1945]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//air_force_1945.jpg"
+		    (*
+		        =>nrel_format: format_jpg;;
+		    *);;
+		*);;
+	    *);
+	     <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Zombie Tsunami)] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [Air Force 1945 - это аркадный скролл-шутер, продолжающий классическую серию игр, посвященных Второй мировой войне, 
+		    идеально пересобранный для мобильных. Простая и 
+		    бесконечно увлекательная игра 1945 Air Force снова доступна - теперь на вашем мобильном устройстве.
+		    1945 Air Force - ремейк знаменитой классической аркады с интуитивно 
+		    простым и удобным управлением, сохранивший накал оригинальной аркады. ] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	   
+	    =>nrel_view: side_view;
+	    =>rrel_type_of_game: singleplayer;
+	    =>nrel_have_donate: have;
+	    =>nrel_graphic: primitive;
+	    =>nrel_graphic_style: 2D;
+	    =>rrel_genre: scroller;
+	    =>nrel_internet_connection: dont_require;
+	    ->rrel_developer: ONESOFT_GLOBAL_PTE_LTD;
+	    ->rrel_supported_platform: Android;
+	    ->rrel_supported_platform: IOS;
+	    ->rrel_supported_language: en_language;
+	    ->nrel_use_of_personal_data: not_use;;

@@ -1,0 +1,42 @@
+plague_inc
+
+=> nrel_main_idtf:
+    [Казуальная игра Plague Inc]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Casual game Plague Inc]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//images/plague_inc.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Опр. (Plague Inc)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Plague Inc - это стратегический симулятор, в котором игрок контролирует болезнь, 
+            заразившую «нулевого пациента». Для победы игрок должен заразить и уничтожить всё человечество 
+            (в зависимости от типа болезни одно из условий может не выполняться), развивая болезнь и адаптируясь 
+            к различным условиям. Существует несколько типов болезней, каждый из которых имеет различные 
+            характеристики: бактерия, вирус, грибок, паразит, прион, нано-вирус, био-оружие, червь Neurax, вирус Necroa, 
+            симианский грипп и сумеречная чума.] (* <-lang_ru;; *);;
+        *);;
+    *);
+    
+
+    =>rrel_type_of_game: singleplayer;
+    =>nrel_graphic: primitive;
+    =>nrel_graphic_style: 2D;
+    =>rrel_genre: casual;
+    =>nrel_cost: free;
+    -> rrel_developer: Ndemic_Creations;
+    => nrel_supported_platform: Android;
+    => nrel_supported_platform: IOS;
+    => nrel_supported_language: all_language;;

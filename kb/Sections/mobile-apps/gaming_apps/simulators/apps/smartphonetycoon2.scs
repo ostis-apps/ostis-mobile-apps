@@ -1,0 +1,40 @@
+smartphonetycoon2
+    => nrel_main_idtf:
+        [Симулятор управления компанией по производству смартфонов Smartphone Tycoon 2]
+        (* <- lang_ru;; *);
+    => nrel_main_idtf:
+        [Simulator of managing a smartphone manufacturing company Smartphone Tycoon 2]
+        (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <- description;;
+        => nrel_idtf: [Описание] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [Все мы любим смартфоны и следим за новинками, которые регулярно выпускаются известными производителями. 
+            Но как насчет самому почувствовать себя бизнесменом и порулить компанией, которая создает новые мобильники? 
+            Такая возможность у вас будет в игре Smartphone Tycoon 2. Это симулятор с интересным геймплеем, 
+            который позволяет разрабатывать передовые смартфоны и отправлять их на продажу, 
+            развивая собственный бренд с нуля до лидерства на мировом рынке.  
+            Причем утереть нос Samsung и Apple симулятор Smartphone Tycoon 2 позволяет совершенно бесплатно.] 
+            (* <-lang_ru;; *);;
+        *);;
+    *);
+
+
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://..//Photo//smartphonetycoon2.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+
+    ->rrel_developer: RoasteryGames;
+    =>nrel_view: first_face;
+    =>nrel_type_of_game: singleplayer;
+    =>nrel_have_donate: have;
+    =>nrel_graphic: realistic;
+    =>nrel_graphic_style: 3D;
+    =>nrel_genre: life_simulator;;

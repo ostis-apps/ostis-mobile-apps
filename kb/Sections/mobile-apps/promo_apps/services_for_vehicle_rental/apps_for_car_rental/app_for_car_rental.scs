@@ -1,0 +1,16 @@
+concept_app_for_car_rental_examples
+=> nrel_main_idtf:
+    [Мобильные приложения для аренды автомобилей]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Mobile app for car rental]
+    (* <- lang_en;; *);
+
+->hello;
+->anytime;
+->multimotors;
+->city_drive;
+->belka_car;
+->zipcar;
+->sharenow;
+->cars7;;

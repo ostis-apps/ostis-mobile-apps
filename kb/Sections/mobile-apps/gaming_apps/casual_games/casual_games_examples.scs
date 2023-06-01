@@ -1,0 +1,20 @@
+concept_casual_games_examples
+=> nrel_main_idtf:
+    [Мобильные Казуальные игры]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Mobile Casual games]
+    (* <- lang_en;; *);
+
+-> altos_odyssey;
+-> among_us;
+-> candy_crush_saga;
+-> fruit_ninja;
+-> monument_valley_2;
+-> plague_inc;
+-> pvz_2;
+-> stumble_guys;
+-> the_battle_cats;
+-> uno;; 
+
+

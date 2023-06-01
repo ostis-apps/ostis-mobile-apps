@@ -1,0 +1,15 @@
+subject_domain_of_internet_shops
+    =>nrel_main_idtf:[Предметная область. Приложения Интернет-магазинов] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Subject domain. Internet Shops app] (* <-lang_en;;*);
+
+<-subject_domain;
+
+->rrel_maximum_studied_object_class:
+    concept_internet_shops_examples;
+
+-> rrel_explored_relation:
+    rrel_country;
+    nrel_author;
+    nrel_the_year_of_creation;;
+
+

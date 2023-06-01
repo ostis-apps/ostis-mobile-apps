@@ -1,0 +1,12 @@
+subject_domain_of_apps_for_buying_tickets_for_events
+    =>nrel_main_idtf:[Предметная область приложения для покупки билетов на мероприятия] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Section. Subject domain of apps for buying tickets for event] (* <-lang_en;;*);
+
+<-subject_domain;
+
+->rrel_maximum_studied_object_class:
+    concept_apps_for_buying_tickets_for_event;
+
+-> rrel_explored_relation:	
+    nrel_supported_cur;
+    nrel_supported_country;;

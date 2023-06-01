@@ -1,0 +1,46 @@
+moneon
+
+	=> nrel_main_idtf:
+	    [Приложение для учёта финансов Moneon]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Financial accounting app Moneon]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//moneon.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Moneon)] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [ Moneon – личный финансовый менеджер в вашем кармане! 
+		    Очень простое приложение для учета доходов и расходов. 
+		    Позволяет задавать нужные категории доходов (например, зарплата, пособие и т. п.) 
+		    и расходов (ЖКХ, обучение, покупки).] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    => rrel_section: services_for_financial_planning;
+	    => nrel_have_donate: have;
+	    => nrel_size: 91_mb;
+ 	    => nrel_internet_connection: dont_require;
+ 	    => nrel_level_of_financial_literacy: low;
+ 	    => nrel_synchronization_with_gadget: have;
+ 	    => nrel_services: income_and_expense_accounting;
+ 	    => nrel_services: accounting_in_several_currencies;
+ 	    => nrel_services: financial_structuring;
+ 	    => nrel_services: checks_scanning;
+	    -> rrel_developer: CleverPumpkin;
+	    -> nrel_supported_platform: Android;
+	    -> nrel_supported_platform: IOS;
+	    -> nrel_supported_language: all_language;
+	    -> nrel_use_of_personal_data: use;;

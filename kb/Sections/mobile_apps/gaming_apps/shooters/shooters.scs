@@ -1,9 +1,0 @@
-section_subject_domain_of_shooters
-    =>nrel_main_idtf:[Раздел. Предметная область шутеров] (* <-lang_ru;;*);
-    =>nrel_main_idtf:[Section. Subject domain of shooters] (* <-lang_en;;*);
-
-<-atomic_section;;
-
-section_subject_domain_of_shooters
-
-->rrel_key_sc_element: subject_domain_of_shooters;;

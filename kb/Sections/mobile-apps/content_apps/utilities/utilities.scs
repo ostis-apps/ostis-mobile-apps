@@ -1,0 +1,17 @@
+subject_domain_of_utilities
+    =>nrel_main_idtf:[Предметная область утилит] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Subject domain of utilities] (* <-lang_en;;*);
+
+<-subject_domain;
+
+->rrel_maximum_studied_object_class:
+    concept_app_utilites;
+
+-> rrel_explored_relation:	
+nrel_supported_formats;
+nrel_is_root_required;
+nrel_is_deletes_suggested_files;
+nrel_included_functions;
+
+<-sc_node_norole_relation;;
+

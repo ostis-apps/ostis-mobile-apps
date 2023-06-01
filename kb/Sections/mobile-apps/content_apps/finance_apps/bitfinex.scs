@@ -1,0 +1,47 @@
+bitfinex
+
+	=> nrel_main_idtf:
+	    [Приложение для торговли криптовалютой Bitfinex]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Crypto trading app Bitfinex]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//bitfinex.png"
+		    (*
+		        =>nrel_format: format_png;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Bitfinex] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [Независимо от того, являетесь ли вы новичком 
+		    в цифровых токенах или профессиональным трейдером, Bitfinex — 
+		    ваш универсальный магазин для всех ваших потребностей в криптовалюте. 
+		    Мобильное приложение Bitfinex адаптирует все функциональные возможности 
+		    нашей веб-платформы для бесперебойной торговли на ходу. ] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    => rrel_section: services_for_work_with_cryptocurrencies;
+	    => nrel_have_donate: dont_have;
+	    => nrel_size: 32_mb;
+ 	    => nrel_internet_connection: require;
+ 	    => nrel_real_time_tracking: have;
+ 	    => nrel_type_of_commission: withdraw_commission;
+ 	    => nrel_amount_of_trading_instruments: 426;
+ 	    => nrel_specific_possibility: indicators;
+ 	    => nrel_specific_possibility: draw_functions;
+ 	    => nrel_specific_possibility: web_platforms;
+	    -> rrel_developer: Bitfinex;
+	    -> nrel_supported_platform: Android;
+	    -> nrel_supported_platform: IOS;
+	    -> nrel_supported_language: en_language;
+	    -> nrel_use_of_personal_data: use;;	

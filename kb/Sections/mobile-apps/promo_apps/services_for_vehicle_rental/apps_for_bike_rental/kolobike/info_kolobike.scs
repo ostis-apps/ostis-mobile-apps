@@ -1,0 +1,51 @@
+section_kolobike_bike_park
+ => nrel_main_idtf:
+        [Велосипеды]
+    (* <- lang_ru;; *);
+    ->City_bike;
+    ->City_E_bike;;
+
+section_tariffs_kolobike
+   => nrel_main_idtf:
+        [Тарифы сервиса Kolobike]
+        (* <- lang_ru;; *);
+    ->tariff_usual;
+    ->tariff_free_starts;
+    ->tariff_30_plus_15;;
+
+City_bike
+    =>nrel_main_idtf:[City bike] (*<-lang_ru;;*);
+    =>nrel_min_age: 14_years;
+    =>nrel_usual_start: 50_cop;
+    =>nrel_usual_minut: 5_cop_per_minut;
+    =>nrel_free_starts: 349_cop;
+    =>nrel_free_starts_minut: 5_cop_per_minut;
+    =>nrel_30_plus_15: 1690_cop;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//city.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;
+
+City_E_bike
+    =>nrel_main_idtf:[City E bike] (*<-lang_ru;;*);
+    =>nrel_min_age: 14_years;
+    =>nrel_usual_start: 50_cop;
+    =>nrel_usual_minut: 24_cop_per_minut;
+    =>nrel_free_starts: 349_cop;
+    =>nrel_free_starts_minut: 24_cop_per_minut;
+    =>nrel_30_plus_15: 1690_cop;
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://Photo//city_e.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);;
+

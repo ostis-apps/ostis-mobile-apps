@@ -1,0 +1,43 @@
+splice
+
+=> nrel_main_idtf:
+    [Видеостудия Splice]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Video studio Splice]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://photo//splice.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definiton;;
+        => nrel_idtf: [Def. (Splice)] (* <-lang_en;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [Simple yet powerful, Splice makes it easy to create fully customized, 
+            professional-looking videos on your iPhone or iPad. Imagine the performance of a desktop editor, 
+            optimized for your mobile device. Just tap to trim clips, add slow motion effects, 
+            and overlay multiple clips to create beautiful videos you’ll love to share. 
+            It’s never been easier to edit like a pro on the go.] (* <-lang_en;; *);;
+            *);;
+        *);
+    
+
+    => nrel_have_donate: have;
+    => nrel_set_of_tools_and_effects: conventional;
+    => nrel_exactingness: not_exacting;
+    => nrel_have_a_watermark: yes;
+    => nrel_possibility_to_share: no;
+    => nrel_size: 156_mb;
+    -> rrel_developer: Benging_Spoons;
+    => nrel_supported_platform: Android;
+    => nrel_supported_platform: IOS;
+    -> rrel_supported_language: all_language;
+    -> nrel_use_of_personal_data: use;;

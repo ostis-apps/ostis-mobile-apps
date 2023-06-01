@@ -1,0 +1,9 @@
+section_tariffs_sz
+=> nrel_main_idtf:
+        [Тарифы сервиса Сберзвук]
+        (* <- lang_ru;; *);
+    ->tariff_standart_sz;;
+
+tariff_standart_sz
+    =>nrel_main_idtf:[Стандартная] (*<-lang_ru;;*);
+    ->rrel_rub_per_month:199;;

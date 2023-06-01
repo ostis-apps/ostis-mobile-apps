@@ -1,0 +1,42 @@
+theotown
+    => nrel_main_idtf:
+        [Экономический симулятор Theo Town]
+        (* <- lang_ru;; *);
+    => nrel_main_idtf:
+        [Economic simulator Theo Town]
+        (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <- description;;
+        => nrel_idtf: [Описание] (* <-lang_ru;; *);;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: [В экономическом симуляторе TheoTown у вас будет собственный город. 
+            И вы для этого города станете всем: мэром, дизайнером, архитектором. Придется создать мегаполис с нуля, 
+            обустроить его транспортные сети, спальные районы, промышленные зоны и так далее. 
+            Игра позволяет полностью контролировать жизнь города и ставит перед одной целью — развить и вывести его 
+            экономику на максимальный уровень. Это один из лучших симуляторов градостроительства на смартфонах, 
+            которые многие сравнивают с эталонным Sim City. Играть в TheoTown можно без интернета и рекламы, 
+            так что ничто не будет отвлекать от приятной пиксельной графики и увлекательного геймплея.] 
+            (* <-lang_ru;; *);;
+        *);;
+    *);
+
+
+    <- rrel_key_sc_element: ... (*
+        <- illustration;;
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://..//Photo//theotown.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+    *);
+
+    ->rrel_developer: blueflower;
+    =>nrel_view: third_face;
+    =>nrel_type_of_game: singleplayer;
+    =>nrel_have_donate: have;
+    =>nrel_graphic: advanced;
+    =>nrel_graphic_style: 3D;
+    =>nrel_genre: life_simulator;
+    =>nrel_genre: economic_simulator;;

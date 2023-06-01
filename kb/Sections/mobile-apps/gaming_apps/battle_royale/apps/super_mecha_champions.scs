@@ -1,0 +1,43 @@
+super_mecha_champions
+
+=> nrel_main_idtf:
+    [Игра в жанре королевская битва SUPER MECHA CHAMPIONS]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Battle Royale game SUPER MECHA CHAMPIONS]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//images/smr.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Опр. (SUPER MECHA CHAMPIONS)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [SUPER MECHA CHAMPIONS - многопользовательская игра в жанре экшн, в которой вы снова 
+            сражаетесь против 100 противников, пока в живых не останется только один, но есть один нюанс. Вы будете участвовать 
+            в захватывающих, непрекращающихся матчах сидя за штурвалом гигантского робота, прямо как в «Евангелионе».
+            Как и следовало ожидать, игровой процесс в Super Mecha Champions также похож на другие игры в жанре королевской битвы. 
+            Вы должны пережить всех своих врагов на острове, который становится все меньше и меньше по истечении времени. 
+            Чтобы выжить, вам нужно собрать как можно больше оружия, разбросанного по всему острову, так как именно огневая мощь 
+            дает преимущество в бою.] (* <-lang_ru;; *);;
+        *);;
+    *);
+    
+
+    =>nrel_view: third_face;
+    =>nrel_type_of_game: multiplayer;
+    =>nrel_have_donate: have;
+    =>nrel_graphic: primitive;
+    =>nrel_graphic_style: 3D;
+    =>rrel_genre: battle_royale;
+    -> rrel_developer: NetEase_Games;
+    => nrel_supported_platform: Android;
+    => nrel_supported_language: all_language;;

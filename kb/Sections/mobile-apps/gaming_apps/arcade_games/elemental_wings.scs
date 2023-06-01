@@ -1,0 +1,43 @@
+elemental_wings
+
+	=> nrel_main_idtf:
+	    [Скроллерная игра в японском стиле Elemental Wings]
+	    (* <-lang_ru;; *);
+
+	=> nrel_main_idtf:
+	    [Scroller game in Japanish style Elemental Wings]
+	    (* <- lang_en;; *);
+
+	    <- rrel_key_sc_element: ... (*
+		<-illustration;;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: "file://photo//elemental_wings.jpg"
+		    (*
+		        =>nrel_format: format_jpg;;
+		    *);;
+		*);;
+	    *);
+	    <- rrel_key_sc_element: ... (*
+		<-definiton;;
+		=> nrel_idtf: [Опр. (Elemental Wings)] (* <-lang_ru;; *);;
+		<=nrel_sc_text_translation: ... (*
+		    ->rrel_example: [Elemental Wings поистине многогранная игра для Android, 
+		    сочетающая в себе разные жанры. Здесь переплелись экшен, раннер, ролевая игра и скролл-шутер. 
+		    Наверное, разработчикам было трудно собрать всю эту солянку в одну 
+		    кучу и сделать еще так, чтобы в это было интересно играть.] (* <-lang_ru;; *);;
+		    *);;
+		*);
+	    
+
+	    =>nrel_view: third_face;
+	    =>rrel_type_of_game: singleplayer;
+	    =>nrel_have_donate: have;
+	    =>nrel_graphic: anime;
+	    =>nrel_graphic_style: 2D;
+	    =>rrel_genre: scroller;
+	    =>nrel_internet_connection: dont_require;
+	    -> rrel_developer: JOYCITY;
+	    -> rrel_supported_platform: Android;
+	    -> rrel_supported_platform: IOS;
+	    -> nrel_supported_language: en_language;
+	    -> nrel_use_of_personal_data: not_use;;

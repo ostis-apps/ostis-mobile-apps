@@ -1,0 +1,56 @@
+rrel_developer
+=> nrel_main_idtf:
+    [Разработчик]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Developer]
+    (* <- lang_en;; *);
+<- sc_node_role_relation;;
+
+rrel_supported_platform
+=> nrel_main_idtf:
+    [Поддерживаемая платформа]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Supported platform]
+    (* <- lang_en;; *);
+<-sc_node_role_relation;;
+
+rrel_supported_language
+=> nrel_main_idtf:
+    [Поддерживаемый язык]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Supported language]
+    (* <- lang_en;; *);
+<-sc_node_role_relation;;
+
+nrel_use_of_personal_data
+=> nrel_main_idtf:
+    [Использование личных данных]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Use of personal data]
+    (* <- lang_en;; *);
+<-sc_node_norole_relation;;
+
+rrel_place_of_registration
+=> nrel_main_idtf:
+    [Место регистрации]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Place of registration]
+    (* <- lang_en;; *);
+<-sc_node_role_relation;;
+
+nrel_tariffs
+=>nrel_main_idtf:[Тарифы]
+    (*
+         <-lang_ru;;
+    *);
+=>nrel_main_idtf:[Тарифы]
+    (*
+         <-lang_en;;
+    *);
+<-sc_node_role_relation;;
+

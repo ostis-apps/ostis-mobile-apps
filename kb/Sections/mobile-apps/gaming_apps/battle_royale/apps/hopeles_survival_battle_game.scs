@@ -1,0 +1,47 @@
+hopeles_survival_battle_game
+
+=> nrel_main_idtf:
+    [Игра в жанре королевская битва HOPELESS SURVIVAL BATTLE GAME]
+    (* <-lang_ru;; *);
+
+=> nrel_main_idtf:
+    [Battle Royale game HOPELESS SURVIVAL BATTLE GAME]
+    (* <- lang_en;; *);
+
+    <- rrel_key_sc_element: ... (*
+        <-illustration;;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: "file://..//images/hope.png"
+            (*
+                =>nrel_format: format_png;;
+            *);;
+        *);;
+    *);
+    <- rrel_key_sc_element: ... (*
+        <-definition;;
+        => nrel_idtf: [Опр. (HOPELESS SURVIVAL BATTLE GAME)] (* <-lang_ru;; *);;
+        <=nrel_sc_text_translation: ... (*
+            ->rrel_example: [HOPELESS SURVIVAL BATTLE GAME - А вот еще один клон PUBG, который как раз 
+            пошел по пути максимально дословного заимствования, но, справедливости ради, сделал все очень неплохо.
+            Как и в большинстве других подобных игр, в Hopeless Survival Battle Game все игроки начинают раунд
+            с прыжка с самолета. Как только вы приземлитесь на острове, необходимо сразу же приступить к поиску 
+            оружия, брони и прочего снаряжения, которое поможет вам протянуть как можно дольше. Когда вы обеспечите 
+            себя достойным вооружением, остерегайтесь остальных игроков и убийственного энергетического поля, которое 
+            постепенно начнет сужаться.
+            Hopeless Land: Fight for Survival — это довольно крепкий представитель своего жанра, 
+            предлагающий несколько игровых режимов, солидную графику, кучу вариантов настройки и 
+            огромный арсенал. Отличная альтернатива, если вас по каким-то причинам не устроили все 
+            вышеперечисленные проекты.] (* <-lang_ru;; *);;
+        *);;
+    *);
+    
+
+    =>nrel_view: third_face;
+    =>nrel_type_of_game: multiplayer;
+    =>nrel_have_donate: have;
+    =>nrel_graphic: primitive;
+    =>nrel_graphic_style: 3D;
+    =>rrel_genre: battle_royale;
+    -> rrel_developer: HK_HERO_ENTERTAINMENT;
+    => nrel_supported_platform: Android;
+    => nrel_supported_language: all_language;;

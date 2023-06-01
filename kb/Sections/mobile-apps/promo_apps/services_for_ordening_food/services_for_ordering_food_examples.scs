@@ -1,0 +1,12 @@
+concept_services_for_ordering_food_examples
+=> nrel_main_idtf:
+    [Мобильные cервисы для заказа еды]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Mobile services for ordering food]
+    (* <- lang_en;; *);
+->DOSTAEBCKIY;
+->yandex_food;
+->Glovo;
+->CHIBBIS;
+->DeliveryClub;;

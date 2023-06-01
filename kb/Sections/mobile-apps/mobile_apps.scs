@@ -1,0 +1,12 @@
+mobile_apps_knowledge_base
+    =>nrel_main_idtf:[База знаний интеллектульной справочной системы по мобильным приложениям] (* <-lang_ru;;*);
+    =>nrel_main_idtf:[Knowledge base of intelligent help system for mobile apps] (* <-lang_en;;*);
+<-sc_model_of_knowledge_base(*
+=> nrel_main_idtf:
+    [База знаний]
+    (* <- lang_ru;; *);;*);
+
+<=nrel_decomposition:
+    section_of_gaming_apps;
+	section_of_content_apps;
+	section_of_promo_apps;;
